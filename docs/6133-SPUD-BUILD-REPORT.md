@@ -112,9 +112,11 @@ The content audit also confirmed zero prohibited external site domains, prohibit
 
 - Vercel project: `paulie-pauliewoods-projects/presidential-cannabis-net`.
 - Vercel project ID: `prj_KViDQ6A4nfBLq13Yj79NFfjS54kr`.
-- Deployment ID: `dpl_BE7TWm8udocw1BZYqMdRkXw78dQs`.
+- Initial deployment ID: `dpl_BE7TWm8udocw1BZYqMdRkXw78dQs`.
+- Current frame-repair deployment ID: `dpl_F7xWHThYe3eVWWAqjRbavrytXav6`.
 - Stable Vercel URL: https://presidential-cannabis-net.vercel.app
 - Immutable deployment URL: https://presidential-cannabis-3omdnthik-paulie-pauliewoods-projects.vercel.app
+- Current protected deployment URL: https://presidential-cannabis-nzijgzzl1-paulie-pauliewoods-projects.vercel.app
 - Configured aliases: `presidentialcannabis.net`, `www.presidentialcannabis.net`, `presidential-cannabis-net.vercel.app`, and `presidential-cannabis-net-paulie-pauliewoods-projects.vercel.app`.
 - DNS remains intentionally pending at the third-party registrar, as directed in the brief.
 - Vercel's current recommended records are `A presidentialcannabis.net 76.76.21.21` and `A www.presidentialcannabis.net 76.76.21.21`.
@@ -126,8 +128,24 @@ The content audit also confirmed zero prohibited external site domains, prohibit
 - Deployed build commit: `6ecc76572f2177b0d8ec021e8463abbf4d114c7a`.
 - Short SHA: `6ecc765`.
 - Build commit message: `Build Presidential Cannabis authority site`.
+- Gold-frame repair commit: `4ff1826407c4cc9c25bbe3a9b26c3c6a5ceafd2f`.
+- Gold-frame repair rollback: `git revert 4ff1826407c4cc9c25bbe3a9b26c3c6a5ceafd2f`.
 - Rollback command: `git revert 6ecc76572f2177b0d8ec021e8463abbf4d114c7a`.
 - A Vercel rollback can also target deployment `dpl_BE7TWm8udocw1BZYqMdRkXw78dQs`.
+
+## Post-launch gold-frame repair
+
+A user-reported visual defect exposed incomplete-looking joins at all four gold frame corners. The shared SVG had drawn the vertical sides and horizontal rules as independent subpaths, so their endpoints could anti-alias as disconnected pieces.
+
+- Rebuilt the desktop geometry as two continuous paths, each turning through both of its corners.
+- Applied explicit miter joins and non-scaling strokes directly to the frame paths.
+- Rebuilt the compact-screen frame as one closed rectangular perimeter.
+- Preserved the centered ornamental breaks on desktop and the ornament-free compact layout.
+- Added regression assertions to `npm run audit` for continuous desktop corners, the closed mobile perimeter, explicit miter joins, and removal of the legacy disconnected side path.
+- Repair commit: `4ff1826407c4cc9c25bbe3a9b26c3c6a5ceafd2f`.
+- Repair deployment: `dpl_F7xWHThYe3eVWWAqjRbavrytXav6`, status Ready.
+- Live public verification: 30 of 30 sitemap routes returned HTTP 200; the stable alias contained both repaired geometries and did not contain the legacy path.
+- The deployment-specific URL is Vercel-authentication protected; the stable public alias was therefore used for live markup verification.
 
 ## Research source log
 
@@ -174,3 +192,9 @@ The following is the complete contents of `DEFECTS.md` at closeout.
 - Problem: Vercel CLI 50.10.0 displayed `domains add domain project` in help, but rejected the two-argument form in this already linked workspace with `expects one argument`.
 - Action: Retried with the linked-project one-argument form for the apex and `www` hostnames, then inspected the assignments.
 - Fallback: The application also carries a permanent host-based redirect from `www.presidentialcannabis.net` to the apex.
+
+### Post-launch visual repair — disconnected gold frame corners
+
+- Problem: The desktop figure frame drew its vertical sides and four horizontal segments as separate SVG subpaths. Their endpoints only touched geometrically, so browser anti-aliasing exposed broken-looking corner joins on every framed image.
+- Action: Rebuilt the desktop frame as two continuous bracket paths that each turn through both corners, applied explicit miter joins and non-scaling strokes directly to the paths, and rebuilt the mobile frame as one closed rectangular perimeter. Added permanent audit assertions for both geometries and removal of the legacy disconnected sides.
+- Fallback: None required; the shared `ContentFigure` component corrects every current image placement at once.
