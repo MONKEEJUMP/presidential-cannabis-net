@@ -69,10 +69,23 @@ export function ContentFigure({ image, priority = false }: { image: ContentImage
               <stop offset="1" stopColor="#8F6B24" />
             </linearGradient>
           </defs>
-          <g fill="none" stroke={`url(#${idBase}-rule)`} strokeWidth="1.5" vectorEffect="non-scaling-stroke">
-            <path d="M0 0V100M100 0V100" />
-            <path className="content-frame__segmented" d="M0 0H32M68 0H100M0 100H32M68 100H100" />
-            <path className="content-frame__mobile" d="M0 0H100M0 100H100" />
+          <g
+            fill="none"
+            stroke={`url(#${idBase}-rule)`}
+            strokeLinecap="butt"
+            strokeLinejoin="miter"
+            strokeWidth="1.5"
+          >
+            <path
+              className="content-frame__desktop"
+              d="M32 0H0V100H32M68 0H100V100H68"
+              vectorEffect="non-scaling-stroke"
+            />
+            <path
+              className="content-frame__mobile"
+              d="M0 0H100V100H0Z"
+              vectorEffect="non-scaling-stroke"
+            />
           </g>
         </svg>
         <Ornament edge="top" gradientId={`${idBase}-top`} />
@@ -81,4 +94,3 @@ export function ContentFigure({ image, priority = false }: { image: ContentImage
     </figure>
   );
 }
-

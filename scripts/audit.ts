@@ -164,6 +164,14 @@ assert(sourceFiles.includes('rel="nofollow"'), "Template nofollow links are miss
 assert(!sourceFiles.includes("article-section__grid--reverse"), "Alternating image layout found");
 assert(!sourceFiles.includes("target=\"_blank\""), "Product links must stay in the same tab");
 
+const figureSource = readFileSync(path.join(root, "src/components/content-figure.tsx"), "utf8");
+const desktopFrameHasContinuousCorners = figureSource.includes('d="M32 0H0V100H32M68 0H100V100H68"');
+const mobileFrameHasClosedPerimeter = figureSource.includes('d="M0 0H100V100H0Z"');
+assert(desktopFrameHasContinuousCorners, "Desktop figure frame corners must use continuous joined paths");
+assert(mobileFrameHasClosedPerimeter, "Mobile figure frame must use one closed perimeter");
+assert(figureSource.includes('strokeLinejoin="miter"'), "Figure frame must explicitly use mitered corner joins");
+assert(!figureSource.includes("M0 0V100M100 0V100"), "Disconnected legacy frame sides found");
+
 const totalWords = Object.values(wordCounts).reduce((sum, count) => sum + count, 0);
 const result = {
   pages: pages.length,
@@ -182,6 +190,10 @@ const result = {
   totalSourceImageMB: Number((totalImageBytes / 1024 / 1024).toFixed(2)),
   articlesWithExactPillarAnchor: pages.filter((page) => page.kind === "article" && page.relatedLinks?.some((link) => link.href === "/" && link.label === "Presidential Cannabis")).length,
   contextualOutboundLinks: pages.filter((page) => page.externalLink).length,
+  frameGeometry: {
+    desktopContinuousCorners: desktopFrameHasContinuousCorners,
+    mobileClosedPerimeter: mobileFrameHasClosedPerimeter,
+  },
   warnings,
   failures,
 };

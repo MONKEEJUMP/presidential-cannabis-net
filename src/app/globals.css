@@ -383,7 +383,7 @@ th { color: var(--teal); font-size: 0.69rem; letter-spacing: 0.08em; text-transf
 
 @media (max-width: 39.99rem) {
   .content-frame__ornament,
-  .content-frame__segmented { display: none; }
+  .content-frame__desktop { display: none; }
   .content-frame__mobile { display: block; }
 }
 
@@ -430,4 +430,3 @@ th { color: var(--teal); font-size: 0.69rem; letter-spacing: 0.08em; text-transf
   .header-official-link__label--full { display: inline; }
   .header-official-link__label--short { display: none; }
 }
-
