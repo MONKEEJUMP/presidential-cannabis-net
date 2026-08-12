@@ -89,7 +89,8 @@ a:hover { color: var(--teal); }
   color: var(--paper);
   text-decoration: none;
 }
-.brand-lockup:hover { color: var(--paper); }
+.brand-lockup__home { display: inline-flex; align-items: center; flex: 0 0 auto; gap: inherit; color: var(--paper); text-decoration: none; }
+.brand-lockup__home:hover { color: var(--paper); }
 
 .brand-lockup__real {
   flex: 0 0 auto;
@@ -119,9 +120,12 @@ a:hover { color: var(--teal); }
   font-size: 0.7rem;
   letter-spacing: 0.14em;
   line-height: 1.1;
+  text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
 }
+.brand-lockup__tagline:hover { color: var(--teal); text-decoration: underline; text-underline-offset: 0.18em; }
+.brand-lockup__tagline:focus-visible { outline: 2px solid var(--teal); outline-offset: 4px; }
 
 .primary-nav,
 .footer-nav {
