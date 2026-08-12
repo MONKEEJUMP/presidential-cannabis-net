@@ -90,6 +90,18 @@ a:hover { color: var(--teal); }
   text-decoration: none;
 }
 .brand-lockup:hover { color: var(--paper); }
+
+.brand-lockup__real {
+  flex: 0 0 auto;
+  color: var(--paper);
+  font-family: var(--display);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
 .brand-crest { width: 4rem; height: 4rem; flex: 0 0 auto; object-fit: contain; }
 .brand-lockup__text { display: grid; min-width: 0; line-height: 1; }
 .brand-lockup__name {

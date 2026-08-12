@@ -9,6 +9,9 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
       <a className="skip-link" href="#main-content">Skip to the article</a>
       <div className="site-header__inner">
         <Link className="brand-lockup" href="/" aria-label="Presidential Cannabis home">
+          <span className="brand-lockup__real" aria-hidden="true">
+            THE REAL
+          </span>
           <Image
             className="brand-crest"
             src="/images/presidential-crest.webp"
@@ -44,4 +47,3 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
     </header>
   );
 }
-
