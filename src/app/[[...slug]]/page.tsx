@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: PublicationPageProps): Promis
     : { url: absoluteUrl(DEFAULT_OG_IMAGE), width: 512, height: 512, alt: "Presidential crest" };
 
   return {
+    ...(path === "/" ? { metadataBase: null } : {}),
     title: page.title,
     description: page.description,
     alternates: { canonical },
