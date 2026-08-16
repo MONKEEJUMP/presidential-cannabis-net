@@ -134,14 +134,14 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
   if (page.kind === "pillar") {
     graph.unshift({
       "@type": "Organization",
-      "@id": `${SITE_URL}/#organization`,
+      "@id": "https://presidentialmoonrocks.com/#organization",
       name: "Presidential",
       alternateName: SITE_NAME,
       foundingDate: "2012",
       foundingLocation: { "@type": "Place", name: "Los Angeles, California" },
       description: "Presidential publishes an authoritative reference to the cannabis plant, flower, genetics, and choosing.",
-      url: SITE_URL,
-      logo: { "@type": "ImageObject", url: imageUrl(), width: 512, height: 512 },
+      url: "https://presidentialmoonrocks.com",
+      logo: undefined,
       // No verified social profile URLs were supplied; never invent sameAs values.
       sameAs: [],
     });
@@ -157,9 +157,10 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
       image: images.map((image) => imageUrl(image)),
       publisher: {
         "@type": "Organization",
-        "@id": `${SITE_URL}/#organization`,
-        name: SITE_NAME,
-        logo: { "@type": "ImageObject", url: imageUrl() },
+        "@id": "https://presidentialmoonrocks.com/#organization",
+        name: "Presidential",
+        url: "https://presidentialmoonrocks.com",
+        logo: undefined,
       },
     });
   }
@@ -206,4 +207,3 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
     </>
   );
 }
-
