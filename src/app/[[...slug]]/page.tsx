@@ -38,8 +38,9 @@ export async function generateMetadata({ params }: PublicationPageProps): Promis
     : { url: absoluteUrl(DEFAULT_OG_IMAGE), width: 512, height: 512, alt: "Presidential crest" };
 
   return {
+    // Preserve the canonical root slash instead of letting Next normalize the apex URL.
     ...(path === "/" ? { metadataBase: null } : {}),
-    title: page.title,
+    title: path === "/" || path === "/about" ? { absolute: page.title } : page.title,
     description: page.description,
     alternates: { canonical },
     robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
@@ -67,4 +68,3 @@ export default async function PublicationPage({ params }: PublicationPageProps) 
   if (!page) notFound();
   return <ArticlePage images={imagesForPage(pageImages, path)} page={page} />;
 }
-

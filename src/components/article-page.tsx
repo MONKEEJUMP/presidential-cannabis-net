@@ -1,7 +1,18 @@
 import Link from "next/link";
+import type { Graph, Thing } from "schema-dts";
 
 import type { ContentImage, ContentSection, PageContent } from "@/content/types";
-import { absoluteUrl, escapeJsonLd, imageUrl, siloLabels, SITE_NAME, SITE_URL } from "@/lib/site";
+import {
+  absoluteUrl,
+  BRAND_ORGANIZATION_ID,
+  BRAND_URL,
+  DEFAULT_OG_IMAGE,
+  escapeJsonLd,
+  imageUrl,
+  siloLabels,
+  SITE_NAME,
+  STORE_LOCATOR_URL,
+} from "@/lib/site";
 
 import { ContentFigure } from "./content-figure";
 import { SiteFooter } from "./site-footer";
@@ -61,6 +72,7 @@ function DataTable({ section }: { section: ContentSection }) {
 }
 
 function ArticleSection({ section, image }: { section: ContentSection; image: ContentImage }) {
+  const sectionLinks = section.links ?? [];
   return (
     <section className="article-section" id={section.id}>
       <div className="article-section__grid">
@@ -69,6 +81,15 @@ function ArticleSection({ section, image }: { section: ContentSection; image: Co
           {section.paragraphs.map((paragraph, index) => <p key={`${section.id}-paragraph-${index}`}>{paragraph}</p>)}
           {section.bullets?.length ? <ul>{section.bullets.map((bullet, index) => <li key={`${section.id}-bullet-${index}`}>{bullet}</li>)}</ul> : null}
           <DataTable section={section} />
+          {sectionLinks.length ? (
+            <div className="article-section__links">
+              {sectionLinks.map((link) => link.href.startsWith("/") ? (
+                <Link href={link.href} key={link.href}>{link.label}</Link>
+              ) : (
+                <a href={link.href} key={link.href}>{link.label}</a>
+              ))}
+            </div>
+          ) : null}
         </div>
         <ContentFigure image={image} />
       </div>
@@ -81,8 +102,47 @@ function BrandCallToAction() {
     <aside className="brand-cta" aria-labelledby="brand-cta-heading">
       <h2 id="brand-cta-heading">Find Presidential Near You</h2>
       <p>Explore the Presidential catalog and locate licensed retailers through the main Presidential site.</p>
-      <a className="brand-cta__button" href="https://presidentialmoonrocks.com/find-us" rel="nofollow">Find a licensed retailer</a>
+      <a className="brand-cta__button" href={STORE_LOCATOR_URL}>Find a licensed retailer</a>
     </aside>
+  );
+}
+
+function OfficialBrandEntityBlock({ page }: { page: PageContent }) {
+  if (page.kind !== "pillar") return null;
+  return (
+    <aside className="official-entity" aria-labelledby="official-entity-heading">
+      <div>
+        <p className="eyebrow">Official brand entity</p>
+        <h2 id="official-entity-heading">The brand, the guide, and the licensed retail path</h2>
+        <p>
+          Presidential is the Los Angeles company and publisher. This site holds its company definition and plant education;
+          the main Presidential site holds the current product catalog and licensed-retailer locator.
+        </p>
+      </div>
+      <nav className="official-entity__links" aria-label="Official Presidential destinations">
+        <Link href="/about">About the brand and publisher</Link>
+        <a href={BRAND_URL}>Explore the official product catalog</a>
+        <a href={STORE_LOCATOR_URL}>Find licensed retailers</a>
+      </nav>
+    </aside>
+  );
+}
+
+function FrequentlyAskedQuestions({ page }: { page: PageContent }) {
+  if (!page.faq?.length) return null;
+  return (
+    <section className="brand-faq" aria-labelledby="brand-faq-heading">
+      <p className="eyebrow">Direct answers</p>
+      <h2 id="brand-faq-heading">Questions about the brand</h2>
+      <dl>
+        {page.faq.map((item) => (
+          <div className="brand-faq__item" key={item.question}>
+            <dt>{item.question}</dt>
+            <dd>{item.answer}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
   );
 }
 
@@ -122,51 +182,121 @@ function LinkDirectory({ page }: { page: PageContent }) {
 
 function StructuredData({ page, images }: { page: PageContent; images: ContentImage[] }) {
   const pageUrl = absoluteUrl(page.path);
-  const imageObjects = images.map((image) => ({
+  const websiteId = `${absoluteUrl("/")}#website`;
+  const webpageId = `${pageUrl}#webpage`;
+  const imageObjects: Thing[] = images.map((image) => ({
     "@type": "ImageObject",
+    "@id": `${imageUrl(image)}#image`,
     contentUrl: imageUrl(image),
-    width: image.width,
-    height: image.height,
+    width: image.width.toString(),
+    height: image.height.toString(),
     description: image.alt,
   }));
-  const graph: Record<string, unknown>[] = [...imageObjects];
+  const graph: Thing[] = [...imageObjects];
+
+  const webpage: Thing = {
+    "@type": page.kind === "about" ? "AboutPage" : "WebPage",
+    "@id": webpageId,
+    url: pageUrl,
+    name: page.title,
+    description: page.description,
+    isPartOf: { "@id": websiteId },
+    publisher: { "@id": BRAND_ORGANIZATION_ID },
+    primaryImageOfPage: images[0] ? { "@id": `${imageUrl(images[0])}#image` } : undefined,
+    ...(page.kind === "pillar" || page.kind === "about" ? { about: { "@id": BRAND_ORGANIZATION_ID } } : {}),
+  };
+  graph.unshift(webpage);
 
   if (page.kind === "pillar") {
-    graph.unshift({
+    const organization: Thing = {
       "@type": "Organization",
-      "@id": "https://presidentialmoonrocks.com/#organization",
-      name: "Presidential",
-      alternateName: SITE_NAME,
+      "@id": BRAND_ORGANIZATION_ID,
+      name: SITE_NAME,
+      alternateName: ["Presidential", "Presidential THC"],
       foundingDate: "2012",
       foundingLocation: { "@type": "Place", name: "Los Angeles, California" },
-      description: "Presidential publishes an authoritative reference to the cannabis plant, flower, genetics, and choosing.",
-      url: "https://presidentialmoonrocks.com",
-      logo: undefined,
-      // No verified social profile URLs were supplied; never invent sameAs values.
-      sameAs: [],
-    });
+      founder: [
+        { "@type": "Person", name: "Everett Smith" },
+        { "@type": "Person", name: "John Zapp" },
+      ],
+      description: "The Los Angeles cannabis brand behind Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis sold through licensed retailers.",
+      url: BRAND_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: absoluteUrl(DEFAULT_OG_IMAGE),
+        width: "512",
+        height: "512",
+      },
+      knowsAbout: ["Cannabis flower", "Cannabis genetics", "Cultivation", "Moon Rocks", "Infused pre-rolls"],
+    };
+    const website: Thing = {
+      "@type": "WebSite",
+      "@id": websiteId,
+      url: absoluteUrl("/"),
+      name: SITE_NAME,
+      alternateName: "Official Presidential Cannabis",
+      description: page.description,
+      publisher: { "@id": BRAND_ORGANIZATION_ID },
+    };
+    graph.unshift(organization, website);
+
+    if (page.faq?.length) {
+      graph.push({
+        "@type": "FAQPage",
+        "@id": `${pageUrl}#faq`,
+        mainEntity: page.faq.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: { "@type": "Answer", text: item.answer },
+        })),
+      });
+    }
   }
 
   if (page.kind === "article") {
-    graph.unshift({
+    graph.push({
       "@type": "Article",
       "@id": `${pageUrl}#article`,
       headline: page.h1,
       description: page.description,
-      mainEntityOfPage: pageUrl,
+      mainEntityOfPage: { "@id": webpageId },
       image: images.map((image) => imageUrl(image)),
-      publisher: {
-        "@type": "Organization",
-        "@id": "https://presidentialmoonrocks.com/#organization",
-        name: "Presidential",
-        url: "https://presidentialmoonrocks.com",
-        logo: undefined,
-      },
+      publisher: { "@id": BRAND_ORGANIZATION_ID },
     });
   }
 
-  if (!graph.length) return null;
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd({ "@context": "https://schema.org", "@graph": graph }) }} />;
+  if (page.path !== "/") {
+    const breadcrumbItems: Thing[] = [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: SITE_NAME,
+        item: absoluteUrl("/"),
+      },
+    ];
+    if (page.kind === "article" && page.silo) {
+      breadcrumbItems.push({
+        "@type": "ListItem",
+        position: 2,
+        name: siloLabels[page.silo],
+        item: absoluteUrl(`/${page.silo}`),
+      });
+    }
+    breadcrumbItems.push({
+      "@type": "ListItem",
+      position: breadcrumbItems.length + 1,
+      name: page.h1,
+      item: pageUrl,
+    });
+    graph.push({
+      "@type": "BreadcrumbList",
+      "@id": `${pageUrl}#breadcrumb`,
+      itemListElement: breadcrumbItems,
+    });
+  }
+
+  const structuredData: Graph = { "@context": "https://schema.org", "@graph": graph };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(structuredData) }} />;
 }
 
 export function ArticlePage({ page, images }: { page: PageContent; images: ContentImage[] }) {
@@ -191,6 +321,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
             <ContentFigure image={leadImage} priority />
           </section>
           {page.kind === "pillar" || page.kind === "hub" ? <TableOfContents page={page} /> : null}
+          <OfficialBrandEntityBlock page={page} />
           <div className="article-body">
             {page.sections.map((section, index) => (
               <div key={section.id}>
@@ -199,6 +330,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
               </div>
             ))}
           </div>
+          <FrequentlyAskedQuestions page={page} />
           <LinkDirectory page={page} />
         </article>
       </main>

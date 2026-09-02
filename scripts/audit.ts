@@ -19,6 +19,7 @@ function words(value: string): number {
 function pageWords(page: (typeof pages)[number]): number {
   return [
     ...page.intro,
+    ...(page.faq?.flatMap((item) => [item.question, item.answer]) ?? []),
     ...page.sections.flatMap((section) => [
       ...section.paragraphs,
       ...(section.bullets ?? []),
@@ -67,6 +68,27 @@ assert(pages.filter((page) => page.kind === "pillar").length === 1, "Expected on
 assert(pages.filter((page) => page.kind === "hub").length === 4, "Expected four hubs");
 assert(pages.filter((page) => page.kind === "article").length === 24, "Expected 24 articles");
 assert(pages.filter((page) => page.kind === "about").length === 1, "Expected one about page");
+assert(new Set(pages.map((page) => page.title)).size === pages.length, "Every page title must be unique");
+assert(new Set(pages.map((page) => page.description)).size === pages.length, "Every meta description must be unique");
+
+const homepage = pages.find((page) => page.path === "/");
+const aboutPage = pages.find((page) => page.path === "/about");
+assert(homepage?.title === "Presidential Cannabis | Official Brand & Plant Guide", "Homepage title does not match the approved brand title");
+assert(homepage?.description === "Presidential Cannabis is the official Los Angeles brand behind Moon Rocks and infused pre-rolls — plus the definitive plant guide to flower, genetics, and choosing well at licensed retailers.", "Homepage meta description does not match the approved copy");
+assert(homepage?.h1 === "Presidential Cannabis", "Homepage H1 must remain Presidential Cannabis");
+assert(homepage?.intro[0] === "Presidential Cannabis is the original Los Angeles cannabis brand founded in 2012 — the house behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis sold through licensed retailers. This site is the official Presidential Cannabis home for understanding the plant behind every product: flower quality, genetics, cultivation, harvest and cure, and how to choose with confidence at a licensed counter.", "Homepage opening paragraph does not match the approved entity copy");
+assert(homepage?.sections.some((section) => section.heading === "What is Presidential Cannabis?"), "Homepage needs the approved What is Presidential Cannabis? H2");
+assert(homepage?.faq?.length === 5, "Homepage must expose all five approved brand FAQs");
+for (const sectionId of ["the-catalog", "where-it-is-sold", "authenticity"]) {
+  const section = homepage?.sections.find((candidate) => candidate.id === sectionId);
+  assert(section?.links?.some((link) => link.href.startsWith("https://presidentialmoonrocks.com")), `Homepage ${sectionId} section needs a dofollow Presidential handoff`);
+}
+assert(aboutPage?.title === "About Presidential Cannabis | Brand & Publisher", "About title does not match the approved brand title");
+assert(aboutPage?.description === "About Presidential Cannabis: the Los Angeles brand behind Moon Rocks and the official publisher of this plant guide to flower, genetics, and choosing at licensed retailers.", "About meta description does not match the approved copy");
+assert(aboutPage?.h1 === "About Presidential Cannabis", "About H1 must identify the brand");
+assert(aboutPage?.relatedLinks?.length === 5, "About must link to the homepage and all four topic hubs");
+assert(aboutPage?.sections.some((section) => section.links?.some((link) => link.href === "https://presidentialmoonrocks.com/find-us")), "About needs a direct licensed-retailer handoff");
+assert(pages.filter((page) => !["/", "/about"].includes(page.path)).every((page) => !page.h1.includes("Presidential Cannabis")), "Interior topical H1s must not compete for the brand query");
 
 const wordCounts: Record<string, number> = {};
 for (const page of pages) {
@@ -134,6 +156,10 @@ const sourceFiles = [
   "src/components/site-header.tsx",
   "src/components/site-footer.tsx",
   "src/app/globals.css",
+  "src/app/layout.tsx",
+  "src/app/[[...slug]]/page.tsx",
+  "src/app/sitemap.ts",
+  "src/app/robots.ts",
   "src/content/pillar.ts",
   "src/content/hubs.ts",
   "src/content/plant.ts",
@@ -160,9 +186,20 @@ for (const prohibited of [
   assert(!sourceFiles.toLowerCase().includes(prohibited), `Prohibited text or implementation found: ${prohibited}`);
 }
 
-assert(sourceFiles.includes('rel="nofollow"'), "Template nofollow links are missing");
+assert(!sourceFiles.includes('rel="nofollow"'), "Official Presidential and locator links must remain dofollow");
 assert(!sourceFiles.includes("article-section__grid--reverse"), "Alternating image layout found");
 assert(!sourceFiles.includes("target=\"_blank\""), "Product links must stay in the same tab");
+assert(sourceFiles.includes('"@type": "Organization"'), "Homepage Organization schema is missing");
+assert(sourceFiles.includes('"@type": "WebSite"'), "Homepage WebSite schema is missing");
+assert(sourceFiles.includes('"@type": page.kind === "about" ? "AboutPage" : "WebPage"'), "WebPage and AboutPage schema mapping is missing");
+assert(sourceFiles.includes('"@type": "FAQPage"'), "Homepage FAQPage schema is missing");
+assert(sourceFiles.includes("BRAND_ORGANIZATION_ID"), "Schema graph must reuse the canonical Presidential organization ID");
+assert(sourceFiles.includes("title: path === \"/\" || path === \"/about\" ? { absolute: page.title } : page.title"), "Homepage and About need absolute metadata titles");
+assert(sourceFiles.includes("metadataBase: new URL(SITE_URL)"), "Root metadataBase must use the canonical apex");
+assert(sourceFiles.includes('card: "summary_large_image"'), "Twitter summary_large_image metadata is missing");
+assert(sourceFiles.includes('sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/image-sitemap.xml`]'), "robots.txt must advertise both sitemaps");
+assert(!sourceFiles.toLowerCase().includes("buy online"), "Public copy contains prohibited buy-online language");
+assert(!sourceFiles.toLowerCase().includes("ship-to-door"), "Public copy contains prohibited ship-to-door language");
 
 const figureSource = readFileSync(path.join(root, "src/components/content-figure.tsx"), "utf8");
 const desktopFrameHasContinuousCorners = figureSource.includes('d="M32 0H0V100H32M68 0H100V100H68"');
@@ -190,6 +227,15 @@ const result = {
   totalSourceImageMB: Number((totalImageBytes / 1024 / 1024).toFixed(2)),
   articlesWithExactPillarAnchor: pages.filter((page) => page.kind === "article" && page.relatedLinks?.some((link) => link.href === "/" && link.label === "Presidential Cannabis")).length,
   contextualOutboundLinks: pages.filter((page) => page.externalLink).length,
+  seoEntity: {
+    homepageTitle: homepage?.title,
+    homepageH1: homepage?.h1,
+    aboutTitle: aboutPage?.title,
+    aboutH1: aboutPage?.h1,
+    visibleFaqs: homepage?.faq?.length ?? 0,
+    uniqueTitles: new Set(pages.map((page) => page.title)).size,
+    uniqueDescriptions: new Set(pages.map((page) => page.description)).size,
+  },
   frameGeometry: {
     desktopContinuousCorners: desktopFrameHasContinuousCorners,
     mobileClosedPerimeter: mobileFrameHasClosedPerimeter,

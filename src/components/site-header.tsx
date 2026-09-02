@@ -28,7 +28,7 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
             <a aria-label="The official Presidential site" className="brand-lockup__tagline" href="https://presidentialmoonrocks.com">The Official Presidential Site</a>
           </span>
         </div>
-        <a className="header-official-link" href="https://presidentialmoonrocks.com" rel="nofollow">
+        <a className="header-official-link" href="https://presidentialmoonrocks.com">
           <span className="header-official-link__label header-official-link__label--full">Official Presidential</span>
           <span className="header-official-link__label header-official-link__label--short">Presidential</span>
           <svg aria-hidden="true" viewBox="0 0 14 14">

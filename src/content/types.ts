@@ -14,12 +14,18 @@ export type ContentSection = {
   paragraphs: string[];
   bullets?: string[];
   table?: DataTable;
+  links?: PageLink[];
 };
 
 export type PageLink = {
   href: string;
   label: string;
   description?: string;
+};
+
+export type FAQItem = {
+  question: string;
+  answer: string;
 };
 
 export type PageContent = {
@@ -34,6 +40,7 @@ export type PageContent = {
   sections: ContentSection[];
   childLinks?: PageLink[];
   relatedLinks?: PageLink[];
+  faq?: FAQItem[];
   externalLink: PageLink;
 };
 
@@ -44,4 +51,3 @@ export type ContentImage = {
   alt: string;
   productHref?: string;
 };
-

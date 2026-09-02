@@ -4,21 +4,21 @@ export const pillarPage: PageContent = {
   path: "/",
   kind: "pillar",
   h1: "Presidential Cannabis",
-  title: "Presidential Cannabis — The Official Guide to the Plant",
-  description: "A definitive reference to the cannabis plant, its flower, genetics, cultivation, quality, and the practical signals that help people choose well.",
+  title: "Presidential Cannabis | Official Brand & Plant Guide",
+  description: "Presidential Cannabis is the official Los Angeles brand behind Moon Rocks and infused pre-rolls — plus the definitive plant guide to flower, genetics, and choosing well at licensed retailers.",
   wordTarget: [2200, 2800],
   intro: [
-    "Presidential Cannabis is the official Presidential reference to the cannabis plant, the flower it produces, the genetics behind each cultivar, and the qualities that guide a confident choice. It brings the living plant and the finished flower into one clear picture. The publication begins with what cannabis is, follows the flower through harvest and cure, and ends with practical ways to read a menu, speak with a budtender, and select a format for the occasion.",
-    "The central idea is simple: flower quality is the foundation of every Presidential product. Genetics establish a range of possibilities, cultivation develops them, harvest captures a particular moment, and careful drying, curing, and storage preserve the character that reaches the counter. Reading those stages together gives appearance, aroma, texture, lineage, and batch information their proper meaning.",
+    "Presidential Cannabis is the original Los Angeles cannabis brand founded in 2012 — the house behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis sold through licensed retailers. This site is the official Presidential Cannabis home for understanding the plant behind every product: flower quality, genetics, cultivation, harvest and cure, and how to choose with confidence at a licensed counter.",
+    "Flower quality is the foundation of every Presidential product. Genetics establish a range of possibilities, cultivation develops them, harvest captures a particular moment, and careful drying, curing, and storage preserve the character that reaches the shelf. Reading those stages together gives appearance, aroma, texture, lineage, and batch information their proper meaning.",
   ],
   sections: [
     {
-      id: "the-plant",
-      heading: "The Plant and What We Harvest",
+      id: "what-is-presidential-cannabis",
+      heading: "What is Presidential Cannabis?",
       paragraphs: [
-        "Cannabis is an annual flowering plant. It grows from seed or a rooted cutting, builds roots and leafy structure, responds to the season or a controlled light schedule, and produces flowers as its cycle advances. For flower production, cultivators focus on female plants because their dense floral clusters develop the resin-rich surfaces that carry the plant's most distinctive compounds. The harvested portion is the flower, together with a small amount of close surrounding leaf that is shaped during trimming.",
-        "A mature flower is a compact botanical structure rather than a single petal. Bracts gather around the reproductive parts, pistils extend from those bracts, sugar leaves sit close to the flower, and many individual flower sites build into a larger cola. Resin glands develop across these surfaces. The plant's structure determines how light and air reach each site, while its growth pattern influences spacing, density, and the final shape of each harvested piece.",
-        "This botanical view supplies the base for every later judgment. A flower's visual form reflects its genetics and growing environment. Its surface carries evidence of resin development. Its aroma comes from volatile compounds created and preserved across the cycle. The package at a licensed retailer is therefore the final chapter of a living process, with each stage leaving useful information in the flower itself.",
+        "Presidential Cannabis (often called Presidential) is a Los Angeles-founded cannabis company known for infused flower products, especially Moon Rocks: premium flower carried through with concentrate and finished with kief. The brand also makes infused pre-rolls, tobacco-free blunts, and minis across Silver, Gold, Rose Gold, and signature Presidential lines.",
+        "Presidential sells wholesale only. Adults 21+ where legal buy authentic product at licensed retailers — not by mail and not through a checkout on this site. The product catalog and store locator live on the main Presidential site at presidentialmoonrocks.com. This presidentialcannabis.net property is the official plant-and-brand reference: what the plant is, what makes flower good, how genetics and batches differ, and how to choose well.",
+        "If you are looking for product names, artwork, and a path to licensed doors, use presidentialmoonrocks.com. If you are looking to understand the plant and the quality signals behind Presidential Cannabis, you are in the right place.",
       ],
     },
     {
@@ -70,7 +70,7 @@ export const pillarPage: PageContent = {
       id: "the-catalog",
       heading: "The Presidential Catalog",
       paragraphs: [
-        "Presidential began in Los Angeles in 2012 and serves licensed retailers through a wholesale model. The catalog contains 47 products across six groupings, with flower quality forming the common foundation. Each grouping has its own visual language and place in the collection, while Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis provide a range of formats for different occasions.",
+        "Presidential Cannabis began in Los Angeles in 2012 and serves licensed retailers through a wholesale model. The catalog contains approximately 47 products across six groupings, with flower quality forming the common foundation. Each grouping has its own visual language and place in the collection, while flagship Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis provide a range of formats for different occasions. Product names and current catalog details live on the main Presidential site.",
       ],
       bullets: [
         "The Silver Flavor Series includes seven bright, flavor-led selections with an accessible place in the collection.",
@@ -80,14 +80,16 @@ export const pillarPage: PageContent = {
         "The Presidential House Line includes three core expressions that carry the brand's foundational character.",
         "Presidential x THC Design includes three collaborations built on estate-grown flower cultivated by THC Design.",
       ],
+      links: [{ href: "https://presidentialmoonrocks.com", label: "Explore the official Presidential catalog" }],
     },
     {
       id: "where-it-is-sold",
       heading: "Where Presidential Is Sold",
       paragraphs: [
-        "Presidential is available through licensed retailers. Current markets include California, Oklahoma, New York, Nevada, Michigan, and Arizona, with Florida and Washington opening. Because the company operates wholesale, retail inventory and individual product availability belong to each licensed store. The main Presidential retailer locator supplies the direct route from the catalog to participating locations.",
+        "Presidential Cannabis is available through licensed retailers. The official locator currently maps licensed retail paths in California, Oklahoma, New York, Nevada, Michigan, and Arizona, with Washington marked as landing soon. Because the company operates wholesale, retail inventory and individual product availability belong to each licensed store. The main Presidential retailer locator supplies the direct route from the catalog to participating locations.",
         "A retailer visit also gives the batch-level detail that a national catalog naturally summarizes. Local menus show the products on hand, package sizes, current dates, and pricing. Budtenders can describe the available flower and formats. That combination keeps the publication and the purchase path distinct: this site explains the plant and the choosing process, while licensed retailers provide the inventory that exists in a particular place and moment.",
       ],
+      links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Use the official store locator" }],
     },
     {
       id: "authenticity",
@@ -97,6 +99,29 @@ export const pillarPage: PageContent = {
         "Packaging supplies useful confirmation through the crest, series identity, product information, required labeling, and batch details. The licensed retailer supplies the second layer through its menu and sales process. Together, those signals create a complete chain from Presidential to the counter. A buyer can then return to the flower itself—aroma, structure, trichome condition, cure, and freshness—to understand the quality inside the package.",
         "The four sections of this publication make that assessment repeatable. The Plant explains the living source. The Flower collects the visible, aromatic, and tactile quality signals. Genetics explains lineage, phenotypes, and batch variation. Choosing turns those ideas into a practical counter conversation. Read together, they form one reference for understanding what flower is, how it develops, and how to recognize a well-made result.",
       ],
+      links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Follow the licensed-retail path" }],
+    },
+  ],
+  faq: [
+    {
+      question: "What is Presidential Cannabis?",
+      answer: "Presidential Cannabis is the original Los Angeles cannabis brand founded in 2012, known for Moon Rocks and other infused products sold through licensed retailers.",
+    },
+    {
+      question: "Is Presidential Cannabis the same as Presidential Moon Rocks?",
+      answer: "Presidential Cannabis is the brand. Moon Rocks is the flagship product platform within that brand, alongside infused pre-rolls, tobacco-free blunts, and minis.",
+    },
+    {
+      question: "Where can I buy Presidential Cannabis?",
+      answer: "Only at licensed retailers where legal. Use the store locator on presidentialmoonrocks.com. This site does not sell products online.",
+    },
+    {
+      question: "Does Presidential Cannabis ship products to consumers?",
+      answer: "No. Presidential operates wholesale and products reach customers through licensed retail channels.",
+    },
+    {
+      question: "What is this website for?",
+      answer: "presidentialcannabis.net is the official Presidential Cannabis plant guide — flower, genetics, cultivation quality signals, and practical choosing help — published by the brand.",
     },
   ],
   externalLink: {

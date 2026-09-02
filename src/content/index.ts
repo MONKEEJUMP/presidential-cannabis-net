@@ -86,7 +86,7 @@ export const pages: PageContent[] = rawPages.map((page) => {
       ],
     };
   }
-  return { ...page, relatedLinks: [{ href: "/", label: "Read Presidential Cannabis" }] };
+  return { ...page, relatedLinks: page.relatedLinks ?? [{ href: "/", label: "Read Presidential Cannabis" }] };
 });
 
 export const pagesByPath = new Map(pages.map((page) => [page.path, page]));

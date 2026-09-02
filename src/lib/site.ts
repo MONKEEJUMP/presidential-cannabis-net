@@ -3,6 +3,9 @@ import type { ContentImage, PageContent, Silo } from "@/content/types";
 export const SITE_NAME = "Presidential Cannabis";
 export const SITE_URL = "https://presidentialcannabis.net";
 export const DEFAULT_OG_IMAGE = "/images/presidential-crest.webp";
+export const BRAND_URL = "https://presidentialmoonrocks.com";
+export const BRAND_ORGANIZATION_ID = `${BRAND_URL}/#organization`;
+export const STORE_LOCATOR_URL = `${BRAND_URL}/find-us`;
 
 export const primaryNavigation = [
   { href: "/plant", label: "Plant" },
@@ -57,7 +60,6 @@ export function escapeXml(value: string): string {
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
-    .replace(/\"/g, "&quot;")
+    .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;");
 }
-
