@@ -81,11 +81,14 @@ assert(canonicals.size === pages.length, `Expected ${pages.length} unique genera
 const homeHtml = readFileSync(htmlPath("/"), "utf8");
 const homeGraph = parseGraph(homeHtml);
 const homeTypes = new Set(homeGraph.map((node) => node["@type"]));
-assert(homeHtml.includes("Presidential Cannabis is the original Los Angeles cannabis brand founded in 2012"), "Homepage entity lead is absent from initial HTML");
+assert(homeHtml.includes("Presidential Cannabis is the brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis."), "Homepage entity lead is absent from initial HTML");
 assert((homeHtml.match(/<h2>What is Presidential Cannabis\?<\/h2>/g) ?? []).length === 1, "Homepage needs exactly one approved entity H2");
+assert(homeHtml.includes("<h2>The Presidential Product Line</h2>"), "Homepage product-line H2 is missing");
 assert(homeHtml.includes('href="/about"'), "Homepage official entity block is missing the About link");
 assert(homeHtml.includes('href="https://presidentialmoonrocks.com"'), "Homepage official entity block is missing the catalog link");
 assert(homeHtml.includes('href="https://presidentialmoonrocks.com/find-us"'), "Homepage official entity block is missing the locator link");
+assert(homeHtml.includes('href="https://presidentialthc.net/"'), "Homepage Presidential THC cross-link is missing");
+assert(homeHtml.includes('href="https://presidentialblunts.net/"'), "Homepage Presidential Blunts cross-link is missing");
 assert(homeTypes.has("Organization"), "Homepage initial HTML lacks Organization schema");
 assert(homeTypes.has("WebSite"), "Homepage initial HTML lacks WebSite schema");
 assert(homeTypes.has("WebPage"), "Homepage initial HTML lacks WebPage schema");
@@ -94,6 +97,13 @@ assert(homeTypes.has("FAQPage"), "Homepage initial HTML lacks FAQPage schema");
 const organization = homeGraph.find((node) => node["@type"] === "Organization");
 assert(organization?.["@id"] === "https://presidentialmoonrocks.com/#organization", "Homepage does not reuse the canonical organization ID");
 assert(organization?.name === "Presidential Cannabis", "Homepage Organization name mismatch");
+const expectedSameAs = [
+  "https://www.instagram.com/presidentialofficial_/",
+  "https://www.instagram.com/presidential_medss/",
+  "https://www.facebook.com/p/Presidential-RX-100069511874496/",
+  "https://www.linkedin.com/in/everett-smith-presidential/",
+];
+assert(JSON.stringify(organization?.sameAs) === JSON.stringify(expectedSameAs), "Homepage Organization sameAs whitelist mismatch");
 const faq = homeGraph.find((node) => node["@type"] === "FAQPage");
 assert(Array.isArray(faq?.mainEntity) && faq.mainEntity.length === 5, "Homepage FAQ schema must match five visible questions");
 

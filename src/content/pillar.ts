@@ -4,11 +4,11 @@ export const pillarPage: PageContent = {
   path: "/",
   kind: "pillar",
   h1: "Presidential Cannabis",
-  title: "Presidential Cannabis | Official Brand & Plant Guide",
-  description: "Presidential Cannabis is the official Los Angeles brand behind Moon Rocks and infused pre-rolls — plus the definitive plant guide to flower, genetics, and choosing well at licensed retailers.",
+  title: "Presidential Cannabis | The Official Brand Guide",
+  description: "Presidential Cannabis is the brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis — how the products are built, what the series mean, and where to find them at licensed retailers.",
   wordTarget: [2200, 2800],
   intro: [
-    "Presidential Cannabis is the original Los Angeles cannabis brand founded in 2012 — the house behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis sold through licensed retailers. This site is the official Presidential Cannabis home for understanding the plant behind every product: flower quality, genetics, cultivation, harvest and cure, and how to choose with confidence at a licensed counter.",
+    "Presidential Cannabis is the brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis. Founded in 2012 and sold through licensed retailers in seven states, Presidential builds every format on the same idea: flower carried through with concentrate and finished with kief. This site is the official brand and plant guide — what Presidential makes, how the series differ, how the plant behind the products works, and where to find authentic Presidential at licensed retail.",
     "Flower quality is the foundation of every Presidential product. Genetics establish a range of possibilities, cultivation develops them, harvest captures a particular moment, and careful drying, curing, and storage preserve the character that reaches the shelf. Reading those stages together gives appearance, aroma, texture, lineage, and batch information their proper meaning.",
   ],
   sections: [
@@ -16,9 +16,13 @@ export const pillarPage: PageContent = {
       id: "what-is-presidential-cannabis",
       heading: "What is Presidential Cannabis?",
       paragraphs: [
-        "Presidential Cannabis (often called Presidential) is a Los Angeles-founded cannabis company known for infused flower products, especially Moon Rocks: premium flower carried through with concentrate and finished with kief. The brand also makes infused pre-rolls, tobacco-free blunts, and minis across Silver, Gold, Rose Gold, and signature Presidential lines.",
-        "Presidential sells wholesale only. Adults 21+ where legal buy authentic product at licensed retailers — not by mail and not through a checkout on this site. The product catalog and store locator live on the main Presidential site at presidentialmoonrocks.com. This presidentialcannabis.net property is the official plant-and-brand reference: what the plant is, what makes flower good, how genetics and batches differ, and how to choose well.",
-        "If you are looking for product names, artwork, and a path to licensed doors, use presidentialmoonrocks.com. If you are looking to understand the plant and the quality signals behind Presidential Cannabis, you are in the right place.",
+        "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012 and known for Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis. Flower, concentrate and kief form the foundation of its infused formats, while the plant guides throughout this site explain the quality behind the finished products.",
+        "The product family is organized across Gold, Silver and Rose Gold Connoisseur series, giving each format a clear place in the collection. Presidential operates wholesale, and its products are available to adults 21+ where legal through licensed retailers in seven states.",
+        "The Presidential portfolio gives each subject a focused home. Presidential THC explains the infusion chemistry behind flower, concentrate and kief, while Presidential Blunts explores tobacco-free blunt formats in depth. This site connects those product subjects to the cannabis plant, flower quality, genetics and choosing at licensed retail.",
+      ],
+      links: [
+        { href: "https://presidentialthc.net/", label: "Explore Presidential infusion chemistry" },
+        { href: "https://presidentialblunts.net/", label: "Understand Presidential tobacco-free blunt formats" },
       ],
     },
     {
@@ -68,25 +72,27 @@ export const pillarPage: PageContent = {
     },
     {
       id: "the-catalog",
-      heading: "The Presidential Catalog",
+      heading: "The Presidential Product Line",
       paragraphs: [
-        "Presidential Cannabis began in Los Angeles in 2012 and serves licensed retailers through a wholesale model. The catalog contains approximately 47 products across six groupings, with flower quality forming the common foundation. Each grouping has its own visual language and place in the collection, while flagship Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis provide a range of formats for different occasions. Product names and current catalog details live on the main Presidential site.",
+        "The Presidential product line carries the same infused-flower idea across four recognizable formats. Gold, Silver and Rose Gold Connoisseur organize the collection by product expression, flavor direction and presentation, while the main Presidential catalog supplies current product names and artwork.",
       ],
       bullets: [
-        "The Silver Flavor Series includes seven bright, flavor-led selections with an accessible place in the collection.",
-        "The Gold Strain Series includes nineteen cultivar-focused selections and forms the broadest part of the catalog.",
-        "The Rose Gold Connoisseur Series includes five elevated selections with a more curated presentation.",
-        "The Presidential Line includes ten house signatures shaped around distinctive identities and artwork.",
-        "The Presidential House Line includes three core expressions that carry the brand's foundational character.",
-        "Presidential x THC Design includes three collaborations built on estate-grown flower cultivated by THC Design.",
+        "Presidential Moon Rocks combine flower, concentrate and kief in the flagship format that established the brand's infused-flower identity.",
+        "Presidential infused pre-rolls bring the same layered construction into a ready-to-enjoy format offered across the series structure.",
+        "Presidential tobacco-free blunts carry infused flower in a larger wrap format with dedicated product depth on presidentialblunts.net.",
+        "Presidential minis bring the product architecture into compact formats designed for convenient licensed-retail selection.",
       ],
-      links: [{ href: "https://presidentialmoonrocks.com", label: "Explore the official Presidential catalog" }],
+      links: [
+        { href: "https://presidentialmoonrocks.com", label: "Explore the official Presidential product catalog" },
+        { href: "https://presidentialthc.net/", label: "Read how Presidential infused products are constructed" },
+        { href: "https://presidentialblunts.net/", label: "Explore the Presidential blunt collection" },
+      ],
     },
     {
       id: "where-it-is-sold",
       heading: "Where Presidential Is Sold",
       paragraphs: [
-        "Presidential Cannabis is available through licensed retailers. The official locator currently maps licensed retail paths in California, Oklahoma, New York, Nevada, Michigan, and Arizona, with Washington marked as landing soon. Because the company operates wholesale, retail inventory and individual product availability belong to each licensed store. The main Presidential retailer locator supplies the direct route from the catalog to participating locations.",
+        "Presidential Cannabis is available through licensed retailers in California, Oklahoma, New York, Nevada, Michigan, Arizona and Washington. Because the company operates wholesale, retail inventory and individual product availability belong to each licensed store. The main Presidential retailer locator supplies the direct route from the catalog to participating locations.",
         "A retailer visit also gives the batch-level detail that a national catalog naturally summarizes. Local menus show the products on hand, package sizes, current dates, and pricing. Budtenders can describe the available flower and formats. That combination keeps the publication and the purchase path distinct: this site explains the plant and the choosing process, while licensed retailers provide the inventory that exists in a particular place and moment.",
       ],
       links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Use the official store locator" }],
@@ -105,23 +111,23 @@ export const pillarPage: PageContent = {
   faq: [
     {
       question: "What is Presidential Cannabis?",
-      answer: "Presidential Cannabis is the original Los Angeles cannabis brand founded in 2012, known for Moon Rocks and other infused products sold through licensed retailers.",
+      answer: "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012 behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis available through licensed retailers.",
     },
     {
-      question: "Is Presidential Cannabis the same as Presidential Moon Rocks?",
-      answer: "Presidential Cannabis is the brand. Moon Rocks is the flagship product platform within that brand, alongside infused pre-rolls, tobacco-free blunts, and minis.",
+      question: "What products does Presidential make?",
+      answer: "Presidential makes Moon Rocks, infused pre-rolls, tobacco-free blunts and minis across Gold, Silver and Rose Gold Connoisseur series.",
+    },
+    {
+      question: "What are Moon Rocks?",
+      answer: "Presidential Moon Rocks are an infused cannabis format built from flower carried through with concentrate and finished with kief.",
     },
     {
       question: "Where can I buy Presidential Cannabis?",
-      answer: "Only at licensed retailers where legal. Use the store locator on presidentialmoonrocks.com. This site does not sell products online.",
+      answer: "Presidential Cannabis products are available at licensed retailers where legal. The official Presidential store locator connects adults 21+ with participating retail locations.",
     },
     {
-      question: "Does Presidential Cannabis ship products to consumers?",
-      answer: "No. Presidential operates wholesale and products reach customers through licensed retail channels.",
-    },
-    {
-      question: "What is this website for?",
-      answer: "presidentialcannabis.net is the official Presidential Cannabis plant guide — flower, genetics, cultivation quality signals, and practical choosing help — published by the brand.",
+      question: "Does this site sell cannabis?",
+      answer: "This site is the official Presidential Cannabis brand and plant guide. Presidential products are available through licensed retailers in active markets.",
     },
   ],
   externalLink: {

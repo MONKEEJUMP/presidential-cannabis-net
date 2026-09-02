@@ -227,6 +227,12 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
         width: "512",
         height: "512",
       },
+      sameAs: [
+        "https://www.instagram.com/presidentialofficial_/",
+        "https://www.instagram.com/presidential_medss/",
+        "https://www.facebook.com/p/Presidential-RX-100069511874496/",
+        "https://www.linkedin.com/in/everett-smith-presidential/",
+      ],
       knowsAbout: ["Cannabis flower", "Cannabis genetics", "Cultivation", "Moon Rocks", "Infused pre-rolls"],
     };
     const website: Thing = {

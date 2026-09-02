@@ -71,7 +71,7 @@ export const pages: PageContent[] = rawPages.map((page) => {
     return {
       ...page,
       childLinks: articleGroups[page.silo].map(asLink),
-      relatedLinks: [{ href: "/", label: "Presidential Cannabis", description: "Return to the complete plant guide." }],
+      relatedLinks: [{ href: "/", label: `${page.h1} inside the Presidential Cannabis brand guide`, description: "Return to the official brand and plant guide." }],
     };
   }
   if (page.kind === "article" && page.silo) {
@@ -81,7 +81,7 @@ export const pages: PageContent[] = rawPages.map((page) => {
       ...page,
       relatedLinks: [
         { href: hub.path, label: `${hub.h1} guide`, description: `Return to the ${hub.h1.toLowerCase()} contents.` },
-        { href: "/", label: "Presidential Cannabis", description: "Read the complete reference to the plant and flower." },
+        { href: "/", label: `${page.h1} from the Presidential Cannabis official guide`, description: "Connect this topic to the official Presidential brand and plant guide." },
         ...sidewaysLinks(page),
       ],
     };

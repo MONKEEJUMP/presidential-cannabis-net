@@ -73,11 +73,12 @@ assert(new Set(pages.map((page) => page.description)).size === pages.length, "Ev
 
 const homepage = pages.find((page) => page.path === "/");
 const aboutPage = pages.find((page) => page.path === "/about");
-assert(homepage?.title === "Presidential Cannabis | Official Brand & Plant Guide", "Homepage title does not match the approved brand title");
-assert(homepage?.description === "Presidential Cannabis is the official Los Angeles brand behind Moon Rocks and infused pre-rolls — plus the definitive plant guide to flower, genetics, and choosing well at licensed retailers.", "Homepage meta description does not match the approved copy");
+assert(homepage?.title === "Presidential Cannabis | The Official Brand Guide", "Homepage title does not match the approved brand title");
+assert(homepage?.description === "Presidential Cannabis is the brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis — how the products are built, what the series mean, and where to find them at licensed retailers.", "Homepage meta description does not match the approved copy");
 assert(homepage?.h1 === "Presidential Cannabis", "Homepage H1 must remain Presidential Cannabis");
-assert(homepage?.intro[0] === "Presidential Cannabis is the original Los Angeles cannabis brand founded in 2012 — the house behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis sold through licensed retailers. This site is the official Presidential Cannabis home for understanding the plant behind every product: flower quality, genetics, cultivation, harvest and cure, and how to choose with confidence at a licensed counter.", "Homepage opening paragraph does not match the approved entity copy");
+assert(homepage?.intro[0] === "Presidential Cannabis is the brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis. Founded in 2012 and sold through licensed retailers in seven states, Presidential builds every format on the same idea: flower carried through with concentrate and finished with kief. This site is the official brand and plant guide — what Presidential makes, how the series differ, how the plant behind the products works, and where to find authentic Presidential at licensed retail.", "Homepage opening paragraph does not match the approved entity copy");
 assert(homepage?.sections.some((section) => section.heading === "What is Presidential Cannabis?"), "Homepage needs the approved What is Presidential Cannabis? H2");
+assert(homepage?.sections.some((section) => section.heading === "The Presidential Product Line"), "Homepage needs the Presidential Product Line H2");
 assert(homepage?.faq?.length === 5, "Homepage must expose all five approved brand FAQs");
 for (const sectionId of ["the-catalog", "where-it-is-sold", "authenticity"]) {
   const section = homepage?.sections.find((candidate) => candidate.id === sectionId);
@@ -111,14 +112,14 @@ for (const page of pages) {
   if (page.kind === "hub") {
     const expectedChildren = pages.filter((candidate) => candidate.kind === "article" && candidate.silo === page.silo);
     assert(page.childLinks?.length === expectedChildren.length, `${page.path} must link to every article in its silo`);
-    assert(page.relatedLinks?.some((link) => link.href === "/" && link.label === "Presidential Cannabis"), `${page.path} needs the pillar up-link`);
+    assert(page.relatedLinks?.some((link) => link.href === "/" && link.label.includes("Presidential Cannabis")), `${page.path} needs a brand-led pillar up-link`);
   }
 
   if (page.kind === "article" && page.silo) {
     const hubPath = `/${page.silo}`;
     const related = page.relatedLinks ?? [];
     assert(related.some((link) => link.href === hubPath), `${page.path} needs its silo hub link`);
-    assert(related.some((link) => link.href === "/" && link.label === "Presidential Cannabis"), `${page.path} needs exact Presidential Cannabis pillar anchor`);
+    assert(related.some((link) => link.href === "/" && link.label.includes("Presidential Cannabis")), `${page.path} needs a brand-led Presidential Cannabis pillar anchor`);
     const sideways = related.filter((link) => link.href !== "/" && link.href !== hubPath);
     assert(sideways.length >= 2 && sideways.length <= 3, `${page.path} needs two or three sideways links`);
     assert(sideways.every((link) => link.href.startsWith(`${hubPath}/`)), `${page.path} has a cross-silo sideways link`);
@@ -180,13 +181,18 @@ for (const prohibited of [
   "live rosin",
   "liquid diamonds",
   "distillate",
-  "presidentialthc.net",
-  "presidentialblunts.net",
 ]) {
   assert(!sourceFiles.toLowerCase().includes(prohibited), `Prohibited text or implementation found: ${prohibited}`);
 }
 
 assert(!sourceFiles.includes('rel="nofollow"'), "Official Presidential and locator links must remain dofollow");
+assert(sourceFiles.includes("https://presidentialthc.net/"), "Approved Presidential THC cross-link is missing");
+assert(sourceFiles.includes("https://presidentialblunts.net/"), "Approved Presidential Blunts cross-link is missing");
+const interiorHomeAnchors = pages
+  .filter((page) => page.path !== "/")
+  .map((page) => page.relatedLinks?.find((link) => link.href === "/")?.label ?? "");
+assert(interiorHomeAnchors.every((label) => label.includes("Presidential Cannabis")), "Every interior page needs a brand-led homepage anchor");
+assert(new Set(interiorHomeAnchors).size === interiorHomeAnchors.length, "Every interior homepage anchor must be unique");
 assert(!sourceFiles.includes("article-section__grid--reverse"), "Alternating image layout found");
 assert(!sourceFiles.includes("target=\"_blank\""), "Product links must stay in the same tab");
 assert(sourceFiles.includes('"@type": "Organization"'), "Homepage Organization schema is missing");
@@ -225,7 +231,7 @@ const result = {
   linkedImages,
   unlinkedImages,
   totalSourceImageMB: Number((totalImageBytes / 1024 / 1024).toFixed(2)),
-  articlesWithExactPillarAnchor: pages.filter((page) => page.kind === "article" && page.relatedLinks?.some((link) => link.href === "/" && link.label === "Presidential Cannabis")).length,
+  articlesWithBrandLedPillarAnchor: pages.filter((page) => page.kind === "article" && page.relatedLinks?.some((link) => link.href === "/" && link.label.includes("Presidential Cannabis"))).length,
   contextualOutboundLinks: pages.filter((page) => page.externalLink).length,
   seoEntity: {
     homepageTitle: homepage?.title,
