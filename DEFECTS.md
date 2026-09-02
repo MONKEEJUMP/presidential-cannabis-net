@@ -23,3 +23,15 @@
 - Problem: The desktop figure frame drew its vertical sides and four horizontal segments as separate SVG subpaths. Their endpoints only touched geometrically, so browser anti-aliasing exposed broken-looking corner joins on every framed image.
 - Action: Rebuilt the desktop frame as two continuous bracket paths that each turn through both corners, applied explicit miter joins and non-scaling strokes directly to the paths, and rebuilt the mobile frame as one closed rectangular perimeter. Added permanent audit assertions for both geometries and removal of the legacy disconnected sides.
 - Fallback: None required; the shared `ContentFigure` component corrects every current image placement at once.
+
+## SEO upgrade — lint runner and TypeScript 7 compatibility
+
+- Problem: The first SEO lint setup used ESLint 10 with Next's ESLint preset. Its bundled TypeScript lint tooling rejected this repository's TypeScript 7 compiler, and several preset plugins only declared ESLint 9 support.
+- Action: Kept the existing TypeScript and Next.js stack unchanged, removed the incompatible ESLint preset, and added Oxlint as a development-only syntax and code-quality gate. Updated `tsx` to the current compatible release so its patched esbuild dependency cleared the remaining development advisory.
+- Fallback: `npm run lint` now uses Oxlint, while `npm run typecheck`, `npm run audit`, and `npm run verify:seo` provide separate compiler, content, architecture, and generated-HTML proof.
+
+## SEO upgrade — homepage canonical slash normalization
+
+- Problem: The first generated-HTML SEO verification found that Next.js normalized the homepage canonical to the bare apex while the sitemap emitted the root-slash URL.
+- Action: Restored the homepage-specific `metadataBase: null` override while keeping the root layout's canonical metadata base for every route, then rebuilt the site.
+- Fallback: None required; the generated homepage canonical and sitemap now agree on `https://presidentialcannabis.net/`.
