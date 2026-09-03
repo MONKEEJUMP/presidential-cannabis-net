@@ -22,6 +22,7 @@ function pageWords(page: (typeof pages)[number]): number {
     ...(page.faq?.flatMap((item) => [item.question, item.answer]) ?? []),
     ...page.sections.flatMap((section) => [
       ...section.paragraphs,
+      ...(section.contextualLinks?.flatMap((link) => [link.before, link.label, link.after]) ?? []),
       ...(section.bullets ?? []),
       ...(section.table?.rows.flat() ?? []),
     ]),
@@ -90,6 +91,38 @@ assert(aboutPage?.h1 === "About Presidential Cannabis", "About H1 must identify 
 assert(aboutPage?.relatedLinks?.length === 5, "About must link to the homepage and all four topic hubs");
 assert(aboutPage?.sections.some((section) => section.links?.some((link) => link.href === "https://presidentialmoonrocks.com/find-us")), "About needs a direct licensed-retailer handoff");
 assert(pages.filter((page) => !["/", "/about"].includes(page.path)).every((page) => !page.h1.includes("Presidential Cannabis")), "Interior topical H1s must not compete for the brand query");
+
+const requiredContextualLinks = [
+  ["/plant", "/choosing/flower-vs-infused", "flower"],
+  ["/plant", "/", "guides"],
+  ["/genetics/phenotypes", "/choosing/flower-vs-infused", "flower"],
+  ["/genetics/phenotypes", "/", "guide"],
+  ["/choosing/flower-vs-infused", "/", "guide"],
+  ["/about", "/choosing/flower-vs-infused", "flower"],
+  ["/about", "/", "guide"],
+  ["/", "/choosing/flower-vs-infused", "flower"],
+  ["/", "/plant", "cannabis"],
+  ["/plant/the-flower-structure", "/plant/what-cannabis-is", "flowering"],
+  ["/plant/the-flower-structure", "/", "guide"],
+  ["/plant/what-cannabis-is", "/", "guide"],
+  ["/plant/what-cannabis-is", "/plant", "cannabis"],
+] as const;
+
+for (const [sourcePath, href, label] of requiredContextualLinks) {
+  const sourcePage = pages.find((page) => page.path === sourcePath);
+  const contextualLinks = sourcePage?.sections.flatMap((section) => section.contextualLinks ?? []) ?? [];
+  assert(
+    contextualLinks.some((link) => link.href === href && link.label === label),
+    `${sourcePath} needs the contextual link ${JSON.stringify(label)} -> ${href}`,
+  );
+}
+
+const disambiguationCopy = [
+  ...(homepage?.sections.flatMap((section) => section.paragraphs) ?? []),
+  ...(homepage?.faq?.flatMap((item) => [item.question, item.answer]) ?? []),
+].join(" ");
+assert(disambiguationCopy.includes("not an individual cannabis strain"), "Homepage needs explicit brand-versus-strain disambiguation");
+assert(disambiguationCopy.includes("Presidential Kush"), "Homepage disambiguation needs the Presidential Kush contrast");
 
 const wordCounts: Record<string, number> = {};
 for (const page of pages) {
@@ -181,6 +214,12 @@ for (const prohibited of [
   "live rosin",
   "liquid diamonds",
   "distillate",
+  "coca-cola",
+  "stem cell",
+  "driver's license",
+  "inlinks",
+  "presidentialthc.com",
+  "presidentialblunts.com",
 ]) {
   assert(!sourceFiles.toLowerCase().includes(prohibited), `Prohibited text or implementation found: ${prohibited}`);
 }

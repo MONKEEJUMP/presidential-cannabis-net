@@ -142,6 +142,14 @@ export const choosingArticles: PageContent[] = [
           "Read the label in the same order for both: format, size, potency, cultivar or flower description, dates, producer, and storage guidance. On raw flower, add aroma, structure, and moisture. On infused products, add the package count and the clear product description supplied by the licensed producer.",
           "A budtender can compare current inventory at the shopper's level. Ask which raw flower has the freshest defined aroma, which infused format matches the intended session size, and how the package information differs. The answer should make the purchase easier to picture. Choose the category whose composition and practical fit match the moment you already have in mind.",
         ],
+        contextualLinks: [
+          {
+            before: "The Presidential Cannabis ",
+            href: "/",
+            label: "guide",
+            after: " connects this category decision to the plant, flower quality, genetics, and licensed-retail context.",
+          },
+        ],
       },
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/moon-rocks/presidential-prerolls", label: "Explore the Presidential prepared flower collection" },

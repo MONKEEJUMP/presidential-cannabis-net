@@ -74,6 +74,20 @@ export const geneticsArticles: PageContent[] = [
           "Cuttings preserve candidates while seed plants finish flowering. After harvest, drying, and cure, the breeder can evaluate the completed flower and return to the living cutting that matches it. That cutting is a clone: a new plant with the same genetic identity as the selected individual.",
           "Repeat cultivation confirms the choice. A selected phenotype may be grown in another cycle, shared with another garden, or used as a parent. Its expression can respond to the new setting, while its genetic identity remains the same. This is how one plant from a variable seed family becomes a recognizable cultivar carried across many future batches.",
         ],
+        contextualLinks: [
+          {
+            before: "A selected phenotype shapes the ",
+            href: "/choosing/flower-vs-infused",
+            label: "flower",
+            after: " that ultimately appears in both raw and infused product categories.",
+          },
+          {
+            before: "The Presidential Cannabis ",
+            href: "/",
+            label: "guide",
+            after: " places phenotype selection inside the wider path from plant genetics to licensed retail.",
+          },
+        ],
       },
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Find selected Presidential phenotypes in current inventory" },
