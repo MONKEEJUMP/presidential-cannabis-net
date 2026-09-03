@@ -20,6 +20,20 @@ export const hubPages: PageContent[] = [
           "What Cannabis Is explains the annual flowering cycle, the role of the flower, and the reason resin develops across its surface. Indica, Sativa, Hybrid adds the historical language used for plant form and origin. Together, these guides establish the plant as a biological system and place familiar labels in their most dependable modern context: lineage, growth pattern, and breeding history.",
           "The overview begins at the broadest scale. Roots gather water and nutrition, stems support growth, leaves power the plant, and flowers complete the annual cycle. Environmental conditions guide how inherited traits appear. That relationship between genetics and environment remains active through every stage of cultivation and helps explain why a current batch carries more useful detail than a category name alone.",
         ],
+        contextualLinks: [
+          {
+            before: "The route from raw ",
+            href: "/choosing/flower-vs-infused",
+            label: "flower",
+            after: " to infused formats becomes clearer when composition, label details, and occasion are considered together.",
+          },
+          {
+            before: "The full Presidential Cannabis ",
+            href: "/",
+            label: "guides",
+            after: " connect that plant foundation to flower quality, genetics, and licensed-counter choosing.",
+          },
+        ],
       },
       {
         id: "resin-and-structure",

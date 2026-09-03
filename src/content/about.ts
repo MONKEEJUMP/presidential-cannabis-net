@@ -10,6 +10,7 @@ export const aboutPage: PageContent = {
   intro: [
     "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012 by Everett Smith and John Zapp. Presidential is the company behind its flagship Moon Rocks platform as well as infused pre-rolls, tobacco-free blunts and minis. The company operates wholesale, and its products reach adults 21+ where legal through licensed retailers in active markets.",
     "Presidential publishes presidentialcannabis.net as its official plant-and-brand reference. The publication explains the living plant behind the catalog: how flower develops, what cultivation and harvest contribute, why genetics and batches differ, how drying and curing preserve character, and which practical signals help someone choose confidently at a licensed counter.",
+    "Here, Presidential Cannabis identifies the brand and publisher, not a named strain. Cultivars with Presidential in their names are separate plant identities.",
   ],
   sections: [
     {
@@ -32,6 +33,20 @@ export const aboutPage: PageContent = {
       paragraphs: [
         "This publication gives the durable education a separate, focused home. The Plant covers botany, flower anatomy, trichomes, harvest, drying, and cure. The Flower organizes appearance, aroma, structure, moisture, storage, and freshness into a practical quality view. Genetics explains breeding, phenotypes, lineage, naming, landrace foundations, and batch variation. Choosing turns those ideas into useful menu reading and licensed-counter questions.",
         "The relationship between the portfolio sites is deliberate. presidentialcannabis.net owns the company definition and plant education for the Presidential Cannabis brand. presidentialmoonrocks.com carries the product catalog and retailer-finding hub. presidentialthc.net explains infusion chemistry, and presidentialblunts.net covers blunt formats. Together they connect brand context, plant knowledge, product depth and licensed retail.",
+      ],
+      contextualLinks: [
+        {
+          before: "The choosing section compares raw ",
+          href: "/choosing/flower-vs-infused",
+          label: "flower",
+          after: " with infused formats using composition, label information, and occasion.",
+        },
+        {
+          before: "This official brand-and-plant ",
+          href: "/",
+          label: "guide",
+          after: " connects Presidential's 2012 Los Angeles origin to practical education for adults 21+ shopping through licensed retailers.",
+        },
       ],
     },
   ],

@@ -22,6 +22,20 @@ export const plantArticles: PageContent[] = [
           "Flowering begins when the plant receives the seasonal or controlled signal that the growth phase has changed. The spacing between new leaves shortens, flower sites form along branches, and those sites develop into clusters. Female flowers build bracts around their reproductive structures, pistils extend outward, and resin glands become increasingly prominent across the bracts and surrounding small leaves.",
           "As an annual, the plant directs its cycle toward reproduction. The flower supports that purpose, and its resin helps protect exposed reproductive surfaces. Cultivation for flower manages pollination so the plant continues building dense, resinous floral material. The completed cycle gives growers a harvest window in which structure, trichome maturity, aroma, and the whole plant align.",
         ],
+        contextualLinks: [
+          {
+            before: "The Presidential Cannabis ",
+            href: "/",
+            label: "guide",
+            after: " carries this botanical starting point into flower quality, genetics, and practical choosing.",
+          },
+          {
+            before: "The wider ",
+            href: "/plant",
+            label: "cannabis",
+            after: " hub follows the plant through anatomy, trichomes, harvest timing, drying, and cure.",
+          },
+        ],
       },
       {
         id: "harvested-flower",
@@ -175,6 +189,20 @@ export const plantArticles: PageContent[] = [
           "The bract is the small leaf-like structure that surrounds the female flower's reproductive parts. As flowering advances, bracts swell and overlap, creating much of the mass and contour recognized as a cannabis bud. Their exposed surfaces develop abundant glandular trichomes, which is why the bract sits at the center of flower anatomy and quality observation.",
           "The calyx is the protective floral structure formed by sepals in many flowering plants. Cannabis writing often uses calyx as a casual name for the swollen bract, so the two terms commonly appear together in descriptions. A precise view keeps the bract in focus while recognizing the established vocabulary used by growers and buyers.",
           "Pistils are part of the flower's reproductive system. Their slender stigmas extend from the bract and receive pollen when reproduction occurs. They often begin pale and become orange, rust, or brown as the flower matures. Their color and posture add one maturity signal beside trichome development, bract swelling, aroma, and the condition of the whole plant.",
+        ],
+        contextualLinks: [
+          {
+            before: "The full ",
+            href: "/plant/what-cannabis-is",
+            label: "flowering",
+            after: " cycle shows how bracts, pistils, sugar leaves, and resin glands develop into the structure seen at harvest.",
+          },
+          {
+            before: "The Presidential Cannabis ",
+            href: "/",
+            label: "guide",
+            after: " connects this anatomy to flower quality, genetics, choosing, and the licensed-retail path.",
+          },
         ],
       },
       {

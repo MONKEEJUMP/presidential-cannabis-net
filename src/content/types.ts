@@ -8,10 +8,18 @@ export type DataTable = {
   rows: string[][];
 };
 
+export type ContextualLink = {
+  before: string;
+  href: string;
+  label: string;
+  after: string;
+};
+
 export type ContentSection = {
   id: string;
   heading: string;
   paragraphs: string[];
+  contextualLinks?: ContextualLink[];
   bullets?: string[];
   table?: DataTable;
   links?: PageLink[];

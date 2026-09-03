@@ -79,6 +79,11 @@ function ArticleSection({ section, image }: { section: ContentSection; image: Co
         <div className="article-section__copy">
           <h2>{section.heading}</h2>
           {section.paragraphs.map((paragraph, index) => <p key={`${section.id}-paragraph-${index}`}>{paragraph}</p>)}
+          {section.contextualLinks?.map((link, index) => (
+            <p key={`${section.id}-contextual-link-${index}`}>
+              {link.before}<Link href={link.href}>{link.label}</Link>{link.after}
+            </p>
+          ))}
           {section.bullets?.length ? <ul>{section.bullets.map((bullet, index) => <li key={`${section.id}-bullet-${index}`}>{bullet}</li>)}</ul> : null}
           <DataTable section={section} />
           {sectionLinks.length ? (
@@ -220,6 +225,7 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
         { "@type": "Person", name: "John Zapp" },
       ],
       description: "The Los Angeles cannabis brand behind Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis sold through licensed retailers.",
+      disambiguatingDescription: "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012, not an individual cannabis strain such as Presidential Kush.",
       url: BRAND_URL,
       logo: {
         "@type": "ImageObject",

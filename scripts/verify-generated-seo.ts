@@ -40,6 +40,7 @@ function parseGraph(html: string): Record<string, unknown>[] {
 const titles = new Set<string>();
 const descriptions = new Set<string>();
 const canonicals = new Set<string>();
+const generatedHtmlByPath = new Map<string, string>();
 
 for (const page of pages) {
   const file = htmlPath(page.path);
@@ -47,6 +48,7 @@ for (const page of pages) {
   if (!existsSync(file)) continue;
 
   const html = readFileSync(file, "utf8");
+  generatedHtmlByPath.set(page.path, html);
   const title = firstMatch(html, /<title>([\s\S]*?)<\/title>/);
   const description = firstMatch(html, /<meta name="description" content="([^"]*)"\/>/);
   const canonical = firstMatch(html, /<link rel="canonical" href="([^"]*)"\/>/);
@@ -74,6 +76,36 @@ for (const page of pages) {
   canonicals.add(canonical);
 }
 
+const requiredContextualLinks = [
+  ["/plant", "/choosing/flower-vs-infused", "flower"],
+  ["/plant", "/", "guides"],
+  ["/genetics/phenotypes", "/choosing/flower-vs-infused", "flower"],
+  ["/genetics/phenotypes", "/", "guide"],
+  ["/choosing/flower-vs-infused", "/", "guide"],
+  ["/about", "/choosing/flower-vs-infused", "flower"],
+  ["/about", "/", "guide"],
+  ["/", "/choosing/flower-vs-infused", "flower"],
+  ["/", "/plant", "cannabis"],
+  ["/plant/the-flower-structure", "/plant/what-cannabis-is", "flowering"],
+  ["/plant/the-flower-structure", "/", "guide"],
+  ["/plant/what-cannabis-is", "/", "guide"],
+  ["/plant/what-cannabis-is", "/plant", "cannabis"],
+] as const;
+
+for (const [sourcePath, href, label] of requiredContextualLinks) {
+  const html = generatedHtmlByPath.get(sourcePath) ?? "";
+  const anchor = [...html.matchAll(/<a\b[^>]*>([\s\S]*?)<\/a>/g)]
+    .find((match) => match[0].includes(`href="${href}"`) && decodeHtml(match[1].replace(/<[^>]+>/g, "").trim()) === label)?.[0];
+  assert(Boolean(anchor), `${sourcePath} is missing the generated contextual link ${JSON.stringify(label)} -> ${href}`);
+  assert(!anchor || !/target="_blank"/i.test(anchor), `${sourcePath} contextual link ${JSON.stringify(label)} must stay in the same tab`);
+  assert(!anchor || !/rel="[^"]*nofollow/i.test(anchor), `${sourcePath} contextual link ${JSON.stringify(label)} must remain dofollow`);
+}
+
+const allGeneratedHtml = [...generatedHtmlByPath.values()].join("\n").toLowerCase();
+for (const junkEntity of ["coca-cola", "stem cell", "driver's license", "inlinks", "presidentialthc.com", "presidentialblunts.com"]) {
+  assert(!allGeneratedHtml.includes(junkEntity), `Generated HTML contains prohibited entity or integration text: ${junkEntity}`);
+}
+
 assert(titles.size === pages.length, `Expected ${pages.length} unique generated titles, found ${titles.size}`);
 assert(descriptions.size === pages.length, `Expected ${pages.length} unique generated descriptions, found ${descriptions.size}`);
 assert(canonicals.size === pages.length, `Expected ${pages.length} unique generated canonicals, found ${canonicals.size}`);
@@ -82,6 +114,8 @@ const homeHtml = readFileSync(htmlPath("/"), "utf8");
 const homeGraph = parseGraph(homeHtml);
 const homeTypes = new Set(homeGraph.map((node) => node["@type"]));
 assert(homeHtml.includes("Presidential Cannabis is the brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis."), "Homepage entity lead is absent from initial HTML");
+assert(homeHtml.includes("not an individual cannabis strain"), "Homepage brand-versus-strain disambiguation is missing");
+assert(homeHtml.includes("Presidential Kush"), "Homepage disambiguation is missing the Presidential Kush contrast");
 assert((homeHtml.match(/<h2>What is Presidential Cannabis\?<\/h2>/g) ?? []).length === 1, "Homepage needs exactly one approved entity H2");
 assert(homeHtml.includes("<h2>The Presidential Product Line</h2>"), "Homepage product-line H2 is missing");
 assert(homeHtml.includes('href="/about"'), "Homepage official entity block is missing the About link");
@@ -97,6 +131,10 @@ assert(homeTypes.has("FAQPage"), "Homepage initial HTML lacks FAQPage schema");
 const organization = homeGraph.find((node) => node["@type"] === "Organization");
 assert(organization?.["@id"] === "https://presidentialmoonrocks.com/#organization", "Homepage does not reuse the canonical organization ID");
 assert(organization?.name === "Presidential Cannabis", "Homepage Organization name mismatch");
+assert(
+  organization?.disambiguatingDescription === "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012, not an individual cannabis strain such as Presidential Kush.",
+  "Homepage Organization disambiguatingDescription mismatch",
+);
 const expectedSameAs = [
   "https://www.instagram.com/presidentialofficial_/",
   "https://www.instagram.com/presidential_medss/",

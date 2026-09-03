@@ -17,8 +17,23 @@ export const pillarPage: PageContent = {
       heading: "What is Presidential Cannabis?",
       paragraphs: [
         "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012 and known for Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis. Flower, concentrate and kief form the foundation of its infused formats, while the plant guides throughout this site explain the quality behind the finished products.",
+        "Within this publication, Presidential Cannabis names the Los Angeles brand and publisher founded in 2012—not an individual cannabis strain. A cultivar name such as Presidential Kush identifies a separate plant lineage; it does not identify the Presidential Cannabis company or this official plant guide.",
         "The product family is organized across Gold, Silver and Rose Gold Connoisseur series, giving each format a clear place in the collection. Presidential operates wholesale, and its products are available to adults 21+ where legal through licensed retailers in seven states.",
         "The Presidential portfolio gives each subject a focused home. Presidential THC explains the infusion chemistry behind flower, concentrate and kief, while Presidential Blunts explores tobacco-free blunt formats in depth. This site connects those product subjects to the cannabis plant, flower quality, genetics and choosing at licensed retail.",
+      ],
+      contextualLinks: [
+        {
+          before: "Readers comparing raw ",
+          href: "/choosing/flower-vs-infused",
+          label: "flower",
+          after: " with infused formats can use the dedicated format comparison before visiting a licensed retailer.",
+        },
+        {
+          before: "The ",
+          href: "/plant",
+          label: "cannabis",
+          after: " plant hub explains the botanical foundation behind the brand's flower-first product standards.",
+        },
       ],
       links: [
         { href: "https://presidentialthc.net/", label: "Explore Presidential infusion chemistry" },
@@ -126,8 +141,8 @@ export const pillarPage: PageContent = {
       answer: "Presidential Cannabis products are available at licensed retailers where legal. The official Presidential store locator connects adults 21+ with participating retail locations.",
     },
     {
-      question: "Does this site sell cannabis?",
-      answer: "This site is the official Presidential Cannabis brand and plant guide. Presidential products are available through licensed retailers in active markets.",
+      question: "Is Presidential Cannabis a strain?",
+      answer: "No. Presidential Cannabis identifies the Los Angeles cannabis brand and official plant guide publisher founded in 2012; it is not an individual cannabis strain. Names such as Presidential Kush refer to cultivars and are separate from the Presidential Cannabis brand.",
     },
   ],
   externalLink: {
