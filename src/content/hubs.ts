@@ -66,12 +66,12 @@ export const hubPages: PageContent[] = [
     path: "/flower",
     kind: "hub",
     silo: "flower",
-    h1: "The Flower",
-    title: "What Makes Good Cannabis Flower",
-    description: "A practical guide to cannabis flower quality through appearance, aroma, structure, moisture, cure, and storage.",
+    h1: "The Presidential Flower Guide",
+    title: "Presidential Flower Guide | Cannabis Quality",
+    description: "Use the Presidential flower guide to evaluate cannabis flower through appearance, aroma, structure, moisture, cure, trichomes, and storage.",
     wordTarget: [450, 600],
     intro: [
-      "Good cannabis flower brings appearance, aroma, structure, moisture, cure, and trichome condition into one coherent result. Each quality can be observed on its own, and the complete assessment comes from reading them together. This section builds that assessment from the first look and first aroma through storage at home.",
+      "The Presidential flower guide brings appearance, aroma, structure, moisture, cure, and trichome condition into one coherent view of cannabis flower. Each quality can be observed on its own, and the complete assessment comes from reading them together. This section builds that assessment from the first look and first aroma through storage at home.",
     ],
     sections: [
       {
