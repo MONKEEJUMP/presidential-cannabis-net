@@ -18,7 +18,7 @@ export const pillarPage: PageContent = {
       paragraphs: [
         "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012 and known for Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts and minis. Flower, concentrate and kief form the foundation of its infused formats, while the plant guides throughout this site explain the quality behind the finished products.",
         "Within this publication, Presidential Cannabis names the Los Angeles brand and publisher founded in 2012—not an individual cannabis strain. A cultivar name such as Presidential Kush identifies a separate plant lineage; it does not identify the Presidential Cannabis company or this official plant guide.",
-        "The product family is organized across Gold, Silver and Rose Gold Connoisseur series, giving each format a clear place in the collection. Presidential operates wholesale, and its products are available to adults 21+ where legal through licensed retailers in seven states.",
+        "The product family is organized across Gold, Silver and Rose Gold Connoisseur series, giving each format a clear place in the collection. Since 2012, Presidential has helped shape the wholesale infused product market through Moon Rocks, infused pre-rolls, and tobacco-free blunts available to adults 21+ where legal through licensed retailers in seven states.",
         "The Presidential portfolio gives each subject a focused home. Presidential THC explains the infusion chemistry behind flower, concentrate and kief, while Presidential Blunts explores tobacco-free blunt formats in depth. This site connects those product subjects to the cannabis plant, flower quality, genetics and choosing at licensed retail.",
       ],
       contextualLinks: [
