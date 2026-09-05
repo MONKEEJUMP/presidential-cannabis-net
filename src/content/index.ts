@@ -31,10 +31,12 @@ const basePages: PageContent[] = [
 ];
 
 const rawPages: PageContent[] = basePages.map((page) => {
-  const pageExpansions = [
-    ...(contentExpansions[page.path] ?? []),
-    ...(finalCoverageExpansions[page.path] ?? []),
-  ];
+  const pageExpansions = page.path === "/"
+    ? []
+    : [
+        ...(contentExpansions[page.path] ?? []),
+        ...(finalCoverageExpansions[page.path] ?? []),
+      ];
   if (!pageExpansions?.length) return page;
   return {
     ...page,
