@@ -221,7 +221,7 @@ export const geneticsArticles: PageContent[] = [
         heading: "From Harvest Window to Shelf",
         paragraphs: [
           "Harvest timing selects a maturity balance. Clear, cloudy, and amber trichome proportions change across the window, while bracts, pistils, and aroma continue developing. A shift of several days can give the flower a different surface tone and aromatic emphasis, especially in a fast-moving cultivar.",
-          "Drying and curing add another set of conditions. Flower size, room climate, spacing, container practice, and time determine how moisture settles and how many volatile terpenes remain. Losses through drying, curing, and storage can reach half the total, so small differences in preservation can become easy to smell.",
+          "Drying and curing add another set of conditions. Flower size, room climate, spacing, container practice and time determine how moisture settles and how volatile aromatic compounds change. Small differences in preservation can therefore become noticeable in the finished flower.",
           "Packaging and retail storage complete the batch journey. Dates, seal quality, temperature, light exposure, and time all matter. This variability gives buyers useful agency: smell the flower when possible, inspect its structure and trichomes, feel the cure, read the dates and terpene panel, and ask about the current batch. The name starts the comparison; the batch makes it accurate.",
         ],
       },
