@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { Graph, Thing } from "schema-dts";
 
 import type { ContentImage, ContentSection, PageContent } from "@/content/types";
+import { editorialLinks } from "@/content/editorial-links";
+import { paragraphParts } from "@/lib/editorial-links";
 import {
   absoluteUrl,
   BRAND_ORGANIZATION_ID,
@@ -71,14 +73,21 @@ function DataTable({ section }: { section: ContentSection }) {
   );
 }
 
-function ArticleSection({ section, image }: { section: ContentSection; image: ContentImage }) {
+function EditorialParagraph({ text, pagePath, sectionId, paragraphIndex }: { text: string; pagePath: string; sectionId: string | null; paragraphIndex: number }) {
+  const links = editorialLinks.filter(link => link.sourcePath === pagePath && link.sectionId === sectionId && link.paragraphIndex === paragraphIndex);
+  return <p>{paragraphParts(text, links).map((part, index) => part.href
+    ? <Link href={part.href} key={index}>{part.text}</Link>
+    : part.text)}</p>;
+}
+
+function ArticleSection({ section, image, pagePath }: { section: ContentSection; image: ContentImage; pagePath: string }) {
   const sectionLinks = section.links ?? [];
   return (
     <section className="article-section" id={section.id}>
       <div className="article-section__grid">
         <div className="article-section__copy">
           <h2>{section.heading}</h2>
-          {section.paragraphs.map((paragraph, index) => <p key={`${section.id}-paragraph-${index}`}>{paragraph}</p>)}
+          {section.paragraphs.map((paragraph, index) => <EditorialParagraph key={`${section.id}-paragraph-${index}`} text={paragraph} pagePath={pagePath} sectionId={section.id} paragraphIndex={index} />)}
           {section.contextualLinks?.map((link, index) => (
             <p key={`${section.id}-contextual-link-${index}`}>
               {link.before}<Link href={link.href}>{link.label}</Link>{link.after}
@@ -329,7 +338,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
           </header>
           <div className="gold-seam" aria-hidden="true" />
           <section className="article-lead">
-            <div className="article-lead__copy">{page.intro.map((paragraph, index) => <p key={`intro-${index}`}>{paragraph}</p>)}</div>
+            <div className="article-lead__copy">{page.intro.map((paragraph, index) => <EditorialParagraph key={`intro-${index}`} text={paragraph} pagePath={page.path} sectionId={null} paragraphIndex={index} />)}</div>
             <ContentFigure image={leadImage} priority />
           </section>
           {page.kind === "pillar" || page.kind === "hub" ? <TableOfContents page={page} /> : null}
@@ -337,7 +346,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
           <div className="article-body">
             {page.sections.map((section, index) => (
               <div key={section.id}>
-                <ArticleSection image={images[index + 1]} section={section} />
+                <ArticleSection image={images[index + 1]} section={section} pagePath={page.path} />
                 {index === 0 ? <BrandCallToAction /> : null}
               </div>
             ))}

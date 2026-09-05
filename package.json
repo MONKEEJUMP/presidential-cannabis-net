@@ -6,7 +6,9 @@
     "node": "24.x"
   },
   "scripts": {
+    "test": "node --import tsx --test scripts/*.test.mts",
     "dev": "next dev",
+    "prebuild": "npm test",
     "build": "next build",
     "start": "next start",
     "lint": "oxlint --deny-warnings src scripts",
