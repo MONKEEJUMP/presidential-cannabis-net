@@ -117,7 +117,7 @@ a:hover { color: var(--teal); }
   margin-top: 0.24rem;
   color: var(--teal);
   font-family: var(--serif);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   line-height: 1.1;
   text-decoration: none;
@@ -345,7 +345,7 @@ h2 { margin-bottom: 1.35rem; font-size: clamp(2rem, 7vw, 4rem); line-height: 1.0
 table { width: 100%; min-width: 34rem; border-collapse: collapse; background: var(--ink-raised); font-family: var(--display); font-size: 0.82rem; line-height: 1.5; }
 caption { padding: 1rem; border-bottom: 3px solid transparent; border-image: var(--champagne) 1; color: var(--paper); font-weight: 600; text-align: left; }
 th, td { padding: 0.85rem 1rem; border-bottom: 1px solid rgba(88, 195, 182, 0.2); text-align: left; vertical-align: top; }
-th { color: var(--teal); font-size: 0.69rem; letter-spacing: 0.08em; text-transform: uppercase; }
+th { color: var(--teal); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; }
 
 .brand-cta {
   width: 100%;
