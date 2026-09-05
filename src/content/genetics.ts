@@ -5,12 +5,12 @@ export const geneticsArticles: PageContent[] = [
     path: "/genetics/how-strains-are-made",
     kind: "article",
     silo: "genetics",
-    h1: "How Strains Are Made",
-    title: "How Cannabis Strains Are Created",
+    h1: "How Cannabis Strains Are Made",
+    title: "How Cannabis Strains Are Made",
     description: "How cannabis breeders cross parents, grow seed populations, select phenotypes, preserve choices, and stabilize lines over multiple cycles.",
     wordTarget: [700, 900],
     intro: [
-      "Cannabis strains are created by crossing selected parent plants, growing the resulting seeds, and choosing offspring that express a breeder's goals. Breeders evaluate structure, aroma, resin, flower timing, color, vigor, yield, and consistency across complete cycles. A chosen plant can be preserved through cuttings, carried into further crosses, or developed through repeated generations toward a more predictable line.",
+      "People asking how weed strains are made are describing cannabis breeding: selected parent plants are crossed, the resulting seeds are grown, and offspring that express a breeder's goals are chosen. Breeders evaluate structure, aroma, resin, flower timing, color, vigor, yield, and consistency across complete cycles. A chosen plant can be preserved through cuttings, carried into further crosses, or developed through repeated generations toward a more predictable line.",
       "The process blends planning with discovery. Parentage sets the range, and every seed reshuffles inherited material into a new individual. The breeder begins with an intention, then lets a living population reveal the combinations actually present. Strong records connect each seed, plant, branch, harvest, and evaluation to the decision that follows.",
     ],
     sections: [
