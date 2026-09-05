@@ -49,7 +49,7 @@ export const flowerArticles: PageContent[] = [
     kind: "article",
     silo: "flower",
     h1: "Appearance",
-    title: "How to Judge Cannabis Flower by Sight",
+    title: "Judge Cannabis Flower by Sight",
     description: "How to read cannabis flower color, trichome coverage, pistils, bracts, structure, and trim quality through careful visual observation.",
     wordTarget: [700, 900],
     intro: [
@@ -126,7 +126,7 @@ export const flowerArticles: PageContent[] = [
     kind: "article",
     silo: "flower",
     h1: "Density and Structure",
-    title: "Cannabis Flower Density and Structure",
+    title: "Cannabis Flower Density & Structure",
     description: "How cannabis flower density and bud structure vary by cultivar, environment, maturity, drying, trimming, and handling.",
     wordTarget: [700, 900],
     intro: [

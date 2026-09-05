@@ -165,7 +165,7 @@ export const geneticsArticles: PageContent[] = [
     kind: "article",
     silo: "genetics",
     h1: "Landrace and Modern",
-    title: "Landrace Cannabis and Modern Cultivars",
+    title: "Landrace Cannabis & Cultivars",
     description: "What landrace cannabis populations are, how regional adaptation shaped them, and how modern breeding developed their genetic foundations.",
     wordTarget: [700, 900],
     intro: [
@@ -199,7 +199,7 @@ export const geneticsArticles: PageContent[] = [
     kind: "article",
     silo: "genetics",
     h1: "Why Batches Differ",
-    title: "Why Two Batches of the Same Strain Differ",
+    title: "Why Cannabis Batches Differ",
     description: "Why identical cannabis genetics can produce distinct batches through environment, plant care, harvest timing, drying, curing, packaging, and storage.",
     wordTarget: [700, 900],
     intro: [
