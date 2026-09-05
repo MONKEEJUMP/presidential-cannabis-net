@@ -6,7 +6,7 @@ export const hubPages: PageContent[] = [
     kind: "hub",
     silo: "plant",
     h1: "The Plant",
-    title: "The Cannabis Plant — Structure, Trichomes and Harvest",
+    title: "Cannabis Plant: Structure & Harvest",
     description: "A field guide to cannabis as a living plant, from flowering structure and resin glands through harvest timing, drying, and cure.",
     wordTarget: [450, 600],
     intro: [
@@ -67,7 +67,7 @@ export const hubPages: PageContent[] = [
     kind: "hub",
     silo: "flower",
     h1: "The Presidential Flower Guide",
-    title: "Presidential Flower Guide | Cannabis Quality",
+    title: "Presidential Flower Guide",
     description: "Use the Presidential flower guide to evaluate cannabis flower through appearance, aroma, structure, moisture, cure, trichomes, and storage.",
     wordTarget: [450, 600],
     intro: [
@@ -114,7 +114,7 @@ export const hubPages: PageContent[] = [
     kind: "hub",
     silo: "genetics",
     h1: "Genetics",
-    title: "Cannabis Genetics, Phenotypes and Lineage",
+    title: "Cannabis Genetics & Lineage",
     description: "A clear guide to cannabis breeding, phenotypes, lineage, cultivar naming, landraces, and the reasons batches vary.",
     wordTarget: [450, 600],
     intro: [
@@ -161,7 +161,7 @@ export const hubPages: PageContent[] = [
     kind: "hub",
     silo: "choosing",
     h1: "Choosing",
-    title: "How to Choose Cannabis at a Dispensary",
+    title: "Choose Cannabis at a Dispensary",
     description: "A practical route through dispensary menus, counter conversations, first visits, formats, and occasion-based choices.",
     wordTarget: [450, 600],
     intro: [
