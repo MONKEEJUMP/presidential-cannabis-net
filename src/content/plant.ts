@@ -270,7 +270,7 @@ export const plantArticles: PageContent[] = [
         paragraphs: [
           "Freshly harvested cannabis contains substantial water in its stems, leaves, and flowers. Drying begins in a dark, climate-controlled space with gentle air exchange around the hanging plant or separated branches. The environment encourages moisture to leave gradually from throughout the flower rather than racing from the outer surface.",
           "A steady dry supports shape and aromatic preservation. The flower's exterior becomes settled while the interior continues releasing moisture. Smaller stems gain a firmer snap and the flower reaches a texture suited to trimming and containers. Cultivators use time, touch, stem behavior, room readings, and experience with the cultivar to judge the transition.",
-          "Terpenes are volatile, and losses during drying, curing, and storage can reach half the total. Lower temperatures, darkness, and a measured pace help preserve a larger share. Air movement keeps the room consistent around the flowers, while thoughtful spacing gives each branch access to the same general conditions.",
+          "Terpenes are volatile and can change during drying, curing and storage. Lower temperatures, darkness and a measured pace help preserve the aromatic fraction. Air movement during postharvest handling keeps the room consistent around the flowers, while thoughtful spacing gives each branch access to the same general conditions.",
         ],
       },
       {
