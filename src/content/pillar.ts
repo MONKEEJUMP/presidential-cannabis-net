@@ -78,7 +78,7 @@ export const pillarPage: PageContent = {
       heading: "Where Presidential Is Sold",
       paragraphs: [
         "Presidential operates through licensed cannabis retailers rather than direct online cannabis sales. Participating locations and product availability can change by market, retailer, and date.",
-        "Each licensed market reflects the product timing and local rules of the seven states in the current footprint. Across the multi-state market, the locator points to licensed retailers in those states, with availability confirmed within each local market.",
+        "Each licensed market reflects the product timing and local rules of the states in the current footprint. Across the multi-state market, the locator points to licensed retailers in active states, with availability confirmed within each local market.",
       ],
       links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Use the official Presidential store locator" }],
     },
