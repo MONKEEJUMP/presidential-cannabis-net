@@ -426,6 +426,14 @@ th { color: var(--teal); font-size: 0.8rem; letter-spacing: 0.08em; text-transfo
 .button-link { display: inline-block; margin-top: 1.25rem; padding: 0.85rem 1.2rem; border: 1px solid var(--teal); background: var(--teal); color: var(--ink); font-family: var(--display); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-decoration: none; text-transform: uppercase; }
 .button-link:hover { background: transparent; color: var(--teal); }
 
+@media (max-width: 47.99rem) {
+  .publication--article .breadcrumbs,
+  .publication--article .article-section__links a,
+  .publication--article .brand-cta__button,
+  .publication--article .link-directory .eyebrow,
+  .publication--article .editorial-link small { font-size: 1rem; }
+}
+
 @media (max-width: 39.99rem) {
   .content-frame__ornament,
   .content-frame__desktop { display: none; }
