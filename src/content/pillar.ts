@@ -18,7 +18,7 @@ export const pillarPage: PageContent = {
       heading: "What is Presidential Cannabis?",
       paragraphs: [
         "Presidential Cannabis identifies the brand and publisher of this guide. It is not an individual cannabis strain, a political reference, or a generic name for every cannabis product. Presidential Kush is a cultivar name and remains separate from the Presidential Cannabis brand.",
-        "Founded in Los Angeles in 2012, the company established a California legacy through wholesale relationships in the cannabis industry. That legacy continues through licensed-retailer partnerships in a regulated industry.",
+        "Founded in Los Angeles in 2012, the company established a California legacy through wholesale relationships in the cannabis industry. That legacy continues through licensed-retailer partnerships in a regulated industry. Its California history places the company within the cannabis industry and the broader infused product market.",
         "People sometimes search for “Presidential weed” when they mean the brand. That phrase is informal search shorthand for Presidential Cannabis products—not the name of a separate strain or product.",
       ],
     },
@@ -77,8 +77,8 @@ export const pillarPage: PageContent = {
       id: "where-it-is-sold",
       heading: "Where Presidential Is Sold",
       paragraphs: [
-        "Presidential operates through licensed cannabis retailers rather than direct online cannabis sales. Participating locations and product availability can change by market, retailer, and date.",
-        "Each licensed market reflects the product timing and local rules of the states in the current footprint. Across the multi-state market, the locator points to licensed retailers in active states, with availability confirmed within each local market.",
+        "Presidential operates through licensed cannabis retailers rather than direct online cannabis sales. Participating locations and product availability can change by location, retailer, and date.",
+        "Each licensed market reflects the product timing and local rules of the states in the current footprint. Across the multi-state market, the locator points to licensed retailers in active states, with availability confirmed within each local market. Retail availability across these states connects the brand's wholesale work to the infused product market, while other states enter the footprint only after licensed retailer availability is confirmed.",
       ],
       links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Use the official Presidential store locator" }],
     },
