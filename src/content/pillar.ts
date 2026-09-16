@@ -10,7 +10,7 @@ export const pillarPage: PageContent = {
   wordTarget: [554, 700],
   intro: [
     "Presidential Cannabis is the official company and plant guide behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. This publication explains the brand, cannabis flower, genetics, product formats, and how adults 21+ can find current availability through licensed retailers where legal.",
-    "Flower quality is the foundation of the product conversation. The guides below connect the living plant, the finished flower, genetics, choosing, and the official product system without turning batch-specific facts into universal claims.",
+    "Flower quality is the foundation of the product conversation. The guides connect plant and flower fundamentals, genetics, and guidance for choosing pre rolls to the official product system without turning batch-specific facts into universal claims.",
   ],
   sections: [
     {
