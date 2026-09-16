@@ -64,7 +64,7 @@ export const pillarPage: PageContent = {
       id: "the-catalog",
       heading: "The Presidential Product Line",
       paragraphs: [
-        "Presidential Moon Rocks combine flower, concentrate, and kief in the flagship layered format. Infused pre-rolls use paper, and menus may list pre rolls beside Presidential Blunts in tobacco-free hemp wraps and smaller minis.",
+        "Presidential Moon Rocks combine flower, concentrate, and kief in the layered format. Infused pre-rolls use paper; menus distinguish rolls by paper or tobacco-free hemp wrap, with pre rolls beside Presidential Blunts and minis.",
         "The official catalog and package identify the exact product, collection, format, and visible composition language. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize distinct collections, with flavors identified on the current catalog and package. Potency and other test values are batch-specific rather than fixed across an entire series.",
       ],
       links: [
