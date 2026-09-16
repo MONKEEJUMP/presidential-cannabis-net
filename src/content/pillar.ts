@@ -86,7 +86,7 @@ export const pillarPage: PageContent = {
       id: "authenticity",
       heading: "Knowing It Is Authentic",
       paragraphs: [
-        "For pre rolls, authenticity begins with the licensed-retail path and consistent package identity. Check the Presidential name and crest, product and format label, required package information, and batch details.",
+        "Authenticity begins with the licensed-retail path and consistent package identity across every format, including pre rolls. Check the Presidential name and crest, product and format label, required package information, and batch details.",
       ],
       links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Follow the licensed-retail path" }],
     },
@@ -121,7 +121,7 @@ export const pillarPage: PageContent = {
     },
     {
       question: "What products does Presidential make?",
-      answer: "The official product system includes Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. For pre rolls, current product details belong to the catalog and package.",
+      answer: "Products include Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Current catalog and package details cover every format, including pre rolls.",
     },
     {
       question: "What does Presidential weed mean?",
