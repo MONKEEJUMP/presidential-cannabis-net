@@ -427,11 +427,19 @@ th { color: var(--teal); font-size: 0.8rem; letter-spacing: 0.08em; text-transfo
 .button-link:hover { background: transparent; color: var(--teal); }
 
 @media (max-width: 47.99rem) {
+  .site-header .brand-lockup__real,
+  .site-header .brand-lockup__name,
+  .site-header .brand-lockup__tagline,
+  .site-header .primary-nav,
   .publication--article .breadcrumbs,
   .publication--article .article-section__links a,
   .publication--article .brand-cta__button,
   .publication--article .link-directory .eyebrow,
-  .publication--article .editorial-link small { font-size: 1rem; }
+  .publication--article .editorial-link small,
+  .site-footer .eyebrow,
+  .site-footer .footer-nav,
+  .site-footer__official-links a,
+  .site-footer__legal { font-size: 1rem; }
 }
 
 @media (max-width: 39.99rem) {
@@ -443,19 +451,17 @@ th { color: var(--teal); font-size: 0.8rem; letter-spacing: 0.08em; text-transfo
 @media (max-width: 30rem) {
   .brand-lockup { width: 100%; min-width: 0; gap: 0.5rem; }
   .brand-lockup__home { gap: 0.5rem; }
-  .brand-lockup__real { font-size: 0.8rem; letter-spacing: 0.05em; }
+  .brand-lockup__real { display: none; }
   .brand-crest { width: 3.25rem; height: 3.25rem; }
-  .brand-lockup__name { font-size: clamp(0.9rem, 4.1vw, 1rem); }
   .brand-lockup__tagline { display: none; }
-  .primary-nav { width: 100%; display: grid; grid-template-columns: repeat(5, auto); justify-content: space-between; gap: 0.3rem; font-size: 0.8rem; letter-spacing: 0.025em; }
+  .primary-nav { width: 100%; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); justify-items: center; gap: 0.35rem 0.5rem; letter-spacing: 0.025em; }
+  .primary-nav a { width: 100%; text-align: center; }
 }
 
 @media (max-width: 22rem) {
   .brand-lockup { gap: 0.4rem; }
   .brand-lockup__home { gap: 0.4rem; }
-  .brand-lockup__real { font-size: 0.8rem; }
   .brand-crest { width: 3rem; height: 3rem; }
-  .brand-lockup__name { font-size: 0.82rem; }
 }
 
 @media (min-width: 48rem) {
