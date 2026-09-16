@@ -14,6 +14,7 @@ const clashDisplay = localFont({
     { path: "../../public/fonts/clash-display-700.woff2", weight: "700", style: "normal" },
   ],
   display: "swap",
+  preload: false,
   variable: "--font-clash-display",
   fallback: ["Arial", "sans-serif"],
 });
@@ -24,6 +25,7 @@ const sourceSerif = Source_Serif_4({
   weight: "variable",
   axes: ["opsz"],
   display: "swap",
+  preload: false,
   variable: "--font-source-serif",
   fallback: ["Georgia", "serif"],
 });
