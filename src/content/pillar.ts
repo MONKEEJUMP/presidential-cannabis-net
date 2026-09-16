@@ -56,7 +56,7 @@ export const pillarPage: PageContent = {
       id: "choosing",
       heading: "Choosing at Licensed Retail",
       paragraphs: [
-        "Choosing begins with format and current product information. Compare flower with infused formats, read the menu and package, and ask the licensed retailer about the specific product and batch available that day.",
+        "Choosing begins with format and current product information. Compare flower with infused formats—pre rolls, Moon Rocks, blunts, and minis—then read the menu and package for the specific product and batch available that day.",
       ],
       links: [{ href: "/choosing", label: "Use the choosing guide" }],
     },
@@ -64,7 +64,7 @@ export const pillarPage: PageContent = {
       id: "the-catalog",
       heading: "The Presidential Product Line",
       paragraphs: [
-        "Presidential Moon Rocks combine flower, concentrate, and kief in the flagship layered format. Infused pre-rolls use paper, Presidential Blunts use a tobacco-free hemp wrap, and minis bring the rolled formats into a smaller presentation.",
+        "Presidential Moon Rocks combine flower, concentrate, and kief in the flagship layered format. Infused pre-rolls use paper, and menus may list pre rolls beside Presidential Blunts in tobacco-free hemp wraps and smaller minis.",
         "The official catalog and package identify the exact product, collection, format, and visible composition language. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize distinct collections, with flavors identified on the current catalog and package. Potency and other test values are batch-specific rather than fixed across an entire series.",
       ],
       links: [
