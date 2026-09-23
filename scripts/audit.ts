@@ -88,7 +88,7 @@ for (const sectionId of ["the-catalog", "where-it-is-sold", "authenticity"]) {
 assert(aboutPage?.title === "About Presidential Cannabis | Brand & Publisher", "About title does not match the approved brand title");
 assert(aboutPage?.description === "About Presidential Cannabis: the Los Angeles brand behind Moon Rocks and the official publisher of this plant guide to flower, genetics, and choosing at licensed retailers.", "About meta description does not match the approved copy");
 assert(aboutPage?.h1 === "About Presidential Cannabis", "About H1 must identify the brand");
-assert(aboutPage?.relatedLinks?.length === 5, "About must link to the homepage and all four topic hubs");
+assert(aboutPage?.relatedLinks?.length === 4, "About must link to the homepage and the three approved topic hubs");
 assert(aboutPage?.sections.some((section) => section.links?.some((link) => link.href === "https://presidentialmoonrocks.com/find-us")), "About needs a direct licensed-retailer handoff");
 assert(pages.filter((page) => !["/", "/about"].includes(page.path)).every((page) => !page.h1.includes("Presidential Cannabis")), "Interior topical H1s must not compete for the brand query");
 
@@ -98,7 +98,9 @@ const requiredContextualLinks = [
   ["/genetics/phenotypes", "/choosing/flower-vs-infused", "flower"],
   ["/genetics/phenotypes", "/", "guide"],
   ["/choosing/flower-vs-infused", "/", "guide"],
-  ["/about", "/choosing/flower-vs-infused", "flower"],
+  ["/about", "/plant", "plant guide"],
+  ["/about", "/flower", "flower guide"],
+  ["/about", "/genetics", "genetics guide"],
   ["/about", "/", "guide"],
   ["/", "/choosing/flower-vs-infused", "flower"],
   ["/", "/plant", "cannabis"],
