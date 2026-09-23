@@ -43,7 +43,10 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
     { sectionId: "batch-expression", paragraphs: ["This vocabulary also separates identity from expression. A cultivar can keep its genetic identity while each garden and harvest contributes fresh detail. That is why provenance and present observation work so well together."] },
   ],
   "/choosing": [
-    { sectionId: "fit-the-occasion", paragraphs: ["A brief note after the purchase closes the loop. Record what the menu promised, what the budtender described, and what the flower presented. The next visit begins with real comparison rather than a blank page."] },
+    { sectionId: "fit-the-occasion", paragraphs: [
+      "A brief note after the purchase closes the loop. Record what the menu promised, what the budtender described, and what the flower presented. The next visit begins with real comparison rather than a blank page.",
+      "That record does not need to be elaborate. Package date, format, dominant aroma, and whether the session matched the occasion are enough to make the next menu pass faster. Over a few visits the notes become a personal map of which formats fit which moments, which questions yield useful answers, and which batch details matter most in your usual stores.",
+    ] },
   ],
   "/about": [
     { sectionId: "publisher", paragraphs: ["Editorially, each page stays within the plant-focused scope and gives readers a durable answer rather than a search-driven detour. The result is a reference designed for return visits: one place to connect botanical structure, flower quality, genetic context, and the practical language of choosing at a licensed counter."] },
