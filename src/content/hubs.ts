@@ -116,9 +116,10 @@ export const hubPages: PageContent[] = [
     h1: "Cannabis Genetics Guide",
     title: "Cannabis Genetics & Lineage",
     description: "A clear guide to cannabis breeding, phenotypes, lineage, cultivar naming, landraces, and the reasons batches vary.",
-    wordTarget: [450, 600],
+    wordTarget: [950, 1200],
     intro: [
       "Cannabis genetics define a range of possible traits, while selection and cultivation shape the plant that expresses them. Breeding, phenotypes, lineage, names, and batch variation describe connected parts of that process. This section follows a cultivar from its parents through selection and into repeated commercial harvests.",
+      "Presidential Cannabis publishes this genetics hub as publisher literacy for adults 21+: how strains are made, why siblings differ, how lineage and names relate, and why two batches of the same cultivar can still look and smell different. The brand name here is the company and publisher, not a single cultivar nickname. Product art and retailer paths stay on the official catalog; this page stays with inheritance, selection, and batch context.",
     ],
     sections: [
       {
@@ -127,6 +128,21 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "How Strains Are Made begins with parent plants and a breeding goal. Seeds from the cross carry new combinations, and breeders observe the resulting population for aroma, structure, resin, timing, color, vigor, and consistency. Phenotypes explains the variation inside that population and the careful search for an individual plant whose expression deserves preservation.",
           "A selected phenotype can continue through cuttings, giving future gardens the same genetic individual. A seed line can also move through repeated selection toward greater predictability. Both pathways depend on observation across time, because breeders choose living plants and confirm those choices through complete growth and flower cycles.",
+          "Publisher genetics literacy starts there. A cross sets a family range; selection names which plant inside that range becomes the keeper. When adults read a menu, the cultivar name usually points to that kept identity, while the grower and post-harvest steps still shape the jar in front of them. Learning the breeding path makes later lineage and batch pages easier to use without treating any name as a guarantee of identical flower.",
+        ],
+        contextualLinks: [
+          {
+            before: "Start with ",
+            href: "/genetics/how-strains-are-made",
+            label: "how cannabis strains are made",
+            after: " for the full parent-cross, population, and selection cycle in plain language.",
+          },
+          {
+            before: "Then read ",
+            href: "/genetics/phenotypes",
+            label: "phenotypes",
+            after: " to see why one seed family produces different plants and how clones preserve a chosen individual.",
+          },
         ],
       },
       {
@@ -135,6 +151,15 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "Lineage records the parentage behind a cultivar and gives buyers a map of its genetic family. It can suggest structural tendencies, aromatic families, and breeding intent. Strain Naming explains how breeders turn a selection into a recognizable identity, often drawing from parent names, aroma, appearance, place, or a creative theme.",
           "The family tree and the name work best as context. A name makes the cultivar easy to discuss; lineage shows where it came from. The current batch supplies the living expression through aroma, structure, dates, and handling. Reading all three levels together creates a richer picture than any single label can carry.",
+          "Lineage literacy also protects against common mix-ups. Shared words in cultivar names do not always mean shared parents, and a famous family can still produce selections that diverge in timing, structure, or aroma. Names help conversation at a licensed counter; lineage helps expectation; neither replaces checking the batch you are actually buying. Presidential Cannabis keeps that distinction clear so plant education stays separate from product catalog pages.",
+        ],
+        contextualLinks: [
+          {
+            before: "Use ",
+            href: "/genetics/lineage",
+            label: "lineage",
+            after: " when you want parent maps and what family history can and cannot predict. Strain naming and identity language continue in the child guide beside it.",
+          },
         ],
       },
       {
@@ -143,6 +168,15 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "Landrace and Modern follows regionally adapted cannabis populations into contemporary breeding. Generations of reproduction in a place created populations suited to local seasons, climate, and human selection. Breeders carried that diversity into new crosses, combining inherited traits and widening the range of modern flower.",
           "Many modern commercial cultivars show extensive ancestry from repeated hybridization. Their documented family trees can gather material from several regions and many generations of selection. The landrace concept remains valuable because it points to genetic foundations, while modern breeding shows how those foundations continue to be developed for current cultivation and market goals.",
+          "That history sits beside plant and flower literacy on this publication. Genetics explains inheritance and selection; the plant and flower hubs explain anatomy, harvest, cure, and quality signals you can observe in finished flower. Adults shopping through licensed retailers benefit from both layers: where a cultivar came from, and how to read the batch that arrived.",
+        ],
+        contextualLinks: [
+          {
+            before: "For living-plant context beside this silo, open ",
+            href: "/plant",
+            label: "The Plant",
+            after: ". Landrace foundations and modern cultivar history continue in the landrace child guide.",
+          },
         ],
       },
       {
@@ -151,6 +185,15 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "Why Two Batches Differ brings genetics back into the grow room. Light, temperature, nutrition, root space, harvest timing, drying, cure, packaging, and storage influence how the same genetic plant appears in finished flower. A clone preserves identity, while each cultivation run supplies a fresh environment and a fresh expression.",
           "That is useful news for a buyer. The cultivar name opens the conversation, lineage adds expectation, and batch information makes the choice current. The six genetics guides turn names into a readable system of parents, variation, selection, and environment—precisely the context needed to understand why cannabis remains diverse from seed to shelf.",
+          "Use this hub as the map, then move into the child guides for depth. When you want company and publisher context rather than cultivar inheritance, the About page defines Presidential Cannabis as brand and publisher. When you want finished-flower quality language after genetics, The Flower organizes appearance, aroma, structure, moisture, and storage. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+        ],
+        contextualLinks: [
+          {
+            before: "Read ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " for environment and post-harvest reasons the same genetics can still diverge. Flower quality language and About Presidential Cannabis sit beside this silo when you need publisher or finished-flower context.",
+          },
         ],
       },
     ],
