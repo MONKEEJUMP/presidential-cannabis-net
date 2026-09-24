@@ -161,10 +161,11 @@ export const choosingArticles: PageContent[] = [
     h1: "Matching Format",
     title: "Matching Format to the Occasion",
     description: "How to choose a cannabis format by session length, group size, preparation, portability, storage, package size, and setting.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Match cannabis format to the occasion by considering session length, sharing, preparation, portability, and package size before comparing cultivars or percentages. A short personal moment, a planned shared session, and a portable outing each create different practical needs. Choosing the fit first turns a broad menu into a focused list.",
       "Format is the physical form in which the product reaches you. Raw flower offers flexibility and keeps the cured flower at the center. Prepared formats organize a specific amount and composition for convenience. Minis create another package and session scale. The useful choice is the one that aligns with the people, place, time, and storage plan.",
+      "Presidential Cannabis publishes this matching-format guide as adult 21+ retail literacy: how session length, sharing, preparation, portability, and package size turn a broad menu into a focused list. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with occasion planning, format fit, and licensed-counter decisions.",
     ],
     sections: [
       {
@@ -174,6 +175,28 @@ export const choosingArticles: PageContent[] = [
           "Estimate the time available and the number of adults participating. A brief personal session calls for a compact amount and simple setup. A longer or shared occasion can support a larger format or multiple smaller pieces that let the group pace the moment. Package count and unit size make these comparisons visible on the menu.",
           "Sharing also changes the value of preparation. Raw flower gives the group flexibility in how much to prepare. A ready format reduces setup and creates a clearly defined unit. Minis offer smaller units that can suit shorter occasions or individual portions within a group plan.",
           "A good menu comparison stays within the chosen scale. Compare like sizes, note the total package count, and ask how current options differ in freshness and aromatic profile. This keeps price and potency in a practical frame rather than comparing products meant for different kinds of occasions.",
+          "Occasion literacy starts before the menu feels overwhelming. Write one line that names who is present, how long the moment lasts, and whether preparation is part of the experience or simply a step before it. That line immediately filters package counts and unit sizes. Adults shopping through licensed retailers can then compare like with like—same scale, same sharing plan—rather than weighing a compact personal option against a large shared format as if they answered the same question.",
+          "A paced first visit uses the same discipline. Arrive with the occasion written simply, skim format and size before chasing cultivar names, and ask one practical question about which current options fit that plan. Menu columns and counter conversation then support the choice instead of replacing it. Over a few visits, notes about what matched the time and group become a personal reference that makes the next decision faster.",
+        ],
+        contextualLinks: [
+          {
+            before: "Return to ",
+            href: "/choosing",
+            label: "Choosing Cannabis at a Dispensary",
+            after: " for the decision order that places occasion and format ahead of chasing a single menu number.",
+          },
+          {
+            before: "Use ",
+            href: "/choosing/reading-a-menu",
+            label: "reading a menu",
+            after: " when package size, format, and dates need a column-by-column pass inside the scale you already chose.",
+          },
+          {
+            before: "Walk the visit in ",
+            href: "/choosing/first-time",
+            label: "first time",
+            after: " if entry, pacing, and a simple first purchase plan still need a calm sequence.",
+          },
         ],
       },
       {
@@ -183,6 +206,28 @@ export const choosingArticles: PageContent[] = [
           "Preparation can be part of the occasion or simply a step before it. Choose raw flower when selecting and preparing the flower is welcome. Choose a prepared format when compact packaging and a ready composition suit the plan. The decision is about fit and attention, with flower quality remaining the base.",
           "Portability favors secure, clearly labeled packaging and a size suited to the outing. Keep every product sealed and stored according to local rules during travel. At the destination, protect it from heat and direct light. These practical details preserve aroma, moisture, and package condition.",
           "Finally, plan for what remains. Raw flower holds best in a clean, sealed container in a cool, dark place. Prepared products stay in their original protective packaging according to label guidance. Choose an amount that matches the near-term occasion and storage timeline. The complete method is concise: people, time, preparation, portability, package, and care.",
+          "Composition belongs in the same frame as convenience. Raw flower keeps selection and preparation flexible; an infused prepared format organizes amount and composition for a ready session. Neither is a universal default. When the occasion asks for personal preparation and direct observation of the flower, raw flower usually fits. When the occasion asks for clear portions, compact packaging, and less setup, a prepared format usually fits. Package size then aligns either choice with the near-term timeline and storage plan.",
+          "After the purchase, the same practical checklist closes the loop. Confirm the seal, store according to label guidance, and note whether preparation, size, and portability matched the plan. Plant anatomy and genetics sit beside this silo when you want living-plant or inheritance context after the retail decision. Company and publisher context lives on About Presidential Cannabis when you need brand definition rather than an occasion checklist. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+        ],
+        contextualLinks: [
+          {
+            before: "Compare composition in ",
+            href: "/choosing/flower-vs-infused",
+            label: "flower vs infused",
+            after: " when the choice is raw flower versus a prepared infused format for the same occasion.",
+          },
+          {
+            before: "Ask current-inventory questions with ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so the budtender can match freshness and package details to the plan you already named.",
+          },
+          {
+            before: "For publisher and brand definition beside this silo, open ",
+            href: "/about",
+            label: "About Presidential Cannabis",
+            after: ".",
+          },
         ],
       },
     ],
