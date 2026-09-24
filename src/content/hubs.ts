@@ -249,9 +249,10 @@ export const hubPages: PageContent[] = [
     h1: "Choosing Cannabis at a Dispensary",
     title: "Choose Cannabis at a Dispensary",
     description: "A practical route through dispensary menus, counter conversations, first visits, formats, and occasion-based choices.",
-    wordTarget: [450, 600],
+    wordTarget: [1100, 1250],
     intro: [
       "Choosing cannabis becomes straightforward when the decision follows a useful order: occasion, format, freshness, aromatic profile, batch information, and conversation. A menu supplies one part of the picture, and a knowledgeable budtender supplies the current store context. This section turns both into a calm, repeatable process.",
+      "Presidential Cannabis publishes this choosing hub as adult 21+ retail literacy for licensed dispensary visits: how to read a menu, ask useful questions, pace a first visit, compare flower with infused formats, and match a purchase to the occasion. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with decision order, batch context, and counter conversation.",
     ],
     sections: [
       {
@@ -260,6 +261,15 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "Reading a Menu explains the columns that appear most often: cultivar, format, package size, potency, terpene information, price, and dates. It provides a practical reading sequence that starts with the product you want and then places percentages beside aroma and freshness. The result is a batch-level view rather than a search for one headline number.",
           "Menus vary in detail, so the core skill is recognizing what each field contributes. Format establishes the purchase. Dates establish time. Potency measures a defined part of the sample. A terpene panel adds aromatic composition. Name and lineage supply family context. These details become especially useful when read together.",
+          "Publisher choosing literacy starts there. A board or tablet is a snapshot of inventory, not a ranking of every jar in the back. Adults shopping through licensed retailers can scan format first, then harvest or package dates, then aroma language and any terpene notes, and only then treat percentages as one supporting number. That order keeps the visit calm when a menu is long or when several cultivars share similar names. Price and package size then become practical filters once the batch already looks and smells like a fit for the occasion.",
+        ],
+        contextualLinks: [
+          {
+            before: "Start with ",
+            href: "/choosing/reading-a-menu",
+            label: "reading a menu",
+            after: " for the column-by-column sequence that turns a board into a batch-level comparison.",
+          },
         ],
       },
       {
@@ -268,6 +278,21 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "What to Ask moves from printed information to a person. Questions about harvest date, cure, dominant aroma, structure, batch consistency, and newly arrived inventory invite practical answers. A budtender can compare the choices available that day and connect menu language to the flower behind the package.",
           "Clear preferences make the exchange productive. Describe an aroma family, session size, sharing plan, preparation level, or format. This gives the budtender concrete criteria and gives you a simple way to compare the reply with the menu. The conversation then becomes a focused collaboration around the occasion.",
+          "Conversation literacy also protects against vague shopping. Asking for the current batch, the dominant nose, and how the flower feels after cure yields details a static board cannot show. Keep medical claims out of the exchange; stay with observation, inventory, and packaging. When you want finished-flower quality language beside the counter talk, the Flower hub organizes appearance, aroma, structure, moisture, and storage in one place.",
+        ],
+        contextualLinks: [
+          {
+            before: "Use ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " for harvest, cure, aroma, and inventory questions that invite practical answers.",
+          },
+          {
+            before: "For finished-flower observation beside this silo, open ",
+            href: "/flower",
+            label: "The Flower",
+            after: ".",
+          },
         ],
       },
       {
@@ -276,6 +301,15 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "First Time walks through the visit from identification and entry to the menu, counter, payment, and exit. It explains the pace of the interaction and shows how a newcomer can begin with one clear preference. Familiarity with the sequence leaves more attention available for the flower and the conversation.",
           "A first purchase can stay simple: choose a familiar format, select a manageable package, ask about the current batch, and store the product well. Each later visit adds comparison. Over time, personal notes about aroma, structure, freshness, and occasion create a more useful guide than memory alone.",
+          "First-visit literacy is mostly sequencing. Arrive with ID ready, confirm the store's entry rules, skim the menu for format before chasing names, ask one or two specific questions, and leave with sealed packaging and a storage plan. Plant anatomy and genetics sit beside this silo when you want living-plant or inheritance context after the retail visit. Company and publisher context lives on About Presidential Cannabis when you need brand definition rather than a shopping checklist. A short note after you leave—format chosen, aroma described, package date—turns the next visit into comparison instead of another blank start.",
+        ],
+        contextualLinks: [
+          {
+            before: "Walk the visit in ",
+            href: "/choosing/first-time",
+            label: "first time",
+            after: " from entry through menu, counter, payment, and exit.",
+          },
         ],
       },
       {
@@ -284,6 +318,22 @@ export const hubPages: PageContent[] = [
         paragraphs: [
           "Flower vs Infused describes the shopper-level distinction between raw flower and flower with concentrate and kief added. Matching Format to the Occasion then weighs session length, sharing, preparation, portability, and package size. Together they place format inside a real plan rather than treating it as an abstract category.",
           "The five guides finish with a compact method: name the occasion, choose the format, read the current batch, ask one or two specific questions, and confirm the practical details. This method works for a first visit and remains useful for an experienced buyer because it stays grounded in the actual inventory and moment.",
+          "Format literacy keeps composition and occasion in the same frame. Raw flower and infused flower answer different preparation and sharing needs; neither is a universal default. Occasion literacy then asks how long the session lasts, who is sharing, how much preparation you want, and how portable the package must be. Genetics and About sit beside this silo when you need inheritance language or publisher context after the purchase plan is clear. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+          "Use this hub as the map, then move into the child guides for depth. Menu reading and counter questions handle the visit mechanics; first-time pacing lowers friction; flower-versus-infused and occasion matching place the purchase inside a real plan. That loop stays useful for a newcomer and for an experienced buyer because it always returns to the inventory and moment in front of you.",
+        ],
+        contextualLinks: [
+          {
+            before: "Compare composition in ",
+            href: "/choosing/flower-vs-infused",
+            label: "flower vs infused",
+            after: ", then weigh session and package needs in matching format to the occasion.",
+          },
+          {
+            before: "Continue into ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "matching format to the occasion",
+            after: " when session length, sharing, and portability drive the choice. Genetics and About sit beside this silo for inheritance and publisher context.",
+          },
         ],
       },
     ],
