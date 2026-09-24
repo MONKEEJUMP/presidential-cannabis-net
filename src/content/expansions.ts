@@ -51,6 +51,11 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
   "/about": [
     { sectionId: "publisher", paragraphs: ["Editorially, each page stays within the plant-focused scope and gives readers a durable answer rather than a search-driven detour. The result is a reference designed for return visits: one place to connect botanical structure, flower quality, genetic context, and the practical language of choosing at a licensed counter."] },
   ],
+  "/plant": [
+    { sectionId: "after-harvest", paragraphs: [
+      "A short personal note after you first open a jar—package date, nose, surface feel—makes the next comparison easier. The plant guides explain how that jar got its structure and maturity; the note records how one batch expressed them. Over a few visits those notes become a private map of which harvest windows and cures you recognize on the shelf.",
+    ] },
+  ],
   "/plant/what-cannabis-is": [
     {
       sectionId: "resin-purpose",
