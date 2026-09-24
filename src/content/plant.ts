@@ -142,10 +142,11 @@ export const plantArticles: PageContent[] = [
     h1: "Cannabinoids",
     title: "Cannabinoids in the Living Plant",
     description: "What cannabinoids are in the living cannabis plant, where the plant produces them, their acidic form, and their place in flower development.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Cannabinoids are compounds the living cannabis plant produces primarily in the resin glands concentrated on its flowers and nearby leaves. The plant predominantly biosynthesizes and accumulates them in acidic forms as the flower develops. Heat converts those compounds into other forms; for understanding the living plant, the essential picture is their origin in glandular resin and their growth alongside the flower.",
       "This location explains why flower and trichomes belong at the center of plant study. Bracts and sugar leaves create the surface, stalked resin glands rise across it, and cannabinoids accumulate inside the gland heads. Genetics sets a range for production, while cultivation, maturity, and environmental conditions influence the expression captured at harvest.",
+      "Presidential Cannabis publishes this cannabinoids guide as adult 21+ botanical literacy: where the living plant produces resin compounds, why acidic forms dominate before harvest, and how genetics, environment, and maturity shape what the flower carries into the jar. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with glandular production, developmental timing, and plant-centered observation.",
     ],
     sections: [
       {
@@ -155,6 +156,22 @@ export const plantArticles: PageContent[] = [
           "Cannabinoid production develops with the reproductive stage. As female flowers form, glandular trichomes become more abundant across their bracts and surrounding sugar leaves. Inside the gland heads, the plant builds a resin mixture that also contains terpenes and other compounds. The visible frost on mature flower is therefore an external sign of many microscopic production sites.",
           "Different gland forms contribute at different scales. Tiny bulbous glands occur across plant surfaces, capitate-sessile glands sit close to the surface, and capitate-stalked glands become prominent on mature flower. Their rounded heads provide a specialized space for resin. Because the largest concentration sits on the harvested flower, careful observation naturally focuses there.",
           "Acidic forms are the living plant's predominant biosynthetic starting forms. That fact belongs to botany: it describes what the plant mainly makes before harvest and processing. The named proportions vary by genetics, phenotype, flower site, maturity, and growing environment, giving each plant and batch its own developing resin profile.",
+          "Reading production as anatomy keeps the story concrete. The flower supplies the gland-bearing surface; the trichome supplies the specialized head; the resin inside that head holds the developing mixture. A frosted cola is therefore many production sites working together rather than a single uniform object. Close inspection and whole-plant context both matter because canopy position and local conditions influence how densely those sites develop.",
+          "This botanical frame also clarifies what frost does and does not show. Abundant glands indicate a rich glandular surface. They do not, by themselves, name the compounds or fix their proportions. Genetics, phenotype, maturity, and cultivation fill in that next layer. Keeping surface observation and biosynthetic context distinct helps adults 21+ describe flower accurately without treating sparkle as a complete chemical summary.",
+        ],
+        contextualLinks: [
+          {
+            before: "Study the living gland itself in ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: ", where bulbous, sessile, and stalked forms, head size, and color progression are mapped on the flower surface.",
+          },
+          {
+            before: "Return to ",
+            href: "/plant",
+            label: "The Cannabis Plant Guide",
+            after: " for the map from annual biology and flower anatomy through resin, harvest, drying, and cure.",
+          },
         ],
       },
       {
@@ -164,6 +181,34 @@ export const plantArticles: PageContent[] = [
           "Genetics define which cannabinoid pathways a plant can strongly express and the range available to that cultivar. A seed population may show variation among phenotypes, while cuttings preserve a selected genetic individual. Breeders observe resin production alongside structure, aroma, timing, and other traits when choosing plants for future lines.",
           "The growing environment shapes expression within that inherited range. Light supports the energy demands of flower development. Temperature and humidity influence the plant and the flower's surrounding microclimate. Nutrition, water, root health, and stress management support a complete cycle. Cultivation works by helping the plant express its selected genetics consistently.",
           "Maturity adds time to the picture. Gland heads develop from clear toward cloudy and amber stages as the flower advances. Cultivators read this progression across many sites, together with the whole plant, to select a harvest window. The harvest captures the cannabinoids present in the living resin at that chosen stage.",
+          "That window is a decision about development, not a single universal day. Upper and lower sites can advance at different rates, and cultivars reach preferred balances on their own schedules. Connecting gland color, pistil and bract cues, aroma, and plant health turns the cut into a recorded moment in the resin story rather than an isolated calendar guess.",
+          "After the cut, drying and curing decide how that captured resin arrives as finished flower. Gradual moisture loss protects structure and aromatic character; the cure equalizes remaining moisture and lets the batch settle. At a licensed counter, package dates, nose, and handling feel become the available evidence of that handoff. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+        ],
+        contextualLinks: [
+          {
+            before: "Connect maturity signals to the cut with ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: ", where trichome, pistil, and whole-plant cues define the window the resin profile inherits.",
+          },
+          {
+            before: "Follow the handoff in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: ", where temperature, humidity, darkness, and observation carry living resin into stable flower.",
+          },
+          {
+            before: "Continue into ",
+            href: "/flower",
+            label: "The Flower",
+            after: " for appearance, aroma, density, moisture, and storage after the harvest and cure.",
+          },
+          {
+            before: "For inheritance beside this silo, open ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " when parentage, selection, and batch variation explain why resin expression differs across cultivars.",
+          },
         ],
       },
     ],
