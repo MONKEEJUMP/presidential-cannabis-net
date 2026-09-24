@@ -258,10 +258,11 @@ export const plantArticles: PageContent[] = [
     h1: "Drying and Curing",
     title: "Drying and Curing Cannabis",
     description: "What drying and curing do for raw cannabis flower, how long the stages take, and how they preserve aroma, moisture, structure, and quality.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Drying gradually removes moisture from harvested cannabis, and curing allows the remaining moisture to settle more evenly while aroma and texture continue changing. Together, the stages turn fresh plant material into stable finished flower. Common industry practice often spans several weeks, with the exact duration guided by flower size, structure, producer method, temperature, humidity, darkness, air movement, and observation.",
       "Post-harvest care matters because flower remains physically and aromatically active after cutting. Water moves from the interior toward the surface. Terpenes respond to heat, light, air, and time. Bracts and leaves change texture as they lose moisture. A deliberate process guides these changes at a steady pace and creates a balanced result that holds its character in the package.",
+      "Presidential Cannabis publishes this drying and curing guide as adult 21+ post-harvest literacy: how temperature, humidity, darkness, and air movement carry a harvest decision into stable finished flower. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with moisture movement, aromatic preservation, and the multi-week handoff from fresh cut to sealed package.",
     ],
     sections: [
       {
@@ -271,6 +272,22 @@ export const plantArticles: PageContent[] = [
           "Freshly harvested cannabis contains substantial water in its stems, leaves, and flowers. Drying begins in a dark, climate-controlled space with gentle air exchange around the hanging plant or separated branches. The environment encourages moisture to leave gradually from throughout the flower rather than racing from the outer surface.",
           "A steady dry supports shape and aromatic preservation. The flower's exterior becomes settled while the interior continues releasing moisture. Smaller stems gain a firmer snap and the flower reaches a texture suited to trimming and containers. Cultivators use time, touch, stem behavior, room readings, and experience with the cultivar to judge the transition.",
           "Terpenes are volatile and can change during drying, curing and storage. Lower temperatures, darkness and a measured pace help preserve the aromatic fraction. Air movement during postharvest handling keeps the room consistent around the flowers, while thoughtful spacing gives each branch access to the same general conditions.",
+          "Room design turns those principles into daily practice. Stable temperature and humidity keep moisture leaving at a predictable rate; darkness limits light stress on volatile compounds; gentle circulation prevents stagnant pockets without blasting the surface dry. Crowded racks create uneven zones, while generous spacing lets each branch share the same general climate. Growers adjust hang method, branch size, and trim timing to the cultivar's density so the dry remains gradual rather than forced.",
+          "The dry also inherits the harvest window. Flower cut earlier or later within a cultivar's accepted range arrives with different water content, bract development, and aromatic intensity. That starting state shapes how long the room needs and how the piece will feel when stems begin to firm. Reading the dry as the next chapter of timing—not a separate ritual—keeps the living-plant story continuous from canopy observation through the first sealed container.",
+        ],
+        contextualLinks: [
+          {
+            before: "Connect the cut to this stage with ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: ", where trichome, pistil, and whole-plant cues define the window the dry must preserve.",
+          },
+          {
+            before: "Return to ",
+            href: "/plant",
+            label: "The Cannabis Plant Guide",
+            after: " for the map from annual biology and resin glands through harvest into post-harvest care.",
+          },
         ],
       },
       {
@@ -280,6 +297,34 @@ export const plantArticles: PageContent[] = [
           "Curing begins when dried flower moves into sealed containers. Moisture remaining near the center redistributes through the piece, bringing the surface and interior toward balance. Containers are opened and observed on a schedule suited to the flower and its readings. Over time, texture becomes more even and the aroma presents as a unified profile.",
           "The cure also creates a stable point for evaluation. A well-cured piece feels settled on the outside and gently resilient within. Bracts separate cleanly with handling, and the flower retains its structure. Aroma opens with definition rather than carrying the fresh green character of a newly cut plant.",
           "Several weeks gives the process room to work. The exact timeline follows flower size, density, starting moisture, room conditions, and the grower's method. Consistency is the common value: gradual drying prepares the flower, controlled curing balances it, and cool, dark storage preserves that balance. The cure therefore decides how faithfully cultivation and harvest arrive in the finished package.",
+          "Structure and density shape how the cure behaves. Compact pieces and open pieces release and equalize moisture on different schedules, so batch grouping and observation protect both forms without forcing one texture onto every cultivar. When adults later evaluate finished flower, bract spacing, silhouette, and gentle resilience are easier to read because the cure respected the inherited architecture instead of racing past it.",
+          "After cure, the same literacy that began with the living plant still applies. Annual cycle and resin purpose explain why the flower carries aromatic and glandular detail into the jar; inheritance language explains why two cultivars need different hang and jar timelines. At a licensed counter, package dates, nose, and handling feel become the available evidence of that work. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+        ],
+        contextualLinks: [
+          {
+            before: "Read ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " for how compact and open forms influence handling, drying pace, and cured feel.",
+          },
+          {
+            before: "Continue into ",
+            href: "/flower",
+            label: "The Flower",
+            after: " for appearance, aroma, moisture, and storage after the cure is complete.",
+          },
+          {
+            before: "Revisit ",
+            href: "/plant/what-cannabis-is",
+            label: "what cannabis is",
+            after: " when you want the annual cycle and resin purpose behind post-harvest care.",
+          },
+          {
+            before: "For inheritance context beside this silo, open ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " when parentage and selection explain why cultivars need different hang and jar timelines.",
+          },
         ],
       },
     ],
