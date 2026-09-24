@@ -51,10 +51,11 @@ export const choosingArticles: PageContent[] = [
     h1: "What to Ask",
     title: "What to Ask at a Dispensary Counter",
     description: "Practical questions for a dispensary budtender about the current flower, harvest date, cure, aroma, batch, storage, and format.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Ask a dispensary budtender about the current batch: when it was harvested, how the cure feels, which aromas stand out, how the flower is structured, and which option best fits your occasion. These questions invite specific, observable answers. A good conversation connects the printed menu to the actual inventory on the shelf that day.",
       "Begin with one clear preference and one practical need. You might describe citrus or earthy aroma, a personal or shared session, raw flower or an infused format, a package size, or a freshness priority. Concrete preferences give the budtender a useful frame and make the comparison easier to follow.",
+      "Presidential Cannabis publishes this counter-questions guide as adult 21+ retail literacy: what to ask about flower freshness, harvest and package dates, cure, storage, format, and factual label details at a licensed dispensary. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with practical questions, observable answers, and licensed-counter decisions.",
     ],
     sections: [
       {
@@ -64,6 +65,28 @@ export const choosingArticles: PageContent[] = [
           "Start with timing: Which flower arrived most recently? What are the harvest and package dates? How long was the cure? These questions place the batch on a timeline and help explain its present aroma and texture. A recent delivery can also point you toward products the staff has handled and discussed often.",
           "Move to the senses: Which aromatic notes are strongest? Does the flower have a compact or open structure? How would you describe its moisture and cure? A knowledgeable budtender can translate staff observations into plain language and may identify a sample jar that lets you confirm the aroma directly.",
           "Add consistency: Is this a familiar batch from the same cultivator? How does it compare with the previous delivery? Has the store seen a stable aromatic profile across packages? These questions recognize that identical genetics can express differently from run to run and that current inventory deserves current description.",
+          "Lab and label details belong in the same factual frame. Ask where the package lists harvest date, package date, batch identifier, and any printed cannabinoid percentages the store displays for that SKU. Request the information as it appears on the label or menu rather than as an interpretation of how the flower will feel. Clear, checkable numbers and dates keep the conversation useful without turning the counter into a promise about personal outcomes.",
+          "Freshness questions can stay concrete when the shelf shows several options. Ask which jar or package was opened for staff aroma checks most recently, whether the batch has sat under bright light, and how the store stores opened sample containers. Those details help you weigh a defined nose against a quieter package that still carries a recent harvest date. Adults shopping through licensed retailers can then compare current inventory on timing, cure feel, and aroma rather than on a single number alone.",
+        ],
+        contextualLinks: [
+          {
+            before: "Return to ",
+            href: "/choosing",
+            label: "Choosing Cannabis at a Dispensary",
+            after: " for the decision order that places clear preferences and current inventory ahead of chasing a single menu number.",
+          },
+          {
+            before: "Read appearance and structure cues in ",
+            href: "/flower",
+            label: "The Flower",
+            after: " when you want a shared vocabulary for aroma, density, moisture, and storage before you ask at the counter.",
+          },
+          {
+            before: "Connect resin and label literacy with ",
+            href: "/plant/cannabinoids-in-the-plant",
+            label: "cannabinoids in the plant",
+            after: " so printed percentages stay framed as plant-production context rather than as a substitute for batch dates and nose.",
+          },
         ],
       },
       {
@@ -73,6 +96,28 @@ export const choosingArticles: PageContent[] = [
           "Describe session length, sharing, preparation, and portability. Ask which package size or format fits those details. A personal, brief occasion points toward one kind of purchase; a planned shared occasion points toward another. The budtender can narrow the shelf by practical fit before comparing genetics or percentages.",
           "Share an aroma preference rather than asking for a promised experience. Earth, citrus, pepper, pine, floral, and fruit are useful starting families. Ask which current flower expresses that character most clearly and which has the freshest defined nose. This keeps the answer grounded in the product's observable qualities.",
           "Close with storage and use-by planning. Ask how the package seals, whether the flower benefits from transfer to a glass container, and what size matches your timeline. The complete counter conversation then covers current batch, sensory quality, occasion, and care—exactly the information that turns a menu selection into a confident purchase.",
+          "Format questions sit beside freshness without replacing it. Ask whether raw flower, a prepared format, or a smaller unit better matches the occasion you already named, then confirm which current packages carry the harvest or package dates you prefer. The useful answer names both the form and a batch detail you can verify on the label. That pairing keeps convenience and agricultural evidence in one decision instead of treating them as competing goals.",
+          "After checkout, the same checklist closes the loop. Confirm the seal, store according to label guidance, and jot one line about the date, aroma description, and format that matched the plan. Inheritance and phenotype context can sit beside this silo when you later want to understand why two runs of a named cultivar differ. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+        ],
+        contextualLinks: [
+          {
+            before: "Walk a calm first visit in ",
+            href: "/choosing/first-time",
+            label: "first time",
+            after: " if entry, pacing, and a simple purchase plan still need a clear sequence before the counter questions begin.",
+          },
+          {
+            before: "For parentage and batch variation beside this silo, open ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " when lineage and phenotype help explain why two deliveries of a familiar name can still smell and feel different.",
+          },
+          {
+            before: "Study structure vocabulary in ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " so compact versus open flower descriptions at the counter map to what you can observe in the jar.",
+          },
         ],
       },
     ],
