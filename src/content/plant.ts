@@ -143,6 +143,7 @@ export const plantArticles: PageContent[] = [
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Explore current Presidential cultivar families nearby" },
   },
+  {
     path: "/plant/trichomes",
     kind: "article",
     silo: "plant",
