@@ -99,10 +99,11 @@ export const plantArticles: PageContent[] = [
     h1: "Trichomes",
     title: "Trichomes on the Cannabis Plant",
     description: "Trichomes on living cannabis flower: their location, gland forms, size, maturation, color, protective role, cannabinoids, and terpenes.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Trichomes are resin glands that grow across cannabis flowers and the small leaves surrounding them. Their heads hold most of the living plant's cannabinoids and terpenes, making them central to aroma, surface character, and harvest observation. On mature flower they create the familiar frosted appearance, while magnification reveals distinct gland shapes and stages of development.",
       "The word trichome covers several hair-like and glandular structures found on plants. Cannabis develops non-glandular hairs as well as resin-producing glands. For flower quality, the glandular types receive the closest attention because their resin connects the living surface to the aromatic and cannabinoid profile preserved after harvest.",
+      "Presidential Cannabis publishes this trichomes guide as adult 21+ plant literacy: what glandular resin surfaces are on the living flower, how glandular and non-glandular structures differ in plain language, and how coverage and color talk stay descriptive rather than medical. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with anatomy, resin appearance, harvest observation, and careful post-harvest handling.",
     ],
     sections: [
       {
@@ -112,6 +113,28 @@ export const plantArticles: PageContent[] = [
           "Trichomes appear most densely on bracts, the small structures that surround the flower's reproductive parts, and on nearby sugar leaves. They can also occur on other above-ground plant surfaces at lower density. Their placement creates a resinous field around the flower, with the greatest visible concentration building as flowering advances.",
           "Bulbous glands are tiny and sit close to the surface. Capitate-sessile glands have a rounded head on a very short base. Capitate-stalked glands rise on a visible stalk and carry a larger rounded head. These stalked glands become the most visually prominent form on mature cannabis flower, especially under magnification.",
           "A broad reference range places trichome heads roughly 25 to 160 microns across, while published measurements vary with gland type, genotype, and age. One study measured bulbous heads at 15 to 30 microns and capitate heads at 40 to 110 microns in its selected plants. Their distribution varies across the flower, so a useful observation looks across several sites rather than concentrating on one patch.",
+          "Glandular and non-glandular trichomes share a hair-like presence, yet they do different work. Non-glandular hairs can shade tissue, discourage contact, or alter the microclimate around tender flower parts. Glandular forms build the rounded resin heads that carry aromatic compounds and cannabinoids. When growers and buyers talk about frost, they usually mean those glandular heads across bracts and sugar leaves rather than every hair on the plant.",
+          "Coverage also varies by cut, canopy position, and garden conditions. The same clone can present a denser frosted field in one room and a lighter field in another when light, nutrition, humidity, and plant health differ. Batch notes therefore matter beside the cultivar name: strain identity describes genetics, while appearance notes describe what this run actually built on the living surface.",
+        ],
+        contextualLinks: [
+          {
+            before: "Return to ",
+            href: "/plant",
+            label: "The Cannabis Plant Guide",
+            after: " for the map from annual biology and resin glands through harvest into post-harvest care.",
+          },
+          {
+            before: "Review the gland-bearing surfaces in ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: ", where bracts, sugar leaves, and clustered sites explain where frost concentrates.",
+          },
+          {
+            before: "Revisit ",
+            href: "/plant/what-cannabis-is",
+            label: "what cannabis is",
+            after: " when you want the annual cycle and resin purpose behind these microscopic glands.",
+          },
         ],
       },
       {
@@ -121,6 +144,28 @@ export const plantArticles: PageContent[] = [
           "The rounded gland head contains resin rich in cannabinoids and terpenes. Cannabinoids begin in acidic form in the living plant. Terpenes supply aromatic notes that can read as earthy, citrus, pepper, pine, floral, fruit, or a more complex blend. Every cultivar carries a mixture, and its proportions can shift with genetics, environment, harvest timing, and handling.",
           "On the plant, this resinous surface contributes to protection around delicate flower tissues. The aromatic and physical qualities of the glands interact with insects, environmental exposure, and the microclimate around the flower. Their biological role belongs to the living reproductive structure, which is also why the plant concentrates so much of its chemical character there.",
           "Trichome abundance is one visible part of flower quality. Condition supplies another. Intact, well-developed heads carry more information than frost alone, and aroma, flower structure, maturity, and cure round out the assessment. The complete surface reflects both what the plant produced and how carefully it was carried through harvest.",
+          "Aroma and resin appearance travel together because terpenes sit in the same glandular resin that creates the frosted look. A bright citrus or pine note does not come from sparkle alone, and a heavily frosted surface does not guarantee one aromatic profile. Observation stays concrete when it pairs the visual field with the nose, dates, and structure rather than treating frost as a ranking or a medical promise.",
+          "At a licensed counter, trichome talk is useful when it stays observational. Ask how the producer describes coverage and handling for this batch, whether dates sit separate from the strain title, and how the dry and cure were paced to protect the surface. That habit separates cultivar naming from batch appearance and keeps clear, cloudy, and amber language in its agricultural role.",
+        ],
+        contextualLinks: [
+          {
+            before: "Connect resin to scent in ",
+            href: "/flower/aroma",
+            label: "flower aroma",
+            after: ", where terpene character explains what the nose reads beside the frosted field.",
+          },
+          {
+            before: "Locate production chemistry in ",
+            href: "/plant/cannabinoids-in-the-plant",
+            label: "cannabinoids in the living plant",
+            after: ", which places acidic forms inside the same gland heads that create visible resin.",
+          },
+          {
+            before: "Continue into ",
+            href: "/flower",
+            label: "The Flower",
+            after: " for appearance, moisture, storage, and quality reading after the glands are preserved.",
+          },
         ],
       },
       {
@@ -130,6 +175,27 @@ export const plantArticles: PageContent[] = [
           "Young gland heads often appear clear. As the flower matures, many heads become cloudy or milky, and some develop amber tones. Cultivators read the proportion and distribution of these stages across representative flower sites. Pistils, swelling bracts, aroma, plant health, and the intended finished profile add context to the color view.",
           "Maturity arrives as a window rather than a single instant. Upper and lower sites receive different light and can progress at different rates. Looking across the canopy gives the grower a more complete picture. The chosen harvest moment captures one balance of gland maturity and aromatic expression for the finished flower.",
           "After harvest, gentle handling supports the surface the plant built. Temperature, light, time, and physical contact influence aromatic preservation and gland condition. A well-preserved flower lets a buyer see the living story clearly: location, gland form, resin, maturity, and careful passage into the cured harvest.",
+          "Harvest timing and drying inherit the trichome story the plant built. Growers read clear-to-cloudy-to-amber patterns as one maturity cue among several, then hand the cut to controlled drying and curing so aromatic character and surface condition can settle without rough handling. A later package still shows the chosen window only if the dry room and cure jar protect what the glands already produced.",
+        ],
+        contextualLinks: [
+          {
+            before: "Follow maturity reading in ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: ", where trichome, pistil, and whole-plant cues define the window the resin profile inherits.",
+          },
+          {
+            before: "See how that window is carried in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: ", where moisture movement and multi-week observation protect aromatic character and gland condition.",
+          },
+          {
+            before: "Start from the ",
+            href: "/",
+            label: "Presidential Cannabis plant guide home",
+            after: " anytime you need the full map of brand education beside this trichomes chapter.",
+          },
         ],
       },
     ],

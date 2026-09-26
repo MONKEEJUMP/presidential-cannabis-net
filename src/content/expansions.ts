@@ -81,6 +81,7 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
       paragraphs: [
         "Lighting affects how trichome color appears during inspection, so cultivators use a clear, neutral view and compare several positions. The goal is a representative pattern rather than a perfect match across every gland. Natural variation remains visible even on one bract, with clear, cloudy, and amber heads sometimes present together. Their proportions and the surrounding flower provide the useful maturity picture.",
         "For buyers, magnification can reveal preservation as well as maturity. Rounded heads sitting above the surface, a broad frosted field, and defined aroma form a coherent set of clues. The flower's dates, structure, and cure add context. This keeps trichome inspection in its proper role: a close view of the living glandular surface that strengthens a complete flower assessment.",
+        "Variation across a batch is ordinary. Top, mid, and lower sites can carry different densities and color mixes on the same genetics, so growers sample several positions and buyers can expect natural range inside one jar. Separating strain name from batch notes keeps that literacy practical: the cultivar title points to lineage, while dates, handling, and what the eye and nose show describe this run rather than collapsing every frosted surface into one promise.",
       ],
     },
   ],
