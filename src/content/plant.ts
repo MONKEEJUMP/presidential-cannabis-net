@@ -65,10 +65,11 @@ export const plantArticles: PageContent[] = [
     h1: "Indica, Sativa, Hybrid",
     title: "Indica, Sativa and Hybrid Explained",
     description: "The origins and modern value of indica, sativa, and hybrid as traditional descriptors of cannabis structure, geography, and lineage.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Indica, sativa, and hybrid are traditional cannabis descriptors rooted in plant classification, geography, growth form, and modern commerce. They offer broad historical shorthand rather than a reliable stand-alone measure of ancestry or a current batch. Many commercial cultivars show extensive admixture from repeated hybridization, so breeder records, batch details, aromatic profile, and direct observation provide the clearest picture of the flower in front of you.",
-      "The terms remain useful when they are read at the right scale. They can introduce a plant's breeding background, the shape associated with historical populations, and the way a breeder frames a family. They become richer beside parentage, phenotype, cultivation, harvest date, terpene information, cure, and aroma—details that describe the present flower rather than a category alone.",
+      "The terms remain useful when they are read at the right scale. They can introduce a plant's breeding background, the shape associated with historical populations, and the way a breeder frames a family. They become richer beside parentage, phenotype, cultivation, harvest date, terpene information, cure, and aroma-details that describe the present flower rather than a category alone.",
+      "Presidential Cannabis publishes this guide as adult 21+ plant literacy: how the labels entered common language, why growth-form and geography shaped them, and how hybrid breeding now fills most licensed shelves. Shelf tags are introductions, not medical promises or fixed personal-effect guarantees. Product catalogs and retailer paths stay on the official storefronts; this page stays with botanical history, morphology language, lineage reading, and batch evidence.",
     ],
     sections: [
       {
@@ -78,6 +79,28 @@ export const plantArticles: PageContent[] = [
           "Cannabis classification developed across botany, agriculture, trade, and regional growing traditions. Plants associated with different regions displayed recognizable patterns because generations of reproduction occurred under local day length, temperature, elevation, season, and human selection. Tall plants with longer spacing and narrower leaflets became associated with one side of the traditional vocabulary, while shorter, broader, more compact plants became associated with another.",
           "Those descriptions began as observations of populations and plant form. They spoke to growth habit, flowering time, leaf shape, branching, and geographic history. Cultivators could use them to anticipate the space a plant might occupy or the season it might prefer. The labels therefore entered common language with a real botanical foundation, even as the plant's movement and continued breeding made family trees more complex.",
           "The word hybrid describes a cross between distinct parents or populations. Cannabis breeding has used crossing extensively, bringing traits from many family lines into modern cultivars. A hybrid may lean toward one historical growth pattern, combine several, or express a fresh balance selected for a particular cultivation environment and flower goal.",
+          "As seed and cuttings moved across regions, the tidy map of local populations became harder to hold. Breeders crossed plants that once lived continents apart, and commercial gardens selected for flower density, flowering time, aroma, and canopy fit more than for purity of an old geographic type. The historical words stayed familiar in the market even as the plants behind them became more mixed.",
+          "Growth-shape language still has agricultural value. Tall, stretchy plants and compact, broad-leaf plants remain real morphological tendencies that matter for trellis, light, and flowering schedules. Confusion arrives when those same words are treated as promises about personal experience. Shelf tags that say indica or sativa are not medical classifications, and they do not certify how any adult will feel. They are traditional plant descriptors that sit beside lineage and batch detail rather than replacing them.",
+        ],
+        contextualLinks: [
+          {
+            before: "Start with the annual plant frame in ",
+            href: "/plant/what-cannabis-is",
+            label: "what cannabis is",
+            after: " when you want the life cycle behind these traditional labels.",
+          },
+          {
+            before: "Compare regional origins and modern crossing in ",
+            href: "/genetics/landrace-and-modern",
+            label: "landrace and modern genetics",
+            after: ", where adaptation history meets today's hybrid reality.",
+          },
+          {
+            before: "Follow family records through ",
+            href: "/genetics/lineage",
+            label: "lineage",
+            after: " when parent names need to sit beside the broad I/S/H tag.",
+          },
         ],
       },
       {
@@ -87,12 +110,39 @@ export const plantArticles: PageContent[] = [
           "Today, indica, sativa, and hybrid work best as shorthand for lineage and broad plant tendencies. A breeder or producer may use them to place a cultivar within a familiar family. The terms can also hint at growth pattern, such as internodal spacing, stretch during flowering, flower density, or the length of the flowering cycle. These are starting points that gain precision when parentage and phenotype are known.",
           "Modern flower carries many layers beyond the category. Two plants within a hybrid family can express different phenotypes. The same clone can develop differently across gardens. Harvest timing can capture distinct stages of trichome maturity, and drying and curing can preserve different amounts of aromatic character. By the time flower reaches a package, its current batch contains information that the broad label was never designed to hold by itself.",
           "This is why the labels work as an introduction rather than a stand-alone ancestry or chemistry test. The flower's present aroma, terpene blend, structure, freshness, moisture, and cure give direct evidence. A menu that includes documented parentage, dates, and a terpene panel adds further context. The category opens the conversation, while breeder records and the batch complete it.",
+          "Walk a licensed menu today and hybrids fill most of the board. Pure expressions of a single historical population are uncommon in commercial flower; repeated crossing is the ordinary breeding path. That is why two jars tagged hybrid can still differ sharply in aroma, structure, and parentage. The shared word means both come from mixed families, not that they share one chemistry profile or one personal outcome.",
+          "Reading parents, cut, and batch separately from the I/S/H tag keeps the conversation concrete. Ask which parents or family the producer lists, whether this is a specific cut, and what harvest and package dates accompany the jar. Those answers sit next to the broad label instead of disappearing into it. At the counter, questions about aroma, structure, and dates turn a three-word category into a plant you can evaluate.",
+        ],
+        contextualLinks: [
+          {
+            before: "See how crosses are built in ",
+            href: "/genetics/how-strains-are-made",
+            label: "how strains are made",
+            after: " when hybrid labels need a breeding backstory.",
+          },
+          {
+            before: "Separate genetics from this run in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: ", where garden and post-harvest change explain jar-to-jar range.",
+          },
+          {
+            before: "Bring useful questions to the counter with ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so parentage, dates, and aroma stay in view beside the shelf tag.",
+          },
+          {
+            before: "Practice menu literacy in ",
+            href: "/choosing/reading-a-menu",
+            label: "reading a menu",
+            after: " when category columns need supporting batch detail.",
+          },
         ],
       },
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Explore current Presidential cultivar families nearby" },
   },
-  {
     path: "/plant/trichomes",
     kind: "article",
     silo: "plant",
