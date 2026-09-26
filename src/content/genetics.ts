@@ -167,10 +167,11 @@ export const geneticsArticles: PageContent[] = [
     h1: "Landrace and Modern",
     title: "Landrace Cannabis & Cultivars",
     description: "What landrace cannabis populations are, how regional adaptation shaped them, and how modern breeding developed their genetic foundations.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "A cannabis landrace is a locally adapted population shaped through generations of reproduction in a particular region. Climate, season, elevation, soil, human selection, and exchange within the area helped establish recognizable traits. Modern cultivars build on this diversity through crossing and selection, combining regional foundations into plants suited to current gardens and flower goals.",
       "Landrace describes a population rather than one perfectly uniform plant. Variation gives the population resilience and provides breeders with multiple expressions to study. The concept is valuable because it connects genetics to place and time, showing how inherited traits emerge through long relationships between plants, environments, and people.",
+      "Presidential Cannabis publishes this landrace-and-modern guide as adult 21+ genetics literacy: how regional populations formed through local adaptation, how that diversity entered modern breeding, and how cultivar names relate to—but do not replace—documented parentage and present batch evidence. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with origins, adaptation, selection, and naming clarity.",
     ],
     sections: [
       {
@@ -180,6 +181,28 @@ export const geneticsArticles: PageContent[] = [
           "Cannabis carried by seed takes root in a local growing season. Plants that complete reproduction successfully contribute to the next generation, while growers save seed from individuals that suit their agricultural and cultural aims. Across many cycles, timing, height, branching, flower structure, aroma, and seed production can become aligned with the region.",
           "A long, warm season can support a different growth pattern from a short season at elevation. Humidity, rainfall, day length, and temperature all influence which plants thrive and finish. Human selection adds another layer through preferred fiber, seed, resin, aroma, structure, or harvest timing.",
           "The resulting population contains family resemblance and living variation. Seeds from the same region may express several phenotypes, each carrying a different combination within the adapted pool. That diversity is a resource: it holds traits that breeders can preserve, study, and combine.",
+          "Origins language should stay precise. A regional label can describe a broad adapted population, a collected seed lot, or later selections that traveled far from the named place. Useful literacy asks which meaning applies: the geography of long local reproduction, the provenance of a particular lot, or a modern project that references a regional foundation. Clear records keep those layers from collapsing into one vague story.",
+          "Readers can treat landrace history as context for living plants rather than as a guarantee about any single jar. Regional adaptation explains why certain growth patterns, aromatic families, and timing tendencies became common in a place. Finished flower still asks for present observation—structure, aroma, moisture, and dates—because cultivation and handling complete the story that inheritance begins.",
+        ],
+        contextualLinks: [
+          {
+            before: "Return to ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " for the map from lineage and phenotypes through breeding, naming, and batch variation.",
+          },
+          {
+            before: "Connect finished-flower observation with ",
+            href: "/flower",
+            label: "The Flower",
+            after: " when aroma, density, moisture, and storage turn regional history into what you can check in the jar.",
+          },
+          {
+            before: "Start from the ",
+            href: "/",
+            label: "Presidential Cannabis plant guide home",
+            after: " anytime you need the full map of brand education beside this genetics chapter.",
+          },
         ],
       },
       {
@@ -189,6 +212,28 @@ export const geneticsArticles: PageContent[] = [
           "Modern breeders brought regional populations and their descendants into planned crosses. Combining families widened aromatic range, flower density, color, resin expression, cultivation timing, and adaptability to indoor or controlled environments. Selection then concentrated particular combinations into named cultivars and preserved outstanding individuals through clones.",
           "What remains is the genetic contribution of those foundations: growth tendencies, aromatic families, timing, resilience, and plant architecture carried forward through parentage. A modern family tree may pass through many named crosses, yet earlier regional material continues to shape the possibilities available to the breeder.",
           "Many modern commercial cultivars show extensive admixture from repeated hybridization, representing generations of movement and choice. Reading documented lineage can reveal the claimed foundations; observing the current phenotype shows the selected expression; reading the batch shows the latest cultivation. Landrace and modern belong to one continuous story of adaptation, preservation, and creative development.",
+          "Naming and genetics are related tools with different jobs. A cultivar name identifies a released selection or seed line for trade and conversation. Parentage, phenotype notes, and producer records explain what that name is supposed to point to. When a regional nickname, a breeder code, and a retail menu title diverge, the useful move is to ask which layer is documented rather than treating every label as the same kind of claim.",
+          "At a licensed counter, that literacy stays practical. Ask which parents or regional foundations are documented, whether the flower comes from seed or a selected cut, and which harvest or package date belongs to the current batch. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person. Heritage then informs curiosity without replacing the evidence sitting on the shelf today.",
+        ],
+        contextualLinks: [
+          {
+            before: "Follow planned crosses and selection in ",
+            href: "/genetics/how-strains-are-made",
+            label: "how strains are made",
+            after: " when you want the breeding steps that turn diverse parents into a released line.",
+          },
+          {
+            before: "Separate memorable labels from parentage with ",
+            href: "/genetics/strain-naming",
+            label: "strain naming",
+            after: " so retail titles stay grounded in documented identity rather than standing in for genetics alone.",
+          },
+          {
+            before: "See why the same named material can still vary in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when garden, harvest, dry, and cure give each run its own expression.",
+          },
         ],
       },
     ],
