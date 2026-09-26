@@ -269,10 +269,11 @@ export const plantArticles: PageContent[] = [
     h1: "Harvest Timing",
     title: "How Harvest Timing Shapes the Flower",
     description: "How cultivators read cannabis flower maturity and how earlier, central, and later harvest windows shape the finished flower.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Harvest timing selects the stage of maturity that becomes finished cannabis flower. Cultivators read trichome clarity and color alongside pistils, bract development, aroma, plant condition, and the intended profile. An earlier or later choice captures a different balance of floral freshness, resin maturity, aromatic character, and physical structure.",
       "The harvest window spans a period rather than a single universal day. Genetics influences flowering length, and every garden adds its own environment. Even within one plant, upper and lower flower sites can advance at different rates. A sound decision therefore comes from representative observation across the canopy and from familiarity with the cultivar through complete cycles.",
+      "Presidential Cannabis publishes this harvest-timing guide as adult 21+ plant literacy: how growers read a maturity window rather than a single calendar date, how trichome and pistil cues describe progress without guaranteeing one aromatic outcome, and how the chosen cut hands work to drying and curing. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with observation, windows, and post-harvest continuity.",
     ],
     sections: [
       {
@@ -282,6 +283,28 @@ export const plantArticles: PageContent[] = [
           "Trichome heads provide a close view. Many begin clear, move toward a cloudy or milky appearance, and develop amber tones as maturity advances. A hand lens or microscope makes this progression visible. Growers look across several flowers and several positions because a bright top site may mature ahead of a shaded lower site.",
           "The rest of the flower supplies context. Bracts swell, paired stigmas change color and position, aroma develops, and the complete inflorescence advances on a genotype-specific schedule. Each cultivar presents these signs in its own proportions. A grower's history with the same genetics makes the combined reading especially valuable.",
           "The intended finished flower also guides the decision. Cultivators may select a point that emphasizes bright aromatic definition and lively surface color, or allow additional time for fuller bract development and a greater share of amber glands. The strongest harvest choice aligns maturity, plant health, environmental conditions, and the expression the grower set out to preserve.",
+          "A harvest window is a range, not a stamped appointment on the calendar. Flowering-length estimates give orientation, yet genotype, light history, canopy position, and plant condition move the actual days. Growers therefore treat predicted weeks as a planning frame and treat daily observation as the decision tool. Clear, cloudy, and amber trichome language names what a lens shows; it does not promise a single finished aroma or density for every cultivar cut on the same day.",
+          "Pistils, bract swell, and whole-plant vigor supply the same kind of descriptive vocabulary. Color change on stigmas and fuller bract mass can track advancing maturity, while a plant under stress may present mixed signals that ask for caution rather than a forced cut. Reading several sites—top, mid, and lower—keeps one bright cola from speaking for the entire canopy. That habit matters because finished flower will later be judged as a batch, and the batch inherits whatever stage the grower chose across those positions.",
+        ],
+        contextualLinks: [
+          {
+            before: "Return to ",
+            href: "/plant",
+            label: "The Cannabis Plant Guide",
+            after: " for the map from annual biology and resin glands through harvest into post-harvest care.",
+          },
+          {
+            before: "Review the anatomy behind these cues in ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: ", where bracts, pistils, and clustered sites explain what maturity reading is looking at.",
+          },
+          {
+            before: "Revisit ",
+            href: "/plant/what-cannabis-is",
+            label: "what cannabis is",
+            after: " when you want the annual cycle and resin purpose that make a harvest window meaningful.",
+          },
         ],
       },
       {
@@ -291,6 +314,28 @@ export const plantArticles: PageContent[] = [
           "An earlier harvest within a cultivar's accepted window may present a greater share of clear-to-cloudy glands, lighter stigma tones, and bracts that are still developing. Chemistry and aroma follow genotype-specific patterns, so these visual signals describe maturity rather than promising one universal aromatic or cannabinoid result.",
           "A later point may carry more amber glands, advanced stigma color, and additional bract development. Trichomes mature asynchronously and cultivars reach different chemical peaks at different times. These are observational inputs rather than a universal clock; the intended profile, plant history, representative sampling, and complete flower guide the decision together.",
           "Drying and curing determine how the harvest decision reaches the finished flower. Controlled moisture loss stabilizes structure, while curing allows remaining moisture and the aromatic profile to continue changing under observation. Common industry practice often spans several weeks. Timing captures the moment, and post-harvest care carries its changing signature toward the package.",
+          "Two harvests of the same cut can still differ. Garden climate, feeding finish, canopy density, and exact day within the window shift water content, aromatic intensity, and how tightly bracts have filled. The cultivar name identifies the genetics; harvest and batch labels identify this run. At a licensed counter, ask when the flower was cut, how it was dried and cured, and whether those dates sit separate from the strain title—so one name never stands in for timing evidence.",
+          "Timing also sets the starting state that drying and curing must carry. An earlier-window cut may arrive with a brighter aromatic edge and bracts still settling; a later-window cut may arrive denser and further along in gland color. Neither description doses or ranks quality by itself. What matters is continuity: the dry room and cure jar preserve the chosen maturity rather than rewriting it. Asking how a producer coordinated the cut with hang conditions connects the living-plant decision to the texture and aroma in the sealed package.",
+        ],
+        contextualLinks: [
+          {
+            before: "Follow the handoff in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: ", where moisture movement and multi-week observation carry the chosen window into stable flower.",
+          },
+          {
+            before: "Continue into ",
+            href: "/flower",
+            label: "The Flower",
+            after: " for appearance, aroma, moisture, and storage after the harvest decision is finished.",
+          },
+          {
+            before: "Start from the ",
+            href: "/",
+            label: "Presidential Cannabis plant guide home",
+            after: " anytime you need the full map of brand education beside this harvest chapter.",
+          },
         ],
       },
     ],
