@@ -51,10 +51,11 @@ export const flowerArticles: PageContent[] = [
     h1: "Appearance",
     title: "Judge Cannabis Flower by Sight",
     description: "How to read cannabis flower color, trichome coverage, pistils, bracts, structure, and trim quality through careful visual observation.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Well-grown cannabis flower shows developed structure, lively color, visible trichomes, mature pistils, and a trim that reveals the flower's natural form. Sight supplies a fast first assessment of cultivation and handling. The most useful visual reading considers the whole piece and lets cultivar differences remain part of the picture.",
       "Appearance offers evidence rather than a beauty contest. Compact and airy flowers can each represent strong genetics and careful growth. Green and purple palettes can each carry complete maturity. The goal is to see whether the bracts developed fully, the surface remained intact, the color feels fresh, and the finished shape presents the flower clearly.",
+      "Presidential Cannabis publishes this appearance guide as adult 21+ flower literacy: how color, structure, trichome frost, and trim read on a licensed shelf, why two jars that share a strain name can still look different, and how labels and batch notes sit beside what the eye sees. Product catalogs and retailer paths stay on the official storefronts; this page stays with visual observation, agricultural context, and practical counter questions—never medical claims.",
     ],
     sections: [
       {
@@ -64,6 +65,28 @@ export const flowerArticles: PageContent[] = [
           "Cannabis flower commonly carries several greens, from bright leaf tones to deeper olive. Genetics and temperature can bring purple, burgundy, or near-black accents, while pistils add cream, orange, rust, and brown. Healthy color appears dimensional across bracts and leaves. The palette belongs to the cultivar and its environment, so vibrancy and coherence are more informative than one preferred hue.",
           "Structure begins with overlapping bracts. In compact flower they gather tightly, creating dense rounded or conical pieces. In open flower they form along visible spacing, often producing elongated shapes. Both patterns can show complete development through swollen bracts, a stable form, and a surface that carries resin evenly across the cluster.",
           "Pistils extend from the reproductive flower and change as maturity advances. Many darken and draw inward by harvest, while some lighter strands may remain. Their condition adds a useful maturity clue beside trichome color, bract development, and the rest of the plant. A complete visual reading treats them as one part of the flower rather than a clock by themselves.",
+          "On a licensed shelf, appearance means the finished piece as presented: color range across bracts and sugar leaves, how tightly or openly the cluster is built, how much trichome frost covers the surface, and how cleanly the trim reveals that form. A jar under bright retail light can emphasize frost and pistil tones; a tinted container may ask you to rely more on label dates and the budtender's description until you can inspect the flower directly. Either way, the useful habit is the same—read the whole piece rather than hunting one perfect color.",
+          "Two jars that share a strain name can still look different. Phenotype selection, garden climate, canopy position, harvest timing, dry room conditions, and trim style all leave marks on the finished surface. The cultivar title points to genetics and branding; batch identifiers, harvest and package dates, and the flower in front of you describe this run. Separating name from batch appearance keeps visual literacy honest and prevents one menu word from standing in for every visual detail.",
+        ],
+        contextualLinks: [
+          {
+            before: "Review the anatomy behind what you see in ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: ", where bracts, pistils, and clustered sites explain the shapes on the shelf.",
+          },
+          {
+            before: "Compare how density presents in ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " when compact and open forms need equal, concrete language.",
+          },
+          {
+            before: "See why gardens shift expression in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: ", where environment and post-harvest change explain jar-to-jar range.",
+          },
         ],
       },
       {
@@ -73,6 +96,46 @@ export const flowerArticles: PageContent[] = [
           "Trichomes create the sparkling or frosted surface associated with resin-rich flower. Coverage across bracts and sugar leaves can be seen with the unaided eye, while a hand lens reveals rounded gland heads and their clarity. Intact heads suggest careful passage through harvest, drying, trimming, packaging, and transport.",
           "A trim defines the finished profile. Larger fan leaves are removed, and close sugar leaves are shaped according to the cultivator's style and the flower's structure. A quality trim makes bracts and trichome coverage easy to see while retaining the gland-rich material that belongs naturally close to the flower.",
           "Visual observation ends by returning to the whole. Look for developed anatomy, cultivar-appropriate density, coherent color, a preserved resin surface, and intentional trim. Then add aroma, moisture, cure, and batch dates. Sight opens the quality assessment, and the remaining senses complete it.",
+          "Appearance relates to flower structure, trichomes, and harvest timing without turning any of those into a medical promise. Bract swell and cola shape show how the cluster filled; frost density and gland condition show how resin was preserved; pistil and trichome color cues reflect the maturity window the grower chose. Sight describes those agricultural facts. Aroma, moisture, and cure then confirm whether the visual story holds after drying and packaging.",
+          "Labels and the flower deserve equal attention. A label can name the cultivar, list cannabinoid or terpene panels, and stamp harvest or package dates. Looking at the flower checks whether color, structure, frost, and trim match a carefully finished batch. At a licensed counter, ask when this jar was harvested and packaged, whether the producer favors a closer or looser trim for this cut, and how the current batch looks beside an earlier run of the same name—so strain identity never replaces batch appearance.",
+        ],
+        contextualLinks: [
+          {
+            before: "Study the resin surface in ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " when frost and gland heads need a closer botanical frame.",
+          },
+          {
+            before: "Connect maturity cues to ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: ", where growers read windows rather than a single calendar day.",
+          },
+          {
+            before: "Continue the sensory pass with ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " once color and frost have been read.",
+          },
+          {
+            before: "Check texture balance in ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " so sight, nose, and feel stay in one assessment.",
+          },
+          {
+            before: "Bring practical counter questions from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when dates, trim style, and batch notes need clear prompts.",
+          },
+          {
+            before: "Return to ",
+            href: "/flower",
+            label: "The Flower",
+            after: " hub anytime you need the full appearance-to-storage map.",
+          },
         ],
       },
     ],
