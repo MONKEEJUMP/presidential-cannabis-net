@@ -246,10 +246,11 @@ export const geneticsArticles: PageContent[] = [
     h1: "Why Batches Differ",
     title: "Why Cannabis Batches Differ",
     description: "Why identical cannabis genetics can produce distinct batches through environment, plant care, harvest timing, drying, curing, packaging, and storage.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Two batches of the same cannabis strain differ because genetics provide a range and each cultivation cycle gives that range a fresh environment. Light, temperature, humidity, nutrition, root space, plant care, harvest timing, drying, cure, packaging, and storage shape the finished flower. Even batches grown from the same clone can vary in aroma, structure, color, moisture, and trichome maturity.",
       "The cultivar name identifies a genetic family or selected individual. The batch identifies one completed run of that material. Reading both levels is the practical approach: lineage explains inherited potential, while the batch describes how that potential appeared and how well it was preserved this time.",
+      "Presidential Cannabis publishes this batch-variation guide as adult 21+ genetics literacy: why two jars that share a strain name can still differ through environment, harvest window, cure, and cut-versus-seed origin; how to read batch, COA, and harvest notes separately from the menu title; and how appearance, aroma, and density sit beside that comparison—never medical claims.",
     ],
     sections: [
       {
@@ -259,6 +260,28 @@ export const geneticsArticles: PageContent[] = [
           "Light intensity and distribution influence plant architecture and flower development. Temperature and humidity shape growth rate and the microclimate around flowers. Root volume, irrigation, nutrition, and canopy management support the plant's access to resources. Each choice contributes to bract development, spacing, color, resin, and the aromatic blend.",
           "The same room also changes across seasons, equipment cycles, and canopy positions. Upper flowers can receive more light than lower ones, and edges can experience different air movement from the center. Skilled cultivation works toward consistency while recognizing that a living canopy contains natural gradients.",
           "A clone keeps the genotype constant, which makes these environmental differences especially visible. Seed-grown plants add genetic variation as well. In both cases, the finished flower is phenotype in context: inherited possibility expressed through one complete growing cycle.",
+          "Cut versus seed is one of the clearest reasons two batches of the same name diverge. A selected cut repeats one genotype across rooms and cycles, so differences mostly track environment, care, and post-harvest. A seed run of the same branded family can still segregate into multiple phenotypes, each with its own structure, aroma balance, and timing. Asking whether the current lot comes from a known cut or a seed selection keeps the comparison honest before anyone treats the menu title as a fixed portrait.",
+          "Environment then writes the next chapter. The same cut under a hotter canopy, a different fertigation schedule, or a tighter plant density can present denser or more open flower, a brighter or deeper aromatic blend, and a different frost surface. Those shifts are agricultural, not a failure of the name. Reading phenotype language beside garden notes explains why a familiar cultivar can still surprise from one licensed delivery to the next.",
+        ],
+        contextualLinks: [
+          {
+            before: "Map inherited range through ",
+            href: "/genetics/phenotypes",
+            label: "phenotypes",
+            after: " when cut consistency and seed variation need clearer terms.",
+          },
+          {
+            before: "Trace parentage context in ",
+            href: "/genetics/lineage",
+            label: "lineage",
+            after: " so the family tree stays separate from one finished batch.",
+          },
+          {
+            before: "See how selection starts in ",
+            href: "/genetics/how-strains-are-made",
+            label: "how strains are made",
+            after: " before a garden run reaches the shelf.",
+          },
         ],
       },
       {
@@ -268,6 +291,46 @@ export const geneticsArticles: PageContent[] = [
           "Harvest timing selects a maturity balance. Clear, cloudy, and amber trichome proportions change across the window, while bracts, pistils, and aroma continue developing. A shift of several days can give the flower a different surface tone and aromatic emphasis, especially in a fast-moving cultivar.",
           "Drying and curing add another set of conditions. Flower size, room climate, spacing, container practice and time determine how moisture settles and how volatile aromatic compounds change. Small differences in preservation can therefore become noticeable in the finished flower.",
           "Packaging and retail storage complete the batch journey. Dates, seal quality, temperature, light exposure, and time all matter. This variability gives buyers useful agency: smell the flower when possible, inspect its structure and trichomes, feel the cure, read the dates and terpene panel, and ask about the current batch. The name starts the comparison; the batch makes it accurate.",
+          "Batch identifiers, harvest and package dates, and certificate-of-analysis (COA) or terpene panels describe this run—not every jar that has carried the strain name. The title answers identity; the batch line answers when it was finished, how it was tested, and which lot you are evaluating. Treat printed percentages as a snapshot of the tested sample for this harvest: useful beside aroma and feel, never as a medical claim.",
+          "Those differences show up on neighboring literacy pages in concrete ways. Appearance may shift in color, frost, or trim; aroma may lean brighter or deeper within the same family; density and structure may read more open or compact after a new garden cycle or cure. At a licensed counter, ask which dates belong to the jar in hand, whether this lot is the same cut as the last delivery, and how current aroma and structure compare with a prior run of the same name—so strain identity never replaces batch literacy.",
+        ],
+        contextualLinks: [
+          {
+            before: "Connect maturity windows to ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: " when a few days change surface tone and aroma.",
+          },
+          {
+            before: "Follow moisture settling through ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: ", where room climate and time reshape the flower.",
+          },
+          {
+            before: "Compare visual batch cues in ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " when color, frost, and trim differ jar to jar.",
+          },
+          {
+            before: "Continue the sensory pass with ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " once the current batch's aromatic balance is clear.",
+          },
+          {
+            before: "Check form language in ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " when open and compact expressions need equal terms.",
+          },
+          {
+            before: "Bring practical prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so dates, cut notes, and batch comparisons stay specific.",
+          },
         ],
       },
     ],
