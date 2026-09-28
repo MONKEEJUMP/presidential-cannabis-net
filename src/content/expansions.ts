@@ -215,6 +215,7 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
         "Evaluation works best when plants share a well-managed environment. Consistent containers, light, irrigation, nutrition, and harvest observation make genetic differences easier to see. Breeders can then attribute a distinctive branch pattern, aroma, or maturity schedule more confidently to the individual rather than to a large difference in care.",
         "The cured-flower stage deserves its own scorecard. Appearance at harvest can be exciting, yet aromatic definition, texture, structural integrity, and stability become clearer after drying and cure. Breeders often compare samples without relying only on plant appearance, then return to the labeled clones whose finished flower best matches the project.",
         "Once selected, a clone becomes a reference point. Growers can compare future environments against the same genotype, refine timing, and learn its preferred canopy or harvest pattern. The plant still responds to each garden, which makes repeated batches informative. Phenotype selection captures one genetic individual; cultivation history builds practical knowledge around it.",
+        "Adults 21+ can treat phenotype vocabulary as a reading habit rather than a guarantee. Note the claimed cut or seed origin, the documented parents if available, and the current batch dates, then compare the flower in hand. That layered reading keeps selection literacy durable without medical claims or promises of identical jars.",
       ],
     },
   ],
