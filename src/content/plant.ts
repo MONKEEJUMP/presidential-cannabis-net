@@ -603,6 +603,8 @@ export const plantArticles: PageContent[] = [
           "Terpenes are volatile and can change during drying, curing and storage. Lower temperatures, darkness and a measured pace help preserve the aromatic fraction. Air movement during postharvest handling keeps the room consistent around the flowers, while thoughtful spacing gives each branch access to the same general conditions.",
           "Room design turns those principles into daily practice. Stable temperature and humidity keep moisture leaving at a predictable rate; darkness limits light stress on volatile compounds; gentle circulation prevents stagnant pockets without blasting the surface dry. Crowded racks create uneven zones, while generous spacing lets each branch share the same general climate. Growers adjust hang method, branch size, and trim timing to the cultivar's density so the dry remains gradual rather than forced.",
           "The dry also inherits the harvest window. Flower cut earlier or later within a cultivar's accepted range arrives with different water content, bract development, and aromatic intensity. That starting state shapes how long the room needs and how the piece will feel when stems begin to firm. Reading the dry as the next chapter of timing—not a separate ritual—keeps the living-plant story continuous from canopy observation through the first sealed container.",
+          "Resin surfaces need the same patience. Stalked trichome heads sit exposed on bracts and sugar leaves, so rough handling, high heat, or harsh airflow can scuff glands before the flower ever reaches a jar. A measured hang keeps branches supported, limits unnecessary contact, and lets moisture leave without stripping the aromatic film the plant built. That care is why frost that looked intact at cut still reads intact after the dry.",
+          "Hang method and trim timing also follow architecture. Whole-plant or large-branch hangs slow the outer surface on dense colas; earlier branch separation can help open forms breathe more evenly. Wet-trim versus dry-trim is a producer choice matched to cultivar packing, room capacity, and labor—not a universal ranking. Naming bract spacing and cola shape before the cut makes those choices easier to defend across runs.",
         ],
         contextualLinks: [
           {
@@ -610,6 +612,18 @@ export const plantArticles: PageContent[] = [
             href: "/plant/harvest-timing",
             label: "harvest timing",
             after: ", where trichome, pistil, and whole-plant cues define the window the dry must preserve.",
+          },
+          {
+            before: "Protect the glandular surface by revisiting ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " when coverage, head condition, and careful handling explain what the dry room must not erase.",
+          },
+          {
+            before: "Map bracts, pistils, and cola packing in ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: " so hang method and trim timing match the architecture arriving from the canopy.",
           },
           {
             before: "Return to ",
@@ -628,6 +642,7 @@ export const plantArticles: PageContent[] = [
           "Several weeks gives the process room to work. The exact timeline follows flower size, density, starting moisture, room conditions, and the grower's method. Consistency is the common value: gradual drying prepares the flower, controlled curing balances it, and cool, dark storage preserves that balance. The cure therefore decides how faithfully cultivation and harvest arrive in the finished package.",
           "Structure and density shape how the cure behaves. Compact pieces and open pieces release and equalize moisture on different schedules, so batch grouping and observation protect both forms without forcing one texture onto every cultivar. When adults later evaluate finished flower, bract spacing, silhouette, and gentle resilience are easier to read because the cure respected the inherited architecture instead of racing past it.",
           "After cure, the same literacy that began with the living plant still applies. Annual cycle and resin purpose explain why the flower carries aromatic and glandular detail into the jar; inheritance language explains why two cultivars need different hang and jar timelines. At a licensed counter, package dates, nose, and handling feel become the available evidence of that work. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+          "Moisture literacy after the jar is sealed stays observational. Adults 21+ can note whether the surface feels settled rather than brittle or spongy, whether aroma opens with definition on first crack, and whether package dates sit close enough to support that read. Those cues describe the cure's outcome without inventing dosing advice; they also connect cleanly to how moisture and storage habits protect the same balance once the container leaves the counter.",
         ],
         contextualLinks: [
           {
@@ -635,6 +650,18 @@ export const plantArticles: PageContent[] = [
             href: "/flower/density-and-structure",
             label: "density and structure",
             after: " for how compact and open forms influence handling, drying pace, and cured feel.",
+          },
+          {
+            before: "Carry the jar forward with ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " when texture, aroma definition, and freshness cues describe how the finished batch presents.",
+          },
+          {
+            before: "Protect that balance after purchase through ",
+            href: "/flower/storing-flower",
+            label: "storing flower",
+            after: ", where cool, dark, and sealed habits continue the same preservation logic.",
           },
           {
             before: "Continue into ",

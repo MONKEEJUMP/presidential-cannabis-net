@@ -122,7 +122,7 @@ export const editorialLinks: EditorialLink[] = [
     "id": "IL-042",
     "sourcePath": "/plant/drying-and-curing",
     "sectionId": "the-cure",
-    "paragraphIndex": 5,
+    "paragraphIndex": 6,
     "match": "Flower size and density",
     "label": "Flower size and density",
     "href": "/flower/density-and-structure"
@@ -200,3 +200,4 @@ export const editorialLinks: EditorialLink[] = [
     "href": "/flower"
   }
 ];
+
