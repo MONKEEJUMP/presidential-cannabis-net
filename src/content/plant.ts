@@ -338,10 +338,11 @@ export const plantArticles: PageContent[] = [
     h1: "Flower Structure",
     title: "The Anatomy of a Cannabis Flower",
     description: "The anatomy of cannabis flower, including bracts, calyxes, pistils, sugar leaves, colas, and the surfaces that carry resin.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "A cannabis flower is a cluster of many small reproductive flowers arranged along a branch. Bracts surround the reproductive structures, pistils extend outward, sugar leaves sit among the cluster, and many flower sites can build into a cola. Resin glands cover the bracts and close leaves most densely, giving mature flower its aromatic and frosted surface.",
       "Learning the parts makes the finished piece easier to read. The rounded shapes visible on a trimmed flower come mainly from overlapping bracts. Fine hair-like pistils trace stages of development. Small leaves give the cluster additional surface and structure. The stem and branching pattern organize these parts into the larger form determined by genetics and cultivation.",
+      "Presidential Cannabis publishes this flower-structure guide as adult 21+ plant literacy: plain language for bract, calyx, pistil, sugar leaf, cola, and trichome placement; how that anatomy shows up in appearance, density, harvest timing, and finished flower; and how to talk about structure at a licensed counter. No medical claims. The job is a botanical map that stays checkable beside the jar.",
     ],
     sections: [
       {
@@ -351,6 +352,9 @@ export const plantArticles: PageContent[] = [
           "The bract is the small leaf-like structure that surrounds the female flower's reproductive parts. As flowering advances, bracts swell and overlap, creating much of the mass and contour recognized as a cannabis bud. Their exposed surfaces develop abundant glandular trichomes, which is why the bract sits at the center of flower anatomy and quality observation.",
           "The calyx is the protective floral structure formed by sepals in many flowering plants. Cannabis writing often uses calyx as a casual name for the swollen bract, so the two terms commonly appear together in descriptions. A precise view keeps the bract in focus while recognizing the established vocabulary used by growers and buyers.",
           "Pistils are part of the flower's reproductive system. Their slender stigmas extend from the bract and receive pollen when reproduction occurs. They often begin pale and become orange, rust, or brown as the flower matures. Their color and posture add one maturity signal beside trichome development, bract swelling, aroma, and the condition of the whole plant.",
+          "Trichomes sit most densely on those same bract faces and nearby sugar leaves. The frosted look is glandular resin concentrated where the flower built its richest surfaces, not a separate layer painted onto the bud. Structure explains why frost tracks certain contours and thins along stem or handled edges.",
+          "Appearance and density inherit this architecture. Overlapping bracts create the rounded silhouette buyers recognize; how tightly those bracts pack, how much sugar leaf remains, and how the cola was shaped all change whether a piece looks open, compact, leafy, or closely trimmed.",
+          "Harvest timing reads the same parts in motion. Bract swell, pistil color and posture, and trichome clarity or amber tones describe maturity on the living plant. Those cues name development on this cultivar, not a universal calendar or a medical promise.",
         ],
         contextualLinks: [
           {
@@ -365,6 +369,18 @@ export const plantArticles: PageContent[] = [
             label: "guide",
             after: " connects this anatomy to flower quality, genetics, choosing, and the licensed-retail path.",
           },
+          {
+            before: "See where resin concentrates in ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: ", the glandular heads that frost bract and sugar-leaf surfaces.",
+          },
+          {
+            before: "Follow maturity cues through ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: " when bract swell, pistils, and gland color are read together before the cut.",
+          },
         ],
       },
       {
@@ -374,6 +390,34 @@ export const plantArticles: PageContent[] = [
           "Sugar leaves are the small leaves that emerge from within and around the flower cluster. Their name comes from the sparkling resin glands that can make them appear dusted with sugar. They contribute surface area, photosynthesis, and structure while the flower grows. During trimming, cultivators shape how much of this close leaf remains on the finished flower.",
           "A cola is a larger grouping of flower sites concentrated along a stem, especially at a branch tip. The main cola forms at the plant's leading point, while side branches develop additional colas. Genetics, training, light distribution, branch support, and spacing influence their size and shape. A cola can later be separated into smaller pieces for drying, trimming, and packaging.",
           "All of these parts carry a cultivation record. Bract spacing reveals growth pattern, pistils show development, sugar leaves show resin near the flower, and the cola reflects canopy organization. Reading the anatomy gives density and appearance a botanical basis and shows exactly where the plant places its richest resin-bearing surfaces.",
+          "Finished flower inherits that map. After dry and cure, buyers still read bract contour, pistil color, sugar-leaf trim, and how tightly sites packed along the stem. Density talk is clearer when it names those parts instead of ranking jars by feel alone.",
+          "At a licensed counter, keep structure questions concrete. Ask how this batch's bract packing and trim compare with the last delivery of the same name, whether the producer favors a leafier or closer finish for this cut, and which harvest or package dates belong to the jar. Pair answers with what you see so the vocabulary stays adult retail literacy, not a medical claim.",
+        ],
+        contextualLinks: [
+          {
+            before: "Continue into ",
+            href: "/flower",
+            label: "The Flower",
+            after: " for appearance, aroma, density, moisture, and storage after anatomy is clear.",
+          },
+          {
+            before: "Read visible contour and frost through ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " when bract shape, pistils, and trim meet the eye on the shelf.",
+          },
+          {
+            before: "Connect packing and feel in ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " where bract fill and cola organization explain how a piece sits in the hand.",
+          },
+          {
+            before: "Return to ",
+            href: "/plant",
+            label: "The Cannabis Plant Guide",
+            after: " for the map from annual biology and resin glands through harvest into post-harvest care.",
+          },
         ],
       },
     ],
