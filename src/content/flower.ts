@@ -8,10 +8,11 @@ export const flowerArticles: PageContent[] = [
     h1: "Good Flower",
     title: "What Makes Cannabis Flower Good",
     description: "A complete method for judging cannabis flower through appearance, aroma, structure, trichomes, moisture, cure, freshness, and handling.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Good cannabis flower combines healthy appearance, defined aroma, cultivar-appropriate structure, intact trichomes, and a balanced cure. A practised buyer reads those qualities together. The strongest flower looks carefully grown, smells vivid and specific, feels settled yet resilient, and carries batch information that supports its freshness and handling.",
       "No single visual style owns quality. Some cultivars form compact pieces and others form open, elongated flowers. Colors range across greens, purples, and warm accents. The useful standard is coherence: structure fits the genetics, trichomes remain present across the surface, pistils and bracts show complete development, trim respects the flower, and moisture supports an even texture.",
+      "Presidential Cannabis publishes this good-flower checklist as adult 21+ flower literacy: appearance, aroma, density, moisture, and cure read together; how this hub ties to those child pages plus why two batches differ and what to ask; and the habit of reading batch notes separately from strain name—never medical claims.",
     ],
     sections: [
       {
@@ -21,6 +22,27 @@ export const flowerArticles: PageContent[] = [
           "Begin with shape and surface. Look for developed bracts arranged in a structure that feels natural for the cultivar. Color should appear lively within the flower's palette. Pistils sit through the cluster in tones that reflect maturity, and sugar leaves are trimmed to give the piece a clear profile while preserving resin-bearing material close to the flower.",
           "Trichome frost can appear as a silvery field across bracts and small leaves. Under magnification, intact rounded heads offer the clearest view of condition. Coverage matters, and preservation matters beside it. Gentle handling protects these exposed glands from harvest through packaging, so the surface provides evidence of both plant production and the care that followed.",
           "Trim quality is best read as balance. A clean trim makes the flower easy to see and use. A careful hand also respects the contours and gland-rich surfaces that carry character. The result looks intentional rather than mechanically uniform, with the anatomy of the flower still visible.",
+          "Treat appearance as the first checklist item, not the whole grade. Color, structure, frost, pistils, and trim open the reading; density explains compact or open form without ranking either. Sight describes agricultural finish—it does not replace aroma, moisture, or jar dates. On a licensed shelf, give the whole piece a slow pass: note bract stack, resin coverage, and whether trim reveals the flower. Two jars that share a strain name can still look different, so batch presentation belongs beside the cultivar title from the first glance.",
+        ],
+        contextualLinks: [
+          {
+            before: "Deepen the visual pass in ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " when color, frost, pistils, and trim need fuller language.",
+          },
+          {
+            before: "Separate compact from open form in ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " so silhouette never masquerades as a quality score.",
+          },
+          {
+            before: "Study resin surfaces in ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " when frost and gland heads need a closer botanical frame.",
+          },
         ],
       },
       {
@@ -30,6 +52,27 @@ export const flowerArticles: PageContent[] = [
           "A defined aroma is one of the fastest signals of preserved flower. Open the container, allow a moment for the headspace to reach you, and identify the first broad family: earthy, citrus, pepper, pine, floral, fruit, fuel, or another blend. Then notice clarity and depth. Fresh, carefully handled flower often reveals several notes as the aroma settles.",
           "Terpenes are volatile, so their presence reflects more than genetics. Cultivation creates the potential, harvest captures it, and drying, curing, packaging, and storage determine how much reaches the buyer. A flat or hay-like nose indicates that the remaining aromatic fraction is gentle and that freshness, cure, and storage dates deserve greater attention in the complete assessment.",
           "Texture explains moisture balance. A well-cured piece feels dry enough to handle cleanly while retaining a little resilience within its structure. The surface stays settled, bracts separate with intention, and the flower keeps its shape. This tactile balance supports storage stability and reflects a patient transition from fresh harvest to finished flower.",
+          "Aroma and moisture complete the middle of the checklist. Nose definition shows how much aromatic character survived post-harvest; settled resilience shows whether the cure left an even texture. Read them together—a vivid nose with brittle feel, or a soft feel with a flat nose, invites another look at dates and finish. At retail, ask how this batch smells, how the cure feels, and which dates belong to the unit in hand. Keep the language agricultural for adults 21+, never medical.",
+        ],
+        contextualLinks: [
+          {
+            before: "Expand aromatic families in ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " when headspace clarity and depth need a dedicated pass.",
+          },
+          {
+            before: "Read feel and cure in ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " when resilience and separation need tactile detail.",
+          },
+          {
+            before: "Trace dry-room and jar stages in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: " when post-harvest timing explains nose and texture.",
+          },
         ],
       },
       {
@@ -39,6 +82,34 @@ export const flowerArticles: PageContent[] = [
           "Harvest and package dates place sensory observations in time. A terpene panel can name and measure part of the aromatic blend. Lineage and category add family context. Potency provides another batch measurement. Together, these details support what your eyes, nose, and touch already describe.",
           "The current batch deserves priority over the reputation of a name. Identical genetics can express differently under different lights, temperatures, feeding programs, harvest windows, and cure conditions. A current piece of flower is the result available today, so direct observation and present dates carry immediate value.",
           "A repeatable buying method stays compact: inspect the structure and surface, smell for definition, read the moisture through texture, and place those qualities beside the batch information. This complete view respects cultivar diversity and keeps the standard centered on cultivation, preservation, and the flower itself.",
+          "Build a habit of reading batch notes separately from strain name. The name points to genetics and branding; lot codes, harvest and package dates, and panels describe this run. When label and flower agree—coherent look, defined aroma, balanced feel, current dates—the checklist holds. When they diverge, ask how this delivery compares with the last of the same name.",
+          "Counter questions stay observational: which dates belong to this jar, how the batch looks and smells beside an earlier run, and whether the producer notes cure or trim for this cut. Those prompts keep adults 21+ in agricultural literacy—never medical claims—and tie this hub to what-to-ask and why two batches differ.",
+        ],
+        contextualLinks: [
+          {
+            before: "See garden and post-harvest range in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when the same name arrives with a new look, nose, or feel.",
+          },
+          {
+            before: "Carry the checklist into conversation with ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so licensed-counter questions stay concrete.",
+          },
+          {
+            before: "Protect the finished balance at home with ",
+            href: "/flower/storing-flower",
+            label: "storing flower",
+            after: " once a sealed jar continues the cure's work.",
+          },
+          {
+            before: "Return to ",
+            href: "/flower",
+            label: "The Flower",
+            after: " hub anytime you need the full appearance-to-storage map.",
+          },
         ],
       },
     ],
