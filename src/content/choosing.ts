@@ -211,6 +211,7 @@ export const choosingArticles: PageContent[] = [
           "When sample jars are available, observe structure, trichomes, color, and aroma. A simple description is enough: citrus and pine, compact and frosted, or earthy with an open structure. Pair that observation with dates and package information. This gives the first purchase a clear basis that you can remember later.",
           "Menu reading on a first visit works best as orientation, not as a race through every SKU. Locate major categories—raw flower, prepared formats, package sizes—then shortlist two or three items that match the occasion you named. Ask staff to translate a dense column or abbreviation. A paced pass keeps attention on freshness, aroma, and fit.",
           "Asking for help is expected and useful. Reception and budtenders verify entry, explain the floor, and narrow inventory to a manageable comparison. A clear sentence—first visit, preferred format, aromatic direction, package size, and budget—gives them a frame. From there, request a side-by-side of two batches, a recent arrival, or a format that matches the occasion.",
+          "Arrive with identification ready and a payment method the retailer accepts so the entry check and checkout stay calm. Keep the first comparison small: raw flower versus a prepared format, or two package sizes inside one category, rather than scanning every shelf. Adults 21+ who name one occasion and one format early leave more attention for dates, aroma, and a readable label.",
         ],
         contextualLinks: [
           {
@@ -226,10 +227,10 @@ export const choosingArticles: PageContent[] = [
             after: " when freshness, cure, aroma, and dates need specific counter wording.",
           },
           {
-            before: "Build a shared look-and-smell vocabulary with ",
-            href: "/flower/appearance",
-            label: "appearance",
-            after: " so structure and color cues map to the sample jar.",
+            before: "Compare composition before the shortlist with ",
+            href: "/choosing/flower-vs-infused",
+            label: "flower vs infused",
+            after: " when raw flower and prepared formats both sit on the same menu.",
           },
         ],
       },
@@ -242,6 +243,7 @@ export const choosingArticles: PageContent[] = [
           "A strong first visit stays intentionally simple: one licensed store, one manageable purchase, one or two good questions, and one clear storage routine. The next visit can build from what you observed. Familiarity grows naturally as menus, batch details, and flower quality become recognizable parts of the same process.",
           "Pacing protects the first purchase without turning the visit into a lecture. Choose one format and size that fit the occasion, confirm the label fields you care about, and ask one clarifying question rather than stacking every comparison. Adults 21+ can treat the store as licensed retail—ID, menu, counter help, sealed product—without medical framing. Leave with a clear bag, a readable label, and notes for the next trip.",
           "Label and batch literacy become a habit after the seal is checked. Before leaving, confirm product name, format, producer, harvest or package date, and batch identifier against what the budtender described. At home, copy those fields beside a short aroma or structure note. That record makes the next visit faster—ask for a fresher date, related aroma family, or different size without a blank restart.",
+          "After the sealed bag is home, protect aroma and moisture with a clean, cool, dark storage plan before opening notes become the next visit's checklist. Transfer raw flower only when the package invites it, keep prepared formats in their original protection per the label, and write one line about what matched the occasion. That quiet close turns a first licensed purchase into a repeatable habit for adults 21+—still educational, never medical.",
         ],
         contextualLinks: [
           {
@@ -251,10 +253,10 @@ export const choosingArticles: PageContent[] = [
             after: " when session length and portability should narrow the shelf.",
           },
           {
-            before: "Ground flower quality language in ",
-            href: "/flower",
-            label: "The Flower",
-            after: " so aroma, density, and storage stay tied to observation.",
+            before: "Protect the purchase with ",
+            href: "/flower/storing-flower",
+            label: "storing flower",
+            after: " so cool, dark, sealed care keeps aroma and moisture steady after checkout.",
           },
           {
             before: "Return to ",
