@@ -273,10 +273,11 @@ export const choosingArticles: PageContent[] = [
     h1: "Flower vs Infused",
     title: "Flower or Infused — How to Choose",
     description: "A shopper-level comparison of raw cannabis flower and infused flower formats by product character, label, occasion, portability, and purchase planning.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Choose raw flower when you want the cured plant material itself to define the purchase, and choose an infused format when you want flower with concentrate and kief added. The two categories differ in product composition, potency range, presentation, price, and session planning. A clear occasion and careful label reading make the choice straightforward.",
       "Flower quality remains the foundation in both categories. Raw flower gives aroma, structure, trichomes, moisture, and cure direct visibility. An infused product combines flower with added cannabis components in a prepared format. In either case, freshness, batch information, licensed production, sound packaging, and appropriate storage support the purchase.",
+      "Presidential Cannabis publishes this flower-versus-infused comparison as adult 21+ retail literacy: when raw flower and infused formats fit occasion and pace, how the choice ties to matching format to occasion, reading a menu, what to ask, and The Flower hub, and the habit of reading labels on both categories—never medical claims. The brand name here is the company and publisher.",
     ],
     sections: [
       {
@@ -286,6 +287,28 @@ export const choosingArticles: PageContent[] = [
           "Raw flower is sold by weight and cultivar, usually with potency, producer, and date information. Its physical qualities can often be seen clearly through the package or sample jar. Buyers can compare bract structure, trichome coverage, trim, aroma, moisture, and cure, then choose how the flower fits their preferred preparation.",
           "Infused formats arrive as a more prepared product. The label identifies the format, package count or size, potency, batch, and ingredients or components required by the market. The purchase places greater weight on package information and producer consistency, while flower quality remains the agricultural base under the added elements.",
           "Price reflects different materials and preparation. Compare products within the same category and size, then consider the planned session. A raw-flower purchase offers flexibility and a direct relationship with the flower. An infused purchase offers a prepared composition with a different potency range and handling expectation.",
+          "Composition is the practical split. Raw flower keeps selection and preparation flexible; an infused format organizes flower with added concentrate and kief into a defined unit. Neither category is a universal default. Adults 21+ choose by what the occasion needs—direct observation and personal prep, or clear portions and less setup—then compare within that category on the licensed shelf.",
+          "Menu columns reinforce the same distinction. Format and package size come first, then cultivar or product description, dates, producer, and percentage fields. Read those numbers as batch details beside composition, not as a quality grade or a medical claim. Two rows with similar percentages can still differ sharply in aroma, structure, package count, and how ready the product is for the session you planned.",
+        ],
+        contextualLinks: [
+          {
+            before: "Narrow format by session plan with ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "matching format to occasion",
+            after: " when time, sharing, and preparation should decide category before percentages.",
+          },
+          {
+            before: "Read format, size, dates, and percentages with ",
+            href: "/choosing/reading-a-menu",
+            label: "reading a menu",
+            after: " so each column keeps its proper role beside composition.",
+          },
+          {
+            before: "Ground flower quality language in ",
+            href: "/flower",
+            label: "The Flower",
+            after: " when aroma, density, moisture, and cure need observation beside either package.",
+          },
         ],
       },
       {
@@ -295,6 +318,8 @@ export const choosingArticles: PageContent[] = [
           "Start with session length, sharing, portability, and preparation. Raw flower fits occasions where the flower itself and personal preparation are central. A prepared infused format fits occasions where packaging, portability, and a ready composition are central. Package size helps align either choice with the number of people and the time available.",
           "Read the label in the same order for both: format, size, potency, cultivar or flower description, dates, producer, and storage guidance. On raw flower, add aroma, structure, and moisture. On infused products, add the package count and the clear product description supplied by the licensed producer.",
           "A budtender can compare current inventory at the shopper's level. Ask which raw flower has the freshest defined aroma, which infused format matches the intended session size, and how the package information differs. The answer should make the purchase easier to picture. Choose the category whose composition and practical fit match the moment you already have in mind.",
+          "Pace belongs beside occasion. A short personal moment often favors a compact amount and simple handling; a longer shared plan can support raw-flower flexibility or a prepared format with clear portions. Write one line that names who is present, how long the moment lasts, and whether preparation is part of the experience. That line filters category and package size before the menu feels crowded.",
+          "Build a habit of reading labels on every visit. Confirm format, size, dates, producer, and storage guidance on the unit in hand—not only on the board. When label and shelf agree, the category decision is easier to trust. When they diverge, ask which batch is current and how this package differs from the last of the same name. Keep the conversation agricultural for adults 21+, never medical.",
         ],
         contextualLinks: [
           {
@@ -302,6 +327,18 @@ export const choosingArticles: PageContent[] = [
             href: "/",
             label: "guide",
             after: " connects this category decision to the plant, flower quality, genetics, and licensed-retail context.",
+          },
+          {
+            before: "Carry the plan into counter wording with ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when freshness, package size, and category need spoken confirmation.",
+          },
+          {
+            before: "Return to ",
+            href: "/choosing",
+            label: "Choosing Cannabis at a Dispensary",
+            after: " for the decision order that places occasion and format ahead of chasing a single menu number.",
           },
         ],
       },
