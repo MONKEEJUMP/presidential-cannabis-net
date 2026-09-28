@@ -130,10 +130,11 @@ export const choosingArticles: PageContent[] = [
     h1: "First Time",
     title: "A First Visit to a Dispensary",
     description: "What to bring to a licensed dispensary, how entry and the counter work, how to read the visit, and how to make a simple first choice.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "For a first dispensary visit, bring valid government-issued identification, know the store's accepted payment methods, and arrive with one simple idea of the occasion or format you want. Staff will verify entry, offer a menu, answer questions at the counter, complete the purchase, and provide the sealed product. The process is structured, calm, and designed to support informed adult customers.",
       "Checking the licensed retailer's website before the visit makes the experience even smoother. Confirm hours, identification requirements, payment options, parking or pickup details, and the current menu. Inventory moves, so treat the online list as a preview and let the in-store menu supply the final choices.",
+      "Presidential Cannabis publishes this first-visit guide as adult 21+ retail literacy: identification check, menu reading, asking for help, a paced purchase, and the habit of reading labels and batch notes. No medical claims appear here. The job is a calm sequence first-time adults can follow without rushing the counter.",
     ],
     sections: [
       {
@@ -143,6 +144,28 @@ export const choosingArticles: PageContent[] = [
           "Entry usually begins at a reception point where staff check identification and guide customers into the sales area. Some stores invite browsing, while others organize the visit around a dedicated budtender. The menu may appear on screens, paper, tablets, or display cases. Take a moment to identify the main sections before comparing individual products.",
           "Tell the budtender that this is your first visit and describe the purchase in practical terms. Name the preferred format, package size, aromatic direction, and occasion. You can ask to compare two or three current options. Staff can explain which flower arrived recently, how batches differ, and what each package contains.",
           "When sample jars are available, observe structure, trichomes, color, and aroma. A simple description is enough: citrus and pine, compact and frosted, or earthy with an open structure. Pair that observation with dates and package information. This gives the first purchase a clear basis that you can remember later.",
+          "Menu reading on a first visit works best as orientation, not as a race through every SKU. Locate major categories—raw flower, prepared formats, package sizes—then shortlist two or three items that match the occasion you named. Ask staff to translate a dense column or abbreviation. A paced pass keeps attention on freshness, aroma, and fit.",
+          "Asking for help is expected and useful. Reception and budtenders verify entry, explain the floor, and narrow inventory to a manageable comparison. A clear sentence—first visit, preferred format, aromatic direction, package size, and budget—gives them a frame. From there, request a side-by-side of two batches, a recent arrival, or a format that matches the occasion.",
+        ],
+        contextualLinks: [
+          {
+            before: "Practice menu columns and category language in ",
+            href: "/choosing/reading-a-menu",
+            label: "reading a menu",
+            after: " so screens and case labels feel familiar before jar comparisons.",
+          },
+          {
+            before: "Bring ready counter prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when freshness, cure, aroma, and dates need specific counter wording.",
+          },
+          {
+            before: "Build a shared look-and-smell vocabulary with ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " so structure and color cues map to the sample jar.",
+          },
         ],
       },
       {
@@ -152,12 +175,33 @@ export const choosingArticles: PageContent[] = [
           "At checkout, the store confirms the selected items, price, and required packaging. Use the payment method the retailer accepts and keep the sealed product stored according to local rules during travel. At home, raw flower belongs in a clean, sealed container kept cool, dark, and stable.",
           "Begin your own reference with the package label. Record the cultivar, producer, harvest or package date, format, and the aroma you notice when opening it. A brief note about structure and moisture gives the next visit a useful comparison. Personal records turn unfamiliar menu language into direct knowledge over time.",
           "A strong first visit stays intentionally simple: one licensed store, one manageable purchase, one or two good questions, and one clear storage routine. The next visit can build from what you observed. Familiarity grows naturally as menus, batch details, and flower quality become recognizable parts of the same process.",
+          "Pacing protects the first purchase without turning the visit into a lecture. Choose one format and size that fit the occasion, confirm the label fields you care about, and ask one clarifying question rather than stacking every comparison. Adults 21+ can treat the store as licensed retail—ID, menu, counter help, sealed product—without medical framing. Leave with a clear bag, a readable label, and notes for the next trip.",
+          "Label and batch literacy become a habit after the seal is checked. Before leaving, confirm product name, format, producer, harvest or package date, and batch identifier against what the budtender described. At home, copy those fields beside a short aroma or structure note. That record makes the next visit faster—ask for a fresher date, related aroma family, or different size without a blank restart.",
+        ],
+        contextualLinks: [
+          {
+            before: "Match package form to the occasion with ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "matching format to occasion",
+            after: " when session length and portability should narrow the shelf.",
+          },
+          {
+            before: "Ground flower quality language in ",
+            href: "/flower",
+            label: "The Flower",
+            after: " so aroma, density, and storage stay tied to observation.",
+          },
+          {
+            before: "Return to ",
+            href: "/choosing",
+            label: "Choosing Cannabis at a Dispensary",
+            after: " for the decision order that places preferences and inventory ahead of one menu number.",
+          },
         ],
       },
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Plan your first licensed visit with Presidential" },
-  },
-  {
+  },  {
     path: "/choosing/flower-vs-infused",
     kind: "article",
     silo: "choosing",
