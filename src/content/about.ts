@@ -7,7 +7,7 @@ export const aboutPage: PageContent = {
   title: "About Presidential Cannabis | Brand & Publisher",
   description:
     "About Presidential Cannabis: the Los Angeles brand behind Moon Rocks and the official publisher of this plant guide to flower, genetics, and choosing at licensed retailers.",
-  wordTarget: [950, 1150],
+  wordTarget: [1100, 1250],
   intro: [
     "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012 by Everett Smith and John Zapp. Presidential is the company behind its flagship Moon Rocks platform as well as infused pre-rolls, tobacco-free blunts and minis. The company operates wholesale, and its products reach adults 21+ where legal through licensed retailers in active markets.",
     "Presidential publishes presidentialcannabis.net as its official plant-and-brand reference. The publication explains the living plant behind the catalog: how flower develops, what cultivation and harvest contribute, why genetics and batches differ, how drying and curing preserve character, and which practical signals help someone choose confidently at a licensed counter.",
@@ -21,6 +21,7 @@ export const aboutPage: PageContent = {
         "Moon Rocks is Presidential's flagship infused-flower platform: flower carried through with concentrate and finished with kief. It sits within the larger Presidential brand rather than defining the entire company. The broader catalog also includes infused pre-rolls, tobacco-free blunts, and minis across Silver, Gold, Rose Gold, and signature Presidential lines. Current product names, artwork, and format details belong on the main Presidential catalog at presidentialmoonrocks.com.",
         "Authentic Presidential products move through licensed retail channels. Store inventory, package sizes, dates and availability vary by market and retailer, so the official store locator connects brand interest to participating licensed doors. Adults can follow that official path and match current packaging and required batch information at the licensed store. This website publishes the brand and plant knowledge that supports a confident licensed-retail choice.",
         "Wholesale is the operating spine of that story. Presidential builds product for licensed partners rather than treating this educational site as a storefront. When packaging, batch labels, or menu names change in a market, the catalog and locator remain the source of truth for what is currently on shelves. The role of presidentialcannabis.net is steadier: explain who the brand is, what the publisher covers, and how plant, flower, and genetics literacy support a better conversation at a licensed counter.",
+        "Formats in the catalog answer a different question than this page does. Infused flower, pre-rolls, blunts, and minis carry live SKUs, artwork, and inventory that change by market. This guide keeps the company definition and plant vocabulary stable so adults can read those lanes without confusing a brand name for a cultivar or treating educational copy as a current menu.",
       ],
       links: [
         { href: "https://presidentialmoonrocks.com", label: "Browse the official product catalog" },
@@ -73,6 +74,12 @@ export const aboutPage: PageContent = {
           label: "Genetics",
           after: " to understand lineage, phenotypes, naming, and why batches from the same family can still differ on a licensed shelf.",
         },
+        {
+          before: "Finish with ",
+          href: "/choosing",
+          label: "Choosing",
+          after: " when menu reading and licensed-counter questions follow the plant, flower, and genetics map.",
+        },
       ],
     },
     {
@@ -81,6 +88,7 @@ export const aboutPage: PageContent = {
       paragraphs: [
         "Treat this site as prep for a licensed retail visit, not as a substitute for one. Read the brand definition here, then move into plant, flower, or genetics pages when you need language for what you see and smell. Bring those questions to a licensed counter where packaging and batch information are available to check.",
         "Presidential Cannabis on this page always means the company and publisher. It does not rename a cultivar, and it does not claim medical outcomes or exaggerated potency language. The educational job is narrower and more useful: give adults 21+ a clear company story and plant vocabulary they can carry into legal markets that already regulate what can be sold.",
+        "A short prep habit helps: note the company definition here, pick one plant, flower, or genetics question for the counter, and plan to verify packaging and batch details in person. That sequence keeps education ahead of the purchase without pretending this site can replace a licensed retail visit.",
         "If you arrived looking for product art, SKUs, or a store near you, follow the official catalog and locator links on this page. If you arrived looking for who publishes this guide and why plant literacy sits beside the brand, you are already on the right URL. Stay on presidentialcannabis.net for company and plant education; use the portfolio sites for catalog, chemistry, and format depth.",
       ],
       contextualLinks: [
