@@ -354,10 +354,11 @@ export const flowerArticles: PageContent[] = [
     h1: "Moisture and Cure",
     title: "Moisture Content and the Cure",
     description: "How correctly cured cannabis flower feels, why moisture balance matters, and how dry and highly moist flower behave during handling and storage.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Correctly cured cannabis flower feels settled on the surface and gently resilient within. It handles cleanly, holds its structure, separates with intention, and carries a defined aroma. Moisture matters because it shapes texture, storage stability, aromatic preservation, and the way the flower moves from package to preparation.",
       "Cure is the stage that brings moisture toward an even balance after drying. Flower enters sealed containers, moisture redistributes from the center toward the surface, and the cultivator observes the container over time. Several weeks of measured drying and curing create a stable piece that reflects the structure and aroma present at harvest.",
+      "Presidential Cannabis publishes this moisture and cure guide as adult 21+ flower literacy: what moisture balance and cure mean on a licensed shelf, how they relate to aroma, appearance, density, storing-flower, and drying-and-curing, why two jars of the same name can feel different, and which counter questions keep the reading agricultural—never medical claims.",
     ],
     sections: [
       {
@@ -367,6 +368,28 @@ export const flowerArticles: PageContent[] = [
           "A balanced flower has a dry, comfortable exterior rather than a wet or polished feel. Gentle pressure meets a little give, and the piece returns toward its original shape. Bracts hold together while remaining easy to separate. Small stems feel firm, and the flower keeps enough internal moisture to preserve a coherent texture.",
           "Aroma should open with definition. The first scent belongs to the cultivar and batch rather than the fresh green character of a newly harvested plant. The cure has allowed the flower's moisture and aromatic profile to settle into one presentation. Visual trichome condition and lively color add support to the tactile reading.",
           "Flower density affects the exact feel. Compact pieces carry moisture differently than open structures, and larger pieces take more time to equalize than small ones. This is why cure is guided by observation, container conditions, and the particular harvest rather than a universal texture copied across every cultivar.",
+          "On a licensed shelf, moisture reading stays agricultural and tactile. Ask how the batch feels after cure, whether pieces handle cleanly, and which harvest or package dates belong to the jar in hand. Pair that feel with color, frost, and nose so texture never stands alone. The useful habit is descriptive: settle, resilience, and separation—not a medical claim about experience.",
+          "Appearance and structure frame the same story. Settled color and intact resin suggest careful passage through dry and cure; open or compact form explains why two correctly finished flowers can still feel different under light pressure. Moisture literacy therefore joins sight and density rather than replacing them, keeping the assessment tied to the finished agricultural product adults 21+ can evaluate at retail.",
+        ],
+        contextualLinks: [
+          {
+            before: "Trace dry-room and jar stages in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: " when moisture redistribution needs a post-harvest frame.",
+          },
+          {
+            before: "See how open or compact form changes feel in ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " when bract spacing shapes how moisture sits.",
+          },
+          {
+            before: "Place texture beside color and frost in ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " so sight and touch stay in one assessment.",
+          },
         ],
       },
       {
@@ -376,12 +399,40 @@ export const flowerArticles: PageContent[] = [
           "Very dry flower feels crisp, creates smaller fragments readily, and releases aroma quickly at the surface. Its lighter moisture level can reflect time, a long dry, or a storage environment with very dry air. A well-sealed container in a cool, dark place gives the remaining aromatic character a stable home.",
           "Flower carrying more moisture feels soft and highly flexible. Its pieces may press together and its interior can feel markedly different from the surface. Additional container observation and a steady environment allow moisture to move toward a more even balance. Package and harvest dates help place that texture in the batch's timeline.",
           "The practical standard sits between those expressions: clean handling, gentle resilience, defined aroma, and stable structure. Touch becomes most accurate beside sight and smell. Together they show whether the cure carried cultivation into a flower that feels complete and ready for thoughtful storage.",
+          "Two jars that share a strain name can still feel different. Phenotype selection, garden climate, harvest window, dry-room pace, cure length, package fill, and retail storage all change how moisture sits in the finished flower. The cultivar title points to genetics and branding; dates, batch identifiers, and the tactile reading on this jar describe the run in front of you. Separating name from batch feel keeps moisture literacy honest at licensed retail.",
+          "At a licensed counter, keep questions practical and agricultural. Ask how this batch feels after cure, how recently it arrived, and which harvest or package dates belong to the jar in hand. Pair those answers with aroma definition and surface condition so moisture never stands alone—and never drifts into medical claims.",
+        ],
+        contextualLinks: [
+          {
+            before: "Protect the finished balance at home with ",
+            href: "/flower/storing-flower",
+            label: "storing flower",
+            after: " once a sealed jar continues the cure's work.",
+          },
+          {
+            before: "Use the nose as a paired check through ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " when crisp or soft texture changes how scent opens.",
+          },
+          {
+            before: "See garden and post-harvest range in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when the same name arrives with a new feel.",
+          },
+          {
+            before: "Return to ",
+            href: "/flower",
+            label: "The Flower",
+            after: " hub anytime you need the full appearance-to-storage map.",
+          },
         ],
       },
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Ask licensed retailers about current Presidential cures" },
   },
-    {
+  {
     path: "/flower/storing-flower",
     kind: "article",
     silo: "flower",
