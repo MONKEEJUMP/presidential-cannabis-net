@@ -381,17 +381,18 @@ export const flowerArticles: PageContent[] = [
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Ask licensed retailers about current Presidential cures" },
   },
-  {
+    {
     path: "/flower/storing-flower",
     kind: "article",
     silo: "flower",
     h1: "Storage",
     title: "How to Store Cannabis Flower",
     description: "How to store raw cannabis flower using sealed containers, stable humidity, cool temperatures, darkness, and a practical timeline.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Store raw cannabis flower in a clean, well-sealed container kept cool, dark, and stable. This protects moisture balance, aromatic terpenes, color, and trichome condition. A glass container sized to the amount of flower gives a simple home with limited air exchange and clear visibility when you inspect it.",
       "Heat, light, air exchange, and time shape how flower changes after purchase. Terpenes are volatile, and their total can fall substantially across drying, curing, and storage. A consistent environment preserves more of the profile captured at harvest and maintains the balanced texture created during cure.",
+      "Presidential Cannabis publishes this storage guide as adult 21+ flower literacy: how containers, light, heat, and humidity habits protect finished flower at home, how storage relates to moisture-and-cure, aroma, appearance, and drying-and-curing, how to read jar condition at a licensed counter, and which habits keep the reading agricultural—never medical claims.",
     ],
     sections: [
       {
@@ -401,6 +402,28 @@ export const flowerArticles: PageContent[] = [
           "A glass jar with a dependable seal is a practical standard for raw flower. Glass carries little aroma of its own, cleans easily, and allows visual observation. Choose a jar that leaves a modest amount of headspace so the flower rests naturally without being compressed or surrounded by a large volume of air.",
           "Keep the jar in a cabinet, drawer, or other dark location with a cool and steady room temperature. Light can influence color and aromatic compounds, while warmth increases the pace of volatile loss. Stability matters beside the exact number: a consistent environment supports the moisture balance already established by the cure.",
           "Humidity belongs in a moderate range suited to cured flower. The flower itself offers useful feedback through texture. A settled surface and gentle interior resilience indicate balance. In climates with very dry or humid air, a purpose-made humidity control pack can help the closed container remain steady when it is used according to its size and directions.",
+          "Home storage habits are descriptive, not medical. Avoid windowsills, car interiors, warm appliance tops, and bright open shelves where heat and light cycle through the day. An interior cabinet or drawer usually offers steadier darkness and temperature. Reseal before the jar sits in open air so small habits protect the finish producers already completed after harvest.",
+          "Container choice also connects to post-harvest history. Drying and curing already moved moisture toward balance and settled aromatic character; home storage continues that preservation rather than restarting it. A jar that is clean, dry, and correctly sized keeps the cure's texture readable and the aroma closer to what the package presented. If a piece feels unusually crisp or soft after travel, dates and the original package condition help place that change before you adjust the home environment.",
+        ],
+        contextualLinks: [
+          {
+            before: "Connect jar feel to balanced texture in ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " so storage habits protect the finish already present.",
+          },
+          {
+            before: "Review how dry rooms and cure jars set the stage in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: " before home storage continues preservation.",
+          },
+          {
+            before: "Watch color and frost through clear glass with ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " when visual checks join temperature and seal habits.",
+          },
         ],
       },
       {
@@ -410,10 +433,32 @@ export const flowerArticles: PageContent[] = [
           "Open the container for selection, then seal it promptly. Use clean, dry hands or a clean tool, and handle pieces gently to preserve exposed trichome heads. Return the jar to its dark storage place after use. This small routine limits light, warmth, air exchange, and physical contact without adding complexity.",
           "Flower holds its brightest character closest to its fresh, balanced cure. Over time, aroma becomes softer, color may deepen, and texture follows the surrounding conditions. Buying an amount that fits the intended timeline keeps the batch in its most expressive period. Harvest and package dates help estimate where the flower begins on that timeline.",
           "Check the jar periodically through sight, aroma, and touch. A defined nose, stable color, and balanced texture show that the environment is serving the flower well. Raw-flower storage is ultimately preservation of a finished agricultural product: protect it from heat and light, keep its container sealed, handle it gently, and enjoy its character within a practical span.",
+          "At a licensed counter, reading jar condition starts before the flower reaches home. Ask which harvest or package dates belong to the jar in hand, how the store keeps inventory cool and away from bright light, and whether the sample or retail package has been opened recently. Pair those answers with aroma definition, surface color, and moisture feel so storage literacy begins at the shelf—and never drifts into medical claims.",
+          "Aroma and appearance are the quickest home checks after purchase. A vivid, defined nose and settled color suggest the container and location are doing their job; a flattening scent or dulling surface invites a closer look at heat, light, headspace, and how often the jar opens. Two jars that share a strain name can still age differently when fill level, seal quality, and room conditions diverge. Separating cultivar title from storage evidence keeps the habit honest for adults 21+.",
+        ],
+        contextualLinks: [
+          {
+            before: "Use the nose as a preservation check through ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " when headspace softens or stays defined after sealing.",
+          },
+          {
+            before: "Borrow short shelf prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when dates and inventory handling need clear questions.",
+          },
+          {
+            before: "Return to ",
+            href: "/flower",
+            label: "The Flower",
+            after: " hub anytime you need the full appearance-to-storage map.",
+          },
         ],
       },
     ],
     externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Purchase fresh Presidential selections through licensed retail" },
-  },
+  }
 ];
 

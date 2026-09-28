@@ -193,7 +193,9 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
         "Separate containers preserve distinct aromatic profiles. When different flowers share one jar, their headspace and loose material mingle, making each cultivar harder to evaluate on its own. Labeling each container with cultivar and package date keeps the storage system clear and lets personal notes remain connected to the correct batch.",
         "Cleanliness supports the same clarity. Wash and fully dry reusable glass before adding a new flower, and keep tools clean and dry. A neutral container lets the current flower supply the aroma. It also makes visual checks simple because any change belongs to the batch rather than residue from an earlier one.",
         "A practical inventory can stay small. Arrange older packages for earlier use, keep each batch sealed separately, and buy sizes that match the coming weeks. This rotation respects the way aromatic character changes with time. It also turns storage into part of choosing: the right quantity is the amount that can remain well housed and enjoyed while its defining qualities are still vivid.",
-      ],
+        "Reading jar condition at licensed retail stays practical and agricultural. Ask whether the package has stayed cool and away from bright display light, which dates belong to this unit, and how recently inventory arrived. Then notice seal integrity, headspace aroma if a sample is available, and whether pieces look settled rather than compressed. Those observations travel home with you as the baseline your storage routine should protect.",
+        "Storage also explains why aroma and moisture readings belong together. A sealed, cool, dark jar slows volatile loss and helps texture remain near the cure's balance; frequent open air, warmth, or dry room air pulls the same batch toward a flatter nose and crisper feel. When home checks diverge from the counter impression, review seal quality, location, and how much flower remains relative to jar size before assuming the cultivar itself changed.",
+        ],
     },
   ],
   "/genetics/how-strains-are-made": [
