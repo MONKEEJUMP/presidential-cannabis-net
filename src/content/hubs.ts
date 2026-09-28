@@ -21,14 +21,26 @@ export const hubPages: PageContent[] = [
           "What Cannabis Is explains the annual flowering cycle, the role of the flower, and the reason resin develops across its surface. Indica, Sativa, Hybrid adds the historical language used for plant form and origin. Together, these guides establish the plant as a biological system and place familiar labels in their most dependable modern context: lineage, growth pattern, and breeding history.",
           "The overview begins at the broadest scale. Roots gather water and nutrition, stems support growth, leaves power the plant, and flowers complete the annual cycle. Environmental conditions guide how inherited traits appear. That relationship between genetics and environment remains active through every stage of cultivation and helps explain why a current batch carries more useful detail than a category name alone.",
           "Publisher plant literacy starts there. The annual cycle sets the timeline; inherited form sets a range; the garden supplies the conditions that make that range visible. Adults reading this hub before a licensed retail visit gain a vocabulary for structure and maturity that menus rarely spell out. Traditional indica, sativa, and hybrid labels remain useful as historical shorthand when they sit beside lineage and batch detail rather than replacing them.",
-          "Genetics continues the inheritance story when you need parentage, phenotypes, and naming beside this botanical map. The living-plant guides keep the focus on what the plant builds and how it matures; the genetics silo explains how breeders select and preserve the individuals that enter commercial gardens.",
+          "Genetics continues the inheritance story when you need parentage, phenotypes, and naming beside this botanical map. The living-plant guides keep the focus on what the plant builds and how it matures; the genetics silo explains how breeders select and preserve the individuals that enter commercial gardens. Read both layers together so a shelf category never erases the annual plant underneath the jar.",
         ],
         contextualLinks: [
           {
             before: "Start with ",
             href: "/plant/what-cannabis-is",
             label: "what cannabis is",
-            after: " for the annual cycle, harvested flower, and why resin develops on living surfaces. Genetics continues inheritance beside this silo when you need parentage and selection.",
+            after: " for the annual cycle, harvested flower, and why resin develops on living surfaces.",
+          },
+          {
+            before: "Place traditional growth-form language beside the plant with ",
+            href: "/plant/indica-sativa-hybrid",
+            label: "indica, sativa, hybrid",
+            after: " when historical shorthand needs lineage and batch context underneath it.",
+          },
+          {
+            before: "Continue inheritance through ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " when parentage, phenotypes, and naming sit beside this botanical map.",
           },
         ],
       },
@@ -39,6 +51,7 @@ export const hubPages: PageContent[] = [
           "Trichomes focuses on the living gland: where it forms, the common bulbous and stalked shapes, study-dependent head-size ranges, and the asynchronous color changes that accompany maturity. Cannabinoids examines what the living plant predominantly produces in those glands and the acidic forms in which those compounds begin. Flower Structure maps the bract, calyx, stigmas, sugar leaf, and cola into one clear anatomy.",
           "These three subjects fit closely together. Structure supplies the surface, trichomes populate it, and the resin inside those glands carries most of the plant's cannabinoids and terpenes. Close observation turns the flower from a single object into an organized cluster of parts, each with a role in development and a recognizable place in the finished harvest.",
           "Anatomy literacy keeps the parts named and the resin story local to the gland. Bracts and sugar leaves are not decoration; they are the surfaces where stalked glands concentrate as the flower matures. Reading trichome clarity across many sites, rather than one isolated head, mirrors how cultivators judge a plant in the room. Naming bract, stigma, and cola first makes later harvest and cure notes easier to trust.",
+          "Keep that reading observational at a licensed counter. Ask how this batch's frost and bract packing compare with the last delivery of the same name, and whether the producer notes harvest or package dates beside the cultivar title. Surface and anatomy describe what the plant built; they do not invent lab assays or medical claims.",
         ],
         contextualLinks: [
           {
@@ -46,6 +59,12 @@ export const hubPages: PageContent[] = [
             href: "/plant/trichomes",
             label: "trichomes",
             after: " for gland shapes, head-size ranges, and maturity color changes across the canopy.",
+          },
+          {
+            before: "Place resin chemistry in botanical context with ",
+            href: "/plant/cannabinoids-in-the-plant",
+            label: "cannabinoids in the plant",
+            after: ", where acidic forms and glandular production explain what the living flower carries.",
           },
           {
             before: "Map the parts in ",
@@ -62,6 +81,7 @@ export const hubPages: PageContent[] = [
           "Harvest Timing follows the flower toward maturity. Cultivators read trichome clarity and color beside pistil development, flower structure, aroma, and the condition of the whole plant. A chosen window captures a particular expression of the cultivar, so timing becomes both a cultivation decision and a quality decision.",
           "The harvest guide explains how earlier and later windows shape the finished flower in different ways. It also shows why maturity is read across many glands and many flower sites. This broad reading respects the natural variation across a living plant and produces a more reliable picture than a single isolated trichome.",
           "Harvest literacy also connects the garden to the jar. The window you choose locks in a snapshot of resin and aroma that drying and cure can only preserve or gently refine, not reinvent. When adults later compare batches at a licensed counter, differences in maturity language often trace back to that decision as much as to genetics or handling after the cut. Whole-plant cues—vigor, aroma intensity, and the balance of clear to cloudy to amber heads—keep the read honest across a canopy that never matures in perfect unison.",
+          "Treat flowering-length estimates as orientation, not a stamped appointment. Genotype, canopy position, and plant condition move the actual days, so daily observation remains the decision tool. Clear, cloudy, and amber language names what a lens shows; it does not promise one aromatic outcome for every cultivar cut on the same calendar day.",
         ],
         contextualLinks: [
           {
@@ -69,6 +89,12 @@ export const hubPages: PageContent[] = [
             href: "/plant/harvest-timing",
             label: "harvest timing",
             after: " for trichome, pistil, and whole-plant cues that define an earlier or later window.",
+          },
+          {
+            before: "Revisit the gland field in ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " when clear-to-cloudy-to-amber cues need the living-surface map behind the cut.",
           },
         ],
       },
@@ -91,7 +117,13 @@ export const hubPages: PageContent[] = [
             before: "For finished-flower observation after cure, open ",
             href: "/flower",
             label: "The Flower",
-            after: ".",
+            after: " for appearance, aroma, density, moisture, and storage.",
+          },
+          {
+            before: "For retail sequence beside this silo, open ",
+            href: "/choosing",
+            label: "Choosing",
+            after: " when menu reading and counter questions follow the botanical map.",
           },
         ],
       },
