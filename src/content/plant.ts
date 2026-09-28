@@ -90,6 +90,33 @@ export const plantArticles: PageContent[] = [
           "Resin glands form most abundantly on the flower and the small leaves immediately around it. Their rounded heads hold aromatic terpenes and the majority of the plant's cannabinoids. On the living plant, these exposed glands contribute a protective layer around reproductive tissues. Their aroma and physical character interact with the surrounding environment while the flower matures.",
           "Trichome development follows the flowering cycle. Tiny gland types appear across surfaces, while larger stalked glands become especially visible on mature flower. A broad reference range places heads around 25 to 160 microns, while published measurements vary by gland type, genotype, and age. Clear heads can develop toward cloudy and amber tones asynchronously, giving cultivators one useful maturity observation when read across the plant.",
           "This resin-bearing surface connects biology to finished quality. Intact trichomes, defined aroma, sound structure, and a balanced cure all carry information from the living flower. Harvest captures the chosen moment, drying and curing stabilize it, and thoughtful storage preserves it. Understanding what cannabis is ultimately means understanding that chain from annual plant to finished flower.",
+          "Reading the gland field keeps the plant definition practical. Coverage and head condition describe what this flower built; they do not replace cultivar identity, harvest timing, or the dry-and-cure handoff that follows. Adults 21+ can note frost, nose, and bract packing together, then ask which window and handling the producer used so the jar stays a botanical record rather than a menu shorthand.",
+        ],
+        contextualLinks: [
+          {
+            before: "Study the glandular surface in ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " when stalked heads, coverage, and clear-to-cloudy-to-amber cues need a closer plant map.",
+          },
+          {
+            before: "Place resin chemistry in botanical context with ",
+            href: "/plant/cannabinoids-in-the-plant",
+            label: "cannabinoids in the plant",
+            after: ", where acidic forms and glandular production explain what the living flower carries.",
+          },
+          {
+            before: "Connect maturity reading to ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: " when the chosen cut decides which resin stage becomes finished flower.",
+          },
+          {
+            before: "Follow the post-harvest handoff in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: " once the annual plant's resin surface needs moisture control and stable storage.",
+          },
         ],
       },
     ],
