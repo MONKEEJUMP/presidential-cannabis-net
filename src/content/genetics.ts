@@ -1,17 +1,18 @@
 import type { PageContent } from "./types";
 
 export const geneticsArticles: PageContent[] = [
-  {
+    {
     path: "/genetics/how-strains-are-made",
     kind: "article",
     silo: "genetics",
     h1: "How Cannabis Strains Are Made",
     title: "How Cannabis Strains Are Made",
     description: "How cannabis breeders cross parents, grow seed populations, select phenotypes, preserve choices, and stabilize lines over multiple cycles.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "People asking how weed strains are made are describing cannabis breeding: selected parent plants are crossed, the resulting seeds are grown, and offspring that express a breeder's goals are chosen. Breeders evaluate structure, aroma, resin, flower timing, color, vigor, yield, and consistency across complete cycles. A chosen plant can be preserved through cuttings, carried into further crosses, or developed through repeated generations toward a more predictable line.",
       "The process blends planning with discovery. Parentage sets the range, and every seed reshuffles inherited material into a new individual. The breeder begins with an intention, then lets a living population reveal the combinations actually present. Strong records connect each seed, plant, branch, harvest, and evaluation to the decision that follows.",
+      "Presidential Cannabis publishes this how-strains-are-made guide as adult 21+ genetics literacy: how breeders select parents, cross them, grow seed populations, choose phenotypes, and stabilize lines; how that work ties to lineage, naming, landrace foundations, and batch variation; and which licensed-counter questions keep breeder notes distinct from shelf titles. No medical claims appear here. The job is narrower: vocabulary for crossing, selection, and release that stays agricultural and checkable.",
     ],
     sections: [
       {
@@ -21,6 +22,28 @@ export const geneticsArticles: PageContent[] = [
           "A breeding project starts with parent selection. One parent may contribute flower structure, timing, or vigor, while another contributes aromatic character, resin coverage, color, or a complementary growth pattern. Breeders study each parent through cultivation and keep notes on traits that remain consistent across environments and cycles.",
           "Pollen from a selected male or pollen-producing plant reaches a selected female flower, and the resulting seeds carry genetic material from both parents. Each seed holds a distinct combination. When the first generation grows, family resemblance appears alongside meaningful variation in height, branching, flowering time, aroma, resin, and flower form.",
           "Population size gives the breeder more expressions to observe. Space, time, and project goals determine how many seeds are grown. Each plant receives an identifier, and observations continue from early growth through cured flower. The finished flower matters because aroma, structure, and preservation can only be evaluated fully after harvest and cure.",
+          "Crossing in plain language is intentional parent pairing plus pollen meeting flower. Parent selection sets the trait range; each seed reshuffles that inheritance into a new individual. Lineage records the parents and earlier branches; the first population shows how widely those branches can express. Landrace-derived foundations may sit deep in a family tree, while modern selection chooses which possibilities continue.",
+          "Breeder notes and shelf names do related but different work. Notes track parents, pollen direction, seed lots, and evaluation criteria. A menu title is the public handle after release. Useful literacy asks what is documented for this jar—parents, cut or seed identity, producer—and treats the title as an index, not a full breeding dossier.",
+        ],
+        contextualLinks: [
+          {
+            before: "Map parentage vocabulary in ",
+            href: "/genetics/lineage",
+            label: "lineage",
+            after: " when a cross needs the family tree beside the project notes.",
+          },
+          {
+            before: "Read regional foundations through ",
+            href: "/genetics/landrace-and-modern",
+            label: "landrace and modern",
+            after: " when older adapted populations sit behind modern parent choices.",
+          },
+          {
+            before: "See how released titles travel in ",
+            href: "/genetics/strain-naming",
+            label: "strain naming",
+            after: " after breeding decisions earn a public handle.",
+          },
         ],
       },
       {
@@ -30,6 +53,28 @@ export const geneticsArticles: PageContent[] = [
           "Selection compares the population with the original goal. Breeders may begin with plant architecture and vigor, then add flower timing, bract development, trichome coverage, aromatic definition, and cure quality. A plant that performs well across the complete set becomes a candidate for preservation and further evaluation.",
           "Cuttings taken before flowering allow the breeder to keep a genetic copy while the seed plant completes its cycle. Once the cured flower is evaluated, the matching cutting can continue as a selected clone. Repeating the plant in another run shows how consistently it expresses and how it responds to a fresh environment.",
           "A phenotype hunt is therefore more than finding an attractive flower. It connects growth behavior, cultivation fit, harvest quality, and repeatability. The chosen phenotype earns its place through a complete record, and its identity remains stable when propagated through healthy cuttings.",
+          "Phenotype selection is the practical middle of breeding: siblings from one cross differ in architecture, timing, aroma, resin, and flower form, and the breeder keeps the individual that best matches the project. Cuttings preserve that genotype while the seed plant finishes; cured-flower evaluation then confirms or rejects the candidate.",
+          "At a licensed counter, ask how this lot was described—selected cut, seed line, or named release—and which parents or notes travel with it. Compare that documentation with the present aroma, structure, and dates. Breeding vocabulary explains how the plant was made; the jar answers what grew this cycle.",
+        ],
+        contextualLinks: [
+          {
+            before: "Compare observable siblings through ",
+            href: "/genetics/phenotypes",
+            label: "phenotypes",
+            after: " when one cross produces more than one keeper candidate.",
+          },
+          {
+            before: "See why expression still shifts in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " after a selected plant meets a new garden and cure.",
+          },
+          {
+            before: "Bring concrete prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so parents, cut notes, and batch dates stay specific at retail.",
+          },
         ],
       },
       {
@@ -39,6 +84,22 @@ export const geneticsArticles: PageContent[] = [
           "A breeder seeking seed consistency continues beyond the first cross. Selected offspring may be crossed with each other, returned to a parent family, or combined through another planned pathway. Each generation creates a new population for observation and selection. Repeated choices increase the frequency of desired traits and bring the line toward a recognizable pattern.",
           "This work takes time because cannabis is an annual flowering plant and each generation must grow through reproduction. Evaluating cured flower adds further weeks. A serious line can span several generations and several years, especially when breeders confirm performance across rooms, seasons, or cultivation partners.",
           "The finished cultivar carries this history in a compact form: parents, populations, selections, repetitions, and a name. Even a stable line retains natural variation, while a healthy clone maintains the selected genotype and can express within a range across environments. Both approaches enrich modern cannabis by turning intentional observation into flower with a clear identity.",
+          "Stabilizing a line means repeating selection across generations so desired traits appear more often in seed. Clone preservation freezes one winning genotype for gardens that want that exact individual. Both paths remain agricultural: even a consistent line can shift across rooms and cures, so batch evidence still matters beside breeding history.",
+          "Reading the finished story stays layered. Lineage and breeding steps explain intentional work; the selected phenotype names which individual was kept; the shelf title carries that identity into retail; the current batch shows garden and cure. Adults 21+ can ask for those layers without treating any field as a medical promise or a guarantee of sameness.",
+        ],
+        contextualLinks: [
+          {
+            before: "Return to ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " for the wider map from breeding and lineage through naming and batch variation.",
+          },
+          {
+            before: "Revisit parent notation in ",
+            href: "/genetics/lineage",
+            label: "lineage",
+            after: " when a stabilized release still needs its family tree beside the menu name.",
+          },
         ],
       },
     ],
