@@ -222,6 +222,7 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
         "A family tree can be read from the present backward. Start with the cultivar, identify its two immediate parents, and then follow each parent one generation at a time. Repeated names show concentrated family influence, while distant branches reveal the diversity brought into the cross. This method keeps a complex tree understandable and makes breeder intent easier to see.",
         "Lineage records also preserve vocabulary across time. A selected cut, seed generation, or backcross marker can distinguish one branch from another. Breeder names and release notes connect the family to its source. These details support growers who want the correct plant and buyers who want a clear explanation of what sits behind the menu name.",
         "When lineage information is brief, current observation remains fully useful. Aroma, structure, trichomes, moisture, dates, and cultivation source describe the flower directly. If more parentage becomes available, it can be added as context rather than treated as a prerequisite for quality. The present batch always has its own readable evidence.",
+        "Counter questions stay practical when they stay genetic and agricultural. Ask which parents define this lot, how the current expression compares with the last delivery of the same name, and which dates belong to the jar in hand. Strain name answers identity; lineage, phenotype notes, and batch evidence answer the flower you are actually evaluating.",
       ],
     },
   ],
