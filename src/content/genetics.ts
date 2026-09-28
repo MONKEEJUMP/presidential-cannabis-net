@@ -112,10 +112,11 @@ export const geneticsArticles: PageContent[] = [
     h1: "Phenotypes",
     title: "Phenotypes Explained",
     description: "Why seeds from one cannabis cross produce different plants, how phenotype hunting works, and why a selected plant is preserved through clones.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "A phenotype is the observable expression of a plant's genetics in its environment. Seeds from the same cannabis cross can produce different heights, branching patterns, flowering times, aromas, colors, resin levels, and flower structures because each seed receives a different genetic combination. Breeders grow those siblings, compare them, and preserve a selected individual through cuttings.",
       "Phenotype links inherited possibility with lived conditions. Genotype is the genetic makeup; phenotype is what becomes visible and measurable as that makeup develops under particular light, temperature, nutrition, root space, water, and cultivation. The same genetic individual can shift within a range across environments, while distinct seed siblings carry genetic differences from the beginning.",
+      "Presidential Cannabis publishes this phenotypes guide as adult 21+ genetics literacy: what phenotype means beside genotype and strain name; why two plants from the same cross can differ; how selection and cloning preserve one expression; and how that literacy ties to lineage, how strains are made, why two batches differ, strain naming, and landrace foundations. No medical claims appear here. The job is narrower: vocabulary for observable expression that stays agricultural and checkable at licensed retail.",
     ],
     sections: [
       {
@@ -125,6 +126,35 @@ export const geneticsArticles: PageContent[] = [
           "A cross combines genetic material from two parents. During seed formation, inheritance is reshuffled, giving each seed a unique combination. Siblings share a family and may show obvious resemblance, yet one may grow taller, another may branch more freely, and another may finish with a distinct aromatic balance or flower density.",
           "The amount of variation reflects the parents and the breeding generation. Parents with diverse backgrounds can open a broad range of expressions. Repeated selection can narrow the range around chosen traits. Even within a developed line, living variation remains part of seed-grown cannabis and gives breeders fresh material for future work.",
           "Environment influences how readily each trait appears. A plant with the genetic potential for strong branching expresses that trait through available light, root health, spacing, and training. A resin-rich flower still relies on a complete growing cycle and a fitting harvest window. Phenotype is always the plant that genetics and environment produced together.",
+          "Keep three labels distinct. Genotype is the inherited script inside the seed or cutting. Phenotype is the plant you can see, smell, measure, and compare after it grows. A strain name is the public handle that travels on menus and packages. Useful literacy asks which label is doing which job: inheritance, expression, or retail identity—never treating the title as a complete genetic dossier.",
+          "Two plants from the same cross can diverge because each seed reshuffles parental material into a new combination. Lineage names the parents and earlier branches; breeding steps explain how the population was made; phenotype names which sibling actually grew. Landrace-derived foundations can widen that range further when older adapted diversity sits behind modern parents.",
+          "Menu shorthand often collapses those layers into one title. Ask whether the jar is a named cut from one selected individual or a broader seed-line family sharing the same brand. Parent notes, cut numbers, and producer context keep the reading agricultural when siblings from one cross look and smell different on the same shelf.",
+        ],
+        contextualLinks: [
+          {
+            before: "Map parent notation in ",
+            href: "/genetics/lineage",
+            label: "lineage",
+            after: " when a cross needs the family tree beside sibling variation.",
+          },
+          {
+            before: "Follow crossing and selection steps in ",
+            href: "/genetics/how-strains-are-made",
+            label: "how strains are made",
+            after: " when phenotype hunting sits after intentional parent pairing.",
+          },
+          {
+            before: "Separate marketing titles from genetic identity with ",
+            href: "/genetics/strain-naming",
+            label: "strain naming",
+            after: " when a menu handle needs phenotype context beside it.",
+          },
+          {
+            before: "Read regional foundations through ",
+            href: "/genetics/landrace-and-modern",
+            label: "landrace and modern",
+            after: " when older adapted populations widen the range behind modern parents.",
+          },
         ],
       },
       {
@@ -134,6 +164,9 @@ export const geneticsArticles: PageContent[] = [
           "A phenotype hunt begins with clear selection criteria and labeled plants. Breeders observe germination, vigor, branch structure, internodal spacing, flowering transition, maturity, aroma, trichomes, color, and final flower. They also record practical cultivation traits such as timing, support needs, and consistency across the canopy.",
           "Cuttings preserve candidates while seed plants finish flowering. After harvest, drying, and cure, the breeder can evaluate the completed flower and return to the living cutting that matches it. That cutting is a clone: a new plant with the same genetic identity as the selected individual.",
           "Repeat cultivation confirms the choice. A selected phenotype may be grown in another cycle, shared with another garden, or used as a parent. Its expression can respond to the new setting, while its genetic identity remains the same. This is how one plant from a variable seed family becomes a recognizable cultivar carried across many future batches.",
+          "Cut versus seed keeps retail comparisons honest. A preserved cut repeats one genotype across rooms, so differences mostly track garden climate, harvest window, and cure. A seed run of the same branded family can still segregate into multiple phenotypes. Asking which story belongs to the jar prevents treating a shared title as a promise of sameness.",
+          "Two batches that share a name can still diverge after the same selected plant meets a new room or post-harvest path. Phenotype selection captures one genetic individual; cultivation history builds the expression you evaluate today. Dates, batch identifiers, aroma, and structure remain the checkable evidence beside any cut note.",
+          "At a licensed counter, keep questions practical and agricultural. Ask whether this lot is a named cut or a seed-line family, which parents or selection notes travel with it, and which harvest or package dates belong to the jar in hand. Pair those answers with aroma, structure, and moisture so phenotype literacy never drifts into medical claims.",
         ],
         contextualLinks: [
           {
@@ -147,6 +180,24 @@ export const geneticsArticles: PageContent[] = [
             href: "/",
             label: "guide",
             after: " places phenotype selection inside the wider path from plant genetics to licensed retail.",
+          },
+          {
+            before: "See why shared titles still diverge in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when garden, harvest, and cure rewrite the same named material.",
+          },
+          {
+            before: "Bring specific prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so cut notes, parents, and batch dates stay concrete at retail.",
+          },
+          {
+            before: "Return to ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " for the wider map from breeding and phenotypes through naming and batch variation.",
           },
         ],
       },

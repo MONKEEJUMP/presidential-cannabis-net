@@ -176,7 +176,7 @@ export const editorialLinks: EditorialLink[] = [
     "id": "IL-056",
     "sourcePath": "/genetics/phenotypes",
     "sectionId": "hunting-and-cloning",
-    "paragraphIndex": 4,
+    "paragraphIndex": 7,
     "match": "cured-flower stage",
     "label": "cured-flower stage",
     "href": "/flower"
