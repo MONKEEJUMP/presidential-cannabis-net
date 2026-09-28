@@ -133,10 +133,11 @@ export const geneticsArticles: PageContent[] = [
     h1: "Strain Naming",
     title: "How Cannabis Strains Get Their Names",
     description: "How cannabis cultivar names arise from parentage, aroma, appearance, place, and creative identity, plus the information a name can carry.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Cannabis strains get their names from parentage, aroma, appearance, place, breeder identity, cultural references, and creative themes. A name gives a selected plant a memorable identity and helps its lineage travel through gardens, menus, and conversations. Its value grows when the name stays connected to the breeder, parentage, phenotype, and current batch.",
       "Naming sits at the meeting point of recordkeeping and storytelling. A technical code can track a plant during selection, while a released name makes the cultivar easier to recognize. The strongest naming practice preserves a clear chain from the chosen individual to the flower sold under that identity.",
+      "Presidential Cannabis publishes this strain-naming guide as adult 21+ genetics literacy: how marketing titles relate to—but do not replace—documented parents, selected cuts, and batch evidence; why two jars with similar names can still differ; and how to read the label as an index rather than a complete genetic dossier. No medical claims appear here. The educational job is narrower: give readers vocabulary that keeps identity, lineage, and present flower in separate, checkable layers.",
     ],
     sections: [
       {
@@ -146,6 +147,28 @@ export const geneticsArticles: PageContent[] = [
           "Parent names often contribute syllables, images, or themes to a new cross. This can make the family relationship visible at a glance. An aroma may lead the name when a phenotype expresses vivid citrus, fruit, spice, fuel, flowers, or earth. Color, trichome frost, bud shape, and growth habit can inspire the same kind of direct description.",
           "Place names connect a selection to a region, garden, or community. Personal names and cultural references can honor an influence or give the cultivar a distinct voice. Numbered selections may keep their working code when that code has become recognized through testing and distribution.",
           "Breeders sometimes name the cross early and sometimes wait for the selected phenotype. Waiting lets the finished plant shape the identity, while early naming can organize a family project. In either path, records keep the name attached to the parents and the exact selection that earned release.",
+          "Chosen names and genetics do related but different work. Genetics describe inherited material, selected individuals, and the range a family can express. A released name is the public handle that lets that selection travel through menus and conversation. A vivid aroma title can be accurate storytelling without listing both parents; a parent-mashup title can signal family without promising every sibling will smell identical. Useful literacy asks what the name is claiming—creative identity, parent hint, place reference, or breeder series—and what still needs documentation beside it.",
+          "Marketing language can drift from lineage language when retail shorthand shortens a title, when parallel breeders reuse a popular image, or when a seed line and a famous cut share syllables without sharing the same preserved plant. That does not make names useless; it means the name is an invitation to ask for parents, cut notes, producer, and batch dates rather than a substitute for those facts. Adults 21+ can enjoy memorable branding while still separating the story on the jar from the plant history behind it.",
+        ],
+        contextualLinks: [
+          {
+            before: "Follow how crosses and selections earn release in ",
+            href: "/genetics/how-strains-are-made",
+            label: "how strains are made",
+            after: " when naming sits after breeding decisions rather than before them.",
+          },
+          {
+            before: "Read regional foundations and modern titles through ",
+            href: "/genetics/landrace-and-modern",
+            label: "landrace and modern",
+            after: " so place-inspired names stay grounded in adaptation history.",
+          },
+          {
+            before: "Map parentage vocabulary in ",
+            href: "/genetics/lineage",
+            label: "lineage",
+            after: " when a menu title needs the family tree beside it.",
+          },
         ],
       },
       {
@@ -155,6 +178,34 @@ export const geneticsArticles: PageContent[] = [
           "A name is a useful index. It lets buyers locate a cultivar, compare batches, ask for lineage, and remember observations. When the same preserved clone travels through several cultivators, the name can connect those expressions to one genetic individual. When a seed line travels, the name can connect a family of related expressions.",
           "Clear provenance gives the index strength. Breeder, parentage, selected cut, cultivation source, and batch details show exactly what the name refers to. Shared names can appear around distinct plants through parallel breeding or loose recordkeeping, so these supporting details bring precision to the conversation.",
           "At the counter, let the name open the inquiry. Read lineage, smell the current batch, inspect structure, review dates, and ask the budtender about the available flower. Names make cannabis culture memorable; provenance and observation turn that memory into dependable present-day information.",
+          "Two jars with similar names can differ because the title may point to a related family rather than one identical cut, because seed siblings segregate, or because separate gardens and cures wrote different batch stories on the same brand handle. Treat parents, selected cut, producer, harvest or package date, and sensory notes as separate fields. The name starts the search; those fields finish the comparison without turning similarity into a guarantee of sameness.",
+          "A practical reading order keeps the layers distinct: note the cultivar title, ask which parents or cut are documented, confirm whether this lot is seed or clone material when staff know, then evaluate the present aroma, structure, and dates on the jar in hand. That habit protects both cultural naming and agricultural honesty. It also pairs cleanly with batch-variation literacy—why expression shifts across rooms and cures—and with counter questions that ask for specifics instead of slogans.",
+        ],
+        contextualLinks: [
+          {
+            before: "See why shared titles still diverge in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when garden, harvest, and cure rewrite the same named material.",
+          },
+          {
+            before: "Compare observable siblings through ",
+            href: "/genetics/phenotypes",
+            label: "phenotypes",
+            after: " when a seed-line name covers more than one expression.",
+          },
+          {
+            before: "Bring specific prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so parents, cut notes, and batch dates stay concrete at the counter.",
+          },
+          {
+            before: "Return to ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " for the wider map from breeding and lineage through naming and batch variation.",
+          },
         ],
       },
     ],
