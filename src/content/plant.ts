@@ -8,10 +8,11 @@ export const plantArticles: PageContent[] = [
     h1: "What Cannabis Is",
     title: "What the Cannabis Plant Actually Is",
     description: "Cannabis explained as an annual flowering plant, including its life cycle, harvested flower, reproductive structure, and resin-bearing surfaces.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Cannabis is an annual flowering plant whose reproductive flower is the part cultivated and harvested for cannabis flower. It completes its main life cycle within a season, moving from germination through vegetative growth and into flowering. The resin-rich floral clusters that develop late in that cycle carry the structure, aroma, cannabinoids, and terpenes recognized in the finished harvest.",
       "Thinking of cannabis first as a plant creates a clear foundation. Roots, stems, fan leaves, branches, flowers, and resin glands each perform a biological role. Genetics supplies an inherited range, while light, water, nutrition, temperature, root space, and time shape how that range appears. Finished flower is therefore a preserved piece of the plant's reproductive stage and a record of the conditions that supported it.",
+      "Presidential Cannabis publishes this what-cannabis-is guide as adult 21+ plant literacy: cannabis as a living annual species rather than a product myth alone; how the life cycle, harvested flower, and resin surface connect to The Cannabis Plant Guide, flower structure, indica-sativa-hybrid language, flower quality, and genetics; and how to keep that literacy observational at a licensed counter. No medical claims. The job is a botanical definition that stays checkable beside the jar.",
     ],
     sections: [
       {
@@ -21,6 +22,8 @@ export const plantArticles: PageContent[] = [
           "A seed begins by opening and sending a root downward while its first shoot rises toward light. The young plant builds a root network, a central stem, branches, and leaves. During vegetative growth, leaves gather light and the plant expands the structure that will later support flower sites. Cultivators guide this phase through a stable environment and a light schedule suited to active growth.",
           "Flowering begins when the plant receives the seasonal or controlled signal that the growth phase has changed. The spacing between new leaves shortens, flower sites form along branches, and those sites develop into clusters. Female flowers build bracts around their reproductive structures, pistils extend outward, and resin glands become increasingly prominent across the bracts and surrounding small leaves.",
           "As an annual, the plant directs its cycle toward reproduction. The flower supports that purpose, and its resin helps protect exposed reproductive surfaces. Cultivation for flower manages pollination so the plant continues building dense, resinous floral material. The completed cycle gives growers a harvest window in which structure, trichome maturity, aroma, and the whole plant align.",
+          "Product myths often skip that living sequence. A jar, a menu title, or a broad indica-sativa-hybrid tag can sound like the whole story, yet each still depends on an annual plant that germinated, vegetated, flowered, and was harvested. Reading cannabis as a species first keeps shelf language from replacing biology.",
+          "Traditional growth-form labels and modern breeding notes sit on top of this cycle rather than replacing it. Indica, sativa, and hybrid vocabulary describes historical shape and commerce shorthand; genetics explains inheritance and selection. Neither erases the annual plant underneath the finished flower.",
         ],
         contextualLinks: [
           {
@@ -35,6 +38,18 @@ export const plantArticles: PageContent[] = [
             label: "cannabis",
             after: " hub follows the plant through anatomy, trichomes, harvest timing, drying, and cure.",
           },
+          {
+            before: "Place traditional labels beside the plant with ",
+            href: "/plant/indica-sativa-hybrid",
+            label: "indica, sativa, hybrid",
+            after: " when growth-form shorthand needs the annual cycle underneath it.",
+          },
+          {
+            before: "Follow inheritance and selection through ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " when breeding records explain the range the living plant can express.",
+          },
         ],
       },
       {
@@ -44,6 +59,28 @@ export const plantArticles: PageContent[] = [
           "The harvested material is a collection of many small flowers arranged together. A bract holds the reproductive parts, pistils emerge from the bract, and close sugar leaves extend through the cluster. Many individual sites can gather into a larger cola. After harvest, trimming defines the finished shape while preserving the flower and its resin-bearing surfaces.",
           "Fan leaves belong mainly to the plant's energy-making system and are removed from finished flower. Sugar leaves sit much closer to the floral cluster and often carry visible resin. A careful trim creates a clean presentation while respecting the trichomes on the flower's outer surface. The resulting piece still reflects the original architecture: some cultivars form compact, rounded clusters, while others form longer, more open structures.",
           "The flower's value comes from this complete botanical assembly. Aromatic compounds create its nose, cannabinoids develop in the plant's resin, and the arrangement of bracts and leaves gives each piece its texture and shape. A quality assessment begins by recognizing the flower as organized plant tissue rather than a uniform object.",
+          "Anatomy makes that assessment concrete. Bracts, pistils, sugar leaves, and cola organization are the same parts that grew on the living plant; finished appearance and density inherit that map after dry and cure. Flower literacy starts here before aroma, moisture, or storage notes refine the read.",
+          "At a licensed counter, keep plant questions observational. Ask which harvest or package dates belong to the jar, how this batch's structure compares with the last delivery of the same name, and whether the producer lists parents or a named cut. Pair answers with what you see and smell so adult 21+ literacy stays botanical, not a medical claim.",
+        ],
+        contextualLinks: [
+          {
+            before: "Map the parts in ",
+            href: "/plant/the-flower-structure",
+            label: "flower structure",
+            after: " when bracts, pistils, sugar leaves, and colas need named anatomy.",
+          },
+          {
+            before: "Continue into ",
+            href: "/flower",
+            label: "The Flower",
+            after: " for appearance, aroma, density, moisture, and storage after the plant definition is clear.",
+          },
+          {
+            before: "Return to ",
+            href: "/plant",
+            label: "The Cannabis Plant Guide",
+            after: " for the map from annual biology and resin glands through harvest into post-harvest care.",
+          },
         ],
       },
       {
