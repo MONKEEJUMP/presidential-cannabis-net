@@ -137,7 +137,7 @@ export const hubPages: PageContent[] = [
     h1: "The Presidential Flower Guide",
     title: "Presidential Flower Guide",
     description: "Use the Presidential flower guide to evaluate cannabis flower through appearance, aroma, structure, moisture, cure, trichomes, and storage.",
-    wordTarget: [800, 1100],
+    wordTarget: [1100, 1250],
     intro: [
       "The Presidential flower guide brings appearance, aroma, structure, moisture, cure, and trichome condition into one coherent view of cannabis flower. Each quality can be observed on its own, and the complete assessment comes from reading them together. This section builds that assessment from the first look and first aroma through storage at home.",
       "Presidential Cannabis publishes this flower hub as adult 21+ quality literacy for finished cannabis flower: how to read sight, aroma, density, cure, and storage without turning any single cue into a medical claim. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with observation, handling, and batch context at licensed retail.",
@@ -150,6 +150,7 @@ export const hubPages: PageContent[] = [
           "What Makes Good Flower supplies the overview. It follows the same sequence a practised buyer can use at a counter: observe color and structure, look across the surface for trichome coverage, notice trim and pistil condition, assess aroma, and read the cure through texture. The result is a balanced view that respects cultivar differences while recognizing careful cultivation and handling.",
           "Quality appears as alignment. A flower's density fits its genetics, its surface remains intact, its aroma has definition, and its moisture supports a stable texture. Batch dates and storage add context. Each clue strengthens the others, turning a visual impression into a grounded description of how the flower grew and traveled.",
           "Publisher flower literacy starts with that sequence. A jar or bag offers only a sample of a larger harvest, so the useful skill is a repeatable checklist rather than a single score: surface, nose, structure, moisture, package dates, and a storage plan. Adults shopping through licensed retailers can apply the same frame across cultivars and formats without treating any label percentage as the whole story.",
+          "Keep the checklist short enough to use under retail lighting. Compare this jar with the last delivery of the same name when the budtender can open both, and ask for harvest or package dates beside the cultivar title. Observation describes how the flower arrived; it does not invent lab assays or medical claims.",
         ],
         contextualLinks: [
           {
@@ -157,6 +158,12 @@ export const hubPages: PageContent[] = [
             href: "/flower/what-makes-good-flower",
             label: "what makes good flower",
             after: " for the counter-ready overview of appearance, trichomes, trim, aroma, and cure in one pass.",
+          },
+          {
+            before: "For living-plant context behind finished flower, open ",
+            href: "/plant",
+            label: "The Plant",
+            after: " when anatomy, harvest timing, drying, and cure sit beside this quality map.",
           },
         ],
       },
@@ -167,6 +174,7 @@ export const hubPages: PageContent[] = [
           "Appearance examines color, trichome frost, pistils, trim, and the visual signs of well-developed flower. Aroma explains how to smell flower at a counter and what a vivid nose reveals about freshness, cure, and handling. It introduces common aromatic characters-earthy myrcene, citrus limonene, peppery caryophyllene, pine-like pinene, floral linalool, and fruity terpinolene-as members of a larger blend.",
           "These senses answer different questions. Sight maps structure and surface condition. Aroma reveals the volatile profile that remains in the batch. Together they provide a fast, information-rich starting point before percentages or cultivar names enter the conversation.",
           "Sight literacy also includes what packaging and light allow you to see. Clear views of trichome coverage, intact bracts, and tidy trim support a calmer comparison between jars. Aroma literacy stays practical: a short, clean inhale from the container after it has been opened briefly, then a return to the seal so the batch does not dry out on the counter. Neither sense alone finishes the assessment, but both set the pace for density, cure, and storage decisions that follow.",
+          "Treat percentage panels as orientation, not a substitute for the nose and surface in front of you. Two batches sharing a name can still diverge in frost, trim, and aromatic definition after different harvest windows or post-harvest care. Sight and scent keep that difference readable before you decide what to take home.",
         ],
         contextualLinks: [
           {
@@ -190,13 +198,20 @@ export const hubPages: PageContent[] = [
           "Density and Structure shows how compact and open flowers can each express sound cultivation. It separates structural information from a complete quality judgment and explains how bracts, spacing, and trimming shape the piece in hand. Moisture and Cure adds touch: a balanced flower feels settled outside and resilient within, with a texture that supports easy handling.",
           "The cure joins visible and aromatic observation. Remaining moisture moves toward balance while the flower's nose and texture continue changing. This is why structure and cure belong beside each other: one begins with genetics and growth, while the other stabilizes moisture and carries a changing agricultural product toward retail.",
           "Density literacy keeps genetics and handling in the same frame. A tight flower can still be well grown, and an open flower can still be carefully finished; structure describes form more than a ranking. Cure literacy is the touch and time layer: moisture that feels even, a surface that is not brittle or spongy, and an aromatic profile that remains defined after the container returns to its seal. Plant anatomy and breeding context sit beside this silo when you want the living plant or the inheritance story behind the batch.",
+          "Ask how this batch feels after a gentle squeeze and whether the producer notes cure time beside the package date. Structure and moisture describe finish more than a ranking system, and they stay useful across cultivars when you refuse to treat density alone as quality.",
         ],
         contextualLinks: [
           {
             before: "Compare form in ",
             href: "/flower/density-and-structure",
             label: "density and structure",
-            after: ", then continue into moisture and finish cues in the moisture-and-cure child guide. Living-plant anatomy continues on The Plant hub when you need that foundation.",
+            after: " for bract packing, spacing, and trim shape in the hand.",
+          },
+          {
+            before: "Continue into finish cues with ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " when texture, remaining moisture, and a settled nose need their own pass.",
           },
         ],
       },
@@ -213,7 +228,19 @@ export const hubPages: PageContent[] = [
             before: "Finish with ",
             href: "/flower/storing-flower",
             label: "storing flower",
-            after: " for container, light, and temperature habits that protect aroma after you leave the counter. Genetics and About sit beside this silo for inheritance and publisher context.",
+            after: " for container, light, and temperature habits that protect aroma after you leave the counter.",
+          },
+          {
+            before: "For inheritance and naming beside this silo, open ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " when lineage and batch variation explain why two jars can diverge.",
+          },
+          {
+            before: "For retail sequence after the quality map, open ",
+            href: "/choosing",
+            label: "Choosing",
+            after: " when menu reading and counter questions follow the flower assessment.",
           },
         ],
       },
