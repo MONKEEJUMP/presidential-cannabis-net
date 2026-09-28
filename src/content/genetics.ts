@@ -477,6 +477,8 @@ export const geneticsArticles: PageContent[] = [
           "A clone keeps the genotype constant, which makes these environmental differences especially visible. Seed-grown plants add genetic variation as well. In both cases, the finished flower is phenotype in context: inherited possibility expressed through one complete growing cycle.",
           "Cut versus seed is one of the clearest reasons two batches of the same name diverge. A selected cut repeats one genotype across rooms and cycles, so differences mostly track environment, care, and post-harvest. A seed run of the same branded family can still segregate into multiple phenotypes, each with its own structure, aroma balance, and timing. Asking whether the current lot comes from a known cut or a seed selection keeps the comparison honest before anyone treats the menu title as a fixed portrait.",
           "Environment then writes the next chapter. The same cut under a hotter canopy, a different fertigation schedule, or a tighter plant density can present denser or more open flower, a brighter or deeper aromatic blend, and a different frost surface. Those shifts are agricultural, not a failure of the name. Reading phenotype language beside garden notes explains why a familiar cultivar can still surprise from one licensed delivery to the next.",
+          "Strain naming catalogs the family or selected individual; it does not freeze every future jar into one portrait. A menu title can point at a clone-only cut, a seed catalog entry, or a house selection that still shares parent language with other rooms. When two licensed retailers list the same name, ask whether the material is the same cut, the same producer, or only the same family label—so naming literacy stays separate from batch evidence.",
+          "Inherited breadth also matters. Landrace foundations and modern selections can widen or narrow the range a garden has to express, while repeated breeding toward a favorite cut tightens what repeats across cycles. That history explains why some names feel steadier run to run and others invite wider phenotype talk—without treating either pattern as a ranking of quality.",
         ],
         contextualLinks: [
           {
@@ -497,6 +499,24 @@ export const geneticsArticles: PageContent[] = [
             label: "how strains are made",
             after: " before a garden run reaches the shelf.",
           },
+          {
+            before: "Keep menu titles in perspective with ",
+            href: "/genetics/strain-naming",
+            label: "strain naming",
+            after: " when a shared label still leaves cut, seed, and producer questions open.",
+          },
+          {
+            before: "Place family breadth beside ",
+            href: "/genetics/landrace-and-modern",
+            label: "landrace and modern",
+            after: " when older foundations and later selection shape how wide a name can run.",
+          },
+          {
+            before: "Return to the ",
+            href: "/genetics",
+            label: "genetics",
+            after: " hub for the full map of inheritance, naming, and batch literacy.",
+          },
         ],
       },
       {
@@ -508,6 +528,8 @@ export const geneticsArticles: PageContent[] = [
           "Packaging and retail storage complete the batch journey. Dates, seal quality, temperature, light exposure, and time all matter. This variability gives buyers useful agency: smell the flower when possible, inspect its structure and trichomes, feel the cure, read the dates and terpene panel, and ask about the current batch. The name starts the comparison; the batch makes it accurate.",
           "Batch identifiers, harvest and package dates, and certificate-of-analysis (COA) or terpene panels describe this run—not every jar that has carried the strain name. The title answers identity; the batch line answers when it was finished, how it was tested, and which lot you are evaluating. Treat printed percentages as a snapshot of the tested sample for this harvest: useful beside aroma and feel, never as a medical claim.",
           "Those differences show up on neighboring literacy pages in concrete ways. Appearance may shift in color, frost, or trim; aroma may lean brighter or deeper within the same family; density and structure may read more open or compact after a new garden cycle or cure. At a licensed counter, ask which dates belong to the jar in hand, whether this lot is the same cut as the last delivery, and how current aroma and structure compare with a prior run of the same name—so strain identity never replaces batch literacy.",
+          "Trichome surfaces make maturity differences visible without inventing lab claims. Clear, cloudy, and amber balances shift across the harvest window, and handling after cut can protect or scuff that frost before the jar seals. Two batches of the same cut can therefore present different resin sheen and aromatic intensity when one was taken earlier, dried cooler, or handled with more canopy contact—still the same genotype, different finished evidence.",
+          "After purchase, storage continues the batch story. Cool, dark, sealed habits slow further change; heat, light, and repeated open time can dull aroma and alter moisture feel even when the harvest was excellent. Adults 21+ who note package dates beside how the flower opens on first crack keep cultivation variation and post-counter care as separate chapters of the same literacy.",
         ],
         contextualLinks: [
           {
@@ -521,6 +543,12 @@ export const geneticsArticles: PageContent[] = [
             href: "/plant/drying-and-curing",
             label: "drying and curing",
             after: ", where room climate and time reshape the flower.",
+          },
+          {
+            before: "Read glandular detail on ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " when frost, head condition, and harvest timing explain batch-to-batch resin differences.",
           },
           {
             before: "Compare visual batch cues in ",
@@ -541,10 +569,28 @@ export const geneticsArticles: PageContent[] = [
             after: " when open and compact expressions need equal terms.",
           },
           {
+            before: "Carry jar feel into ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " when texture and aroma definition describe how this lot settled.",
+          },
+          {
+            before: "Protect that balance afterward through ",
+            href: "/flower/storing-flower",
+            label: "storing flower",
+            after: ", where cool, dark, and sealed habits continue preservation.",
+          },
+          {
             before: "Bring practical prompts from ",
             href: "/choosing/what-to-ask",
             label: "what to ask",
             after: " so dates, cut notes, and batch comparisons stay specific.",
+          },
+          {
+            before: "Practice the same read on a board via ",
+            href: "/choosing/reading-a-menu",
+            label: "reading a menu",
+            after: " when date, name, and producer columns must stay distinct from one percentage.",
           },
         ],
       },
