@@ -8,10 +8,11 @@ export const choosingArticles: PageContent[] = [
     h1: "Reading a Menu",
     title: "How to Read a Dispensary Menu",
     description: "How to read dispensary menu fields including format, package size, cultivar, potency, terpene panel, harvest date, and price.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Read a dispensary menu by starting with format and package size, then adding cultivar, batch date, aromatic information, potency, and price. Each column answers a different question. The best choice comes from the full row rather than the largest number, because freshness, aroma, structure, and the planned occasion give measurements their practical context.",
       "Menus range from concise printed lists to detailed digital catalogs. Some include harvest and package dates, terpene panels, lineage, cultivation source, or staff notes. The reading method stays consistent across formats: decide what kind of product fits the moment, identify the current batch, and use the available measurements to compare like with like.",
+      "Presidential Cannabis publishes this menu-reading guide as adult 21+ retail literacy: how to read format, package size, cultivar name, THC and other percentage columns, batch dates, and price without treating any single field as a quality grade—and without medical claims. The habit ties to what-to-ask, first-time visits, matching format to occasion, strain naming, and why two batches differ at a licensed counter.",
     ],
     sections: [
       {
@@ -21,6 +22,27 @@ export const choosingArticles: PageContent[] = [
           "Format tells you what the item is. Raw flower presents the cured flower itself. Infused flower formats add concentrate and kief. Pre-made formats package the flower for a particular kind of session. Beginning here keeps every later comparison relevant to the purchase you actually plan to make.",
           "Package size sets the quantity. Pair it with session plans, sharing, storage, and the pace at which the flower will stay fresh for you. Price then becomes easy to compare within the same format and size. A value judgment can include freshness, cultivation, flower quality, and presentation rather than quantity alone.",
           "Harvest and package dates place the row in time. The interval between them offers context for drying and curing, while the current date shows how long the product has been packaged. Dates become especially useful beside aroma and texture, because they help explain the flower's present condition.",
+          "THC and other percentage columns measure a defined portion of a tested sample for that batch. Read them as one row detail beside format, size, and dates—not as a ranking of flower quality. Two packages with similar percentages can still differ in aroma, structure, cure, and freshness. Adults 21+ keep the number in context with the rest of the row and with what the licensed shelf shows that day.",
+        ],
+        contextualLinks: [
+          {
+            before: "Match package form to the plan with ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "matching format to occasion",
+            after: " when session length should narrow format before percentages.",
+          },
+          {
+            before: "Walk a calm first visit in ",
+            href: "/choosing/first-time",
+            label: "first time",
+            after: " if entry, pacing, and a simple plan still need sequence.",
+          },
+          {
+            before: "Ground flower quality language in ",
+            href: "/flower",
+            label: "The Flower",
+            after: " so aroma, density, and storage stay tied to observation beside the row.",
+          },
         ],
       },
       {
@@ -30,6 +52,28 @@ export const choosingArticles: PageContent[] = [
           "The cultivar name identifies the genetic selection or family claimed for the batch. Documented lineage names the parents and can suggest broad aromatic or structural tendencies. Traditional indica, sativa, and hybrid categories add commercial shorthand, while many modern cultivars show extensive admixture and the current batch carries the most immediate information.",
           "A potency percentage measures a defined portion of the tested sample. Read it as one batch characteristic rather than a quality grade. Flower with a moderate figure can present beautiful structure, vivid aroma, intact trichomes, and an excellent cure. A complete menu reading keeps cultivation and preservation beside the measurement.",
           "A terpene panel names aromatic compounds and often lists their proportions. Myrcene may contribute earth and musk, limonene bright citrus, caryophyllene pepper, pinene pine and rosemary, linalool flowers, and terpinolene fruit. The blend matters more than any isolated name, and direct aroma shows how the measured profile reaches the flower today.",
+          "Strain names on a menu are commercial and genetic labels, not guarantees that every jar will smell or feel identical. Compare the printed name with batch identifiers and dates so you know which run is on the shelf. When two rows share a familiar title but show different harvest dates or producers, treat them as separate inventory—not interchangeable copies.",
+          "At a licensed counter, ask which columns are live for the SKU in front of you: current THC or cannabinoid percentage on the label, harvest or package date, batch identifier, and whether a terpene panel belongs to this delivery. Request the numbers as printed—never as medical claims.",
+        ],
+        contextualLinks: [
+          {
+            before: "See how commercial titles map to genetics in ",
+            href: "/genetics/strain-naming",
+            label: "strain naming",
+            after: " when a familiar name needs lineage context.",
+          },
+          {
+            before: "Separate title from run with ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when the same cultivar label arrives with new dates.",
+          },
+          {
+            before: "Bring ready counter prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when freshness, aroma, and dates need shelf wording.",
+          },
         ],
       },
       {
@@ -39,6 +83,27 @@ export const choosingArticles: PageContent[] = [
           "Create a shortlist of two or three rows that fit the format, size, and price range. Compare dates next, then aroma or terpene character, cultivar family, and available flower notes. This sequence turns a large menu into a small set of meaningful choices without asking one field to carry the entire decision.",
           "Staff notes can add texture when they describe observable qualities such as citrus aroma, open flower structure, a recent delivery, or a balanced cure. A budtender can confirm which notes apply to the current batch and describe how the options differ on the shelf that day.",
           "Finish by asking to see or smell flower when store practice allows it. Match the direct observation with the printed row: dates, aroma, structure, trichomes, and moisture should tell one coherent story. Menu literacy is simply the ability to assign each field its proper role and bring the fields together around a real occasion.",
+          "Bring the shortlist to the counter and ask which batch arrived most recently, which aroma is clearest today, and whether the package size still matches the occasion. Those questions turn columns into shelf reality without ranking products by a single percentage. Adults 21+ finish with a coherent story across format, batch, name, and plan—never a medical claim tied to a menu number.",
+        ],
+        contextualLinks: [
+          {
+            before: "Turn the shortlist into counter questions with ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when dates, aroma, and format need spoken confirmation.",
+          },
+          {
+            before: "Keep the first purchase paced with ",
+            href: "/choosing/first-time",
+            label: "first time",
+            after: " if the visit still needs identification and one clear ask.",
+          },
+          {
+            before: "Return to ",
+            href: "/choosing",
+            label: "Choosing Cannabis at a Dispensary",
+            after: " for the decision order that places preferences ahead of one menu number.",
+          },
         ],
       },
     ],
