@@ -99,10 +99,11 @@ export const geneticsArticles: PageContent[] = [
     h1: "Lineage",
     title: "Reading Cannabis Lineage",
     description: "How cannabis parentage is recorded, what a cultivar family tree can suggest, and how lineage fits beside phenotype and current batch information.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Cannabis lineage is the recorded parentage behind a cultivar. A simple lineage names two parents, while a deeper family tree follows those parents through earlier crosses and regional foundations. Lineage can suggest aromatic families, growth patterns, flower structure, timing, and breeding intent, and the current phenotype and batch show how those possibilities were expressed.",
       "Reading lineage is like reading a map rather than a finished portrait. The map shows routes and relationships. The selected plant gives that family a particular identity, and cultivation creates the flower available today. When all three are visible—parentage, phenotype, and batch—the cultivar name carries useful context instead of standing alone.",
+      "Presidential Cannabis publishes this lineage guide as adult 21+ genetics literacy: how to read parent and cross language on licensed menus, how lineage relates to—but does not replace—marketing names, phenotypes, breeding steps, and batch evidence, and which counter questions keep the reading agricultural—never medical claims.",
     ],
     sections: [
       {
@@ -112,6 +113,28 @@ export const geneticsArticles: PageContent[] = [
           "A cross is commonly written with one parent on each side of an X. Breeder records may add generation labels, backcrosses, selected cuts, or the identity of a pollen donor. These details explain the path used to combine and reinforce traits. A named selection inside a parent family can matter because two phenotypes from the same seed line may contribute different qualities.",
           "Deeper trees reveal repeated ancestors. A breeder may return to a family for a familiar structure or aroma, or introduce a distant line to widen the range. Landrace-derived populations can appear at the foundation of several branches. Over generations, the tree becomes a record of movement, regional adaptation, selection, and creative recombination.",
           "Reliable lineage begins with breeder documentation. Nursery labels, grow records, and retail descriptions carry that information forward. Clear records make a cultivar easier to compare across sources and help preserve credit for the breeding work behind it.",
+          "On a licensed menu, parent and cross language often arrives in shorthand: two names joined by an X, a brief parent list, a breeder credit, or a selected-cut note from a wider seed family. Treat those fragments as map labels. Ask which parents are documented, whether cut or seed-line identity is known, and which producer grew the jar in hand. Cross notation explains breeding path; the batch still needs dates and sensory evidence.",
+          "Lineage language and marketing names do related but different work. A family tree records parents, selections, and breeding steps. A released title is the public handle for menus and conversation. Useful literacy asks what the label is claiming—creative identity, parent hint, or breeder series—and what still needs documentation beside it.",
+        ],
+        contextualLinks: [
+          {
+            before: "Follow how crosses and selections earn release in ",
+            href: "/genetics/how-strains-are-made",
+            label: "how strains are made",
+            after: " when the family tree sits after breeding decisions rather than before them.",
+          },
+          {
+            before: "Read regional foundations at the base of many trees through ",
+            href: "/genetics/landrace-and-modern",
+            label: "landrace and modern",
+            after: " so place-inspired ancestry stays grounded in adaptation history.",
+          },
+          {
+            before: "Separate marketing titles from parent records with ",
+            href: "/genetics/strain-naming",
+            label: "strain naming",
+            after: " when a menu handle needs the family tree beside it.",
+          },
         ],
       },
       {
@@ -121,6 +144,35 @@ export const geneticsArticles: PageContent[] = [
           "Parentage can suggest a range of likely traits. Families may share a recognizable aromatic direction, compact or open growth, a flowering schedule, color potential, or a style of resin coverage. Breeders often choose parents precisely because their observed strengths complement each other, so the family tree communicates part of the design.",
           "The selected phenotype determines which combination became the named cultivar. Seed siblings can emphasize different sides of the family, and a clone preserves one of those individuals. Environment then shapes that clone's expression through light, climate, nutrition, harvest timing, and post-harvest care.",
           "Use lineage to form better questions. Ask which parent contributes the current aroma, how the flower structure compares with its family, and whether the product comes from a preserved cut or a seed population. Then inspect the current flower and dates. Lineage sets an informed expectation, while the batch supplies the evidence in hand.",
+          "Phenotype literacy keeps that expectation honest. Two siblings from one cross can diverge in structure, aroma, or density even when they share the same parents on paper. A producer who keeps a chosen cut preserves one expression. Asking whether the jar is a named cut or a broader seed-line family keeps lineage from implying uniformity the garden never promised.",
+          "Two jars that share a strain name can still diverge because garden climate, harvest window, cure, and packaging rewrite expression on the same genetic material. Parents point to inherited potential; dates, batch identifiers, and the flower in hand describe this run. Separating lineage from batch evidence keeps family-tree literacy agricultural at licensed retail.",
+          "At a licensed counter, keep questions practical and agricultural. Ask which parents or cut are documented for this lot, whether staff know if the material is seed or clone origin, and which harvest or package dates belong to the jar in hand. Pair those answers with aroma, structure, and moisture so lineage never stands alone—and never drifts into medical claims.",
+        ],
+        contextualLinks: [
+          {
+            before: "Compare observable siblings through ",
+            href: "/genetics/phenotypes",
+            label: "phenotypes",
+            after: " when a seed-line family covers more than one expression.",
+          },
+          {
+            before: "See why shared titles still diverge in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when garden, harvest, and cure rewrite the same named material.",
+          },
+          {
+            before: "Bring specific prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " so parents, cut notes, and batch dates stay concrete at the counter.",
+          },
+          {
+            before: "Return to ",
+            href: "/genetics",
+            label: "Genetics",
+            after: " for the wider map from breeding and lineage through naming and batch variation.",
+          },
         ],
       },
     ],
