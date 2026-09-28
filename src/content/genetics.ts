@@ -313,6 +313,8 @@ export const geneticsArticles: PageContent[] = [
           "Breeders sometimes name the cross early and sometimes wait for the selected phenotype. Waiting lets the finished plant shape the identity, while early naming can organize a family project. In either path, records keep the name attached to the parents and the exact selection that earned release.",
           "Chosen names and genetics do related but different work. Genetics describe inherited material, selected individuals, and the range a family can express. A released name is the public handle that lets that selection travel through menus and conversation. A vivid aroma title can be accurate storytelling without listing both parents; a parent-mashup title can signal family without promising every sibling will smell identical. Useful literacy asks what the name is claiming—creative identity, parent hint, place reference, or breeder series—and what still needs documentation beside it.",
           "Marketing language can drift from lineage language when retail shorthand shortens a title, when parallel breeders reuse a popular image, or when a seed line and a famous cut share syllables without sharing the same preserved plant. That does not make names useless; it means the name is an invitation to ask for parents, cut notes, producer, and batch dates rather than a substitute for those facts. Adults 21+ can enjoy memorable branding while still separating the story on the jar from the plant history behind it.",
+          "Clone-only titles and seed-catalog titles can look similar on a menu while pointing at different kinds of identity. A preserved cut repeats one selected genotype; a seed line name often covers a family of related expressions that still segregate. Asking whether the jar in hand comes from a known cut or a seed selection keeps the public handle honest without treating either path as lesser agriculture.",
+          "Breeder series and house selections add another layer. Shared themes, roman numerals, or project codes can mark generations inside one program, while a retailer nickname may shorten the same plant for the board. Stable spelling and clear attribution help menus, packages, and producer pages stay searchable; when those strings diverge, ask which form matches the documented release rather than guessing from sound-alike syllables alone.",
         ],
         contextualLinks: [
           {
@@ -333,6 +335,12 @@ export const geneticsArticles: PageContent[] = [
             label: "lineage",
             after: " when a menu title needs the family tree beside it.",
           },
+          {
+            before: "Separate observable expression from the public handle via ",
+            href: "/genetics/phenotypes",
+            label: "phenotypes",
+            after: " when siblings under one family name still look and smell different.",
+          },
         ],
       },
       {
@@ -344,6 +352,8 @@ export const geneticsArticles: PageContent[] = [
           "At the counter, let the name open the inquiry. Read lineage, smell the current batch, inspect structure, review dates, and ask the budtender about the available flower. Names make cannabis culture memorable; provenance and observation turn that memory into dependable present-day information.",
           "Two jars with similar names can differ because the title may point to a related family rather than one identical cut, because seed siblings segregate, or because separate gardens and cures wrote different batch stories on the same brand handle. Treat parents, selected cut, producer, harvest or package date, and sensory notes as separate fields. The name starts the search; those fields finish the comparison without turning similarity into a guarantee of sameness.",
           "A practical reading order keeps the layers distinct: note the cultivar title, ask which parents or cut are documented, confirm whether this lot is seed or clone material when staff know, then evaluate the present aroma, structure, and dates on the jar in hand. That habit protects both cultural naming and agricultural honesty. It also pairs cleanly with batch-variation literacy—why expression shifts across rooms and cures—and with counter questions that ask for specifics instead of slogans.",
+          "Menu columns make the same discipline concrete. Cultivar title, producer, package or harvest date, and any listed parents occupy different cells for a reason: collapsing them into one slogan loses the trail. Practice reading those fields side by side so a familiar name never erases who grew this lot or when it was finished.",
+          "Community memory still matters. People share observations under a beloved title, and that history can guide curiosity at licensed retail. Keep those stories as context rather than as fixed promises: each new batch joins the conversation through its own cultivation, cure, and sensory evidence, while the name remains the doorway that makes comparison possible.",
         ],
         contextualLinks: [
           {
@@ -363,6 +373,12 @@ export const geneticsArticles: PageContent[] = [
             href: "/choosing/what-to-ask",
             label: "what to ask",
             after: " so parents, cut notes, and batch dates stay concrete at the counter.",
+          },
+          {
+            before: "Practice the same field-by-field read on ",
+            href: "/choosing/reading-a-menu",
+            label: "reading a menu",
+            after: " when title, producer, and date columns must stay distinct from one percentage.",
           },
           {
             before: "Return to ",
