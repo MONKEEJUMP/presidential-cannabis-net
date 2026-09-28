@@ -281,6 +281,7 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
         "Store layouts and menus differ, so comfort comes from knowing the purpose of each step rather than memorizing one floor plan. Reception verifies entry, the menu organizes inventory, the counter supports comparison, and checkout completes the licensed sale. Staff can guide the sequence, leaving the visitor free to focus on clear questions and a manageable choice.",
         "Labels carry several pieces of information worth reading before leaving the store. Confirm the product name, format, package size, producer, batch identifier, dates, and storage guidance. This quick review connects the item in hand with the counter conversation and makes the first note at home accurate.",
         "The second visit can begin with one sentence from the first: what aroma stood out, how the flower felt, and whether the package size matched the occasion. That reflection turns experience into a useful preference. A buyer can keep what worked and change one variable at a time, such as aromatic family, cultivar lineage, format, or quantity.",
+        "A first licensed visit is complete when identification, a paced menu read, one clear ask for help, a sealed purchase, and a label note all happened in order. That sequence is enough; depth can wait. Adults 21+ who leave with those checkpoints build confidence faster than those who try to master every category on day one.",
       ],
     },
   ],
