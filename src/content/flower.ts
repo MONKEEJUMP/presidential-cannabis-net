@@ -148,10 +148,11 @@ export const flowerArticles: PageContent[] = [
     h1: "Aroma",
     title: "What Cannabis Aroma Tells You",
     description: "How to judge cannabis flower by smell and what aromatic strength, clarity, terpene character, freshness, cure, and handling reveal.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Cannabis aroma reveals the aromatic profile preserved in a flower and offers immediate information about freshness, handling, and cure. A strong, defined nose means volatile compounds remain available in the batch. The most useful assessment identifies broad character, clarity, depth, and the way the aroma opens over a few moments.",
       "Every cultivar carries a blend rather than one isolated scent. Genetics establish possibilities, and the growing environment, harvest timing, drying, curing, packaging, and storage shape the final expression. That is why two batches from the same genetic plant can smell noticeably different and why the flower in front of you deserves a fresh evaluation.",
+      "Presidential Cannabis publishes this aroma guide as adult 21+ flower literacy: how to read smell on a licensed shelf, how aroma relates to cure, batch handling, and appearance, why two jars that share a strain name can still smell different, and which counter questions keep the reading agricultural—never medical claims.",
     ],
     sections: [
       {
@@ -161,6 +162,28 @@ export const flowerArticles: PageContent[] = [
           "Begin with the aroma collected in the container. When a sample jar is available, bring it near enough for the headspace to reach you and take a gentle first breath. Let that first impression settle, then return once or twice. This approach makes broad notes easy to recognize and gives subtler notes time to emerge.",
           "Name the aroma in ordinary language. Citrus peel, fresh pine, black pepper, flowers, ripe fruit, earth, herbs, fuel, and sweetness are all useful descriptions. Precision grows with practice, and a simple two-note description often carries more value than an elaborate label. The aim is a repeatable observation that helps compare current options.",
           "A sealed package may place greater weight on a terpene panel, harvest date, package date, and a budtender's current knowledge. Ask which aromatic notes define the batch and how recently the store received it. When the product opens later, compare that answer with the actual flower and keep the observation for future visits.",
+          "On a licensed shelf, aroma reading starts with whatever access the store allows. A sample jar offers headspace you can approach calmly; a sealed retail package may require dates, a terpene panel, and a budtender's current notes until you open the flower later. Bright retail light and nearby packages can distract, so give the nose a moment of focus. The useful habit is the same either way: first impression, a short pause, then a second pass for clarity and depth.",
+          "Aroma also sits beside appearance and structure. Color, frost, and silhouette describe the surface you see; the nose describes volatile compounds that survived harvest, dry, cure, and storage. A vivid jar that looks carefully finished and smells defined tells a coherent agricultural story. When look and smell diverge, dates and batch context become the bridge rather than a single menu adjective.",
+        ],
+        contextualLinks: [
+          {
+            before: "Place the nose beside color and frost in ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " so sight and smell stay in one assessment.",
+          },
+          {
+            before: "See how open or compact form changes access in ",
+            href: "/flower/density-and-structure",
+            label: "density and structure",
+            after: " when bract spacing affects how aroma opens.",
+          },
+          {
+            before: "Borrow short counter prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when dates and aromatic notes need clear questions.",
+          },
         ],
       },
       {
@@ -170,6 +193,15 @@ export const flowerArticles: PageContent[] = [
           "Terpenes are aromatic compounds produced in cannabis resin glands. Myrcene often reads as musky and earthy. Limonene brings bright citrus. Caryophyllene carries a peppery character. Pinene recalls pine and rosemary, linalool leans floral, and terpinolene can feel fruity and pleasantly difficult to place.",
           "These names are reference points inside a blend. One flower can carry several at once, with smaller components shaping the edges of the aroma. Relative proportions matter, and the complete nose often feels richer than a list of dominant compounds. The same named terpene can also sit inside very different blends across cultivars.",
           "A terpene panel becomes most useful beside direct scent. The panel names measured components from a sample, while the nose describes what survived cultivation, post-harvest care, packaging, and time. Together they connect analytical information with the flower's present character.",
+          "Resin glands on the flower surface are where much of that aromatic character concentrates. Intact trichome coverage supports a fuller nose when handling and packaging have been careful; a worn surface can leave less headspace character even when the cultivar name is familiar. Reading glands, aroma, and dates together keeps terpene literacy tied to the flower in hand rather than to a label alone.",
+        ],
+        contextualLinks: [
+          {
+            before: "Study the resin surface in ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " when gland heads and frost need a closer botanical frame.",
+          },
         ],
       },
       {
@@ -179,6 +211,34 @@ export const flowerArticles: PageContent[] = [
           "Terpenes are volatile, and heat, light, air exchange, and time reduce their presence. Cool, dark, sealed storage preserves more aromatic character. A vivid nose therefore suggests a strong starting profile and thoughtful preservation across the flower's journey.",
           "A flat or hay-like aroma tells a different part of that story. Gentle aroma can reflect a lighter cultivar profile, additional time, warm storage, or a drying stage that left more fresh-plant character in the flower. Dates, texture, appearance, and the budtender's batch knowledge help identify the most likely context.",
           "A complete aroma judgment stays positive and practical: identify what is present, notice its definition, place it in time, and compare it with the rest of the flower. The nose becomes a quality instrument through repetition, giving buyers a direct way to recognize freshness and care without turning aroma into a promise about experience.",
+          "Two jars that share a strain name can still smell different. Phenotype selection, garden climate, harvest window, dry-room conditions, cure length, package fill, and retail storage all change which notes remain vivid. The cultivar title points to genetics and branding; harvest and package dates, batch identifiers, and the nose on this jar describe the run in front of you. Separating name from batch aroma keeps smell literacy honest at licensed retail.",
+          "At a licensed counter, keep questions practical and agricultural. Ask which aromatic notes define this batch, how recently it arrived, and which harvest or package dates belong to the jar in hand. Pair those answers with appearance, density, and moisture so aroma never stands alone—and never drifts into medical claims.",
+        ],
+        contextualLinks: [
+          {
+            before: "Connect volatile preservation to ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " so texture and nose reinforce each other.",
+          },
+          {
+            before: "See garden and post-harvest range in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when the same name arrives with a new nose.",
+          },
+          {
+            before: "Review dry-room and jar stages in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: " after harvest captures the aromatic window.",
+          },
+          {
+            before: "Return to ",
+            href: "/flower",
+            label: "The Flower",
+            after: " hub anytime you need the full aroma-to-storage map.",
+          },
         ],
       },
     ],
