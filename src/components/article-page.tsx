@@ -6,13 +6,13 @@ import { editorialLinks } from "@/content/editorial-links";
 import { paragraphParts } from "@/lib/editorial-links";
 import {
   absoluteUrl,
-  BRAND_ORGANIZATION_ID,
   BRAND_URL,
   DEFAULT_OG_IMAGE,
   escapeJsonLd,
   imageUrl,
   siloLabels,
   SITE_NAME,
+  SITE_URL,
   STORE_LOCATOR_URL,
 } from "@/lib/site";
 
@@ -196,6 +196,7 @@ function LinkDirectory({ page }: { page: PageContent }) {
 
 function StructuredData({ page, images }: { page: PageContent; images: ContentImage[] }) {
   const pageUrl = absoluteUrl(page.path);
+  const organizationId = `${SITE_URL}/#organization`;
   const websiteId = `${absoluteUrl("/")}#website`;
   const webpageId = `${pageUrl}#webpage`;
   const imageObjects: Thing[] = images.map((image) => ({
@@ -215,16 +216,16 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
     name: page.title,
     description: page.description,
     isPartOf: { "@id": websiteId },
-    publisher: { "@id": BRAND_ORGANIZATION_ID },
+    publisher: { "@id": organizationId },
     primaryImageOfPage: images[0] ? { "@id": `${imageUrl(images[0])}#image` } : undefined,
-    ...(page.kind === "pillar" || page.kind === "about" ? { about: { "@id": BRAND_ORGANIZATION_ID } } : {}),
+    ...(page.kind === "pillar" || page.kind === "about" ? { about: { "@id": organizationId } } : {}),
   };
   graph.unshift(webpage);
 
   if (page.kind === "pillar") {
     const organization: Thing = {
       "@type": "Organization",
-      "@id": BRAND_ORGANIZATION_ID,
+      "@id": organizationId,
       name: SITE_NAME,
       alternateName: ["Presidential", "Presidential THC"],
       foundingDate: "2012",
@@ -235,7 +236,7 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
       ],
       description: "The Los Angeles cannabis brand behind Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis sold through licensed retailers.",
       disambiguatingDescription: "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012, not an individual cannabis strain such as Presidential Kush.",
-      url: BRAND_URL,
+      url: `${SITE_URL}/`,
       logo: {
         "@type": "ImageObject",
         url: absoluteUrl(DEFAULT_OG_IMAGE),
@@ -257,7 +258,7 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
       name: SITE_NAME,
       alternateName: "Official Presidential Cannabis",
       description: page.description,
-      publisher: { "@id": BRAND_ORGANIZATION_ID },
+      publisher: { "@id": organizationId },
     };
     graph.unshift(organization, website);
 
@@ -282,7 +283,7 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
       description: page.description,
       mainEntityOfPage: { "@id": webpageId },
       image: images.map((image) => imageUrl(image)),
-      publisher: { "@id": BRAND_ORGANIZATION_ID },
+      publisher: { "@id": organizationId },
     });
   }
 
