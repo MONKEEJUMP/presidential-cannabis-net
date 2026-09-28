@@ -267,6 +267,7 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
       paragraphs: [
         "Digital menus often include filters, and the same reading order can guide their use. Filter by format and package size first, then sort or narrow by freshness, aromatic family, producer, or price. Keep enough options visible for comparison. A filter is most helpful when it reduces the list around a real preference rather than making one measurement the entire search.",
         "Inventory status completes the menu picture. A listed item may be available at one location, in one package size, or from one batch. Confirm the exact store and product before traveling, then let the in-store label provide the final dates and details. This turns the menu into a planning tool while keeping the physical package as the current source.",
+        "Column order on digital boards can hide the fields that matter most. Pin format and size, then surface harvest or package date before sorting by percentage. If the board only highlights THC, scan date and name columns for the shortlisted rows so the largest number never becomes the only decision.",
       ],
     },
   ],
