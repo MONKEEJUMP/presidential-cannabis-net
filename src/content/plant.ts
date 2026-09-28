@@ -312,6 +312,7 @@ export const plantArticles: PageContent[] = [
           "Acidic forms are the living plant's predominant biosynthetic starting forms. That fact belongs to botany: it describes what the plant mainly makes before harvest and processing. The named proportions vary by genetics, phenotype, flower site, maturity, and growing environment, giving each plant and batch its own developing resin profile.",
           "Reading production as anatomy keeps the story concrete. The flower supplies the gland-bearing surface; the trichome supplies the specialized head; the resin inside that head holds the developing mixture. A frosted cola is therefore many production sites working together rather than a single uniform object. Close inspection and whole-plant context both matter because canopy position and local conditions influence how densely those sites develop.",
           "This botanical frame also clarifies what frost does and does not show. Abundant glands indicate a rich glandular surface. They do not, by themselves, name the compounds or fix their proportions. Genetics, phenotype, maturity, and cultivation fill in that next layer. Keeping surface observation and biosynthetic context distinct helps adults 21+ describe flower accurately without treating sparkle as a complete chemical summary.",
+          "Acidic forms also explain why heat belongs outside living-plant literacy. On the plant, resin heads hold the biosynthetic starting state; conversion into other forms is a later handling story, not the flower's default chemistry. Adults 21+ who keep that boundary clear can talk about gland location, maturity, and cultivar range without collapsing botanical observation into product processing. The practical habit is to name where resin sits, how densely glands cover bracts and sugar leaves, and which developmental window the harvest captured.",
         ],
         contextualLinks: [
           {
@@ -319,6 +320,12 @@ export const plantArticles: PageContent[] = [
             href: "/plant/trichomes",
             label: "trichomes",
             after: ", where bulbous, sessile, and stalked forms, head size, and color progression are mapped on the flower surface.",
+          },
+          {
+            before: "Map the gland-bearing surface in ",
+            href: "/plant/the-flower-structure",
+            label: "flower structure",
+            after: ", where bracts, pistils, sugar leaves, and colas show where resin concentrates.",
           },
           {
             before: "Return to ",
@@ -337,6 +344,7 @@ export const plantArticles: PageContent[] = [
           "Maturity adds time to the picture. Gland heads develop from clear toward cloudy and amber stages as the flower advances. Cultivators read this progression across many sites, together with the whole plant, to select a harvest window. The harvest captures the cannabinoids present in the living resin at that chosen stage.",
           "That window is a decision about development, not a single universal day. Upper and lower sites can advance at different rates, and cultivars reach preferred balances on their own schedules. Connecting gland color, pistil and bract cues, aroma, and plant health turns the cut into a recorded moment in the resin story rather than an isolated calendar guess.",
           "After the cut, drying and curing decide how that captured resin arrives as finished flower. Gradual moisture loss protects structure and aromatic character; the cure equalizes remaining moisture and lets the batch settle. At a licensed counter, package dates, nose, and handling feel become the available evidence of that handoff. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+          "At a licensed counter, that botanical frame stays useful beside the jar. Ask which harvest or package date belongs to the batch, how the producer describes resin coverage for this cut, and whether canopy position or phenotype notes accompany the delivery. Strain name points to inheritance; dates and handling describe this run. Keeping those layers separate lets adults 21+ read cannabinoid-rich flower as agricultural product rather than a single menu promise.",
         ],
         contextualLinks: [
           {
@@ -356,6 +364,12 @@ export const plantArticles: PageContent[] = [
             href: "/flower",
             label: "The Flower",
             after: " for appearance, aroma, density, moisture, and storage after the harvest and cure.",
+          },
+          {
+            before: "Place production inside the annual cycle with ",
+            href: "/plant/what-cannabis-is",
+            label: "what cannabis is",
+            after: " when germination, vegetative growth, and flowering frame when resin develops.",
           },
           {
             before: "For inheritance beside this silo, open ",
