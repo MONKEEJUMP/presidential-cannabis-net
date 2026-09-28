@@ -191,10 +191,11 @@ export const flowerArticles: PageContent[] = [
     h1: "Density and Structure",
     title: "Cannabis Flower Density & Structure",
     description: "How cannabis flower density and bud structure vary by cultivar, environment, maturity, drying, trimming, and handling.",
-    wordTarget: [700, 900],
+    wordTarget: [1100, 1250],
     intro: [
       "Cannabis flower density describes how tightly its bracts and floral sites gather, while structure describes the complete arrangement and shape. Genetics supplies the primary pattern, and cultivation, maturity, drying, trimming, and handling refine the result. Compact and open flowers can each be excellent when their development, aroma, trichomes, and cure align.",
       "Density provides structural information rather than a complete quality score. A heavy, tight piece may reflect one family and growing style; a lighter, airier piece may reflect another. The useful question is whether the structure looks fully developed and appropriate for the cultivar, with enough context from surface condition, moisture, aroma, and batch freshness.",
+      "Presidential Cannabis publishes this density-and-structure guide as adult 21+ flower literacy: what tightness and silhouette mean on a licensed shelf, how they relate to appearance, harvest timing, and cure, why two jars that share a strain name can still feel different, and which counter questions keep the reading agricultural—never medical claims.",
     ],
     sections: [
       {
@@ -204,6 +205,34 @@ export const flowerArticles: PageContent[] = [
           "Flower begins as individual sites along stems and branches. Bracts swell and overlap at each site, and nearby sites can gather into larger clusters or colas. Internodal spacing, branch architecture, and flowering behavior come strongly from genetics. Some plants naturally create narrow, elongated flowers with visible spacing; others build compact, rounded masses.",
           "Light distribution influences how completely each site develops. A balanced canopy gives more flowers access to useful light, while airflow and humidity management support the microclimate around dense clusters. Nutrition, root health, temperature, and water all contribute to steady development. Cultivation expresses the genetic pattern through a specific environment.",
           "Maturity completes the structure. Bracts continue swelling through the harvest window, pistils progress, and resin glands develop across exposed surfaces. Harvest captures the chosen point. During drying, moisture loss makes the flower lighter and settles the structure into the form seen after cure.",
+          "On a licensed shelf, density and structure describe the finished piece: how tightly bracts layer, how open or compact the silhouette looks, and whether that form matches what the cultivar usually builds. Retail light can flatten or exaggerate depth; a clear jar makes volume-to-weight easier to judge than an opaque pouch. Read silhouette, spacing, and feel together rather than scoring tightness alone.",
+          "Harvest timing and dry-room conditions leave marks on that form. A later window may allow more bract swell; an earlier cut may keep a lighter outline. Drying reduces water weight and settles the architecture that survives packaging. Structure on the shelf is genetics expressed through a garden cycle and captured in post-harvest care—not a single menu adjective.",
+        ],
+        contextualLinks: [
+          {
+            before: "Review the anatomy behind the silhouette in ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: ", where bracts and sites explain the shapes density describes.",
+          },
+          {
+            before: "Connect bract swell to ",
+            href: "/plant/harvest-timing",
+            label: "harvest timing",
+            after: ", where growers choose a maturity window.",
+          },
+          {
+            before: "See how moisture loss settles form in ",
+            href: "/plant/drying-and-curing",
+            label: "drying and curing",
+            after: " after the harvest cut.",
+          },
+          {
+            before: "Understand cut selection through ",
+            href: "/genetics/phenotypes",
+            label: "phenotypes",
+            after: " when one family yields compact and open expressions.",
+          },
         ],
       },
       {
@@ -213,6 +242,46 @@ export const flowerArticles: PageContent[] = [
           "Density can hint at lineage, environmental conditions, and the degree of bract development. A compact flower may feel weighty for its size and show tightly layered surfaces. An open flower may reveal its branching and individual bracts more clearly. Both can carry abundant trichomes and a defined aromatic profile.",
           "The complete assessment places density beside texture. A balanced cure gives the structure a little resilience and allows bracts to separate cleanly. Very crisp flower reflects lower remaining moisture, while a highly flexible piece reflects more. The ideal feel supports the cultivar's structure and stable storage.",
           "Trim and packaging shape the final presentation as well. A careful trim reveals the architecture, and a container with appropriate space protects it from compression. Read density as one chapter: genetics builds the plan, cultivation develops it, cure settles it, and aroma plus surface condition complete the quality story.",
+          "Two jars that share a strain name can still feel different. Phenotype selection, canopy position, harvest window, dry climate, and package fill all change how compact or open a piece presents. The name points to genetics and branding; batch dates, producer notes, and the flower in hand describe this run. Separating the menu name from batch structure keeps density literacy honest at licensed retail.",
+          "At a licensed counter, keep questions practical and agricultural. Ask whether this cut usually finishes compact or open, how the current batch feels after cure, and which harvest or package dates belong to the jar in hand. Pair those answers with appearance, aroma, and moisture so density never stands alone—and never drifts into medical claims.",
+        ],
+        contextualLinks: [
+          {
+            before: "Place structure beside color and frost in ",
+            href: "/flower/appearance",
+            label: "appearance",
+            after: " so silhouette and surface stay aligned.",
+          },
+          {
+            before: "Open the aromatic side in ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " after reading open versus compact form.",
+          },
+          {
+            before: "Check texture balance in ",
+            href: "/flower/moisture-and-cure",
+            label: "moisture and cure",
+            after: " so feel and density reinforce each other.",
+          },
+          {
+            before: "See garden and post-harvest range in ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why two batches differ",
+            after: " when the same name arrives with a new silhouette.",
+          },
+          {
+            before: "Borrow clear counter prompts from ",
+            href: "/choosing/what-to-ask",
+            label: "what to ask",
+            after: " when dates and cut habits need short questions.",
+          },
+          {
+            before: "Return to ",
+            href: "/flower",
+            label: "The Flower",
+            after: " hub anytime you need the full density-to-storage map.",
+          },
         ],
       },
     ],
