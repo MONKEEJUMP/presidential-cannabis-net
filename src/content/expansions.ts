@@ -62,6 +62,7 @@ export const contentExpansions: Record<string, ContentExpansion[]> = {
       paragraphs: [
         "Observation at several scales brings the definition together. From across a garden, cannabis is a branching annual that changes visibly as flowering advances. At the level of one cola, it is a set of floral sites arranged along a stem. At the level of one bract, pistils and resin glands reveal the reproductive surface. Under magnification, trichome heads show the resin-bearing structures that concentrate the plant's aromatic and cannabinoid character.",
         "That nested view also explains the language used by cultivators. Canopy describes the top surface of many branches, cola describes a concentration of flower sites, flower or bud describes the cured cluster, and trichome describes the microscopic gland on its surface. Each term identifies a real scale of the same plant. Moving between them makes cultivation notes, package descriptions, and quality observations easier to interpret.",
+        "Adults 21+ can treat that nested plant definition as a reading habit rather than a product myth. Name the annual cycle, the harvested floral assembly, and the resin surface you are looking at, then confirm harvest or package dates at a licensed counter. That layered look keeps what cannabis is durable beside flower structure, indica-sativa-hybrid shorthand, flower quality, and genetics without medical claims.",
       ],
     },
   ],
