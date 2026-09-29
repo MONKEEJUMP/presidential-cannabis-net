@@ -7,7 +7,7 @@ export const pillarPage: PageContent = {
   title: "Presidential Cannabis | The Official Brand Guide",
   description:
     "Presidential Cannabis is the official brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Explore the plant, products, and licensed-retailer path.",
-  wordTarget: [1100, 1250],
+  wordTarget: [1250, 1350],
   intro: [
     "Presidential Cannabis is the official company and plant guide behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. This publication explains the brand, cannabis flower, genetics, product formats, and how adults 21+ can find current availability through licensed retailers where legal.",
     "Flower quality is the foundation of the product conversation. The guides connect plant and flower fundamentals, genetics, and guidance for choosing pre rolls to the official product system without turning batch-specific facts into universal claims.",
@@ -22,6 +22,7 @@ export const pillarPage: PageContent = {
         "Founded in Los Angeles in 2012, the company established a California legacy through wholesale relationships in the cannabis industry. That legacy continues through licensed-retailer partnerships in a regulated industry. Its California history places the company within the cannabis industry and the broader infused product market.",
         "People sometimes search for “Presidential weed” when they mean the brand. That phrase is informal search shorthand for Presidential Cannabis products—not the name of a separate strain or product.",
         "Reading the brand this way keeps company identity, cultivar names, and product formats in separate columns. Presidential Cannabis is the publisher and product company; Presidential Kush remains a cultivar label; Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis are formats you confirm on the current catalog and package. When a search phrase collapses those ideas, return to the licensed label and this guide rather than treating informal shorthand as a strain or product name.",
+        "A useful reading order starts here for brand identity, then The Plant or The Flower, Genetics for batch variation, and Choosing for the licensed counter. Catalog and locator stay on presidentialmoonrocks.com; chemistry on presidentialthc.net; blunt formats on presidentialblunts.net—so this hub stays stable when packaging updates.",
       ],
     },
     {
@@ -68,6 +69,7 @@ export const pillarPage: PageContent = {
       paragraphs: [
         "Choosing begins with format and current product information. Compare flower with infused formats—pre rolls, Moon Rocks, blunts, and minis—then read the menu and package for the specific product and batch available that day.",
         "A clear choosing habit stays observational: name the format you want, ask what is in stock today, read the label for producer, dates, and batch identifiers, and compare aroma or appearance only where the retailer allows. That routine connects the plant and flower guides to a real counter without inventing effects or dosing advice.",
+        "When format choice follows brand identity, flower-versus-infused literacy explains prep and sharing differences. Keep that comparison educational; confirm current SKUs, dates, and packaging at a licensed retailer or on the official catalog.",
       ],
       contextualLinks: [
         { before: "Use ", href: "/choosing", label: "Choosing", after: " when format comparison and licensed-counter questions need a full walkthrough." },
@@ -80,6 +82,7 @@ export const pillarPage: PageContent = {
       paragraphs: [
         "Presidential Moon Rocks combine flower, concentrate, and kief in the layered format. Infused pre-rolls use paper; menus distinguish rolls by paper or tobacco-free hemp wrap, with pre rolls beside Presidential Blunts and minis.",
         "The official catalog and package identify the exact product, collection, format, and visible composition language. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize distinct collections, with flavors identified on the current catalog and package. Potency and other test values are batch-specific rather than fixed across an entire series.",
+        "Series names organize browsing; they do not freeze every SKU. When a package or menu line updates, treat the current catalog and the unit in hand as the source of truth so format lanes can change without rewriting company identity.",
       ],
       links: [
         { href: "https://presidentialmoonrocks.com/moon-rocks", label: "Explore the official Presidential product catalog" },
@@ -111,6 +114,7 @@ export const pillarPage: PageContent = {
       paragraphs: [
         "This site owns the company, plant, flower, genetics, and choosing context. The main Presidential site owns the canonical catalog and locator, while the dedicated THC and Blunts guides carry deeper chemistry and format explanations.",
         "Use this hub to orient, then move into the topic guides for depth. The about page records company context; the plant, flower, genetics, and choosing hubs carry the educational silos. Catalog detail and store location stay on the main Presidential site so availability stays current.",
+        "Publisher literacy means reading those lanes in order: company and plant education on presidentialcannabis.net; product depth on the catalog and format sites. Keeping lanes separate stops brand names from being mistaken for strain names.",
       ],
       contextualLinks: [
         { before: "Read ", href: "/about", label: "About Presidential Cannabis", after: " for company context beside this brand hub." },
@@ -160,4 +164,3 @@ export const pillarPage: PageContent = {
     label: "Locate Presidential through licensed retailers",
   },
 };
-
