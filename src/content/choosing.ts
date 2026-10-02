@@ -1,4 +1,5 @@
 import type { PageContent } from "./types";
+import { surferLeadBlocks } from "./surfer-lead-blocks";
 
 export const choosingArticles: PageContent[] = [
   {
@@ -281,6 +282,7 @@ export const choosingArticles: PageContent[] = [
       "Flower quality remains the foundation in both categories. Raw flower gives aroma, structure, trichomes, moisture, and cure direct visibility. An infused product combines flower with added cannabis components in a prepared format. In either case, freshness, batch information, licensed production, sound packaging, and appropriate storage support the purchase.",
       "Presidential Cannabis publishes this flower-versus-infused comparison as adult 21+ retail literacy: when raw flower and infused formats fit occasion and pace, how the choice ties to matching format to occasion, reading a menu, what to ask, and The Flower hub, and the habit of reading labels on both categories—never medical claims. The brand name here is the company and publisher.",
     ],
+    leadBlocks: surferLeadBlocks["/choosing/flower-vs-infused"],
     sections: [
       {
         id: "purchase-differences",
@@ -360,6 +362,7 @@ export const choosingArticles: PageContent[] = [
       "Format is the physical form in which the product reaches you. Raw flower offers flexibility and keeps the cured flower at the center. Prepared formats organize a specific amount and composition for convenience. Minis create another package and session scale. The useful choice is the one that aligns with the people, place, time, and storage plan.",
       "Presidential Cannabis publishes this matching-format guide as adult 21+ retail literacy: how session length, sharing, preparation, portability, and package size turn a broad menu into a focused list. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with occasion planning, format fit, and licensed-counter decisions.",
     ],
+    leadBlocks: surferLeadBlocks["/choosing/matching-format-to-occasion"],
     sections: [
       {
         id: "time-and-sharing",

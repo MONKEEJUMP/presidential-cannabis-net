@@ -36,6 +36,19 @@ export type FAQItem = {
   answer: string;
 };
 
+export type LeadSubsection = {
+  id: string;
+  heading: string;
+  paragraphs: string[];
+};
+
+export type LeadBlock = {
+  id: string;
+  heading: string;
+  paragraphs: string[];
+  subsections?: LeadSubsection[];
+};
+
 export type PageContent = {
   path: string;
   kind: PageKind;
@@ -45,6 +58,7 @@ export type PageContent = {
   description: string;
   wordTarget: [number, number];
   intro: string[];
+  leadBlocks?: LeadBlock[];
   sections: ContentSection[];
   childLinks?: PageLink[];
   relatedLinks?: PageLink[];
