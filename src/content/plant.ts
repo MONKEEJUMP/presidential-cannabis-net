@@ -128,8 +128,8 @@ export const plantArticles: PageContent[] = [
     path: "/plant/indica-sativa-hybrid",
     kind: "article",
     silo: "plant",
-    h1: "Indica, Sativa, Hybrid",
-    title: "Indica, Sativa and Hybrid Explained",
+    h1: "Indica Sativa Hybrid Explained",
+    title: "Indica Sativa Hybrid Explained: Understanding Cannabis Strain Types",
     description: "The origins and modern value of indica, sativa, and hybrid as traditional descriptors of cannabis structure, geography, and lineage.",
     wordTarget: [1100, 1250],
     intro: [
@@ -137,6 +137,7 @@ export const plantArticles: PageContent[] = [
       "The terms remain useful when they are read at the right scale. They can introduce a plant's breeding background, the shape associated with historical populations, and the way a breeder frames a family. They become richer beside parentage, phenotype, cultivation, harvest date, terpene information, cure, and aroma-details that describe the present flower rather than a category alone.",
       "Presidential Cannabis publishes this guide as adult 21+ plant literacy: how the labels entered common language, why growth-form and geography shaped them, and how hybrid breeding now fills most licensed shelves. Shelf tags are introductions, not medical promises or fixed personal-effect guarantees. Product catalogs and retailer paths stay on the official storefronts; this page stays with botanical history, morphology language, lineage reading, and batch evidence.",
     ],
+    leadBlocks: surferLeadBlocks["/plant/indica-sativa-hybrid"],
     sections: [
       {
         id: "historical-language",

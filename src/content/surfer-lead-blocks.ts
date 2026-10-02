@@ -303,4 +303,66 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/plant/indica-sativa-hybrid": [
+    {
+      id: "indica-sativa-hybrid-explained",
+      heading: "Indica Sativa Hybrid Explained",
+      paragraphs: [
+        "In 1753 Carl Linnaeus classified cannabis as Cannabis sativa. In 1785 Jean-Baptiste Lamarck classified Cannabis indica. Guides often place early cannabis use in Central Asia around 5000 years ago. Modern research suggests the category label does not reliably predict effects, because responses and tolerance differ by person. Published explainers do not crown sativa, indica, or hybrid as a better high. They point to the chemistry of the jar.",
+      ],
+    },
+    {
+      id: "cannabis-indica-and-indica-plants",
+      heading: "Cannabis Indica and Indica Plants",
+      paragraphs: [
+        "Cannabis indica names indica plants that guides describe as shorter and bushier than tall narrow-leaf types. Those indica plants are a historical growth form. Classic indica language is compact structure and bushy plants. Guides describe indica strains as native to Afghanistan, India, and Pakistan. Cannabis indica remains that botanical name, not a certificate for the jar in front of you. Indica genetics in the older map are regional.",
+        "Retail pages say indica strains are known for relaxing and sedative effects, a so-called body high, and as ideal for evening or nighttime use. They say indica strains may be discussed around stress relief, sleep, pain relief, and muscle spasms, and some shoppers mention chronic pain. A further note on pain relief in those guides is still not a recommendation from this page.",
+        "Indica dominant hybrids are the menu form of that story: indica dominant breeding inside a mixed family. One indica vs sativa comparison is a comparison of labels, and a later indica vs column has the same limit. Indica cannabis strains, as menus use the phrase, are jars carrying the indica side of the label.",
+      ],
+    },
+    {
+      id: "cannabis-ruderalis-beside-the-cannabis-plant",
+      heading: "Cannabis Ruderalis Beside the Cannabis Plant",
+      paragraphs: [
+        "Cannabis ruderalis is the third name in older taxonomy. Ruderalis plants are described as short and adapted to brief seasons. The cannabis plant produces resin on the flower regardless of which name a catalog prints. A cannabis plant in a licensed garden is an annual under cultivation. Cannabis growers still use the three names as field shorthand for height and flowering time. Most cannabis strains on a legal shelf are not ruderalis specimens.",
+      ],
+    },
+    {
+      id: "cannabis-sativa-and-sativa-plants",
+      heading: "Cannabis Sativa and Sativa Plants",
+      paragraphs: [
+        "Cannabis sativa is the Linnaean name. Sativa plants are the tall, narrow-leaf form. Sativa plants thrive, in older geography guides, in warmer climates, and a second note on warmer climates places related populations in equatorial belts. Cannabis sativa plants are described as indigenous to Eastern Asia and Central America, and guides call those populations sativa strains indigenous to Eastern Asia, with other write-ups extending the map across Central and South America. Sativa genetics in that account are a geographic story.",
+        "Sativa strains tend, in retail copy, toward stimulating effects. Those pages say sativa strains tend to be framed as uplifting and energizing, with a cerebral high, and that sativa strains enhance creativity and focus during daytime use in the morning or afternoon. Sativa strains are also mentioned there for stress-related symptoms, which those guides claim and this page does not adopt as a treatment plan. Sativa cannabis appears as a looser synonym for the tall type. Another sativa cannabis line is only that synonym again.",
+        "Sativa dominant strains and sativa dominant hybrids are the mixed-family versions. Reading sativa dominant strains as a lean, not a pure type, keeps the hybrid honest. Sativa vs indica is a label contrast. The phrase sativa vs shows up again when a chart puts the two words in opposite columns.",
+      ],
+    },
+    {
+      id: "hybrid-strains-hybrid-cannabis-and-hybrid-cannabis-strains",
+      heading: "Hybrid Strains, Hybrid Cannabis, and Hybrid Cannabis Strains",
+      paragraphs: [
+        "Hybrid strains are crosses. Crossing indica with a sativa parent is how hybrid cannabis strains are described. Hybrid cannabis plants inherit from parent strains on both sides. Hybrid strains can be indica dominant, sativa dominant, or balanced. Balanced hybrids are the middle case those guides name, and a second mention of balanced hybrids is only that middle case, not a milder serving. Hybrid cannabis of this kind follows parentage. Guides call hybrid cannabis versatile, suitable for various effects and uses only as retail framing, not as a promise. Guides also say hybrids can provide tailored effects based on their genetic makeup, a breeding description rather than a custom effect anyone can order.",
+        "Is hybrid cannabis an upper or a downer? The published answer is that it can read as either, or as neither extreme, depending on cannabinoid and terpene content. What happens if the labels are mixed is not a recipe and not a simple average of the two names. This page does not give a mixing plan or a consumption plan.",
+        "Sativa, indica, and hybrid is one word order those charts use. Sativa, indica, and hybrid appears again when a guide lists the three menu buckets. A third line of sativa, indica, and hybrid is the same trio in a comparison table. A fourth sativa, indica, and hybrid reminder is only a list, not a ranking.",
+      ],
+    },
+    {
+      id: "cannabis-terpenes-and-indica-and-sativa",
+      heading: "Cannabis Terpenes and Indica and Sativa",
+      paragraphs: [
+        "Cannabis terpenes are aromatic compounds found in the resin that also carries cannabinoids. Aromatic compounds such as myrcene are associated in guides with relaxing effects, while limonene tends to promote alertness. That pairing is a guide association, not a measured effect for every person. Cannabinoid and terpene profiles, read next to cannabinoid and terpene content, are what those explainers tell shoppers to check. Chemical compounds and cannabis compounds are the broader names for that chemistry. Cannabis effects follow the chemistry and the person. Cannabis effects vary with individual response and tolerance, which is why two adults can disagree about one jar.",
+        "THC content on a label is a number, and a second look at THC content is still not a category. The CBD to THC ratio sits beside that number. High THC is a menu boast. High THC strains are jars those guides single out for a high number, and a further high THC mention is still just that number. Guides also say higher doses of the same flower can feel different. This page does not give a dose. Psychoactive effects are the reason these labels were never a medical classification.",
+        "Research suggests, in the sources those explainers cite, that the wording does not sort people into outcomes. Indica and sativa share that limit. Indica and sativa genetics are mixed in most modern catalogs. Indica and sativa remain useful as growth-form words and weak as feeling forecasts.",
+        "Medicinal or recreational purposes both appear in statute and in shop copy. Medical or recreational purposes is the same split in other state language. Neither phrase here is an invitation to treat a symptom. Reducing anxiety and stress relief are reasons shoppers give those guides, and chronic pain was already named above as a shopper-reported theme. Pain relief stays a guide theme, not a promise from this page.",
+      ],
+    },
+    {
+      id: "different-cannabis-strains-and-cannabis-effects",
+      heading: "Different Cannabis Strains and Cannabis Effects",
+      paragraphs: [
+        "Different cannabis strains on a modern menu are mostly hybrids. Cannabis strains in that sense are different strains, meaning different crosses, and different strains again when two jars share a label and not a profile. Specific strains still want a name, a parentage note, and a batch date. Most strains sold now are hybridized rather than a single historical population. Cannabis products carry the three words onto flower and other formats, and this page stays with the plant labels rather than a format guide. The cannabis industry kept the three words because shoppers already used them. Cannabis enthusiasts and newer shoppers meet the same limit of the vocabulary. Cannabis knowledge here means reading the label as an introduction. Cannabis use stays governed by state law and by the person, not by a category slogan.",
+        "Understanding a goal helps a shopper talk with a budtender, which is the practical version of choosing. A beginner asking whether to pick indica or sativa is starting at the wrong question. Published guides say neither label is a beginner instruction, and that a budtender can help narrow a menu once cannabinoid and terpene content is on the table. This page does not tell anyone to smoke, and it does not set a session.",
+        "Sativa and indica strains is one chart heading in those guides. Sativa and indica strains show up again when a chart splits columns. Sativa and indica remain the pair under those columns.",
+      ],
+    },
+  ],
 };
