@@ -758,4 +758,21 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/plant/trichomes": [
+    {
+      id: "what-trichomes-on-the-cannabis-plant-look-like",
+      heading: "What Trichomes on the Cannabis Plant Look Like",
+      paragraphs: [
+        "Under magnification, a glandular head on cannabis looks like a tiny bulb on a short stalk or sitting almost flush with the bract. Bulbous glands are the smallest and hold only a small share of the chemistry. Capitate-sessile glands keep a rounded head with little or no stalk. Capitate-stalked glands are the largest and the primary site where aromatic compounds accumulate. Non-glandular hairs can look like fine threads, but they are not the frosted heads. Macro photos are enough to compare those shapes on cannabis bracts. A loupe or trichome viewer that can reach about 60x is one way to start checking several sites instead of one patch.",
+      ],
+    },
+    {
+      id: "cloudy-trichs-and-a-milky-white-window",
+      heading: "Cloudy Trichs and a Milky White Window",
+      paragraphs: [
+        "People often call those heads trichs. When most heads turn cloudy, that pattern is the visual peak of the window, not a certificate. A later cola can show trichs that turn after the top. Some heads stay clear, some are cloudy, and amber can show together. Cutting while heads are still clear catches the glands before the opaque stage. Orange pistils are a companion cue. They do not all have to be orange, and fan leaves do not have to come off for the color read. Checking trichs on more than one cola keeps the read honest.",
+        "Cold holding, often described as below 4°C (39°F), is the usual way to preserve trichome quality during extraction. Dry sifting and ice water hash are common collection methods, which is separation literacy rather than a menu item. Heat above 40°C (104°F) can degrade quality. As heads age, THC can degrade toward CBN, and the same glands can also make CBD. Those names are chemistry labels, not a printout from this garden. Guides often cite an irrigation pH around 6.0 during cultivation. Treat 6.0 as a repeated cultivation target, not proof of denser coverage. The important part is the pattern: more amber marks a later window, and the quantity of opaque heads matters more than a single bract. Making the call means making a second pass when the first cola looks ready. Heads are not ready from a single glance. People start that pass as another peak check before the pull. Different strains can cloud on different days, and the name is not the color.",
+      ],
+    },
+  ],
 };

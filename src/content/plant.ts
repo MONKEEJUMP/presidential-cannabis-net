@@ -223,6 +223,7 @@ export const plantArticles: PageContent[] = [
       "The word trichome covers several hair-like and glandular structures found on plants. Cannabis develops non-glandular hairs as well as resin-producing glands. For flower quality, the glandular types receive the closest attention because their resin connects the living surface to the aromatic and cannabinoid profile preserved after harvest.",
       "Presidential Cannabis publishes this trichomes guide as adult 21+ plant literacy: what glandular resin surfaces are on the living flower, how glandular and non-glandular structures differ in plain language, and how coverage and color talk stay descriptive rather than medical. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with anatomy, resin appearance, harvest observation, and careful post-harvest handling.",
     ],
+    leadBlocks: surferLeadBlocks["/plant/trichomes"],
     sections: [
       {
         id: "location-and-form",
