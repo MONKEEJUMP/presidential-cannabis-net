@@ -200,4 +200,60 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/plant/drying-and-curing": [
+    {
+      id: "drying-and-curing-cannabis",
+      heading: "Drying and Curing Cannabis",
+      paragraphs: [
+        "Published post-harvest guides treat drying and curing cannabis as distinct sequential phases, not one setting on a dial. Drying cannabis is the controlled loss of water. Curing cannabis starts only after that loss has gone far enough to jar. A few of those guides instead say curing begins as soon as you cut down the plant. This page keeps the clocks separate so the drying process is finished before the curing process opens.",
+        "Freshly cut plants are often described as starting at roughly 75% to 80% water by weight when harvested. That starting water is why the drying environment has to let water leave slowly. Guides commonly cite an optimal drying temperature of 60–70°F (16–21°C). Humidity figures in the same literature do not collapse to one target: one published figure for the ideal humidity for drying cannabis is 50–60%, and others say humidity should be maintained at 55–60% during drying. The 60/60 shorthand named in grower discussions sits inside those bands. It is not a Presidential room specification.",
+        "High humidity plus excess moisture after harvesting can lead to microbial problems, in the wording those sources use. The opposite mistake is a rush into low humidity. Drying typically takes 7–14 days depending on conditions. Drying cannabis too quickly can lead to harsh smoke. Quick drying can cause cannabis to smell like hay or cut grass, because rapid drying locks chlorophyll in, damaging flavor permanently. Over-drying is the matching failure on the dry side: those guides say over-drying halts enzymatic activity and prevents proper curing.",
+      ],
+    },
+    {
+      id: "the-drying-process-for-drying-cannabis",
+      heading: "The Drying Process for Drying Cannabis",
+      paragraphs: [
+        "Proper drying is that slower loss of water. Slow drying preserves terpenes and prevents microbial growth, which is the terpene preservation these sources assign to environmental control. Terpene evaporation picks up when the drying space runs hot or the surface crusts while the core is still wet. The drying process is described as a dark environment, sometimes just a dark place, with enough moisture still inside that the outside can settle without turning brittle.",
+        "Most growers in these guides hang branches so the hang upside down posture slows moisture loss. A drying rack, and in very small examples clothes hangers, shows up when a dedicated room is not available. A grow tent is another enclosure they name for the same job. Air should stay gentle and indirect. It should not blast across a flat surface. Fan leaves are a separate choice: some growers trim them at the cut, and others leave them on so the outer layers dry more slowly. Trimmed buds move forward only after the snap test indicates readiness for curing, when small stems snap cleanly instead of bending. That is the cue to begin curing, once the buds dry on the outside and still hold interior water.",
+      ],
+    },
+    {
+      id: "when-cannabis-buds-feel-dry",
+      heading: "When Cannabis Buds Feel Dry",
+      paragraphs: [
+        "Cannabis buds are ready to jar when the outside is dry to the touch and the small stem snaps. Dried buds at that point are not finished flower. If all the buds go into a container while they are still spongy, water stays trapped. If they are already crumbly, little water remains to equalize. Quality buds here means an even dry, not a cultivar ranking.",
+      ],
+    },
+    {
+      id: "curing-cannabis-and-the-curing-process",
+      heading: "Curing Cannabis and the Curing Process",
+      paragraphs: [
+        "The curing process moves flower into airtight glass jars, other glass jars, or broader airtight containers. Mason jars are the beginner-guide default. A curing jar should still leave room for a meter to read humidity inside the headspace. Those guides say buds should be jarred at 55–62% humidity for the cure they describe, and they state that ideal humidity during curing is 58% to 62% relative humidity. They use a hygrometer to monitor humidity levels in jars.",
+      ],
+    },
+    {
+      id: "humidity-control-and-monitoring-humidity",
+      heading: "Humidity Control and Monitoring Humidity",
+      paragraphs: [
+        "Burping is their name for opening the jars. Many say to open jars daily for 10–15 minutes during the first two weeks. Burping jars during curing releases excess moisture and refreshes the air those guides call fresh air. They warn that neglecting to burp jars can lead to mold growth, and that improper humidity during curing can cause ammonia odors when anaerobic bacteria are active. Microbial risk and mold development are why the cure is checked instead of forgotten. A curing area that runs warm is sometimes cooled because cold environments can help mimic ideal curing conditions. The target is not a freezer.",
+        "Proper curing is what they credit for aroma. The usual claim is that curing breaks down residual chlorophyll and refines the terpene profile. A basic cure takes 2 to 4 weeks but can enhance flavor over months, and some say curing takes 2 to 6 months for optimal results, which is the long end of optimal curing in that literature. Curing cannabis properly, in those guides, is also said to reduce harshness and throat irritation when smoking, and to move weed taste away from fresh-cut green. This page reports those lines as their descriptions. They are not a potency promise and not consumption advice. To cure properly means the jar stays in range.",
+        "Improper drying can lead to harsh smoke and poor flavor. The same sources say improper drying leads to harsh smoke and throat irritation. Both sentences point at a dry that finished too fast or too hot, which this page already treats as a reason the cure cannot repair structure.",
+      ],
+    },
+    {
+      id: "cannabis-flower-on-cannabis-plants",
+      heading: "Cannabis Flower on Cannabis Plants",
+      paragraphs: [
+        "Cannabis flower leaves this stage as stable flower only when the dry and the cure agree. The plants set that pace before the cut: dense colas and open flowers do not share one clock, so the entire harvest is grouped. An entire plant left hanging dries on a different schedule from separated branches. The final product is the batch whose aroma is defined and whose pieces are no longer losing water in open air.",
+      ],
+    },
+    {
+      id: "long-term-storage",
+      heading: "Long Term Storage",
+      paragraphs: [
+        "Long term storage keeps a finished cure. It does not restart the drying process. Shelf life and shelf stability depend on a cool, dark container with limited air exchange. The chemical processes that guides associate with aroma change slow down once the container is steady. Prevent mold in storage by holding the same humidity window, not by wetting the flower again.",
+      ],
+    },
+  ],
 };

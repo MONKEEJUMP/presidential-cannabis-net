@@ -587,7 +587,7 @@ export const plantArticles: PageContent[] = [
     path: "/plant/drying-and-curing",
     kind: "article",
     silo: "plant",
-    h1: "Drying and Curing Cannabis",
+    h1: "Drying and Curing",
     title: "Drying and Curing Cannabis",
     description: "What drying and curing do for raw cannabis flower, how long the stages take, and how they preserve aroma, moisture, structure, and quality.",
     wordTarget: [1100, 1250],
@@ -596,6 +596,7 @@ export const plantArticles: PageContent[] = [
       "Post-harvest care matters because flower remains physically and aromatically active after cutting. Water moves from the interior toward the surface. Terpenes respond to heat, light, air, and time. Bracts and leaves change texture as they lose moisture. A deliberate process guides these changes at a steady pace and creates a balanced result that holds its character in the package.",
       "Presidential Cannabis publishes this drying and curing guide as adult 21+ post-harvest literacy: how temperature, humidity, darkness, and air movement carry a harvest decision into stable finished flower. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with moisture movement, aromatic preservation, and the multi-week handoff from fresh cut to sealed package.",
     ],
+    leadBlocks: surferLeadBlocks["/plant/drying-and-curing"],
     sections: [
       {
         id: "the-dry",
