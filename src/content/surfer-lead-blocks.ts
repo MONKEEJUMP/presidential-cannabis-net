@@ -624,5 +624,25 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/genetics/landrace-and-modern": [
+    {
+      id: "how-landrace-cannabis-strains-took-shape",
+      heading: "How Landrace Cannabis Strains Took Shape",
+      paragraphs: [
+        "Landrace cannabis strains are regional cannabis landraces that evolved naturally, and many accounts say they evolved in isolation, through natural selection in a natural environment. Classic landrace regions include Afghanistan, Thailand, and Mexico. In the Hindu Kush mountains of Afghanistan, high altitudes and cooler climates shaped compact cannabis plants. Those Hindu Kush mountains illustrate a place, not a rank. Southeast Asia includes a Thai landrace history. South America and Central Asia are specific regions with their own stories, and those specific regions diverged as people saved seed. The coast around Durban, South Africa, belongs on the same map.",
+        "Famous examples of landrace strains include Durban Poison, Hindu Kush, and Thai. Durban Poison originates from the coastal city of Durban, South Africa. Acapulco Gold is a legendary landrace strain from Mexico. A place name is not proof of original landrace strains. Strains labeled with a region still need provenance. True landrace strains are often named after their regions of origin. True landrace strains are a population, not one clone. People define pure landrace strains as genetically pure and not crossbred. Landrace strains are genetically pure and unmodified only in that definition, not as a certificate for a seed lot. True landrace strains can be described as original strains whose original genetics and original genetic makeup may change after seed leaves home.",
+        "Cannabis seeds kept in a native environment carry the population forward. Cannabis plants in native habitats are sometimes called naturally resistant to local weather and pests. Domesticated plants under human care still varied. A fair comparison is heirloom tomatoes: a locally kept population rather than a single cut. Cannabis history is that relationship between people, climate, and seed. Cannabis culture in those regions included traditional uses of landrace strains, including hashish production in their regions, and cannabis culture also selected for fiber, seed, or resin depending on the place. That history is not a product recommendation.",
+      ],
+    },
+    {
+      id: "cannabis-genetics-inside-modern-hybrids",
+      heading: "Cannabis Genetics Inside Modern Hybrids",
+      paragraphs: [
+        "Landrace genetics moved forward through modern hybrids. Modern cannabis breeding and modern cannabis cultivation kept desirable traits while also producing new strains. Modern hybrids narrow a wide pool into a named selection. Other strains can share a nickname and still grow differently. Modern cannabis landrace strains are the reference for that story, and landrace genetics remain the regional source material. Cannabis plants still have to be read in the garden where they finished. Later cannabis landraces named on a menu may only borrow the place.",
+        "Landrace strains matter because cannabis varieties hold unique traits and unique characteristics that repeated crossing can crowd out. Landrace preservation keeps seed populations and notes available for future breeding. Cannabis landrace strains remain a reference for original genetics when someone plans a cross. Cannabis strains called landrace strains still need the same provenance questions as any cultivar name.",
+        "Growing conditions in the native environment were outdoor and local. Later growing conditions in controlled rooms are a different setting. Resinous buds may show a sweet aroma. Cannabinoid and terpene profiles, along with cannabinoid profiles, describe chemistry families. They are not a measured cannabinoid ratios claim, and this page gives no lab numbers. Pure genetics wording, including a pure sativa label or a broad indica or sativa label, is trade shorthand. It does not prove an unmixed line. The genetic purity of landrace strains is important for the long-term resilience of cannabis, which is why careful seed keeping still comes up in breeding notes.",
+      ],
+    },
+  ],
 
 };
