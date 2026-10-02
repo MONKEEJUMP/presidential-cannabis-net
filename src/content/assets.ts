@@ -840,7 +840,7 @@ export const pageImages: Record<string, ContentImage[]> = {
       "width": 1080,
       "height": 1350,
       "alt": "Presidential Classic Moon Rocks package artwork",
-      "productHref": "https://presidentialmoonrocks.com/moon-rocks/classic"
+      "productHref": "https://presidentialmoonrocks.com/moon-rocks"
     },
     {
       "src": "/images/presidential-cherry-gelato-moon-rocks-packaging.webp",
