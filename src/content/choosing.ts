@@ -193,8 +193,8 @@ export const choosingArticles: PageContent[] = [
     path: "/choosing/first-time",
     kind: "article",
     silo: "choosing",
-    h1: "A First Visit to a Dispensary",
-    title: "A First Visit to a Dispensary",
+    h1: "First Time",
+    title: "What to Know for Your First Time at a Dispensary: A Beginner's Guide",
     description: "What to bring to a licensed dispensary, how entry and the counter work, how to read the visit, and how to make a simple first choice.",
     wordTarget: [1100, 1250],
     intro: [
@@ -202,6 +202,7 @@ export const choosingArticles: PageContent[] = [
       "Checking the licensed retailer's website before the visit makes the experience even smoother. Confirm hours, identification requirements, payment options, parking or pickup details, and the current menu. Inventory moves, so treat the online list as a preview and let the in-store menu supply the final choices.",
       "Presidential Cannabis publishes this first-visit guide as adult 21+ retail literacy: identification check, menu reading, asking for help, a paced purchase, and the habit of reading labels and batch notes. No medical claims appear here. The job is a calm sequence first-time adults can follow without rushing the counter.",
     ],
+    leadBlocks: surferLeadBlocks["/choosing/first-time"],
     sections: [
       {
         id: "arrival-to-counter",

@@ -256,4 +256,51 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/choosing/first-time": [
+    {
+      id: "first-time-at-a-dispensary",
+      heading: "First Time at a Dispensary",
+      paragraphs: [
+        "A first time at a dispensary is a licensed retail errand for a curious adult. The guide is useful before you go, because the identification check, the menu, and one counter question are easier when you know that order. Published buyer guides say adult use cannabis entry is often 21 or older, while some medical programs allow a younger adult who already holds a medical card. Presidential does not set that age. State laws and the posted door policy do. It stays on identification, the menu, and a sealed bag.",
+      ],
+    },
+    {
+      id: "check-in-the-dispensary-visit-starts-on-the-first-visit",
+      heading: "Check In: The Dispensary Visit Starts on the First Visit",
+      paragraphs: [
+        "The dispensary visit starts at check in, before any jar is discussed. Many stores use a waiting area, then the sales floor. Guides say to expect an identity check more than once on the same errand. Bring a valid government issued id. A driver's license is the usual government issued id, and any current passport is another valid id. Issued id means that government document, not a punch card.",
+        "Medical patients also bring the medical marijuana card their program issued. A medical card does not replace the photo ID. Florida patient pages say patients there must hold a Medical Marijuana Use Registry identification before they can buy in that state. That is a Florida program rule, not a Presidential policy, and it is not a rule for every state.",
+      ],
+    },
+    {
+      id: "first-timers-and-the-first-dispensary-visit",
+      heading: "First Timers and the First Dispensary Visit",
+      paragraphs: [
+        "First timers get a clearer counter conversation when they say they are new. Those guides say that telling the budtender your experience level leads to better recommendations, and that budtenders can help you choose from the needs you name. They may discuss relaxation or pain relief as menu goals. This page still makes no medical claim. Staff can also explain the difference between sativa and indica labels. Different strains are a labeling category, not a list you must memorize. A second difference matters at the door: adult-use entry and a medical program are not the same license.",
+      ],
+    },
+    {
+      id: "cannabis-products-on-a-beginner-friendly-menu",
+      heading: "Cannabis Products on a Beginner Friendly Menu",
+      paragraphs: [
+        "Cannabis products in those guides include cannabis flower, edibles, vaporizers, tinctures, and topicals. Cannabis flower is sold by weight, and published menus often start at one gram. Edibles in the same guides include gummies, chocolates, and baked goods that print a measured dose. Vapes are described as pre-filled cartridges or disposable formats. Concentrates are described as high-potency extracts, with wax and shatter given as examples, and they are a poor fit when the goal is a small comparison. Ask which product types are beginner friendly, then keep the shortlist to one or two. A ready-to-smoke portion those guides describe as prepared ahead of time is a convenience format. This page does not teach how to prepare one and does not rank it above other formats.",
+      ],
+    },
+    {
+      id: "a-dispensary-for-the-first-questions",
+      heading: "A Dispensary for the First Questions",
+      paragraphs: [
+        "A dispensary for the first round of questions should stay short. Ask about thc percentages and serving size, and ask how the label states thc next to CBD. Shopping by the thc figure alone is a mistake those guides name. Ignoring serving size is another, and they say the result can feel overwhelming. The same pages advise a low dose of thc for someone new, and they point to low dose edibles when a measured format is the goal. They also say edibles can take 30 to 90 minutes to take effect, last longer than smoke, and that a newcomer should wait out that window before judging the format. This page does not give a consumption plan, a dose, or a session plan. The useful retail question is what the label measures.",
+      ],
+    },
+    {
+      id: "how-the-dispensary-experience-stays-manageable",
+      heading: "How the Dispensary Experience Stays Manageable",
+      paragraphs: [
+        "Key takeaways come from buyer guides, not from a Presidential checkout rule. Many dispensaries are cash only, so bring cash and count that cash before you leave home. Cash only is also why an ATM inside the store is common in those guides. Some locations accept debit cards, so ask whether debit cards run before you go. Most do not accept credit cards. Confirm the options on the retailer's site. Basic dispensary etiquette is ordinary retail manners: leave packaging closed on the sales floor, and treat on site consumption, including the parking lot, as prohibited unless that store posts otherwise. Do not carry a bag across state lines. Read the purchase limits before you buy. Published guides often say most dispensaries cap a sale near one ounce of cannabis, while the binding cap is state law and the number that store posts. Purchase cannabis only inside that cap and the occasion you already named.",
+        "A few tips keep the first step small. Talk through one format so you feel comfortable asking general questions. Walk the menu once, then shop for fit rather than the highest number on the card. The right dispensary is the licensed retailer whose ID rule and menu you already checked. A marijuana dispensary may serve adult use, medical marijuana, or both. The cannabis journey here is the errand itself: identification, a menu, one question, a sealed bag, and a label note. This guide walks that order so the dispensary experience stays calm. Many dispensaries resemble other retail rooms, clean and quiet. Legally you are a customer in a legal licensed store. Patients follow the rule posted for their program. Weed is only the informal word some guides use for cannabis. Expect the counter to answer what the menu already prints. One visit is enough to leave with a note you can use later.",
+        "A marijuana dispensary is a legal shop for cannabis. A second marijuana dispensary nearby can be a different legal shop, sometimes medical only. You legally shop there, and you legally leave with a sealed receipt. The legal cap is the one that legal shop posts beside its purchase limits. Bring the medical marijuana card whenever that program requires it. Other cannabis products can wait on the shelf while you shop edibles, shop a second edibles package, and shop a third edibles option that prints the dose. Those product types sit beside two other product types. Expect the label to show thc, and expect a second thc line when the package lists thc beside CBD. First timers, a first time buyer, and a first time adult can walk the case once on a first time pass. That first time look is enough. Weed on the sign and weed in speech name the same plant. Check in is when the door staff begin. Inside the dispensary, ask the dispensary counter which dispensary menu section matches the format you named, then leave that dispensary with one sealed choice. Cannabis in the case is the same cannabis the label names, and marijuana on that label is marijuana from the same cannabis plant, including medical marijuana when the door is medical. Read the cannabis name, the cannabis date, and the cannabis weight, then the cannabis producer, before a single cannabis number decides it.",
+      ],
+    },
+  ],
 };
