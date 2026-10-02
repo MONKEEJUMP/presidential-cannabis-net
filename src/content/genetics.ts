@@ -1,4 +1,5 @@
 import type { PageContent } from "./types";
+import { surferLeadBlocks } from "./surfer-lead-blocks";
 
 export const geneticsArticles: PageContent[] = [
     {
@@ -217,6 +218,7 @@ export const geneticsArticles: PageContent[] = [
       "Reading lineage is like reading a map rather than a finished portrait. The map shows routes and relationships. The selected plant gives that family a particular identity, and cultivation creates the flower available today. When all three are visible—parentage, phenotype, and batch—the cultivar name carries useful context instead of standing alone.",
       "Presidential Cannabis publishes this lineage guide as adult 21+ genetics literacy: how to read parent and cross language on licensed menus, how lineage relates to—but does not replace—marketing names, phenotypes, breeding steps, and batch evidence, and which counter questions keep the reading agricultural—never medical claims.",
     ],
+    leadBlocks: surferLeadBlocks["/genetics/lineage"],
     sections: [
       {
         id: "family-tree",

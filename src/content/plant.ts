@@ -1,4 +1,5 @@
 import type { PageContent } from "./types";
+import { surferLeadBlocks } from "./surfer-lead-blocks";
 
 export const plantArticles: PageContent[] = [
   {
@@ -14,6 +15,7 @@ export const plantArticles: PageContent[] = [
       "Thinking of cannabis first as a plant creates a clear foundation. Roots, stems, fan leaves, branches, flowers, and resin glands each perform a biological role. Genetics supplies an inherited range, while light, water, nutrition, temperature, root space, and time shape how that range appears. Finished flower is therefore a preserved piece of the plant's reproductive stage and a record of the conditions that supported it.",
       "Presidential Cannabis publishes this what-cannabis-is guide as adult 21+ plant literacy: cannabis as a living annual species rather than a product myth alone; how the life cycle, harvested flower, and resin surface connect to The Cannabis Plant Guide, flower structure, indica-sativa-hybrid language, flower quality, and genetics; and how to keep that literacy observational at a licensed counter. No medical claims. The job is a botanical definition that stays checkable beside the jar.",
     ],
+    leadBlocks: surferLeadBlocks["/plant/what-cannabis-is"],
     sections: [
       {
         id: "annual-cycle",
@@ -329,6 +331,7 @@ export const plantArticles: PageContent[] = [
       "This location explains why flower and trichomes belong at the center of plant study. Bracts and sugar leaves create the surface, stalked resin glands rise across it, and cannabinoids accumulate inside the gland heads. Genetics sets a range for production, while cultivation, maturity, and environmental conditions influence the expression captured at harvest.",
       "Presidential Cannabis publishes this cannabinoids guide as adult 21+ botanical literacy: where the living plant produces resin compounds, why acidic forms dominate before harvest, and how genetics, environment, and maturity shape what the flower carries into the jar. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with glandular production, developmental timing, and plant-centered observation.",
     ],
+    leadBlocks: surferLeadBlocks["/plant/cannabinoids-in-the-plant"],
     sections: [
       {
         id: "biosynthesis-in-flower",

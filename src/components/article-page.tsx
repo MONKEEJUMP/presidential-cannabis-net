@@ -80,6 +80,26 @@ function EditorialParagraph({ text, pagePath, sectionId, paragraphIndex }: { tex
     : part.text)}</p>;
 }
 
+function LeadBlocks({ page }: { page: PageContent }) {
+  if (!page.leadBlocks?.length) return null;
+  return page.leadBlocks.map((block) => (
+    <div key={block.id}>
+      <h2 id={block.id}>{block.heading}</h2>
+      {block.paragraphs.map((paragraph, index) => (
+        <EditorialParagraph key={`${block.id}-paragraph-${index}`} text={paragraph} pagePath={page.path} sectionId={block.id} paragraphIndex={index} />
+      ))}
+      {block.subsections?.map((subsection) => (
+        <div key={subsection.id}>
+          <h3 id={subsection.id}>{subsection.heading}</h3>
+          {subsection.paragraphs.map((paragraph, index) => (
+            <EditorialParagraph key={`${subsection.id}-paragraph-${index}`} text={paragraph} pagePath={page.path} sectionId={subsection.id} paragraphIndex={index} />
+          ))}
+        </div>
+      ))}
+    </div>
+  ));
+}
+
 function ArticleSection({ section, image, pagePath }: { section: ContentSection; image: ContentImage; pagePath: string }) {
   const sectionLinks = section.links ?? [];
   return (
@@ -339,7 +359,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
           </header>
           <div className="gold-seam" aria-hidden="true" />
           <section className="article-lead">
-            <div className="article-lead__copy">{page.intro.map((paragraph, index) => <EditorialParagraph key={`intro-${index}`} text={paragraph} pagePath={page.path} sectionId={null} paragraphIndex={index} />)}</div>
+            <div className="article-lead__copy">{page.intro.map((paragraph, index) => <EditorialParagraph key={`intro-${index}`} text={paragraph} pagePath={page.path} sectionId={null} paragraphIndex={index} />)}<LeadBlocks page={page} /></div>
             <ContentFigure image={leadImage} priority />
           </section>
           {page.kind === "pillar" || page.kind === "hub" ? <TableOfContents page={page} /> : null}
