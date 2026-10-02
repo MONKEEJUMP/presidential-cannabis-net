@@ -407,6 +407,7 @@ export const geneticsArticles: PageContent[] = [
       "Landrace describes a population rather than one perfectly uniform plant. Variation gives the population resilience and provides breeders with multiple expressions to study. The concept is valuable because it connects genetics to place and time, showing how inherited traits emerge through long relationships between plants, environments, and people.",
       "Presidential Cannabis publishes this landrace-and-modern guide as adult 21+ genetics literacy: how regional populations formed through local adaptation, how that diversity entered modern breeding, and how cultivar names relate to—but do not replace—documented parentage and present batch evidence. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with origins, adaptation, selection, and naming clarity.",
     ],
+    leadBlocks: surferLeadBlocks["/genetics/landrace-and-modern"],
     sections: [
       {
         id: "regional-adaptation",
