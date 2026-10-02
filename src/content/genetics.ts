@@ -488,6 +488,7 @@ export const geneticsArticles: PageContent[] = [
       "The cultivar name identifies a genetic family or selected individual. The batch identifies one completed run of that material. Reading both levels is the practical approach: lineage explains inherited potential, while the batch describes how that potential appeared and how well it was preserved this time.",
       "Presidential Cannabis publishes this batch-variation guide as adult 21+ genetics literacy: why two jars that share a strain name can still differ through environment, harvest window, cure, and cut-versus-seed origin; how to read batch, COA, and harvest notes separately from the menu title; and how appearance, aroma, and density sit beside that comparison—never medical claims.",
     ],
+    leadBlocks: surferLeadBlocks["/genetics/why-two-batches-differ"],
     sections: [
       {
         id: "garden-expression",

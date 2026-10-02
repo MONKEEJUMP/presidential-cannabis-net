@@ -686,4 +686,76 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/genetics/why-two-batches-differ": [
+    {
+      id: "why-cannabis-batches-differ",
+      heading: "Why Cannabis Batches Differ",
+      paragraphs: [
+        "Two lots can share a name and still come out different. Scale, handling, and the sample that was tested are the three levers. The menu name is only where the comparison starts.",
+      ],
+    },
+    {
+      id: "small-batch-versus-mass-production",
+      heading: "Small Batch Versus Mass Production",
+      paragraphs: [
+        "Small batch has no universal definition in the cannabis industry. In ordinary use, small batch cannabis production means fewer plants in the run, a lot identifier, and closer daily attention while those plants are growing. Small batch cannabis is a production description, not a legal grade. Small batch production can still vary from one garden to the next. A menu line that says small batch cannabis does not state a plant count. Shoppers should ask what that small batch cannabis label meant on this lot: how many plants, which dates, which identifier. Small batch cannabis does not, by itself, explain premium pricing.",
+        "Mass production is the other end of those production scales. Mass production lines up large operations around yield and pest resistance, using one recipe across the site. Under mass production, each batch receives the site's shared notes rather than a daily rewrite. Mass production can still be tested, labeled, and traced. Choosing mass production is a throughput plan. It does not prove that large operations skipped quality control, and it does not prove they missed high standards. Quality control is easier to see on a smaller run because a problem sits among fewer plants, which can limit how far contamination spreads. Quality control at any scale still depends on written records.",
+      ],
+      subsections: [
+        {
+          id: "craft-cannabis-and-more-control",
+          heading: "Craft Cannabis and More Control",
+          paragraphs: [
+            "Craft cannabis is the hands-on name for a smaller run. Growers using that approach often keep a nutrient plan for a specific strain and adjust it while the cycle is open. Precise environmental controls are realistic on a canopy a person can walk. That tighter control is the usual contrast with a mass site, not a claim of a different plant species. Meticulous tracking from seed to sale writes down what the lot actually did, including the peak ripeness the grower chose before the cut. The cannabis industry uses both scale phrases as shorthand. Consumers can ask for the trail. Neither phrase replaces the panel.",
+          ],
+        },
+        {
+          id: "clear-labeling-and-batch-information",
+          heading: "Clear Labeling and Batch Information",
+          paragraphs: [
+            "Clear labeling ties the package to one lot. Batch information means the identifier, the dates, and the lab results for the sample that was tested. Labs do not share one set of methods, so two reports can describe one lot differently. Read lab results as a snapshot of that sample. Consumers comparing two jars are comparing characteristics of two runs. Informed choices stay concrete: lot, producer, dates, and how the material seems today.",
+          ],
+        },
+        {
+          id: "informed-purchasing-decisions",
+          heading: "Informed Purchasing Decisions",
+          paragraphs: [
+            "Informed purchasing decisions start from the lot line. Premium pricing is a retail position, not evidence the run had more control. Consistency matters, and a consistent crew can stay consistent about its notes and still see the jar shift. Medical users who count on a familiar effect should speak with a qualified healthcare provider. This page does not give dosing advice.",
+          ],
+        },
+      ],
+    },
+    {
+      id: "same-strain-on-cannabis-products",
+      heading: "Same Strain on Cannabis Products",
+      paragraphs: [
+        "The same strain can show different characteristics when the garden, the ripeness window, or the dry changes. Different strains are a different question. Genetics set the cannabinoid profile and the terpene profiles a plant can build. Cannabinoid development continues through the ripeness window, and terpene production can shift in that same stretch. Terpene profiles contribute to flavor. Flavor may read brighter in one run and deeper in the next. Noticing flavor a third time only marks that the profile moved. It is not a ranking.",
+        "Cannabinoids and terpenes are grouped, in plain language, as the entourage effect: either group can modulate the session when it shifts. Cannabis feels different for that mix reason, and also because sleep, stress, and hydration change the day. Cannabis compounds meet the body's endocannabinoid system, which is context, not a treatment claim. A shift in cannabinoids can change intensity and duration. Nothing here invents a lab number for the share of cannabinoids in the mix. How cannabinoids were preserved is part of the same lot story.",
+        "Post harvest time can wear on the balance of cannabinoids and on terpene profiles. Poorly controlled drying can change the final characteristics. Hand trimming can leave trichome heads in place more gently than a machine pass, which is why some smaller runs hand-trim. A grower may harvest at the ripeness they chose rather than on a calendar date. Those characteristics are observations about the run.",
+      ],
+      subsections: [
+        {
+          id: "extraction-methods",
+          heading: "Extraction Methods",
+          paragraphs: [
+            "Extraction methods come later. One set of extraction methods may keep a wider cannabinoid profile, and another may narrow it. Cannabis oil is one result. Other formats, including infused goods, bring a formulation. The same dose on two labels can still diverge if the input lot or the formulation changed. Formulation is how compounds are arranged for that format. A formulation step can concentrate or leave out part of the mix. Several processes sit between the extract and the shelf. Mixing, filling, and holding are processes with their own clocks. Those processes leave a trail even when the name stays the same. Cannabis products in those other formats need a lot line of their own.",
+          ],
+        },
+        {
+          id: "where-a-big-difference-shows-up",
+          heading: "Where a Big Difference Shows Up",
+          paragraphs: [
+            "Handling, not a new genotype, is where a big difference often appears. Once the cut is done, dry and cure decide what survives. Producers who keep high standards write the dry, the cure, and the fill into the record. Consumers can compare the characteristics they notice, flavor included, and skip the slogan. Variables that contribute include light, feed, ripeness, dry, and storage, and each one can contribute a modest shift. Cannabis products differ because the lot, the clock, and the handling differ. Comparing cannabis products starts with that lot line. Adults compare cannabis products by the lot, not by the slogan. Consumers should treat the lot as the unit of comparison.",
+          ],
+        },
+        {
+          id: "handling-plays-a-big-role",
+          heading: "Handling Plays a Big Role",
+          paragraphs: [
+            "Batch size is the plant count for that run. A smaller batch size is easier to check plant by plant. One plant at the canopy edge is not the same as a plant in the middle. In this context, quality means intact heads, an even dry, and a label that matches the lot. Consumers who want the same context later should note the lot, not only the name. The cannabis products on a menu should name that lot so the comparison stays honest.",
+          ],
+        },
+      ],
+    },
+  ],
 };
