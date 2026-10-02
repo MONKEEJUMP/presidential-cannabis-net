@@ -546,4 +546,42 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+
+  "/genetics/strain-naming": [
+    {
+      id: "northern-lights",
+      heading: "Northern Lights",
+      paragraphs: [
+        "Northern Lights is a single place-style title people already know, not a catalog. It shows how cannabis strains pick up a skyline image. The title does not list genes, and it does not certify THC or CBD on its own.",
+      ],
+    },
+    {
+      id: "cannabis-strains-without-a-registrar",
+      heading: "Cannabis strains without a registrar",
+      paragraphs: [
+        "Cannabis has no central authority regulating strain names, allowing for creative naming. The term strain lacks a precise scientific definition. Cannabis naming history includes thousands of named varieties. Extensive hybridization complicates traditional cannabis strain classifications. Two plants can share spelling and still differ in genes.",
+        "Cannabis strain names can mislead about the actual chemical and therapeutic qualities of the product. Terpenes are the aromatic compounds in cannabis that influence smell and taste. An aroma word can describe the jar and still say nothing about a cannabinoid printout. That gap is a huge part of why a title feels bigger than the flower.",
+      ],
+    },
+    {
+      id: "how-indica-and-sativa-entered-the-words",
+      heading: "How indica and sativa entered the words",
+      paragraphs: [
+        "How did indica and sativa get their names? Older writing used Cannabis sativa for a tall description and Cannabis indica for plants discussed in connection with India. Classical botany says sativa strains typically originate from equatorial regions. Those sativa lines are also described as having originated in tropical countries. The word indica originated in that India-linked usage. Hybrid, sativa, and indica are filing words. Menus still say cannabis has three main strain types: Sativa, Indica, Hybrid. Some dispensaries add a CBD column as if it were a fourth type. That habit does not make the cannabis plant match the adjective.",
+        "Guides sometimes claim sativa strains are energizing and ideal for daytime use. This article does not adopt that claim. Guides sometimes claim indica strains provide relaxing effects and are suitable for evening use. A relaxing effect printed on a label is advertising, not a measured result. Guides sometimes claim hybrid strains combine effects of both sativa and indica. A sativa dominant flag is the same kind of retail shorthand. People may prefer indica or sativa from culture and interest. Preference is not a clinical ranking, and it does not explain the batch.",
+        "No cannabis strain is the hardest to grow in every room. Growers select plants based on desired cannabinoid concentrations. Growers also watch structure and aroma. Growers are not given a difficulty ranking here. This post does not teach a grow course, and it does not rank which plants are hard. The course of cultivation stays on the garden record, separate from the public title.",
+      ],
+    },
+    {
+      id: "what-a-title-does-not-treat",
+      heading: "What a title does not treat",
+      paragraphs: [
+        "A euphoric adjective or a sleep hint is copy. It does not treat anxiety. It does not treat depression. It does not treat insomnia. It does not treat stress. It is not advice for patients. CBD strains are sometimes described as containing high CBD and low THC levels. Read CBD and THC as package fields that change with the batch. A CBD line is not automatically high CBD and low THC. Depending on the lot, those figures move. Effects language should stay off a medical chart. Repeating effects words does not create effects.",
+        "The truth is smaller than the legend. For instance, assuming the title explains the cannabis plant is the confusing step. Shared spelling can be confusing when seed lots segregate. Unique characteristics, if any, are observable characteristics of the flower in hand. Other characteristics sit in the genes. Further characteristics belong to the cure. Consumers can wonder what the words were intended to signal and still miss the batch. Targeted slogans are common things marketers repeat. Those things are common because they are short, not because they balance a formula. Balance here means keeping the title and the lab line apart. A second balance is keeping story and chemistry apart.",
+        "Genetic engineering can modify cannabis plants for specific traits. That laboratory path is separate from choosing a public title. This article does not explain how to do it, and it does not suggest anyone try. It does explain that a title is not a trait list. Traits people hope to see, and traits a garden actually grew, are different lists. Diverse varieties remain numerous. Varieties are not the same as spellings. Spellings on a board can exceed distinct plants. Countries from Canada to other regions reuse the same spelling. In Canada, a familiar title can still point at a different cut. The world of retail copies fast.",
+        "This article uses plain words so shoppers can explain the difference between a story and a test, and explain the differences between sibling plants without a medical detour. One difference is parentage. Another set of differences is the cure. This post is one post among genetics guides, not a forum thread. Comments do not replace the package. Fun wording can be fun without becoming a promise. Along the way a title may be passed from garden to menu across seasons. Seasons change the plant. The title often does not. Dealing with that gap is a reading skill, not a treatment plan. The cannabis plant still has to be judged as a cannabis plant.",
+        "A title does not affect a diagnosis. Whether a label matters is separate from stress claims, and those claims are not treatment. A calming title does not treat insomnia. Place titles originated as regional descriptions. An indica word beside another indica word is still only a word. A relaxing adjective is not a result. Claimed effects are not measurements.",
+      ],
+    },
+  ],
 };
