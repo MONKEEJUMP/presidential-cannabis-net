@@ -494,4 +494,56 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+
+  "/choosing/what-to-ask": [
+    {
+      id: "what-to-ask-at-a-dispensary",
+      heading: "What to Ask at a Dispensary",
+      paragraphs: [
+        "You can arrive unsure. It's helpful to share your experience level with the budtender. Staff can answer questions about printed fields. Ask staff to explain the printed serving in words you can check. Consumer education here means reading what the package states. The retail environment is for adults 21 and older.",
+      ],
+    },
+    {
+      id: "first-time",
+      heading: "First Time",
+      paragraphs: [
+        "A first time shopper can say \"this is my first time\" in plain words. On that first time stop, ask a direct question. Beginner-friendly cannabis products typically have lower THC concentrations. Beginners can ask for a smaller printed serving. Beginners are not one type of person, beginners do not need a cultivar list, and many beginners simply want the basics: the date, the serving, and the onset window. Sativa strains are often associated with energetic effects in shopper guides. That line is a mood nickname, not a lab result, and it is not a cue to collect cultivar names.",
+      ],
+    },
+    {
+      id: "dispensary-visit",
+      heading: "Dispensary Visit",
+      paragraphs: [
+        "Dispensaries typically check your ID at the entrance. Do not skip that check. State laws set who may enter and what a licensed shop may sell, and state laws are not something the team can waive. Ask employees which posted rule applies to the buying process, then follow it. Employees describe goods. They do not diagnose, prescribe, or promise a result.",
+      ],
+    },
+    {
+      id: "cannabis-products",
+      heading: "Cannabis Products",
+      paragraphs: [
+        "Certificates of analysis (COAs) confirm the quality and safety of cannabis products. Ask for the certificate of analysis when the shop can share it. Lab testing for cannabis products verifies potency and absence of harmful contaminants. The testing process checks a batch; it does not predict how any one adult will feel. Cannabis products include flower, pre-rolls, edibles, vapes, and concentrates. Concentrates are highly potent cannabis extracts. Vapes are popular for their portability and ease of use. Some menus also list tablets. Ask what one unit's printed serving is, and do not invent a schedule. This page does not rank those groups or give device steps. Ask staff to explain products on the shelf today and to explain products by what is printed, not by a promised feeling. Product categories on a menu are groups. Product categories are not a quality ranking.",
+        "Legal cannabis products must accurately label THC and CBD content and consumption guidelines. Ask where cannabinoid content is printed. Cannabinoid content is a printed fact. Printed cannabinoids are not a plan. Cannabinoids named beside THC, including CBD, still do not promise an effect. Terpenes are compounds responsible for the aroma and flavor of cannabis products. Ask what the terpene profiles list, and treat that list as an aroma note. Some packages use the phrase targeted formulations. Ask what that phrase is describing. The relationship between a terpene list and a mood word is descriptive, not clinical.",
+        "A cannabis experience is not guaranteed. Budtenders can suggest a group on the menu. They can suggest a lower printed strength. They should not suggest a medical result. Budtenders cannot provide medical advice or guarantee outcomes. Budtenders assist customers with menu words. Customers may ask direct questions.",
+      ],
+    },
+    {
+      id: "product-types",
+      heading: "Product Types",
+      paragraphs: [
+        "Options vary depending on method and serving size. Consumption methods greatly affect the onset time and duration of cannabis effects. Ask about onset times before you choose. Flower is traditionally smoked or vaporized for quick effects. Smoking is the method those guides mean, and this page does not teach it. Edibles can take 30 minutes to 2 hours to kick in. Other guides say edibles can take 30 minutes to 2 hours to take effect. Still other guides say edibles can take 30 minutes to four hours to kick in. The ranges are not the same. Wait for the window the package or the staff names, and wait before deciding the serving was too mild. A second piece during that wait is a common way people overdo edibles.",
+        "Start with lower doses to avoid overconsumption. Ask what dose the package lists. A dose is the printed serving, not a guess. Ask which dose is named as the start. Dosage there is that printed amount. Go slow means a smaller printed serving. A slow start is a choice you can read, not a number made up in the moment. Understanding THC percentage helps gauge product strength. Ask about the THC percentage on the package in front of you. Nothing here is a personal milligram target.",
+        "If tolerance is part of your history, say so and ask whether the starting serving should be the smaller printed one.",
+      ],
+    },
+    {
+      id: "what-not-to-do",
+      heading: "What Not to Do",
+      paragraphs: [
+        "What not to do at a dispensary fits in a few lines. Do not expect one best product. Do not expect a guaranteed mood. Do not expect the team to decide for you. What should I ask for at a dispensary? Ask for checkable batch facts, a serving you can read, and an onset window. What is the best thing to try at a dispensary? There is no universal best. For example, ask which package shows a recent test date. A second example is the printed serving. A third example is the onset window the staff names.",
+        "What are some good questions to ask during a dispensary interview? A hiring interview is a job screen, not this guide. This article does not supply sample interview scripts.",
+        "The difference between a raw option and an ingested product is mostly onset. The difference between a printed serving and a whole package is size. The difference in timing is why a pause exists. The difference between a high number and a clear date is a choice, not a grade. The date on the package can matter more than a single percentage.",
+        "Clear questions create a note you can reuse. Short notes create an easier second trip. Focus on facts you can check. Focus on one item at a time. Name the intended occasion, such as a short session or a shared one. Say what you want that occasion to accomplish, such as portability or a set length. Ask about different types only far enough to compare onset and serving. Different products can share a name and still differ by batch. Different products in one category can carry different onset windows. A category is a menu group, not a quality grade. You can explore a single group before deciding. If budget is the limit, name the range and ask which current option fits inside it. Walking from one group to the next is enough. Walking out to compare dates later is also reasonable. Deciding can wait until the named window has passed.",
+      ],
+    },
+  ],
 };
