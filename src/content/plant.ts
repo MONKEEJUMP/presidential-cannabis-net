@@ -426,6 +426,7 @@ export const plantArticles: PageContent[] = [
       "Learning the parts makes the finished piece easier to read. The rounded shapes visible on a trimmed flower come mainly from overlapping bracts. Fine hair-like pistils trace stages of development. Small leaves give the cluster additional surface and structure. The stem and branching pattern organize these parts into the larger form determined by genetics and cultivation.",
       "Presidential Cannabis publishes this flower-structure guide as adult 21+ plant literacy: plain language for bract, calyx, pistil, sugar leaf, cola, and trichome placement; how that anatomy shows up in appearance, density, harvest timing, and finished flower; and how to talk about structure at a licensed counter. No medical claims. The job is a botanical map that stays checkable beside the jar.",
     ],
+    leadBlocks: surferLeadBlocks["/plant/the-flower-structure"],
     sections: [
       {
         id: "bracts-pistils-calyx",
