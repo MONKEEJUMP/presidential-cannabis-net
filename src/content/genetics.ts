@@ -305,6 +305,7 @@ export const geneticsArticles: PageContent[] = [
       "Naming sits at the meeting point of recordkeeping and storytelling. A technical code can track a plant during selection, while a released name makes the cultivar easier to recognize. The strongest naming practice preserves a clear chain from the chosen individual to the flower sold under that identity.",
       "Presidential Cannabis publishes this strain-naming guide as adult 21+ genetics literacy: how marketing titles relate to—but do not replace—documented parents, selected cuts, and batch evidence; why two jars with similar names can still differ; and how to read the label as an index rather than a complete genetic dossier. No medical claims appear here. The educational job is narrower: give readers vocabulary that keeps identity, lineage, and present flower in separate, checkable layers.",
     ],
+    leadBlocks: surferLeadBlocks["/genetics/strain-naming"],
     sections: [
       {
         id: "sources-of-names",
