@@ -425,4 +425,73 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+
+  "/choosing": [
+    {
+      id: "cannabis-strain",
+      heading: "Cannabis Strain",
+      paragraphs: [
+        "A cannabis strain on a menu is a batch name, not a promise. Different strains can share a label and still show varying levels of cannabinoids. Marijuana strains are the beginner-guide name for that same grouping. Strain names can suggest an effect and still vary by grower. Strain names are a filing system, not a shopping list. The same strain from two producers is two batches. Most strains in current retail are mixed lines, so the right strain is the jar you can smell. The right cannabis strain is the one whose aroma, freshness, and label match the occasion. This section does not list cultivars.",
+      ],
+    },
+    {
+      id: "cannabis-flower",
+      heading: "Cannabis Flower",
+      paragraphs: [
+        "Choosing cannabis flower starts with what you can see and smell. Whole buds retain aroma and moisture better than pre ground flower. Pre ground flower loses moisture and flavor faster than intact buds. Flower with a faint smell may be older or poorly stored. A strong aroma, and a rich, inviting aroma with it, is the counter sign of aromatic compounds and a rich terpene profile. Guides sometimes say weed when they mean this flower. Cannabis strains can smell fruity, earthy, or gassy, and dessert flavors are only the sweet end of that range.",
+      ],
+    },
+    {
+      id: "cannabis-buds",
+      heading: "Cannabis Buds",
+      paragraphs: [
+        "Buds that those guides call high quality show vibrant color and a dense structure, feel slightly sticky but not wet, and come free of seeds and excess stems. Trichomes produce the visible resin on cannabis buds, and the same guides treat trichome density as a clue to higher potency. That clue is not a lab number. Color, density, stickiness, and smell are the identifiable characteristics to use. Consistent quality means the package matches the batch you discussed.",
+      ],
+    },
+    {
+      id: "hybrid-strains",
+      heading: "Hybrid Strains",
+      paragraphs: [
+        "Hybrid strains are a combination of indica sativa lines. Retail guides describe that combination as a mix of both sides, not a winner. A sativa dominant label is menu copy tilted toward daytime use. Sativa dominant copy can still smell nothing like the last jar with that tilt. Indica leaning strains are the mirror copy and are pointed at evening. Neither indica nor sativa is a better high. Sativa strains are known in those guides for uplifting and energizing effects, and some of the same pages also mention mood and creativity. Sativa strains typically provide those energizing effects, which is why the guides point them at daytime activities. Indica strains are known in those guides for relaxing effects. The same pages sometimes add a couch lock nickname. That nickname is not a measurement.",
+      ],
+      subsections: [
+        {
+          id: "balanced-hybrid",
+          heading: "Balanced Hybrid",
+          paragraphs: [
+            "A balanced hybrid sits between those indica sativa poles. It is a label, not a measured midpoint.",
+          ],
+        },
+      ],
+    },
+    {
+      id: "cannabinoids-and-terpenes",
+      heading: "Cannabinoids and Terpenes",
+      paragraphs: [
+        "Cannabinoids and terpenes are the pair those guides use to explain a published effect. THC is the primary psychoactive compound they name. Psychoactive effects are described as stronger when THC is high. A second guide line also ties psychoactive effects to how much someone uses, and this page will not set that amount. High THC does not automatically mean a better experience. Higher THC percentages are a column, not a prize. Higher THC on one jar and higher THC on the next can still feel unlike. More THC is not the shopping goal. Moderate THC levels are the band those guides suggest for a new cannabis user. Check THC and CBD percentages on the regulated label. Strains high in one percentage still vary from batch to batch. Cannabinoids such as CBG and CBN show up in those guides as part of the experience, not as a treatment. Uplifting terpenes, including limonene, sit beside myrcene as aroma notes rather than a dosing chart. New cannabis users are told to start with lower THC rather than the top of the board. Those guides cite anxiety as a reason to stay low. This page does not treat anxiety and does not name a percentage.",
+      ],
+    },
+    {
+      id: "consumption-methods",
+      heading: "Consumption Methods",
+      paragraphs: [
+        "Consumption methods change onset and duration, which these guides separate from the family label. Smoking is one format they name. A bong, in those guides, provides water filtration during smoking and is said to change the experience. This page does not explain setup or inhalation. Vapes are described as fast and potent, and those guides aim them at experienced consumers, with no device steps here. A small first amount is how they say to judge tolerance with a new product. No weight and no milligram is set. A mild experience is the preference they give new cannabis users. Cannabis use in this literacy is adult and optional. Cannabis use is not a treatment plan.",
+      ],
+    },
+    {
+      id: "cannabis-products",
+      heading: "Cannabis Products",
+      paragraphs: [
+        "Cannabis products in a regulated shop are supposed to show cannabinoid amounts in plain label language. Third-party lab testing and a certificate of analysis are the documents those guides cite for content and safety. Ask to see the certificate. Do not invent a result the file does not show. Prices vary widely by format. Most dispensaries can still show the batch when the board is short. Many dispensaries operate cash-only because of federal banking regulations, so confirm that before you go.",
+      ],
+    },
+    {
+      id: "dispensary-staff",
+      heading: "Dispensary Staff",
+      paragraphs: [
+        "Dispensary staff can describe aroma, the certificate, and today's inventory. They do not diagnose a medical condition, and they do not treat chronic pain, promise pain relief, or offer stress relief. Therapeutic benefits and therapeutic properties belong to a clinician, not the counter. Medical cannabis programs are a separate legal category in some states. This page is not a medical cannabis recommendation, and well being is not a menu field. Certain conditions stay with a licensed clinician. The same guides mention calming effects and that some people feel relaxed, and they list dry mouth as a common note. None of those lines is a promise. Relaxation is a nickname in indica copy, not a result you can order. Stress is an occasion word there, not a diagnosis. Published pages also say to choose by desired effects such as relaxation or energy, then check the jar.",
+        "Before a dispensary visit, bring identification and confirm payment rules. What you try first should be fresh intact flower with a readable label, not the highest number and not a famous name. A beginner should not smoke toward an indica or sativa label.",
+      ],
+    },
+  ],
 };
