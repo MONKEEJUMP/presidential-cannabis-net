@@ -15,6 +15,7 @@ export const choosingArticles: PageContent[] = [
       "Menus range from concise printed lists to detailed digital catalogs. Some include harvest and package dates, terpene panels, lineage, cultivation source, or staff notes. The reading method stays consistent across formats: decide what kind of product fits the moment, identify the current batch, and use the available measurements to compare like with like.",
       "Presidential Cannabis publishes this menu-reading guide as adult 21+ retail literacy: how to read format, package size, cultivar name, THC and other percentage columns, batch dates, and price without treating any single field as a quality grade—and without medical claims. The habit ties to what-to-ask, first-time visits, matching format to occasion, strain naming, and why two batches differ at a licensed counter.",
     ],
+    leadBlocks: surferLeadBlocks["/choosing/reading-a-menu"],
     sections: [
       {
         id: "first-columns",
