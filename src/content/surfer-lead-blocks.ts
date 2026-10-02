@@ -365,4 +365,64 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/plant/the-flower-structure": [
+    {
+      id: "cannabis-flower-anatomy",
+      heading: "Cannabis Flower Anatomy",
+      paragraphs: [
+        "Where is the calyx on a cannabis plant? It sits at the base of the flower, inside the bract, not as an outer leaf you peel away. Published diagrams call the calyx a translucent layer that encases the ovule. Calyx cells are part of the perianth in female flowers. The same guides describe bracts as small modified leaves, often about 2 to 6 millimeters wide, that wrap the female reproductive organs and protect the seed pod while a seed forms. Bracts turn into a primitive ovary after pollination. That is flower morphology, not a potency score and not a medical claim.",
+      ],
+    },
+    {
+      id: "female-cannabis-plants",
+      heading: "Female Cannabis Plants",
+      paragraphs: [
+        "Cannabis is a dioecious plant: male and female plants grow as separate plants. Female cannabis plants are the ones that develop cannabis buds. Male cannabis plants produce pollen sacs, not the flower sold in a jar. Those pollen sacs on male plants are about 5 millimeters across, and they hold the male sex organs that release pollen. Male cannabis plants do not grow the jar flower. Guides say to recognize male cannabis plants by the sacs so pollen is not a surprise. Male plants shed pollen from those sacs. Male plants are the pollen parent, not the bud. Female plants, by contrast, build the cluster buyers recognize. Female plants are the sex that flowers. Flowers only grow on female cannabis plants. Male and female plants can both come from ordinary seed, which is why the two are kept apart when seed production is not the goal. Hermaphrodite plants, which guides describe as carrying both pollen sacs and pistils after stress, are a third case. This page does not give a stress method or a reversal method.",
+      ],
+    },
+    {
+      id: "anatomy-of-the-cannabis-plant",
+      heading: "Anatomy of the Cannabis Plant",
+      paragraphs: [
+        "The anatomy of the cannabis plant is the whole organism, not only the bud. These are parts of the cannabis plant a diagram names before the flower: a center stalk, also called the main stem, plus nodes and internodes. Nodes are where branches and leaves extend from the stem. The stem transports water and nutrients throughout the plant, and it is the support that keeps the plant upright. Xylem in the stem transports water from roots to leaves. Phloem in the stem distributes sugars produced during photosynthesis. Lower branches use that same path. Plant structure is this frame. The center stalk, or main stem, is the upright axis a cola later follows. Plant parts on that diagram are root, stem, leaf, and flower.",
+      ],
+    },
+    {
+      id: "cannabis-plant-anatomy",
+      heading: "Cannabis Plant Anatomy",
+      paragraphs: [
+        "Cannabis plant anatomy puts the cannabis plant's life cycle in order: a seed sprouts, early stages of leaf growth follow, and flower development comes after. The cannabis plant's growth, like any plant's growth, is that sequence. This page will not turn it into a week-by-week calendar. Cannabis cultivation, as those anatomy guides describe it, usually wants flower rather than seed. When pollen lands on a pistil, the flower can produce seeds. Cannabis seeds take about 30 to 45 days to mature in those accounts. Cross breeding is the published name for moving pollen from male flowers onto a receptive pistil so the plant can produce seeds. It is not a plan this page teaches. The life cycle still ends, for a seed crop, in that mature seed, and for a flower crop, in an unfertilized cluster.",
+      ],
+    },
+    {
+      id: "fan-leaves-and-cannabis-leaves",
+      heading: "Fan Leaves and Cannabis Leaves",
+      paragraphs: [
+        "Fan leaves are the large palmate blades, often the largest part of the plant in a diagram. Cannabis leaves run photosynthesis: they capture light and take in carbon dioxide. Cotyledon leaves appear first after germination, before true fan leaves. Guides often say sativa leaves are thinner and have more leaflets than indica leaves. Cannabis sativa is the narrower form in those drawings. Indica genetics are described with broader blades. That is a leaf-shape note, not a strain list and not an effects ranking. The broad blades are sometimes compared with solar panels because they capture light for physiological processes. Should you trim fan leaves during flowering? Grower pages debate it. This page does not give a defoliation schedule or tell anyone to cut leaves in the flowering stage.",
+        "What does Epsom salt do for cannabis plants? In grow writing the name means magnesium sulfate, discussed as a magnesium source. This page does not give a dose, a soil mix, or a feed recipe.",
+      ],
+    },
+    {
+      id: "cannabis-roots",
+      heading: "Cannabis Roots",
+      paragraphs: [
+        "Cannabis roots anchor the plant and take up water, nutrients, and oxygen. The main root is called the taproot. The root system includes that taproot, fibrous roots, and adventitious roots. Root hairs increase the surface area those roots use to absorb. Published notes say the roots secrete auxins, hormones that regulate growth. The root system stays below ground, so it is not in the jar, yet it is part of how the plant matures and how cannabis grows. Roots are parts of the cannabis plant that never become the trimmed flower.",
+      ],
+    },
+    {
+      id: "female-cannabis-flowers",
+      heading: "Female Cannabis Flowers",
+      paragraphs: [
+        "Female cannabis flowers carry pistils, the organs that catch pollen. What does cannabis look like when it first starts to flower? Pre flowers show as pale hairs at a node. Those pre flowers are small, and each pistil bears two hair like structures. The hair like structures are the stigmas, and they collect pollen if reproduction starts. Pistils matter for seed set. Published notes say they do not contribute much to potency, and darkened pistils mark age rather than strength. A cannabis flower at this stage is still a cluster of bracts and hairs, not a finished cola. Flower production without a pollinator is the usual retail path. This page does not describe how to collect pollen or how to apply it.",
+      ],
+    },
+    {
+      id: "cannabis-plants-grown-for-flower-not-seed",
+      heading: "Cannabis Plants Grown for Flower, Not Seed",
+      paragraphs: [
+        "Cannabis plants grown for the jar are typically unfertilized female flowers, the form guides call sinsemilla. The flowering stage is when sites along the stem stack. A bud site is one of those points. A central cluster at the top is the main cola. Physical characteristics you can see are bract width, pistil color, and how tightly the sites packed. Genetic makeup sets the range. As the plant matures, that cluster is the part dried and cured before any use. Cannabis products made from flower still start from this structure. Cannabis products are not a separate organ. Guides say the flower's effects track cannabinoid and terpene profiles, the chemical compounds and aromatic oils in resinous trichomes, more than pistil color. Those trichomes are the tiny crystals on the surface. They produce cannabinoids, terpenes, and flavonoids in cannabis, they vary in shape and size, and published notes say trichomes help protect cannabis plants from predators and environmental stress. Resin coated leaves beside the flower can carry some of that frost. The same guides mention therapeutic cannabinoids, therapeutic properties, therapeutic effects, and medicinal purposes. This page does not adopt a treatment claim or a dose.",
+        "Tissue culture is a propagation phrase some anatomy references use. This page does not give a tissue culture procedure. Like other flowering plants, the cannabis plant builds a flower from these parts. Parts of the cannabis flower are readable on the finished piece: bract, pistil, and the stalk they share. Female reproductive organs sit inside that cluster.",
+      ],
+    },
+  ],
 };
