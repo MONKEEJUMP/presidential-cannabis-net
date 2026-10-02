@@ -319,7 +319,7 @@ export const flowerArticles: PageContent[] = [
     path: "/flower/density-and-structure",
     kind: "article",
     silo: "flower",
-    h1: "Density and Structure",
+    h1: "Cannabis Flower Density & Structure",
     title: "Cannabis Flower Density & Structure",
     description: "How cannabis flower density and bud structure vary by cultivar, environment, maturity, drying, trimming, and handling.",
     wordTarget: [1100, 1250],

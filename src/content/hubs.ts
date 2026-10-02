@@ -254,7 +254,7 @@ export const hubPages: PageContent[] = [
     path: "/genetics",
     kind: "hub",
     silo: "genetics",
-    h1: "Cannabis Genetics Guide",
+    h1: "Cannabis Genetics & Lineage",
     title: "Cannabis Genetics & Lineage",
     description: "A clear guide to cannabis breeding, phenotypes, lineage, cultivar naming, landraces, and the reasons batches vary.",
     wordTarget: [1100, 1250],
