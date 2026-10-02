@@ -584,4 +584,21 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+
+  "/choosing/reading-a-menu": [
+    {
+      id: "how-to-read-a-dispensary-menu",
+      heading: "How to Read a Dispensary Menu",
+      paragraphs: [
+        "At a cannabis dispensary, customers learn what the store can sell that week. The team can explain the columns. Adults of legal age, and anyone older than the state minimum, agree to the age check at the doors before the next purchase. Your state sets that age rule. Some boards still label a medical marijuana section for patients; this page stays adult retail literacy and does not give medical advice. Reward points are a menu extra. Ask how points apply and when points post after pickup. Some counters take cash only, so ask before you walk in. Customers often return to compare one row. Regular customers pick two or three rows, then choose whether pickup fits the plan. Choose a format before comparing columns.",
+      ],
+    },
+    {
+      id: "cannabis-dispensary-menu-fields",
+      heading: "Cannabis Dispensary Menu Fields",
+      paragraphs: [
+        "A cannabis dispensary menu groups products by how they are consumed, like inhaled or ingested. The board is built from those sections. Flower potency is commonly expressed as a percentage of THC, while edibles are measured in milligrams. CBD is non-psychoactive and is known for its calming effects, which is a column description, not a promised result. Flower is raw cannabis generally listed by weight and strain type, usually in grams, eighths, quarters, or ounces. Common dispensary menu sections include flower, concentrates, edibles, and vapes. Those are highly potent extracts designed for dabbing or vaporization. Edibles typically have a delayed onset of effects, taking 30 minutes to 2 hours. Cannabis terpenes affect mood and experience through the entourage effect. Proper flushing, curing, and hand trimming are finish notes some menus print beside a row. Dispensary menus may include a Certificate of Analysis (COA) verifying product safety. Ask the team to check the COA for the batch directly and find the growers named on the row. Some rows note plants cultivated by the store's own team. Beginner cannabis consumers should consider starting with low THC products to gauge effects. That note is pacing, not a dose plan. Cost can vary widely depending on product type and local regulations. At the cannabis dispensary counter, ask which details are live, find whether the store is located in your area, and confirm opening hours. The columns work as separate fields in addition to the name printed on the package.",
+      ],
+    },
+  ],
 };
