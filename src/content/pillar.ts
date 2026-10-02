@@ -3,7 +3,7 @@ import type { PageContent } from "./types";
 export const pillarPage: PageContent = {
   path: "/",
   kind: "pillar",
-  h1: "Presidential Cannabis",
+  h1: "Presidential Cannabis: The Official Brand Guide",
   title: "Presidential Cannabis | The Official Brand Guide",
   description:
     "Presidential Cannabis is the official brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Explore the plant, products, and licensed-retailer path.",
