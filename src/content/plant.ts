@@ -519,6 +519,7 @@ export const plantArticles: PageContent[] = [
       "The harvest window spans a period rather than a single universal day. Genetics influences flowering length, and every garden adds its own environment. Even within one plant, upper and lower flower sites can advance at different rates. A sound decision therefore comes from representative observation across the canopy and from familiarity with the cultivar through complete cycles.",
       "Presidential Cannabis publishes this harvest-timing guide as adult 21+ plant literacy: how growers read a maturity window rather than a single calendar date, how trichome and pistil cues describe progress without guaranteeing one aromatic outcome, and how the chosen cut hands work to drying and curing. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with observation, windows, and post-harvest continuity.",
     ],
+    leadBlocks: surferLeadBlocks["/plant/harvest-timing"],
     sections: [
       {
         id: "reading-maturity",
