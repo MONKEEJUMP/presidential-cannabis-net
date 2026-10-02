@@ -119,6 +119,7 @@ export const geneticsArticles: PageContent[] = [
       "Phenotype links inherited possibility with lived conditions. Genotype is the genetic makeup; phenotype is what becomes visible and measurable as that makeup develops under particular light, temperature, nutrition, root space, water, and cultivation. The same genetic individual can shift within a range across environments, while distinct seed siblings carry genetic differences from the beginning.",
       "Presidential Cannabis publishes this phenotypes guide as adult 21+ genetics literacy: what phenotype means beside genotype and strain name; why two plants from the same cross can differ; how selection and cloning preserve one expression; and how that literacy ties to lineage, how strains are made, why two batches differ, strain naming, and landrace foundations. No medical claims appear here. The job is narrower: vocabulary for observable expression that stays agricultural and checkable at licensed retail.",
     ],
+    leadBlocks: surferLeadBlocks["/genetics/phenotypes"],
     sections: [
       {
         id: "variation-in-a-family",

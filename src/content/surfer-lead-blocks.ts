@@ -645,4 +645,45 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
     },
   ],
 
+  "/genetics/phenotypes": [
+    {
+      id: "understanding-cannabis-phenotypes-on-the-cannabis-plant",
+      heading: "Understanding Cannabis Phenotypes on the Cannabis Plant",
+      paragraphs: [
+        "The guide starts with the term phenotype. A phenotype describes observable traits you can see, smell, or measure on the cannabis plant. The plant's genetic blueprint is the inherited plan, and the plant's genotype is that plan in one seed or cutting. Genotype refers to the genetic code. The plant's genetic composition is the mix in that seed. Parent plants pass genetic instructions, parent plants set the range, and a comparison of parent plants shows why siblings resemble each other without matching. Physical expression is the grown plant, and a second physical expression appears when the room changes. Identical genetics do not freeze every leaf. Two cuttings can carry identical genetics and still show slight variations in height or color. Those slight differences are phenotypic expression. Subtle differences in scent can show up the same way.",
+        "Environmental conditions such as light, temperature, and humidity steer that range. Environmental conditions in a second garden can change plant growth, and environmental conditions do not rewrite the code. A cannabis plant with the same genotype still has one inherited plan. The cannabis plant expresses only the part the room allows. Readers use cannabis phenotypes to separate the visible plant from the menu title. These cannabis phenotypes are agricultural notes, not a lab sheet. Reading cannabis phenotypes is adult 21+ literacy, and cannabis describes the gap between expression and a name.",
+      ],
+    },
+    {
+      id: "environmental-factors-and-cannabis-genetics",
+      heading: "Environmental Factors and Cannabis Genetics",
+      paragraphs: [
+        "Environmental factors decide how much of the plant's genetic potential shows up. Environmental factors such as day length, irrigation, and canopy space change growth characteristics, and environmental factors are not a second genotype. Genetic potential is only the range the seed carried. Different phenotypes appear when genetic variations meet that garden, and different phenotypes inside one family can share a silhouette and still differ. Natural variation makes that spread normal. The same strain name can point at more than one story. The same strain may be a kept cut or a seed family, and the same strain is not proof that two jars match. A particular strain can hold several expressions, and the same cannabis strain taken from one mother can still shift after the garden changes. Growers tend to write down structure and timing rather than a single number. Cannabis genetics is the name for the inherited range. Genetic diversity is why growing multiple seeds from one cross yields siblings rather than copies. The same genetic lineage can still split. Cultivation methods should match across the plants being judged. The growing environment belongs in the note, because different environments change what you see.",
+      ],
+    },
+    {
+      id: "different-phenotypes-of-one-cannabis-strain",
+      heading: "Different Phenotypes of One Cannabis Strain",
+      paragraphs: [
+        "A cannabis plant in this comparison should share container size, light, and water with the others. Another cannabis plant that finishes on a different week is a different expression, not a new name. Five examples people compare are height, branching, leaf shape, bud density, and aroma. There is no official list of four phenotype types. Structure, flower form, color, and aroma are common groups, not a rulebook. Growth form is often sorted into sativa, indica, and ruderalis phenotypes based on how the plant is built, not on a promised effect. Modern hybrids mix those older forms. Breeders sometimes use a type 4 label for CBG-dominant chemotypes. That label is a category name, not a percentage and not a claim about any jar.",
+        "Growth characteristics also include how the plant handles stress. Key characteristics to note are color and how even the flower looks. Plant structure is the overall shape, and bud density is one flower trait. Resin production can look heavier on one sibling. Resin production here means visible resin, not a measured potency. Terpene expression is the aromatic pattern you can smell, and terpene diversity is why two siblings may not smell alike. Chemical composition, the balance of cannabinoids and terpenes, can differ by sibling, including the balance of THC and CBD, and this page states no lab numbers. Aroma follows those terpenes, which shape scent and flavor. Same genetics in two rooms still follow the garden, and same genetics do not make two harvests identical. Growth patterns include flowering time, a garden-level note on yield, and resistance to stress. Those growth patterns are why a hunt keeps notes. The plant grows from a cutting while the original finishes, and the plant grows under the same basic principle whenever clones repeat one selected individual. Cuttings from that individual are genetically identical at the start. Some growers who keep living soil describe a broader aromatic range. That is a garden observation, not a measured increase. Several plants from one pack can show the spread. Specific phenotypes match a written list, and the same phenotype is kept by cloning that individual, not by reusing the name.",
+      ],
+    },
+    {
+      id: "desirable-traits-kept-on-a-mother-plant",
+      heading: "Desirable Traits Kept on a Mother Plant",
+      paragraphs: [
+        "Desirable traits are the short list written first: a manageable size, a known flowering window, mold resistance, pest resistance, and a clear aroma. Desired traits can include even resin without a potency score. Desirable characteristics add practical habits such as support needs. Cannabis breeders use the list so a later reader can see why one plant was kept. A mother plant supplies the cuttings, and the mother plant is not a species or a strain name. Cannabis cultivation records should name the garden beside the selection. Hybrid vigor is one reason a first cross can look uneven. Across multiple generations, selection can narrow the family. Genetic diversity is also why the list stays useful when siblings diverge. Superior genetics, here, means a cut that held the written traits, not a rank by strength. The best phenotypes matched the list. Weed phenotypes is the casual name for these visible differences. A deeper understanding is that the work can take months or years. Understanding phenotypes means you can say what was kept, and understanding phenotypes also means a shared title is not a promise that two jars match.",
+      ],
+      subsections: [
+        {
+          id: "desirable-phenotypes-after-pheno-hunting",
+          heading: "Desirable Phenotypes After Pheno Hunting",
+          paragraphs: [
+            "Pheno hunting is the working name for the comparison. A pheno hunting project runs through more than one cycle. Pheno hunting looks for keepers rather than a ranking chart.",
+          ],
+        },
+      ],
+    },
+  ],
 };
