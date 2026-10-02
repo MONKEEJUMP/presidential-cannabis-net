@@ -601,4 +601,28 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/plant/harvest-timing": [
+    {
+      id: "when-cannabis-buds-show-they-are-ready",
+      heading: "When Cannabis Buds Show They Are Ready",
+      paragraphs: [
+        "Many growers treat harvest readiness as key signs on the cannabis plant, not as a date circled in advance. The pistil method watches the hairs. As the plant matures, pistils move from white toward orange, red, or dark brown. A field that is mostly darkened, often described as about 70 to 90 percent of the pistils, signals that the harvest window is approaching. Some guides use the pistil method when about 90 percent of pistils have darkened, and they treat that share as a cue for an optimal harvest time. Swelling calyxes indicate that the buds have reached peak maturity, while bud size by itself is only context.",
+        "Trichome color has to be checked with a magnifying glass or a jeweler's loupe, because harvest timing depends on detail the naked eye cannot resolve on the plant's trichomes. Clear trichomes still describe an early gland, before growers call the flower ready to harvest. A common field rule is to harvest cannabis when cloudy trichomes make up most of the heads and amber trichomes are the smaller share, often put at about 80 percent cloudy and 20 percent amber. Guides that tell a garden to harvest cannabis at that point are describing a lens cue, not a laboratory number.",
+        "Harvesting too early is widely associated with lower potency and with lower yield. Milky trichomes are the common reading for peak THC levels in cannabis buds. Amber trichomes are often described as a later shift that signals cannabinoid degradation, and a late harvest is sometimes linked with sleepier effects. Growers aim for a sweet spot only after the same plants have been watched until the plant matures through a full cycle. None of those notes promise one experience for every adult reader.",
+        "Cannabis buds are ready to harvest only when several sites agree. A top cola can look finished while lower sites are not ready to harvest, and a week number on a seed note does not override that split. Whether it is time to harvest, and whether it is time to harvest cannabis in this garden, are questions for those sites.",
+      ],
+    },
+    {
+      id: "from-the-flowering-stage-to-dry-trimming",
+      heading: "From the Flowering Stage to Dry Trimming",
+      paragraphs: [
+        "The flowering stage is a planning frame. A cannabis harvest can fall early or later inside that frame without changing the lens method. Different strains, and most strains in general guides, are often described as ready to harvest in about 7 to 12 weeks of flowering. The same window is often given as 7 to 12 weeks after flowering begins. A specific strain can sit shorter or longer. Those different strains still share the lens and pistil cues. Cannabis strains, in this chapter, means that spread in flowering time. It is not a roster of cultivar names, and no named cut is listed here. The range says when a garden might expect the window. It does not declare the day.",
+        "Growing cannabis under lamps, as with indoor plants, and growing cannabis in weather are both cannabis cultivation. The growing process and each growth cycle shift the days. Low stress training can even a canopy so sites are easier to compare, and the growth cycle still has to be read on the living plants. The cannabis plant does not become uniform just because the notes are tidy. Each cannabis plant in the canopy can finish on its own pace, so a neighboring cannabis plant is not a copy of the one beside it. Reading one cannabis plant never speaks for the row.",
+        "Cutting the entire plant at once is one choice. A partial harvest takes the sites that match and leaves the rest, and the final harvest waits on those remaining sites. Hanging the whole plant is the other common choice. On that entire plant, the main stem, the fan leaves, and the lower buds can tell different stories. Fan leaves that fade are not an order to cut. Sugar leaves sit closer to the flower. Leaving sugar leaves on through the hang is one trim choice, and clipping sugar leaves before the hang is the other. Sugar leaves may show trichome production that looks ahead of the bracts, so the plant's trichomes on the flower remain the reference. A second look at trichome color on the bract, not the leaf, keeps that call honest. The plant's maturity is that flower reading.",
+        "Bud rot is a reason to look before the cut. Where bud rot or other mold shows up, relative humidity and a crowded canopy are the practical questions, and the point is to prevent mold rather than to chase a calendar. In cultivation notes, when to harvest weed means the cues are met, and how to harvest weed means the cut, the label, and the handoff into drying. When to harvest marijuana and how to harvest marijuana name those same two steps.",
+        "The harvesting process then becomes proper drying. A common practice is to hang dry for about 5 to 14 days in a dark, cool drying room. Wet trimming is easier and faster than dry trimming in many gardens. Choosing wet trimming does not change the maturity that was already called. Dry trimming waits until that hang is finished. Trimmed buds and individual buds then enter the curing stage. Curing methods such as mason jars, opened on a schedule, carry the final stage toward the final product. Overall quality and final quality still come from that continuity. A well timed harvest only opens the path.",
+      ],
+    },
+  ],
+
 };
