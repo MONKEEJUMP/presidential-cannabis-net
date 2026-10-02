@@ -775,4 +775,38 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       ],
     },
   ],
+  "/genetics/how-strains-are-made": [
+    {
+      id: "cannabis-breeding-on-cannabis-plants",
+      heading: "Cannabis Breeding on Cannabis Plants",
+      paragraphs: [
+        "Cannabis breeding pairs male and female plants. Male plants open pollen sacs and release pollen. Male plants are kept apart from the seed plants until pollen is needed, and only chosen male plants donate pollen. In a breeding chamber, pollen is directed to a nearby female plant or to multiple female plants and kept off other plants. Successful pollination is the point where females produce seeds. The female plant matures that seed while a mother plant can be kept as the receiver. Two parent plants make the cross. Parent plants are logged before sowing, and those same parent plants are what a later room repeats. Keeping male and female plants apart until the cross is the practical rule. The male and female roles are about pollen and seed, not a menu category.",
+      ],
+    },
+    {
+      id: "cannabis-seeds-genetics-and-new-strains",
+      heading: "Cannabis Seeds, Cannabis Genetics, New Strains, and New Cannabis Strains",
+      paragraphs: [
+        "Cannabis seeds from the cross are a population. Seeds grow into new plants. Breeders may grow seeds from a short first tray rather than a warehouse. Cannabis genetics is the range those parents can pass on. Dominant traits show up often, and recessive genes can stay quiet. The genetic makeup of each seed is a new shuffle. Cannabis phenotypes are the physical expression of that genetic code, called phenotypes in the project notes. Plant breeding here is selective breeding for specific traits.",
+        "Existing strains may be the parents. Different strains, including two or more strains, can be written into the plan, and the tray is still one cross. Weed breeding is the everyday name for the same work. These weed plants are cannabis plants under a casual name. Cannabis cultivators and cannabis breeders both watch the flowering phase. Desirable traits include structure, aroma, yield, and disease resistance to mold and pests. Another pass can favor the same desirable traits. This is how breeders create new strains, and how new cannabis strains actually begin.",
+      ],
+    },
+    {
+      id: "hybrid-cannabis-strains-cultivars-and-new-weed-strains",
+      heading: "Hybrid Cannabis Strains, Cannabis Cultivars, and New Weed Strains",
+      paragraphs: [
+        "Hybrid cannabis strains are planned crosses. New weed strains are the later public name. Cannabis cultivars are the stabilized names that leave the notebook. Breeding cannabis strains is the repeated cross, not a rename. Weed strains created in that notebook become strains created for another garden, which is how strains are created for a release.",
+        "The breeding process can run multiple generations. Large scale breeding adds rooms, not a new method. A unique strain still needs a record. Popular cannabis strains and popular strains on a menu are titles. Various strains, and certain strains inside one family, can still differ by cut. Parent strains are the pair in the log. Later notes cite those parent strains when a cut is released. The parent strains cannabis breeders record are that pair, not a shelf slogan.",
+      ],
+    },
+    {
+      id: "breeding-cannabis-for-hybrid-weed-strains",
+      heading: "Breeding Cannabis for Hybrid Weed Strains",
+      paragraphs: [
+        "Breeding cannabis continues until one keeper is repeatable. Hybrid weed is the retail shortening of hybrid weed strains, a name for the cross rather than a feeling. Sativa strains and indica strains are category labels beside the parents, not a feeling chart. THC and CBD are chemistry names on a certificate of analysis. This guide does not invent a percentage or treat either name as a score.",
+        "The first generation of a hybrid cross is the F1. Pheno-hunting can take several generations. A single female plant can produce dozens of phenotypes. Breeders may start with ten seeds and narrow down to one strain. The keeper is what a garden may mass produce, and only after marketable cannabis strains often go through stress testing before release. A reversal can be used so a female plant produces pollen. No formula is given here. Genomic work uses genetic markers and sequencing to flag cannabinoid production in a lab the breeder already runs. This page does not invent those results.",
+        "Landrace strains are older cannabis varieties that evolved in isolation. They can sit behind a modern cross. They are not a purity claim on a jar.",
+      ],
+    },
+  ],
 };

@@ -15,6 +15,7 @@ export const geneticsArticles: PageContent[] = [
       "The process blends planning with discovery. Parentage sets the range, and every seed reshuffles inherited material into a new individual. The breeder begins with an intention, then lets a living population reveal the combinations actually present. Strong records connect each seed, plant, branch, harvest, and evaluation to the decision that follows.",
       "Presidential Cannabis publishes this how-strains-are-made guide as adult 21+ genetics literacy: how breeders select parents, cross them, grow seed populations, choose phenotypes, and stabilize lines; how that work ties to lineage, naming, landrace foundations, and batch variation; and which licensed-counter questions keep breeder notes distinct from shelf titles. No medical claims appear here. The job is narrower: vocabulary for crossing, selection, and release that stays agricultural and checkable.",
     ],
+    leadBlocks: surferLeadBlocks["/genetics/how-strains-are-made"],
     sections: [
       {
         id: "the-cross",
