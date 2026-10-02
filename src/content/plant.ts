@@ -15,7 +15,18 @@ export const plantArticles: PageContent[] = [
       "Thinking of cannabis first as a plant creates a clear foundation. Roots, stems, fan leaves, branches, flowers, and resin glands each perform a biological role. Genetics supplies an inherited range, while light, water, nutrition, temperature, root space, and time shape how that range appears. Finished flower is therefore a preserved piece of the plant's reproductive stage and a record of the conditions that supported it.",
       "Presidential Cannabis publishes this what-cannabis-is guide as adult 21+ plant literacy: cannabis as a living annual species rather than a product myth alone; how the life cycle, harvested flower, and resin surface connect to The Cannabis Plant Guide, flower structure, indica-sativa-hybrid language, flower quality, and genetics; and how to keep that literacy observational at a licensed counter. No medical claims. The job is a botanical definition that stays checkable beside the jar.",
     ],
-    leadBlocks: surferLeadBlocks["/plant/what-cannabis-is"],
+    leadBlocks: [
+      ...surferLeadBlocks["/plant/what-cannabis-is"],
+      {
+        id: "seed-to-jar",
+        heading: "Read the jar backward through the plant",
+        paragraphs: [
+          "A jar, a menu title, or an indica, sativa, or hybrid label is the last layer on this page, not the plant itself. The opening already fixes the species underneath that layer: Cannabis sativa, one flowering annual. Industrial hemp is that same species under a fiber-and-seed use and a different rule set, not a second species inside a flower jar. Marijuana is the everyday name for the drug form. The guide keeps the word cannabis for the living species and for harvested flower so a menu nickname does not replace the biology. Dried flower is the direct harvest of this annual. Cannabis oil, where a market allows it, is a prepared extract of the same plant material, not a different species.",
+          "The three sections are one plant at three moments, which is why a label cannot stand in for them. Flower sites from the annual cycle are the harvested cluster: many small flowers, bracts around the reproductive parts, pistils, and sugar leaves that often carry resin, gathered into colas after fan leaves, the energy-making tissue, are removed and a trim sets the shape without stripping the resin-bearing surface. Compact or open structure is cultivar architecture, an inherited range still shaped by light, water, nutrition, temperature, root space, and time. Genetics can name parents or a selected cut. The resin on that same reproductive surface is the protective layer, most abundant on the flower and the small leaves beside it, holding aromatic compounds and cannabinoids. Larger stalked glands become especially visible as the flower matures, and clear, cloudy, and amber heads can show together because maturity moves asynchronously across the plant. Harvest captures the chosen moment. Drying, curing, and storage carry it into the jar.",
+          "The licensed counter is where that chain becomes a specific batch, and it stays observational. Harvest or package dates, how this batch's structure compares with the last delivery of the same name, and whether the producer lists parents or a named cut tie the jar to a window and an inherited range. Frost, nose, and bract packing are the resin and the architecture in hand. Cannabinoid receptors and the endocannabinoid system, named above only as how animal bodies can respond to compounds the glands make, are not a health claim here. Medical use, health effects, and whether any preparation is approved stay with clinicians and primary sources. This page does not tell anyone to consume cannabis.",
+        ],
+      },
+    ],
     sections: [
       {
         id: "annual-cycle",
