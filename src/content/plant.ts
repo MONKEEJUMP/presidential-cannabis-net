@@ -324,7 +324,7 @@ export const plantArticles: PageContent[] = [
     path: "/plant/cannabinoids-in-the-plant",
     kind: "article",
     silo: "plant",
-    h1: "Cannabinoids",
+    h1: "Cannabinoids in the Living Plant",
     title: "Cannabinoids in the Living Plant",
     description: "What cannabinoids are in the living cannabis plant, where the plant produces them, their acidic form, and their place in flower development.",
     wordTarget: [1100, 1250],
