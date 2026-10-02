@@ -558,5 +558,105 @@ export const editorialLinks: EditorialLink[] = [
     "match": "guides",
     "label": "guides",
     "href": "/"
-  }
+  },
+
+  {
+    "id": "IL-102",
+    "sourcePath": "/",
+    "sectionId": "the-plant",
+    "paragraphIndex": 0,
+    "match": "cannabinoids",
+    "label": "cannabinoids",
+    "href": "/plant/cannabinoids-in-the-plant"
+  },
+  {
+    "id": "IL-103",
+    "sourcePath": "/",
+    "sectionId": "genetics",
+    "paragraphIndex": 0,
+    "match": "Breeding",
+    "label": "Breeding",
+    "href": "/genetics/how-strains-are-made"
+  },
+  {
+    "id": "IL-104",
+    "sourcePath": "/",
+    "sectionId": "genetics",
+    "paragraphIndex": 0,
+    "match": "lineage",
+    "label": "lineage",
+    "href": "/genetics/lineage"
+  },
+  {
+    "id": "IL-105",
+    "sourcePath": "/",
+    "sectionId": "genetics",
+    "paragraphIndex": 0,
+    "match": "strain naming",
+    "label": "strain naming",
+    "href": "/genetics/strain-naming"
+  },
+  {
+    "id": "IL-106",
+    "sourcePath": "/flower",
+    "sectionId": "structure-and-cure",
+    "paragraphIndex": 2,
+    "match": "breeding context",
+    "label": "breeding",
+    "href": "/genetics/how-strains-are-made"
+  },
+  {
+    "id": "IL-107",
+    "sourcePath": "/flower",
+    "sectionId": "keeping-character",
+    "paragraphIndex": 2,
+    "match": "naming context",
+    "label": "naming",
+    "href": "/genetics/strain-naming"
+  },
+  {
+    "id": "IL-108",
+    "sourcePath": "/flower",
+    "sectionId": "keeping-character",
+    "paragraphIndex": 2,
+    "match": "explains lineage",
+    "label": "lineage",
+    "href": "/genetics/lineage"
+  },
+  {
+    "id": "IL-109",
+    "sourcePath": "/flower",
+    "sectionId": "keeping-character",
+    "paragraphIndex": 2,
+    "match": "Cannabinoids in the living plant",
+    "label": "Cannabinoids in the living plant",
+    "href": "/plant/cannabinoids-in-the-plant"
+  },
+  {
+    "id": "IL-110",
+    "sourcePath": "/plant",
+    "sectionId": "plant-and-types",
+    "paragraphIndex": 0,
+    "match": "lineage, growth pattern",
+    "label": "lineage",
+    "href": "/genetics/lineage"
+  },
+  {
+    "id": "IL-111",
+    "sourcePath": "/plant",
+    "sectionId": "plant-and-types",
+    "paragraphIndex": 0,
+    "match": "breeding history",
+    "label": "breeding history",
+    "href": "/genetics/how-strains-are-made"
+  },
+  {
+    "id": "IL-112",
+    "sourcePath": "/plant",
+    "sectionId": "plant-and-types",
+    "paragraphIndex": 3,
+    "match": "phenotypes, and naming",
+    "label": "naming",
+    "href": "/genetics/strain-naming"
+  },
 ];
