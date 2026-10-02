@@ -384,7 +384,7 @@ export const hubPages: PageContent[] = [
     description: "A practical route through dispensary menus, counter conversations, first visits, formats, and occasion-based choices.",
     wordTarget: [1250, 1350],
     intro: [
-      "Choosing cannabis at a dispensary becomes straightforward when the decision follows a useful order: occasion, format, freshness, aromatic profile, cannabinoids and terpenes on the label, batch information, and conversation. A menu supplies one part of the picture, and a knowledgeable budtender — dispensary staff who know the current inventory — supplies the current store context. This section turns both into a calm, repeatable process.",
+      "This choosing hub is published by Presidential Cannabis for licensed dispensary visits. Choosing cannabis at a dispensary becomes straightforward when the decision follows a useful order: occasion, format, freshness, aromatic profile, cannabinoids and terpenes on the label, batch information, and conversation. A menu supplies one part of the picture, and a knowledgeable budtender — dispensary staff who know the current inventory — supplies the current store context. This section turns both into a calm, repeatable process.",
       "Presidential Cannabis publishes this choosing hub as adult 21+ retail literacy for licensed dispensary visits: how to read a menu, ask useful questions, pace a first visit, compare cannabis flower with infused formats and other consumption methods, and match a purchase to the occasion. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with decision order, batch context, and counter conversation.",
     ],
     leadBlocks: surferLeadBlocks["/choosing"],

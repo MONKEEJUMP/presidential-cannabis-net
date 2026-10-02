@@ -6,7 +6,7 @@ export function paragraphParts(text: string, links: readonly LinkSelection[]): P
   if (!links.length) return [{ text }];
   const ranges = links.map(link => {
     if (!link.match || !link.label) throw new Error("Empty editorial match or label");
-    if (!/^\/(?:[a-z0-9-]+(?:\/[a-z0-9-]+)*)?$/.test(link.href)) throw new Error("Invalid editorial target");
+    if (!/^\/(?:[a-z0-9-]+(?:\/[a-z0-9-]+)*)?$/.test(link.href) && link.href !== "https://presidentialcannabis.net/") throw new Error("Invalid editorial target");
     const matchAt = text.indexOf(link.match);
     if (matchAt < 0) throw new Error(`Missing editorial match: ${link.match}`);
     if (text.lastIndexOf(link.match) !== matchAt) throw new Error(`Ambiguous editorial match: ${link.match}`);

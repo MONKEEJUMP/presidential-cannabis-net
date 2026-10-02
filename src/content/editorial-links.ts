@@ -659,4 +659,13 @@ export const editorialLinks: EditorialLink[] = [
     "label": "naming",
     "href": "/genetics/strain-naming"
   },
+  {
+    "id": "IL-113",
+    "sourcePath": "/choosing",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "Presidential Cannabis",
+    "label": "Presidential Cannabis",
+    "href": "https://presidentialcannabis.net/"
+  },
 ];
