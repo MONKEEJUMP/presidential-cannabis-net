@@ -1,4 +1,5 @@
 import type { PageContent } from "./types";
+import { surferLeadBlocks } from "./surfer-lead-blocks";
 
 export const hubPages: PageContent[] = [
   {
@@ -383,17 +384,18 @@ export const hubPages: PageContent[] = [
     description: "A practical route through dispensary menus, counter conversations, first visits, formats, and occasion-based choices.",
     wordTarget: [1250, 1350],
     intro: [
-      "Choosing cannabis becomes straightforward when the decision follows a useful order: occasion, format, freshness, aromatic profile, batch information, and conversation. A menu supplies one part of the picture, and a knowledgeable budtender supplies the current store context. This section turns both into a calm, repeatable process.",
-      "Presidential Cannabis publishes this choosing hub as adult 21+ retail literacy for licensed dispensary visits: how to read a menu, ask useful questions, pace a first visit, compare flower with infused formats, and match a purchase to the occasion. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with decision order, batch context, and counter conversation.",
+      "Choosing cannabis at a dispensary becomes straightforward when the decision follows a useful order: occasion, format, freshness, aromatic profile, cannabinoids and terpenes on the label, batch information, and conversation. A menu supplies one part of the picture, and a knowledgeable budtender — dispensary staff who know the current inventory — supplies the current store context. This section turns both into a calm, repeatable process.",
+      "Presidential Cannabis publishes this choosing hub as adult 21+ retail literacy for licensed dispensary visits: how to read a menu, ask useful questions, pace a first visit, compare cannabis flower with infused formats and other consumption methods, and match a purchase to the occasion. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with decision order, batch context, and counter conversation.",
     ],
+    leadBlocks: surferLeadBlocks["/choosing"],
     sections: [
       {
         id: "read-the-menu",
         heading: "Begin with the Menu",
         paragraphs: [
           "Reading a Menu explains the columns that appear most often: cultivar, format, package size, potency, terpene information, price, and dates. It provides a practical reading sequence that starts with the product you want and then places percentages beside aroma and freshness. The result is a batch-level view rather than a search for one headline number.",
-          "Menus vary in detail, so the core skill is recognizing what each field contributes. Format establishes the purchase. Dates establish time. Potency measures a defined part of the sample. A terpene panel adds aromatic composition. Name and lineage supply family context. These details become especially useful when read together.",
-          "Publisher choosing literacy starts there. A board or tablet is a snapshot of inventory, not a ranking of every jar in the back. Adults shopping through licensed retailers can scan format first, then harvest or package dates, then aroma language and any terpene notes, and only then treat percentages as one supporting number. That order keeps the visit calm when a menu is long or when several cultivars share similar names. Price and package size then become practical filters once the batch already looks and smells like a fit for the occasion.",
+          "Menus vary in detail, so the core skill is recognizing what each field contributes. Format establishes the purchase. Dates establish time. Potency measures a defined part of the sample. A terpene panel adds aromatic composition and a readable terpene profile. Name and lineage supply family context. These details become especially useful when read together.",
+          "Publisher choosing literacy starts there. A board or tablet is a snapshot of inventory, not a ranking of every jar in the back. Adults shopping through licensed retailers can scan cannabis products and format first, then check the harvest date for freshness or package dates, then aroma language and any terpene notes, and only then treat percentages as one supporting number. That order keeps the visit calm when a menu is long or when several cultivars share similar names. Price and package size then become practical filters once the batch already looks and smells like a fit for the occasion.",
           "Batch verification closes the menu loop. When a label, jar sticker, or package card is available, match the cultivar name, format, and date language to what the board advertised. Small mismatches are common when inventory turns quickly; asking which package is currently on the shelf keeps the purchase tied to the batch you discussed rather than an earlier listing.",
         ],
         contextualLinks: [
