@@ -13,6 +13,16 @@ export const pillarPage: PageContent = {
     "Flower quality is the foundation of the product conversation. The guides connect plant and flower fundamentals, genetics, and guidance for choosing pre rolls to the official product system without turning batch-specific facts into universal claims.",
     "Presidential Cannabis publishes this homepage as adult 21+ brand and plant literacy: who the company is, how the plant and flower guides connect, how genetics and batch variation shape what reaches a jar, and how choosing at licensed retail stays observational. No medical or dosing claims. The job is a durable brand hub that points readers into the plant, flower, genetics, choosing, and about guides without replacing the package or the licensed counter.",
   ],
+  leadBlocks: [
+    {
+      id: "sort-the-name",
+      heading: "Sort the name before you read the jar",
+      paragraphs: [
+        "A familiar Presidential word can be the company, a cultivar, a format, a series, or a batch, and those are not substitutes. Presidential Cannabis names the company, not a strain and not a generic product. Presidential Kush remains a cultivar label. Presidential weed is informal search shorthand, not a separate product. Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis are formats: paper on the infused pre-roll lane, and a tobacco-free hemp wrap where a menu separates blunts and minis from paper rolls. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize collections. They do not fix potency or other test values across a series.",
+        "The jar is a further column. Appearance, aroma, density, structure, moisture, cure, storage, and trichome condition describe the flower in hand. Genetics sets the inherited range; environment, harvest, and post-harvest handling explain why two jars that share a name can still differ. Read the producer, dates, and batch identifiers at a licensed retailer, and treat the current catalog as the record for that SKU. Informal marketplace listings and look-alike names do not replace the licensed path. These checks stay observational. They are not medical or dosing claims.",
+      ],
+    },
+  ],
   sections: [
     {
       id: "what-is-presidential-cannabis",
