@@ -13,6 +13,16 @@ export const aboutPage: PageContent = {
     "Presidential publishes presidentialcannabis.net as its official plant-and-brand reference. The publication explains the living plant behind the catalog: how flower develops, what cultivation and harvest contribute, why genetics and batches differ, how drying and curing preserve character, and which practical signals help someone choose confidently at a licensed counter.",
     "Here, Presidential Cannabis identifies the brand and publisher, not a named strain. Cultivars with Presidential in their names are separate plant identities. This page is the durable company definition for the brand that ships product through licensed channels and the publisher that keeps plant literacy in one place adults can read before they shop.",
   ],
+  leadBlocks: [
+    {
+      id: "presidential-is-not-every-name",
+      heading: "Presidential in a name is not always the company",
+      paragraphs: [
+        "Presidential Cannabis on this page is the company founded in Los Angeles in 2012 by Everett Smith and John Zapp. A cultivar that uses Presidential in its name is a separate plant identity. Moon Rocks is the flagship format inside the brand: flower carried through with concentrate and finished with kief, not a second company. Silver, Gold, Rose Gold, and the signature Presidential lines organize the catalog. They do not rename the company, and they do not make this site a menu.",
+        "The lanes stay apart for the same reason. Company identity stays here. Plant, flower, genetics, and choosing stay the education. Catalog art, SKUs, and licensed doors stay on the main Presidential site. Infusion chemistry and blunt formats stay on their own guides. Inventory still varies by market and retailer, so packaging and batch details are checked at the licensed door. This page does not claim medical outcomes or a potency figure.",
+      ],
+    },
+  ],
   sections: [
     {
       id: "company-and-products",
