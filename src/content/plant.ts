@@ -234,7 +234,17 @@ export const plantArticles: PageContent[] = [
       "The word trichome covers several hair-like and glandular structures found on plants. Cannabis develops non-glandular hairs as well as resin-producing glands. For flower quality, the glandular types receive the closest attention because their resin connects the living surface to the aromatic and cannabinoid profile preserved after harvest.",
       "Presidential Cannabis publishes this trichomes guide as adult 21+ plant literacy: what glandular resin surfaces are on the living flower, how glandular and non-glandular structures differ in plain language, and how coverage and color talk stay descriptive rather than medical. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with anatomy, resin appearance, harvest observation, and careful post-harvest handling.",
     ],
-    leadBlocks: surferLeadBlocks["/plant/trichomes"],
+    leadBlocks: [
+      ...surferLeadBlocks["/plant/trichomes"],
+      {
+        id: "a-single-patch-cannot-close-the-reading",
+        heading: "A single patch cannot close the reading",
+        paragraphs: [
+          "Form comes before color. One frosted patch can mix bulbous, capitate-sessile, and capitate-stalked heads with non-glandular hairs, so calling the patch frost does not name the glands. Coverage still has to be read across bracts and sugar leaves, because canopy position, light, and plant health can make the same cut look denser in one place than another. The cultivar name describes genetics. It does not set that coverage.",
+          "Color is the next reading, and the jar is the last. Clear, cloudy, and amber describe a window across sites, together with pistils, swelling bracts, aroma, and plant health. A cloudy field is not a certificate from one cola, and a later cola can still differ. Temperature, light, time, and contact after harvest can change the heads a buyer sees. They do not rewrite the window the canopy showed, and they are not a lab printout or a medical claim.",
+        ],
+      },
+    ],
     sections: [
       {
         id: "location-and-form",
