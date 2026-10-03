@@ -14,6 +14,16 @@ export const hubPages: PageContent[] = [
       "Cannabis is an annual flowering plant, and its harvested flower carries the visible record of genetics, growth, maturity, and handling. Understanding the living plant makes every later quality signal easier to read. This section follows the biological structure from the whole plant to the resin gland, then through harvest, drying, and cure.",
       "Presidential Cannabis publishes this plant hub as adult 21+ botanical literacy for the living cannabis plant: annual cycle, resin glands, flower anatomy, harvest timing, drying, and cure. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with structure, maturity, and post-harvest care that shape finished flower.",
     ],
+    leadBlocks: [
+      {
+        id: "later-stage-does-not-rewrite",
+        heading: "A later stage does not rewrite the earlier one",
+        paragraphs: [
+          "A finished nose is the cure's record of a harvest that already happened, not a new cultivar. Drying and curing can preserve aroma or let it settle under cool, dark, steady conditions. They do not rebuild the flower the plant made, and they do not replace the harvest window that selected it. That window is a snapshot across many glands and flower sites: trichome clarity and color, pistils, structure, aroma, and the whole plant. Clear, cloudy, and amber name what that read shows. They do not promise one aromatic outcome for every plant cut on the same day, because genotype, canopy position, and plant condition move the timing.",
+          "Behind the cut, the plant is still the annual cycle. Roots, stems, leaves, and flowers do the biological work, inherited form sets a range, and the garden makes that range visible. Indica, sativa, and hybrid labels stay historical shorthand beside lineage and batch detail. Resin stays on the glandular surfaces the flower built, especially bracts and sugar leaves. None of those layers is a lab assay or a medical claim. At a licensed counter, harvest or package dates and the batch in hand remain the check.",
+        ],
+      },
+    ],
     sections: [
       {
         id: "plant-and-types",
