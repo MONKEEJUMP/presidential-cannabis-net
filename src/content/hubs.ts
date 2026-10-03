@@ -273,6 +273,16 @@ export const hubPages: PageContent[] = [
       "Cannabis genetics define a range of possible traits, while selection and cultivation shape the plant that expresses them. Breeding, phenotypes, lineage, names, and batch variation describe connected parts of that process. This section follows a cultivar from its parents through selection and into repeated commercial harvests.",
       "Presidential Cannabis publishes this genetics hub as publisher literacy for adults 21+: how strains are made, why siblings differ, how lineage and names relate, and why two batches of the same cultivar can still look and smell different. The brand name here is the company and publisher, not a single cultivar nickname. Product art and retailer paths stay on the official catalog; this page stays with inheritance, selection, and batch context.",
     ],
+    leadBlocks: [
+      {
+        id: "parents-then-cut-then-batch",
+        heading: "A later check does not repair an earlier mismatch",
+        paragraphs: [
+          "The checks on this hub are ordered, and a later one does not repair an earlier miss. Parent notation comes first. Shared words in two names do not mean shared parents, and a shortened or reused handle is not the documented family. If that record does not match the menu title, lineage has not been established. A pleasant aroma on the jar cannot supply the missing parents.",
+          "Cut and seed are the middle check, and they do not collapse into the batch. A preserved cut repeats one genotype, so later differences mostly track garden climate, harvest window, drying, cure, packaging, and storage. A seed line under the same name can still segregate into more than one phenotype. Only then does the jar speak: aroma, structure, and the harvest or package dates describe this batch. Lineage sets an expectation. It does not make two jars identical, and it is not a lab guarantee or a medical claim.",
+        ],
+      },
+    ],
     sections: [
       {
         id: "breeding-and-selection",
