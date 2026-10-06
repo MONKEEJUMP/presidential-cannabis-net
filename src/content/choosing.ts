@@ -121,7 +121,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Ask a dispensary budtender about the current cannabis batch on this dispensary visit: when it was harvested, how the cure feels, which aromas stand out, how the flower is structured, and which option best fits your occasion. These questions invite specific, observable answers. A good conversation connects the printed menu to the actual inventory on the shelf that day.",
       "Begin with one clear preference and one practical need. You might describe citrus or earthy aroma, a personal or shared session, raw flower or an infused format, a package size, or a freshness priority. Concrete preferences give the budtender a useful frame and make the comparison easier to follow.",
-      "Presidential Cannabis publishes this counter-questions guide as adult 21+ retail literacy: what to ask about cannabis products, flower freshness, harvest and package dates, cure, storage, format, potency, product types, and factual label details at a licensed dispensary. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with practical questions, observable answers, and licensed-counter decisions.",
+      "Presidential Cannabis publishes this counter-questions guide as adult 21+ retail literacy: what to ask about cannabis products, flower freshness, harvest and package dates, cure, storage, format, potency, product types, and factual label details at a licensed dispensary. The brand name here is the company and publisher. This page stays with practical questions, observable answers, and licensed-counter decisions.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/what-to-ask"],
     sections: [
@@ -359,7 +359,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Match cannabis format to the occasion by considering session length, sharing, preparation, portability, and package size before comparing cultivars or percentages. A short personal moment, a planned shared session, and a portable outing each create different practical needs. Choosing the fit first turns a broad menu into a focused list.",
       "Format is the physical form in which the product reaches you. Raw flower offers flexibility and keeps the cured flower at the center. Prepared formats organize a specific amount and composition for convenience. Minis create another package and session scale. The useful choice is the one that aligns with the people, place, time, and storage plan.",
-      "Presidential Cannabis publishes this matching-format guide as adult 21+ retail literacy: how session length, sharing, preparation, portability, and package size turn a broad menu into a focused list. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with occasion planning, format fit, and licensed-counter decisions.",
+      "Presidential Cannabis publishes this matching-format guide as adult 21+ retail literacy: how session length, sharing, preparation, portability, and package size turn a broad menu into a focused list. The brand name here is the company and publisher. This page stays with occasion planning, format fit, and licensed-counter decisions.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/matching-format-to-occasion"],
     sections: [
