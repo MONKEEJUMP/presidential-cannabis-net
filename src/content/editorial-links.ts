@@ -767,4 +767,31 @@ export const editorialLinks: EditorialLink[] = [
     "label": "this guide",
     "href": "/"
   },
+  {
+    "id": "IL-125",
+    "sourcePath": "/plant/harvest-timing",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "brand name here is the company and publisher",
+    "label": "brand",
+    "href": "/about"
+  },
+  {
+    "id": "IL-126",
+    "sourcePath": "/plant/drying-and-curing",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "brand name here is the company and publisher",
+    "label": "brand",
+    "href": "/about"
+  },
+  {
+    "id": "IL-127",
+    "sourcePath": "/choosing/what-to-ask",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "brand name here is the company and publisher",
+    "label": "brand",
+    "href": "/about"
+  },
 ];
