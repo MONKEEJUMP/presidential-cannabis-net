@@ -133,7 +133,6 @@ export const plantArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Find licensed stores with current Presidential selections" },
   },
   {
     path: "/plant/indica-sativa-hybrid",
@@ -219,7 +218,6 @@ export const plantArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Explore current Presidential cultivar families nearby" },
   },
   {
     path: "/plant/trichomes",
@@ -339,7 +337,6 @@ export const plantArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "View licensed retailers for trichome-rich Presidential products" },
   },
   {
     path: "/plant/cannabinoids-in-the-plant",
@@ -433,7 +430,6 @@ export const plantArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Find flower-founded Presidential formats at licensed retailers" },
   },
   {
     path: "/plant/the-flower-structure",
@@ -526,7 +522,6 @@ export const plantArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "See Presidential flower formats at a licensed store" },
   },
   {
     path: "/plant/harvest-timing",
@@ -606,7 +601,6 @@ export const plantArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Locate recent Presidential batches through licensed shops" },
   },
   {
     path: "/plant/drying-and-curing",
@@ -713,6 +707,5 @@ export const plantArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Discover carefully finished Presidential products near you" },
   },
 ];

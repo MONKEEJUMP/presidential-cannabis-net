@@ -81,15 +81,10 @@ assert(homepage?.intro[0] === "Presidential Cannabis is the official company and
 assert(homepage?.sections.some((section) => section.heading === "What is Presidential Cannabis?"), "Homepage needs the approved What is Presidential Cannabis? H2");
 assert(homepage?.sections.some((section) => section.heading === "The Presidential Product Line"), "Homepage needs the Presidential Product Line H2");
 assert(homepage?.faq?.length === 5, "Homepage must expose all five approved brand FAQs");
-for (const sectionId of ["the-catalog", "where-it-is-sold", "authenticity"]) {
-  const section = homepage?.sections.find((candidate) => candidate.id === sectionId);
-  assert(section?.links?.some((link) => link.href.startsWith("https://presidentialmoonrocks.com")), `Homepage ${sectionId} section needs a dofollow Presidential handoff`);
-}
 assert(aboutPage?.title === "About Presidential Cannabis | Brand & Publisher", "About title does not match the approved brand title");
 assert(aboutPage?.description === "About Presidential Cannabis: the Los Angeles brand behind Moon Rocks and the official publisher of this plant guide to flower, genetics, and choosing at licensed retailers.", "About meta description does not match the approved copy");
 assert(aboutPage?.h1 === "About Presidential Cannabis", "About H1 must identify the brand");
 assert(aboutPage?.relatedLinks?.length === 5, "About must link to the homepage and all four topic hubs");
-assert(aboutPage?.sections.some((section) => section.links?.some((link) => link.href === "https://presidentialmoonrocks.com/find-us")), "About needs a direct licensed-retailer handoff");
 assert(pages.filter((page) => !["/", "/about"].includes(page.path)).every((page) => !page.h1.includes("Presidential Cannabis")), "Interior topical H1s must not compete for the brand query");
 
 const requiredContextualLinks = [
@@ -130,8 +125,6 @@ for (const page of pages) {
   wordCounts[page.path] = count;
   assert(count >= page.wordTarget[0], `${page.path} has ${count} words; minimum is ${page.wordTarget[0]}`);
   assert(count <= page.wordTarget[1], `${page.path} has ${count} words; maximum is ${page.wordTarget[1]}`);
-  assert(Boolean(page.externalLink), `${page.path} needs one contextual external link`);
-  assert(page.externalLink.href.startsWith("https://presidentialmoonrocks.com"), `${page.path} has an invalid external domain`);
 
   const images = pageImages[page.path] ?? [];
   assert(images.length === page.sections.length + 1, `${page.path} image count must equal lead plus section count`);
@@ -159,8 +152,6 @@ for (const page of pages) {
   }
 }
 
-assert(new Set(pages.map((page) => page.externalLink.label)).size === pages.length, "Contextual outbound anchor text must vary on every page");
-
 const allImages = Object.entries(pageImages).flatMap(([pagePath, images]) => images.map((image) => ({ pagePath, ...image })));
 assert(Object.keys(pageImages).length === 30, `Expected image assignments for 30 pages, found ${Object.keys(pageImages).length}`);
 assert(allImages.length >= 100 && allImages.length <= 130, `Expected 100-130 images, found ${allImages.length}`);
@@ -180,9 +171,6 @@ for (const image of allImages) {
   assert(existsSync(filePath), `${image.src} is missing on disk`);
   if (existsSync(filePath)) totalImageBytes += statSync(filePath).size;
 }
-
-const linkedImages = allImages.filter((image) => image.productHref).length;
-const unlinkedImages = allImages.length - linkedImages;
 
 const sourceFiles = [
   "src/components/article-page.tsx",
@@ -225,8 +213,9 @@ for (const prohibited of [
 }
 
 assert(!sourceFiles.includes('rel="nofollow"'), "Official Presidential and locator links must remain dofollow");
-assert(sourceFiles.includes("https://presidentialthc.net/"), "Approved Presidential THC cross-link is missing");
-assert(sourceFiles.includes("https://presidentialblunts.net/"), "Approved Presidential Blunts cross-link is missing");
+assert(!sourceFiles.includes("https://presidentialthc.net/"), "Sister-site Presidential THC link must not be present");
+assert(!sourceFiles.includes("https://presidentialblunts.net/"), "Sister-site Presidential Blunts link must not be present");
+assert(!sourceFiles.includes("https://presidentialmoonrocks.com"), "Sister-site Presidential Moon Rocks link must not be present");
 const interiorHomeAnchors = pages
   .filter((page) => page.path !== "/")
   .map((page) => page.relatedLinks?.find((link) => link.href === "/")?.label ?? "");
@@ -267,11 +256,8 @@ const result = {
   wordCounts,
   images: allImages.length,
   repeatedImages: allImages.length - new Set(allImages.map((image) => image.src)).size,
-  linkedImages,
-  unlinkedImages,
   totalSourceImageMB: Number((totalImageBytes / 1024 / 1024).toFixed(2)),
   articlesWithBrandLedPillarAnchor: pages.filter((page) => page.kind === "article" && page.relatedLinks?.some((link) => link.href === "/" && link.label.includes("Presidential Cannabis"))).length,
-  contextualOutboundLinks: pages.filter((page) => page.externalLink).length,
   seoEntity: {
     homepageTitle: homepage?.title,
     homepageH1: homepage?.h1,

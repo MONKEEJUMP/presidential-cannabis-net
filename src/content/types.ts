@@ -63,7 +63,6 @@ export type PageContent = {
   childLinks?: PageLink[];
   relatedLinks?: PageLink[];
   faq?: FAQItem[];
-  externalLink: PageLink;
 };
 
 export type ContentImage = {
@@ -71,5 +70,4 @@ export type ContentImage = {
   width: number;
   height: number;
   alt: string;
-  productHref?: string;
 };

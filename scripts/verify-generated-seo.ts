@@ -119,10 +119,7 @@ assert(homeHtml.includes("Presidential Kush"), "Homepage disambiguation is missi
 assert((homeHtml.match(/<h2>What is Presidential Cannabis\?<\/h2>/g) ?? []).length === 1, "Homepage needs exactly one approved entity H2");
 assert(homeHtml.includes("<h2>The Presidential Product Line</h2>"), "Homepage product-line H2 is missing");
 assert(homeHtml.includes('href="/about"'), "Homepage official entity block is missing the About link");
-assert(homeHtml.includes('href="https://presidentialmoonrocks.com"'), "Homepage official entity block is missing the catalog link");
-assert(homeHtml.includes('href="https://presidentialmoonrocks.com/find-us"'), "Homepage official entity block is missing the locator link");
-assert(homeHtml.includes('href="https://presidentialthc.net/"'), "Homepage Presidential THC cross-link is missing");
-assert(homeHtml.includes('href="https://presidentialblunts.net/"'), "Homepage Presidential Blunts cross-link is missing");
+assert(!/href="https:\/\/(?:www\.)?presidential(?:moonrocks\.com|thc\.net|blunts\.net|thcoklahoma\.com)/.test(homeHtml), "Homepage must not link to sister Presidential domains");
 assert(homeTypes.has("Organization"), "Homepage initial HTML lacks Organization schema");
 assert(homeTypes.has("WebSite"), "Homepage initial HTML lacks WebSite schema");
 assert(homeTypes.has("WebPage"), "Homepage initial HTML lacks WebPage schema");

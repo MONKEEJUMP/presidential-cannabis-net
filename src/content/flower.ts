@@ -113,7 +113,6 @@ export const flowerArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Find current Presidential flower-based selections" },
   },
   {
     path: "/flower/appearance",
@@ -210,7 +209,6 @@ export const flowerArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "See Presidential packaging and products in licensed stores" },
   },
   {
     path: "/flower/aroma",
@@ -313,7 +311,6 @@ export const flowerArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Use the retailer locator to explore current aromas" },
   },
   {
     path: "/flower/density-and-structure",
@@ -416,7 +413,6 @@ export const flowerArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Compare current Presidential flower structures locally" },
   },
   {
     path: "/flower/moisture-and-cure",
@@ -501,7 +497,6 @@ export const flowerArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Ask licensed retailers about current Presidential cures" },
   },
   {
     path: "/flower/storing-flower",
@@ -580,7 +575,6 @@ export const flowerArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Purchase fresh Presidential selections through licensed retail" },
   }
 ];
 

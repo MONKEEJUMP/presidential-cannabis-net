@@ -6,14 +6,12 @@ import { editorialLinks } from "@/content/editorial-links";
 import { paragraphParts } from "@/lib/editorial-links";
 import {
   absoluteUrl,
-  BRAND_URL,
   DEFAULT_OG_IMAGE,
   escapeJsonLd,
   imageUrl,
   siloLabels,
   SITE_NAME,
   SITE_URL,
-  STORE_LOCATOR_URL,
 } from "@/lib/site";
 
 import { ContentFigure } from "./content-figure";
@@ -131,16 +129,6 @@ function ArticleSection({ section, image, pagePath }: { section: ContentSection;
   );
 }
 
-function BrandCallToAction() {
-  return (
-    <aside className="brand-cta" aria-labelledby="brand-cta-heading">
-      <h2 id="brand-cta-heading">Find Presidential Near You</h2>
-      <p>Explore the Presidential catalog and locate licensed retailers through the main Presidential site.</p>
-      <a className="brand-cta__button" href={STORE_LOCATOR_URL}>Find a licensed retailer</a>
-    </aside>
-  );
-}
-
 function OfficialBrandEntityBlock({ page }: { page: PageContent }) {
   if (page.kind !== "pillar") return null;
   return (
@@ -155,8 +143,6 @@ function OfficialBrandEntityBlock({ page }: { page: PageContent }) {
       </div>
       <nav className="official-entity__links" aria-label="Official Presidential destinations">
         <Link href="/about">About the brand and publisher</Link>
-        <a href={BRAND_URL}>Explore the official product catalog</a>
-        <a href={STORE_LOCATOR_URL}>Find licensed retailers</a>
       </nav>
     </aside>
   );
@@ -209,7 +195,6 @@ function LinkDirectory({ page }: { page: PageContent }) {
           </div>
         </section>
       ) : null}
-      <a className="editorial-link contextual-reference" href={page.externalLink.href}><span>{page.externalLink.label}</span></a>
     </aside>
   );
 }
@@ -368,7 +353,6 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
             {page.sections.map((section, index) => (
               <div key={section.id}>
                 <ArticleSection image={images[index + 1]} section={section} pagePath={page.path} />
-                {index === 0 ? <BrandCallToAction /> : null}
               </div>
             ))}
           </div>
