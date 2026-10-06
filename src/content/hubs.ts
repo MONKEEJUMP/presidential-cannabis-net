@@ -139,7 +139,6 @@ export const hubPages: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "See where current Presidential selections are available" },
   },
   {
     path: "/flower",
@@ -259,7 +258,6 @@ export const hubPages: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Browse licensed retailers carrying Presidential flower formats" },
   },
   {
     path: "/genetics",
@@ -393,7 +391,6 @@ export const hubPages: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Find current Presidential genetics in licensed stores" },
   },
   {
     path: "/choosing",
@@ -510,12 +507,7 @@ export const hubPages: PageContent[] = [
             after: " when lineage and phenotype context follow the occasion match.",
           },
         ],
-        links: [
-          { href: "https://presidentialblunts.net/", label: "Explore Presidential blunt formats in depth" },
-          { href: "https://presidentialthc.net/", label: "Learn about Presidential infusion chemistry" },
-        ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Plan a visit with the Presidential retailer locator" },
   },
 ];

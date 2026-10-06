@@ -94,11 +94,6 @@ export const pillarPage: PageContent = {
         "The official catalog and package identify the exact product, collection, format, and visible composition language. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize distinct collections, with flavors identified on the current catalog and package. Potency and other test values are batch-specific rather than fixed across an entire series.",
         "Series names organize browsing; they do not freeze every SKU. When a package or menu line updates, treat the current catalog and the unit in hand as the source of truth so format lanes can change without rewriting company identity.",
       ],
-      links: [
-        { href: "https://presidentialmoonrocks.com/moon-rocks", label: "Explore the official Presidential product catalog" },
-        { href: "https://presidentialthc.net/", label: "Read the Presidential THC chemistry guide" },
-        { href: "https://presidentialblunts.net/", label: "Explore the Presidential Blunts guide" },
-      ],
     },
     {
       id: "where-it-is-sold",
@@ -107,7 +102,6 @@ export const pillarPage: PageContent = {
         "Presidential operates through licensed cannabis retailers rather than direct online cannabis sales. Participating locations and product availability can change by location, retailer, and date.",
         "Each licensed market reflects the product timing and local rules of the states in the current footprint. Across the multi-state market, the locator points to licensed retailers in active states, with availability confirmed within each local market. Retail availability across these states connects the brand's wholesale work to the infused product market, while other states enter the footprint only after licensed retailer availability is confirmed.",
       ],
-      links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Use the official Presidential store locator" }],
     },
     {
       id: "authenticity",
@@ -116,7 +110,6 @@ export const pillarPage: PageContent = {
         "Authenticity begins with the licensed-retail path and consistent package identity across every format, including pre rolls. Check the Presidential name and crest, product and format label, required package information, and batch details.",
         "Buy through licensed retailers, then match the unit in hand to the official catalog language for that format. Packaging, required disclosures, and batch identifiers are the practical checks; informal marketplace listings and look-alike names are not substitutes for the licensed path.",
       ],
-      links: [{ href: "https://presidentialmoonrocks.com/find-us", label: "Follow the licensed-retail path" }],
     },
     {
       id: "official-reference",
@@ -131,7 +124,6 @@ export const pillarPage: PageContent = {
       ],
       links: [
         { href: "/about", label: "About Presidential Cannabis" },
-        { href: "https://presidentialmoonrocks.com", label: "Visit the official Presidential home" },
       ],
     },
   ],
@@ -169,8 +161,4 @@ export const pillarPage: PageContent = {
       answer: "No. Presidential Cannabis is the brand and is not an individual cannabis strain. Presidential Kush is a cultivar name and remains separate from the company identity.",
     },
   ],
-  externalLink: {
-    href: "https://presidentialmoonrocks.com/find-us",
-    label: "Locate Presidential through licensed retailers",
-  },
 };

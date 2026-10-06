@@ -105,7 +105,6 @@ export const geneticsArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Explore bred Presidential selections at licensed retailers" },
   },
   {
     path: "/genetics/phenotypes",
@@ -205,7 +204,6 @@ export const geneticsArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Find selected Presidential phenotypes in current inventory" },
   },
   {
     path: "/genetics/lineage",
@@ -292,7 +290,6 @@ export const geneticsArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Trace current Presidential lineages through licensed menus" },
   },
   {
     path: "/genetics/strain-naming",
@@ -394,7 +391,6 @@ export const geneticsArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Browse named Presidential selections at licensed shops" },
   },
   {
     path: "/genetics/landrace-and-modern",
@@ -474,7 +470,6 @@ export const geneticsArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Find modern Presidential cultivars in active markets" },
   },
   {
     path: "/genetics/why-two-batches-differ",
@@ -618,6 +613,5 @@ export const geneticsArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Compare available Presidential batches nearby" },
   },
 ];

@@ -34,12 +34,6 @@ export const aboutPage: PageContent = {
         "Formats in the catalog answer a different question than this page does. Infused flower, pre-rolls, blunts, and minis carry live SKUs, artwork, and inventory that change by market. This guide keeps the company definition and plant vocabulary stable so adults can read those lanes without confusing a brand name for a cultivar or treating educational copy as a current menu.",
         "Company literacy also means knowing where depth lives next. Catalog art, SKUs, and retailer doors stay on presidentialmoonrocks.com; infusion chemistry on presidentialthc.net; blunt format detail on presidentialblunts.net. This page stays with identity, wholesale path, and publisher scope so format lanes need not redefine the brand when packaging updates.",
       ],
-      links: [
-        { href: "https://presidentialmoonrocks.com", label: "Browse the official product catalog" },
-        { href: "https://presidentialmoonrocks.com/find-us", label: "Find licensed retailers" },
-        { href: "https://presidentialthc.net/", label: "Learn about Presidential infusion chemistry" },
-        { href: "https://presidentialblunts.net/", label: "Explore Presidential blunt formats in depth" },
-      ],
     },
     {
       id: "la-wholesale-legacy",
@@ -148,8 +142,4 @@ export const aboutPage: PageContent = {
       description: "Bring plant knowledge to a licensed retail counter.",
     },
   ],
-  externalLink: {
-    href: "https://presidentialmoonrocks.com/find-us",
-    label: "Use the official Presidential store locator",
-  },
 };

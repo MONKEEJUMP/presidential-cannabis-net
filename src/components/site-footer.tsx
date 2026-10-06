@@ -7,10 +7,6 @@ export function SiteFooter() {
         <div>
           <p className="eyebrow">Presidential Cannabis</p>
           <p className="site-footer__statement">The official Presidential Cannabis plant guide to flower, genetics, cultivation, and choosing well.</p>
-          <div className="site-footer__official-links">
-            <a href="https://presidentialmoonrocks.com">Official product catalog</a>
-            <a href="https://presidentialmoonrocks.com/find-us">Find licensed retailers</a>
-          </div>
         </div>
         <nav className="footer-nav" aria-label="Footer navigation">
           <Link href="/plant">The plant</Link>

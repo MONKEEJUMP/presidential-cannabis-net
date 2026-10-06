@@ -109,7 +109,6 @@ export const choosingArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Open retailer menus through the Presidential locator" },
   },
   {
     path: "/choosing/what-to-ask",
@@ -189,7 +188,6 @@ export const choosingArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Choose a licensed counter with the store finder" },
   },
   {
     path: "/choosing/first-time",
@@ -271,7 +269,6 @@ export const choosingArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/find-us", label: "Plan your first licensed visit with Presidential" },
   },  {
     path: "/choosing/flower-vs-infused",
     kind: "article",
@@ -350,7 +347,6 @@ export const choosingArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/moon-rocks/presidential-prerolls", label: "Explore the Presidential prepared flower collection" },
   },
   {
     path: "/choosing/matching-format-to-occasion",
@@ -430,6 +426,5 @@ export const choosingArticles: PageContent[] = [
         ],
       },
     ],
-    externalLink: { href: "https://presidentialmoonrocks.com/moon-rocks/presidential-blunts", label: "See Presidential formats sized for different occasions" },
   },
 ];
