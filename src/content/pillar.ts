@@ -79,7 +79,7 @@ export const pillarPage: PageContent = {
       paragraphs: [
         "Choosing begins with format and current product information. Compare flower with infused formats—pre rolls, Moon Rocks, blunts, and minis—then read the menu and package for the specific product and batch available that day.",
         "A clear choosing habit stays observational: name the format you want, ask what is in stock today, read the label for producer, dates, and batch identifiers, and compare aroma or appearance only where the retailer allows. That routine connects the plant and flower guides to a real counter without inventing effects or dosing advice.",
-        "When format choice follows brand identity, flower-versus-infused literacy explains prep and sharing differences. Keep that comparison educational; confirm current SKUs, dates, and packaging at a licensed retailer or on the official catalog.",
+        "When format choice follows brand identity, flower-versus-infused literacy explains prep and sharing differences. Keep that comparison educational; confirm current SKUs, dates, and packaging at a licensed retailer.",
       ],
       contextualLinks: [
         { before: "Use ", href: "/choosing", label: "Choosing", after: " when format comparison and licensed-counter questions need a full walkthrough." },

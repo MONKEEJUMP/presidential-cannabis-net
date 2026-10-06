@@ -12,7 +12,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1100, 1250],
     intro: [
       "Cannabis is an annual flowering plant, and its harvested flower carries the visible record of genetics, growth, maturity, and handling. Understanding the living plant makes every later quality signal easier to read. This section follows the biological structure from the whole plant to the resin gland, then through harvest, drying, and cure.",
-      "Presidential Cannabis publishes this plant hub as adult 21+ botanical literacy for the living cannabis plant: annual cycle, resin glands, flower anatomy, harvest timing, drying, and cure. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with structure, maturity, and post-harvest care that shape finished flower.",
+      "Presidential Cannabis publishes this plant hub as adult 21+ botanical literacy for the living cannabis plant: annual cycle, resin glands, flower anatomy, harvest timing, drying, and cure. The brand name here is the company and publisher. This page stays with structure, maturity, and post-harvest care that shape finished flower.",
     ],
     leadBlocks: [
       {
@@ -150,7 +150,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1250, 1350],
     intro: [
       "The Presidential flower guide brings appearance, aroma, structure, moisture, cure, and trichome condition into one coherent view of cannabis flower. Each quality can be observed on its own, and the complete assessment comes from reading them together. This section builds that assessment from the first look and first aroma through storage at home.",
-      "Presidential Cannabis publishes this flower hub as adult 21+ quality literacy for finished cannabis flower: how to read sight, aroma, density, cure, and storage without turning any single cue into a medical claim. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with observation, handling, and batch context at licensed retail.",
+      "Presidential Cannabis publishes this flower hub as adult 21+ quality literacy for finished cannabis flower: how to read sight, aroma, density, cure, and storage without turning any single cue into a medical claim. The brand name here is the company and publisher. This page stays with observation, handling, and batch context at licensed retail.",
       "Treat this hub as a map of finished flower rather than a product catalog. Child guides deepen each sense; keep every observation tied to the jar in hand and its package dates.",
     ],
     sections: [
@@ -269,7 +269,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1100, 1250],
     intro: [
       "Cannabis genetics define a range of possible traits, while selection and cultivation shape the plant that expresses them. Breeding, phenotypes, lineage, names, and batch variation describe connected parts of that process. This section follows a cultivar from its parents through selection and into repeated commercial harvests.",
-      "Presidential Cannabis publishes this genetics hub as publisher literacy for adults 21+: how strains are made, why siblings differ, how lineage and names relate, and why two batches of the same cultivar can still look and smell different. The brand name here is the company and publisher, not a single cultivar nickname. Product art and retailer paths stay on the official catalog; this page stays with inheritance, selection, and batch context.",
+      "Presidential Cannabis publishes this genetics hub as publisher literacy for adults 21+: how strains are made, why siblings differ, how lineage and names relate, and why two batches of the same cultivar can still look and smell different. The brand name here is the company and publisher, not a single cultivar nickname. This page stays with inheritance, selection, and batch context.",
     ],
     leadBlocks: [
       {
@@ -402,7 +402,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1250, 1350],
     intro: [
       "This choosing hub is published by Presidential Cannabis for licensed dispensary visits. Choosing cannabis at a dispensary becomes straightforward when the decision follows a useful order: occasion, format, freshness, aromatic profile, cannabinoids and terpenes on the label, batch information, and conversation. A menu supplies one part of the picture, and a knowledgeable budtender — dispensary staff who know the current inventory — supplies the current store context. This section turns both into a calm, repeatable process.",
-      "Presidential Cannabis publishes this choosing hub as adult 21+ retail literacy for licensed dispensary visits: how to read a menu, ask useful questions, pace a first visit, compare cannabis flower with infused formats and other consumption methods, and match a purchase to the occasion. The brand name here is the company and publisher. Product art and retailer paths stay on the official catalog; this page stays with decision order, batch context, and counter conversation.",
+      "Presidential Cannabis publishes this choosing hub as adult 21+ retail literacy for licensed dispensary visits: how to read a menu, ask useful questions, pace a first visit, compare cannabis flower with infused formats and other consumption methods, and match a purchase to the occasion. The brand name here is the company and publisher. This page stays with decision order, batch context, and counter conversation.",
     ],
     leadBlocks: surferLeadBlocks["/choosing"],
     sections: [
@@ -485,7 +485,7 @@ export const hubPages: PageContent[] = [
           "The five guides finish with a compact method: name the occasion, choose the format, read the current batch, ask one or two specific questions, and confirm the practical details. This method works for a first visit and remains useful for an experienced buyer because it stays grounded in the actual inventory and moment.",
           "Format literacy keeps composition and occasion in the same frame. Raw flower and infused flower answer different preparation and sharing needs; neither is a universal default. Occasion literacy then asks how long the session lasts, who is sharing, how much preparation you want, and how portable the package must be. Genetics and About sit beside this silo when you need inheritance language or publisher context after the purchase plan is clear. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
           "Use this hub as the map, then move into the child guides for depth. Menu reading and counter questions handle the visit mechanics; first-time pacing lowers friction; flower-versus-infused and occasion matching place the purchase inside a real plan. That loop stays useful for a newcomer and for an experienced buyer because it always returns to the inventory and moment in front of you.",
-          "Format depth outside this silo lives on the official portfolio sites. presidentialblunts.net covers wrap and ritual literacy for blunt formats; presidentialthc.net covers infusion chemistry and concentrate language. Keep those lanes for format and chemistry detail; keep this choosing hub for visit order, menu reading, and occasion matching at licensed retail.",
+          "Presidential Blunts covers wrap and ritual literacy for blunt formats; Presidential THC covers infusion chemistry and concentrate language. Keep those lanes for format and chemistry detail; keep this choosing hub for visit order, menu reading, and occasion matching at licensed retail.",
         ],
         contextualLinks: [
           {

@@ -125,7 +125,7 @@ export const flowerArticles: PageContent[] = [
     intro: [
       "Well-grown cannabis flower shows developed structure, lively color, visible trichomes, mature pistils, and a trim that reveals the flower's natural form. Sight supplies a fast first assessment of cultivation and handling. The most useful visual reading considers the whole piece and lets cultivar differences remain part of the picture.",
       "Appearance offers evidence rather than a beauty contest. Compact and airy flowers can each represent strong genetics and careful growth. Green and purple palettes can each carry complete maturity. The goal is to see whether the bracts developed fully, the surface remained intact, the color feels fresh, and the finished shape presents the flower clearly.",
-      "Presidential Cannabis publishes this appearance guide as adult 21+ flower literacy: how color, structure, trichome frost, and trim read on a licensed shelf, why two jars that share a strain name can still look different, and how labels and batch notes sit beside what the eye sees. Product catalogs and retailer paths stay on the official storefronts; this page stays with visual observation, agricultural context, and practical counter questions—never medical claims.",
+      "Presidential Cannabis publishes this appearance guide as adult 21+ flower literacy: how color, structure, trichome frost, and trim read on a licensed shelf, why two jars that share a strain name can still look different, and how labels and batch notes sit beside what the eye sees. This page stays with visual observation, agricultural context, and practical counter questions—never medical claims.",
     ],
     sections: [
       {
