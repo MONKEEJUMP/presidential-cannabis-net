@@ -668,4 +668,85 @@ export const editorialLinks: EditorialLink[] = [
     "label": "Presidential Cannabis",
     "href": "https://presidentialcannabis.net/"
   },
+  {
+    "id": "IL-114",
+    "sourcePath": "/",
+    "sectionId": "the-plant",
+    "paragraphIndex": 0,
+    "match": "trichomes, flower structure",
+    "label": "trichomes",
+    "href": "/plant/trichomes"
+  },
+  {
+    "id": "IL-115",
+    "sourcePath": "/",
+    "sectionId": "the-plant",
+    "paragraphIndex": 0,
+    "match": "harvest timing",
+    "label": "harvest timing",
+    "href": "/plant/harvest-timing"
+  },
+  {
+    "id": "IL-116",
+    "sourcePath": "/",
+    "sectionId": "the-plant",
+    "paragraphIndex": 0,
+    "match": "drying, and curing",
+    "label": "drying, and curing",
+    "href": "/plant/drying-and-curing"
+  },
+  {
+    "id": "IL-117",
+    "sourcePath": "/",
+    "sectionId": "choosing",
+    "paragraphIndex": 0,
+    "match": "read the menu",
+    "label": "read the menu",
+    "href": "/choosing/reading-a-menu"
+  },
+  {
+    "id": "IL-118",
+    "sourcePath": "/",
+    "sectionId": "choosing",
+    "paragraphIndex": 1,
+    "match": "ask what is in stock today",
+    "label": "ask what is in stock today",
+    "href": "/choosing/what-to-ask"
+  },
+  {
+    "id": "IL-119",
+    "sourcePath": "/",
+    "sectionId": "official-reference",
+    "paragraphIndex": 0,
+    "match": "The Cannabis Plant",
+    "label": "The Cannabis Plant",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-120",
+    "sourcePath": "/",
+    "sectionId": "official-reference",
+    "paragraphIndex": 0,
+    "match": "The Flower",
+    "label": "The Flower",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-121",
+    "sourcePath": "/",
+    "sectionId": "official-reference",
+    "paragraphIndex": 0,
+    "match": "Genetics",
+    "label": "Genetics",
+    "href": "/genetics"
+  },
+  {
+    "id": "IL-122",
+    "sourcePath": "/",
+    "sectionId": "official-reference",
+    "paragraphIndex": 0,
+    "match": "Choosing",
+    "label": "Choosing",
+    "href": "/choosing"
+  },
 ];

@@ -32,7 +32,7 @@ export const pillarPage: PageContent = {
         "Founded in Los Angeles in 2012, the company established a California legacy through wholesale relationships in the cannabis industry. That legacy continues through licensed-retailer partnerships in a regulated industry. Its California history places the company within the cannabis industry and the broader infused product market.",
         "People sometimes search for “Presidential weed” when they mean the brand. That phrase is informal search shorthand for Presidential Cannabis products—not the name of a separate strain or product.",
         "Reading the brand this way keeps company identity, cultivar names, and product formats in separate columns. Presidential Cannabis is the publisher and product company; Presidential Kush remains a cultivar label; Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis are formats you confirm on the current catalog and package. When a search phrase collapses those ideas, return to the licensed label and this guide rather than treating informal shorthand as a strain or product name.",
-        "A useful reading order starts here for brand identity, then The Plant or The Flower, Genetics for batch variation, and Choosing for the licensed counter. Catalog and locator stay on presidentialmoonrocks.com; chemistry on presidentialthc.net; blunt formats on presidentialblunts.net—so this hub stays stable when packaging updates.",
+        "A useful reading order starts here for brand identity, then The Plant or The Flower, Genetics for batch variation, and Choosing for the licensed counter.",
       ],
     },
     {
@@ -113,11 +113,9 @@ export const pillarPage: PageContent = {
     },
     {
       id: "official-reference",
-      heading: "One Brand, Distinct Official Guides",
+      heading: "How this guide is organized",
       paragraphs: [
-        "This site owns the company, plant, flower, genetics, and choosing context. The main Presidential site owns the canonical catalog and locator, while the dedicated THC and Blunts guides carry deeper chemistry and format explanations.",
-        "Use this hub to orient, then move into the topic guides for depth. The about page records company context; the plant, flower, genetics, and choosing hubs carry the educational silos. Catalog detail and store location stay on the main Presidential site so availability stays current.",
-        "Publisher literacy means reading those lanes in order: company and plant education on presidentialcannabis.net; product depth on the catalog and format sites. Keeping lanes separate stops brand names from being mistaken for strain names.",
+        "This site covers the company, plant, flower, genetics, and choosing context. Use this hub to orient, then move into The Cannabis Plant, The Flower, Genetics, or Choosing for depth.",
       ],
       contextualLinks: [
         { before: "Read ", href: "/about", label: "About Presidential Cannabis", after: " for company context beside this brand hub." },
