@@ -3,6 +3,7 @@ import type { Graph, Thing } from "schema-dts";
 
 import type { ContentImage, ContentSection, PageContent } from "@/content/types";
 import { editorialLinks } from "@/content/editorial-links";
+import { pageEntities } from "@/content/entity-schema";
 import { paragraphParts } from "@/lib/editorial-links";
 import {
   absoluteUrl,
@@ -224,6 +225,8 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
     publisher: { "@id": organizationId },
     primaryImageOfPage: images[0] ? { "@id": `${imageUrl(images[0])}#image` } : undefined,
     ...(page.kind === "pillar" || page.kind === "about" ? { about: { "@id": organizationId } } : {}),
+    ...(pageEntities[page.path]?.about?.length ? { about: pageEntities[page.path].about } : {}),
+    ...(pageEntities[page.path]?.mentions?.length ? { mentions: pageEntities[page.path].mentions } : {}),
   };
   graph.unshift(webpage);
 

@@ -749,4 +749,13 @@ export const editorialLinks: EditorialLink[] = [
     "label": "Choosing",
     "href": "/choosing"
   },
+  {
+    "id": "IL-123",
+    "sourcePath": "/",
+    "sectionId": "genetics",
+    "paragraphIndex": 1,
+    "match": "selection, phenotype, garden method",
+    "label": "phenotype",
+    "href": "/genetics/phenotypes"
+  },
 ];
