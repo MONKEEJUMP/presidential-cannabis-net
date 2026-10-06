@@ -758,4 +758,13 @@ export const editorialLinks: EditorialLink[] = [
     "label": "phenotype",
     "href": "/genetics/phenotypes"
   },
+  {
+    "id": "IL-124",
+    "sourcePath": "/about",
+    "sectionId": "what-strain-is-presidential",
+    "paragraphIndex": 1,
+    "match": "this guide keeps",
+    "label": "this guide",
+    "href": "/"
+  },
 ];

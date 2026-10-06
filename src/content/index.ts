@@ -7,6 +7,7 @@ import { pillarPage } from "./pillar";
 import { plantArticles } from "./plant";
 import { contentExpansions } from "./expansions";
 import { finalCoverageExpansions } from "./expansions-final";
+import { questionBlocks } from "./question-blocks";
 
 import type { PageContent, PageLink, Silo } from "./types";
 
@@ -30,7 +31,11 @@ const basePages: PageContent[] = [
   aboutPage,
 ];
 
-const rawPages: PageContent[] = basePages.map((page) => {
+const rawPages: PageContent[] = basePages.map((basePage) => {
+  const addedBlocks = questionBlocks[basePage.path] ?? [];
+  const page: PageContent = addedBlocks.length
+    ? { ...basePage, leadBlocks: [...(basePage.leadBlocks ?? []), ...addedBlocks] }
+    : basePage;
   const pageExpansions = page.path === "/"
     ? []
     : [
