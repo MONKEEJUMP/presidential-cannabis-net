@@ -45,14 +45,15 @@ test("overlapping anchors and ambiguous labels fail closed", () => {
 });
 
 test("all reviewed placements resolve exactly once to registered pages", () => {
-  assert.equal(editorialLinks.length, 83);
-  assert.equal(new Set(editorialLinks.map(selection => selection.id)).size, 83);
+  assert.equal(editorialLinks.length, 84);
+  assert.equal(new Set(editorialLinks.map(selection => selection.id)).size, 84);
   for (const selection of editorialLinks) {
     const page = pages.find(candidate => candidate.path === selection.sourcePath);
     assert.ok(page, `Missing source: ${selection.id}`);
     assert.ok(selection.href === "https://presidentialcannabis.net/" || pages.some(candidate => candidate.path === selection.href), `Missing target: ${selection.id}`);
     assert.notEqual(selection.sourcePath, selection.href);
-    const paragraphs = selection.sectionId === null ? page.intro : page.sections.find(section => section.id === selection.sectionId)?.paragraphs;
+    const leadParagraphs = page.leadBlocks?.flatMap(block => [block, ...(block.subsections ?? [])]).find(block => block.id === selection.sectionId)?.paragraphs;
+    const paragraphs = selection.sectionId === null ? page.intro : page.sections.find(section => section.id === selection.sectionId)?.paragraphs ?? leadParagraphs;
     const paragraph = paragraphs?.[selection.paragraphIndex];
     assert.ok(typeof paragraph === "string", `Missing paragraph: ${selection.id}`);
     const parts = paragraphParts(paragraph, [selection]);
