@@ -138,7 +138,7 @@ function OfficialBrandEntityBlock({ page }: { page: PageContent }) {
         <h2 id="official-entity-heading">The brand, the guide, and the licensed retail path</h2>
         <p>
           Presidential is the Los Angeles company and publisher. This site holds its company definition and plant education;
-          the main Presidential site holds the current product catalog and licensed-retailer locator.
+          current product and availability details stay with the package and the licensed retailer.
         </p>
       </div>
       <nav className="official-entity__links" aria-label="Official Presidential destinations">
@@ -232,7 +232,7 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
       "@type": "Organization",
       "@id": organizationId,
       name: SITE_NAME,
-      alternateName: ["Presidential", "Presidential THC"],
+      alternateName: ["Presidential"],
       foundingDate: "2012",
       foundingLocation: { "@type": "Place", name: "Los Angeles, California" },
       founder: [
