@@ -6,7 +6,7 @@ export const pillarPage: PageContent = {
   h1: "Presidential Cannabis: The Official Brand Guide",
   title: "Presidential Cannabis | The Official Brand Guide",
   description:
-    "Presidential Cannabis is the official brand behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Explore the plant, products, and licensed-retailer path.",
+    "Presidential Cannabis is the official brand behind Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Explore the plant, products, and retail.",
   wordTarget: [1250, 1350],
   intro: [
     "Presidential Cannabis is the official company and plant guide behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. This publication explains the brand, cannabis flower, genetics, product formats, and how adults 21+ can find current availability through licensed retailers where legal.",
