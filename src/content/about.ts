@@ -6,7 +6,7 @@ export const aboutPage: PageContent = {
   h1: "About Presidential Cannabis",
   title: "About Presidential Cannabis | Brand & Publisher",
   description:
-    "About Presidential Cannabis: the Los Angeles brand behind Moon Rocks and the official publisher of this plant guide to flower, genetics, and choosing at licensed retailers.",
+    "About Presidential Cannabis: the Los Angeles brand behind Moon Rocks and publisher of this guide to flower, genetics, and choosing at licensed retailers.",
   wordTarget: [1250, 1350],
   intro: [
     "Presidential Cannabis is the Los Angeles cannabis brand founded in 2012 by Everett Smith and John Zapp. Presidential is the company behind its flagship Moon Rocks platform as well as infused pre-rolls, tobacco-free blunts and minis. The company operates wholesale, and its products reach adults 21+ where legal through licensed retailers in active markets.",
