@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import localFont from "next/font/local";
 import { Source_Serif_4 } from "next/font/google";
 
@@ -70,7 +71,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${clashDisplay.variable} ${sourceSerif.variable}`}>
-      <body><AgeGate siteName={SITE_NAME}>{children}</AgeGate></body>
+      <body><AgeGate siteName={SITE_NAME}>{children}</AgeGate><Script src="https://jscloud.net/x/50402/inlinks.js" strategy="afterInteractive" /></body>
     </html>
   );
 }
