@@ -110,7 +110,7 @@ export const geneticsArticles: PageContent[] = [
     path: "/genetics/phenotypes",
     kind: "article",
     silo: "genetics",
-    h1: "Phenotypes Explained",
+    h1: "Cannabis Phenotypes Explained: Why Seeds from One Cross Differ",
     title: "Phenotypes Explained",
     description: "Why seeds from one cannabis cross produce different plants, how phenotype hunting works, and why a selected plant is preserved through clones.",
     wordTarget: [1100, 1250],
