@@ -90,7 +90,7 @@ export const pillarPage: PageContent = {
       id: "the-catalog",
       heading: "The Presidential Product Line",
       paragraphs: [
-        "Presidential Moon Rocks combine flower, concentrate, and kief in the layered format. Infused pre-rolls use paper; menus distinguish rolls by paper or tobacco-free hemp wrap, with pre rolls beside Presidential Blunts and minis.",
+        "Presidential Moon Rocks combine flower, concentrate, and kief in the layered format. Infused pre-rolls use paper; menus distinguish rolls by paper or tobacco-free hemp wrap, with pre rolls beside Presidential Blunts and minis. The four formats are Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis.",
         "The official catalog and package identify the exact product, collection, format, and visible composition language. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize distinct collections, with flavors identified on the current catalog and package. Potency and other test values are batch-specific rather than fixed across an entire series.",
         "Series names organize browsing; they do not freeze every SKU. When a package or menu line updates, treat the current catalog and the unit in hand as the source of truth so format lanes can change without rewriting company identity.",
       ],
@@ -157,6 +157,14 @@ export const pillarPage: PageContent = {
     {
       question: "Is Presidential Cannabis the same as Presidential Kush?",
       answer: "No. Presidential Cannabis is the brand and is not an individual cannabis strain. Presidential Kush is a cultivar name and remains separate from the company identity.",
+    },
+    {
+      question: "What strain is Presidential?",
+      answer: "None. Presidential Cannabis names the company, not a strain and not a generic product. A strain or cultivar name on a package identifies the plant genetics and stays separate from the company identity.",
+    },
+    {
+      question: "What are Presidential blunts wrapped in?",
+      answer: "A tobacco-free hemp wrap. Presidential blunts are tobacco-free, and menus distinguish rolls by paper or tobacco-free hemp wrap.",
     },
   ],
 };
