@@ -503,3 +503,14 @@ th { color: var(--teal); font-size: 0.8rem; letter-spacing: 0.08em; text-transfo
   .header-official-link__label--full { display: inline; }
   .header-official-link__label--short { display: none; }
 }
+
+/* SEO audit 1015: keep media inside the mobile viewport. */
+img,
+video,
+svg {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}

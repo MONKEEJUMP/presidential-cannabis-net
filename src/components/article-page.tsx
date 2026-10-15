@@ -291,6 +291,8 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
       description: page.description,
       mainEntityOfPage: { "@id": webpageId },
       image: images.map((image) => imageUrl(image)),
+      author: { "@type": "Organization", "@id": organizationId, name: SITE_NAME },
+      datePublished: "2026-08-06",
       publisher: { "@id": organizationId },
     });
   }

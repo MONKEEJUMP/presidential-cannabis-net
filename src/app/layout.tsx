@@ -41,6 +41,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  icons: { icon: [{ url: "/images/presidential-crest.webp", type: "image/webp" }] },
   applicationName: SITE_NAME,
   title: {
     default: SITE_NAME,
