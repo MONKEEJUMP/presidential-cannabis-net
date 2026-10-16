@@ -192,6 +192,12 @@ export const plantArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
+            before: "Map the parts of a bud in ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: " before comparing label groupings.",
+          },
+          {
             before: "See how crosses are built in ",
             href: "/genetics/how-strains-are-made",
             label: "how strains are made",
@@ -458,6 +464,24 @@ export const plantArticles: PageContent[] = [
           "Harvest timing reads the same parts in motion. Bract swell, pistil color and posture, and trichome clarity or amber tones describe maturity on the living plant. Those cues name development on this cultivar, not a universal calendar or a medical promise.",
         ],
         contextualLinks: [
+          {
+            before: "Read the jar’s ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " alongside the structure you can see.",
+          },
+          {
+            before: "See ",
+            href: "/genetics/why-two-batches-differ",
+            label: "why batches differ",
+            after: " when the same structure shows up differently in two jars.",
+          },
+          {
+            before: "Compare plants of one name through ",
+            href: "/genetics/phenotypes",
+            label: "phenotype",
+            after: " when bract shape and structure vary.",
+          },
           {
             before: "The full ",
             href: "/plant/what-cannabis-is",
