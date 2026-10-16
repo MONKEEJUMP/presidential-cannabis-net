@@ -93,6 +93,11 @@ function LeadBlocks({ page }: { page: PageContent }) {
           {subsection.paragraphs.map((paragraph, index) => (
             <EditorialParagraph key={`${subsection.id}-paragraph-${index}`} text={paragraph} pagePath={page.path} sectionId={subsection.id} paragraphIndex={index} />
           ))}
+          {subsection.contextualLinks?.map((link, index) => (
+            <p key={`${subsection.id}-contextual-link-${index}`}>
+              {link.before}<Link href={link.href}>{link.label}</Link>{link.after}
+            </p>
+          ))}
         </div>
       ))}
     </div>

@@ -365,7 +365,7 @@ export const choosingArticles: PageContent[] = [
     sections: [
       {
         id: "time-and-sharing",
-        heading: "Begin with Time and Group Size",
+        heading: "Begin with Time and Group Size When Choosing Cannabis Products",
         paragraphs: [
           "Estimate the time available and the number of adults participating. A brief personal session calls for a compact amount and simple setup. A longer or shared occasion can support a larger format or multiple smaller pieces that let the group pace the moment. Package count and unit size make these comparisons visible on the menu.",
           "Sharing also changes the value of preparation. Raw flower gives the group flexibility in how much to prepare. A ready format reduces setup and creates a clearly defined unit. Minis offer smaller units that can suit shorter occasions or individual portions within a group plan.",

@@ -40,6 +40,7 @@ export type LeadSubsection = {
   id: string;
   heading: string;
   paragraphs: string[];
+  contextualLinks?: ContextualLink[];
 };
 
 export type LeadBlock = {
