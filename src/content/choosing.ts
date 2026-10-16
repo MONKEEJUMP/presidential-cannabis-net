@@ -168,6 +168,12 @@ export const choosingArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
+            before: "Carry those answers into ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "matching format to occasion",
+            after: " when the setting shapes the choice.",
+          },
+          {
             before: "Walk a calm first visit in ",
             href: "/choosing/first-time",
             label: "first time",

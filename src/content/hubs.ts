@@ -34,7 +34,14 @@ export const hubPages: PageContent[] = [
           "Publisher plant literacy starts there. The annual cycle sets the timeline; inherited form sets a range; the garden supplies the conditions that make that range visible. Adults reading this hub before a licensed retail visit gain a vocabulary for structure and maturity that menus rarely spell out. Traditional indica, sativa, and hybrid labels remain useful as historical shorthand when they sit beside lineage and batch detail rather than replacing them.",
           "Genetics continues the inheritance story when you need parentage, phenotypes, and naming beside this botanical map. The living-plant guides keep the focus on what the plant builds and how it matures; the genetics silo explains how breeders select and preserve the individuals that enter commercial gardens. Read both layers together so a shelf category never erases the annual plant underneath the jar.",
         ],
+        subsections: [{ id: "first-time-reader-start", heading: "Where should a first-time reader start?", parts: [{ text: "Start with " }, { text: "What Cannabis Is", href: "/plant/what-cannabis-is" }, { text: " for the flowering cycle, then " }, { text: "The Anatomy of a Cannabis Flower", href: "/plant/the-flower-structure" }, { text: " for bracts, calyxes, and pistils. " }, { text: "Trichomes", href: "/plant/trichomes" }, { text: " explains the resin glands, and " }, { text: "Indica, Sativa, Hybrid", href: "/plant/indica-sativa-hybrid" }, { text: " places familiar labels in their historical context." }] }],
         contextualLinks: [
+          {
+            before: "Heading to a counter for the first time? See ",
+            href: "/choosing/first-time",
+            label: "the first-time guide",
+            after: ".",
+          },
           {
             before: "Start with ",
             href: "/plant/what-cannabis-is",
@@ -119,6 +126,12 @@ export const hubPages: PageContent[] = [
         ],
         contextualLinks: [
           {
+            before: "From cured flower to the counter, ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "match the format to the occasion",
+            after: ".",
+          },
+          {
             before: "Continue with ",
             href: "/plant/drying-and-curing",
             label: "drying and curing",
@@ -164,6 +177,18 @@ export const hubPages: PageContent[] = [
           "Keep the checklist short enough to use under retail lighting. Compare this jar with the last delivery of the same name when the budtender can open both, and ask for harvest or package dates beside the cultivar title. Observation describes how the flower arrived; it does not invent lab assays or medical claims.",
         ],
         contextualLinks: [
+          {
+            before: "On a first visit, ",
+            href: "/choosing/first-time",
+            label: "the first-time guide",
+            after: " pairs these flower cues with counter questions.",
+          },
+          {
+            before: "Once the flower read is done, ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "match the format to the occasion",
+            after: ".",
+          },
           {
             before: "Begin with ",
             href: "/flower/what-makes-good-flower",
@@ -327,7 +352,14 @@ export const hubPages: PageContent[] = [
           "Lineage literacy also protects against common mix-ups. Shared words in cultivar names do not always mean shared parents, and a famous family can still produce selections that diverge in timing, structure, or aroma. Names help conversation at a licensed counter; lineage helps expectation; neither replaces checking the batch you are actually buying. Presidential Cannabis keeps that distinction clear so plant education stays separate from product catalog pages.",
           "Treat the menu title as an index, not a complete genetic dossier. Parent notation, cut notes, and producer context explain what the public handle is supposed to point to. When parallel breeders reuse a popular image or a retailer shortens a release for the board, ask which form matches the documented parents rather than guessing from sound-alike syllables alone.",
         ],
+        subsections: [{ id: "strain-name-same-flower", heading: "Does a strain name guarantee the same flower?", parts: [{ text: "No. Lineage records parentage, and a name is an identity, but each cultivation run supplies a fresh environment. Light, temperature, harvest timing, drying, and cure all influence how the same genetics appear, as explained in " }, { text: "Why Two Batches Differ", href: "/genetics/why-two-batches-differ" }, { text: ". Variation inside a seed population is covered in " }, { text: "Phenotypes", href: "/genetics/phenotypes" }, { text: "." }] }],
         contextualLinks: [
+          {
+            before: "If names are new to you, start with ",
+            href: "/choosing/first-time",
+            label: "the first-time guide",
+            after: ".",
+          },
           {
             before: "Use ",
             href: "/genetics/lineage",
@@ -376,6 +408,12 @@ export const hubPages: PageContent[] = [
           "At the counter, keep questions practical and agricultural. Ask which parents or cut are documented, whether this lot is seed or clone origin when staff know, and which harvest or package dates belong to the jar in hand. Pair those answers with aroma, structure, and moisture so genetics literacy never drifts into medical claims or invented lab guarantees.",
         ],
         contextualLinks: [
+          {
+            before: "After lineage and batch, ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "match the format to the occasion",
+            after: " at the counter.",
+          },
           {
             before: "Read ",
             href: "/genetics/why-two-batches-differ",

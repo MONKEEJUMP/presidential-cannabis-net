@@ -101,6 +101,18 @@ export const aboutPage: PageContent = {
       ],
       contextualLinks: [
           {
+            before: "First visit? Read ",
+            href: "/choosing/first-time",
+            label: "the first-time guide",
+            after: " before the menu.",
+          },
+          {
+            before: "See ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "matching format to occasion",
+            after: " when the setting matters as much as the name.",
+          },
+          {
             before: "Look closer at ",
             href: "/plant/trichomes",
             label: "trichomes",

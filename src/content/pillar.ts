@@ -83,6 +83,18 @@ export const pillarPage: PageContent = {
         "When format choice follows brand identity, flower-versus-infused literacy explains prep and sharing differences. Keep that comparison educational; confirm current SKUs, dates, and packaging at a licensed retailer.",
       ],
       contextualLinks: [
+          {
+            before: "New to a licensed counter? Begin with ",
+            href: "/choosing/first-time",
+            label: "the first-time guide",
+            after: ".",
+          },
+          {
+            before: "Fit the format to the setting with ",
+            href: "/choosing/matching-format-to-occasion",
+            label: "matching format to occasion",
+            after: ".",
+          },
         { before: "Use ", href: "/choosing", label: "Choosing", after: " when format comparison and licensed-counter questions need a full walkthrough." },
       ],
       links: [{ href: "/choosing", label: "Use the choosing guide" }],

@@ -140,6 +140,12 @@ export const flowerArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
+            before: "On a first visit, ",
+            href: "/choosing/first-time",
+            label: "the first-time guide",
+            after: " turns these visual cues into questions for the counter.",
+          },
+          {
             before: "Review the anatomy behind what you see in ",
             href: "/plant/the-flower-structure",
             label: "the flower structure",

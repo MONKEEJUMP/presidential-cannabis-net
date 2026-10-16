@@ -15,11 +15,18 @@ export type ContextualLink = {
   after: string;
 };
 
+export type SectionSubsection = {
+  id: string;
+  heading: string;
+  parts: { text: string; href?: string }[];
+};
+
 export type ContentSection = {
   id: string;
   heading: string;
   paragraphs: string[];
   contextualLinks?: ContextualLink[];
+  subsections?: SectionSubsection[];
   bullets?: string[];
   table?: DataTable;
   links?: PageLink[];
