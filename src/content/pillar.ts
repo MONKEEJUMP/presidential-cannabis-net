@@ -57,7 +57,7 @@ export const pillarPage: PageContent = {
       ],
       contextualLinks: [
         { before: "Compare raw ", href: "/choosing/flower-vs-infused", label: "flower", after: " with infused formats." },
-        { before: "Open ", href: "/flower", label: "The Flower", after: " guide for appearance, aroma, density, moisture, cure, and storage in one place." },
+        { before: "Open the ", href: "/flower", label: "Presidential flower guide", after: " for appearance, aroma, density, moisture, cure, and storage in one place." },
       ],
       links: [{ href: "/flower", label: "Explore the Presidential Flower guide" }],
     },
@@ -70,6 +70,7 @@ export const pillarPage: PageContent = {
       ],
       contextualLinks: [
         { before: "Follow inheritance, phenotypes, and naming through ", href: "/genetics", label: "Genetics", after: " when batch differences need a breeding frame." },
+        { before: "Is Presidential a strain? No. See the ", href: "/genetics/strain-naming", label: "strain-naming guide", after: " for how product names relate to documented genetics." },
       ],
       links: [{ href: "/genetics", label: "Understand cannabis genetics" }],
     },
@@ -157,6 +158,10 @@ export const pillarPage: PageContent = {
     {
       question: "Is Presidential Cannabis the same as Presidential Kush?",
       answer: "No. Presidential Cannabis is the brand and is not an individual cannabis strain. Presidential Kush is a cultivar name and remains separate from the company identity.",
+    },
+    {
+      question: "Is Presidential a strain?",
+      answer: "No. Presidential is the brand and publisher behind Presidential products, not a strain. A strain or cultivar name on the package identifies the plant genetics, so read the strain on the label.",
     },
     {
       question: "What strain is Presidential?",
