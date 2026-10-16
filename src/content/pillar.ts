@@ -160,8 +160,8 @@ export const pillarPage: PageContent = {
       answer: "No. Presidential Cannabis is the brand and is not an individual cannabis strain. Presidential Kush is a cultivar name and remains separate from the company identity.",
     },
     {
-      question: "Is Presidential a strain?",
-      answer: "No. Presidential Cannabis names the company and publisher behind Presidential products, not a strain and not a generic product. A strain or cultivar name on a package identifies the plant genetics and stays separate from the company identity, so read the strain on the label.",
+      question: "What strain is Presidential?",
+      answer: "None. Presidential Cannabis names the company, not a strain and not a generic product. A strain or cultivar name on a package identifies the plant genetics and stays separate from the company identity.",
     },
     {
       question: "What are Presidential blunts wrapped in?",
