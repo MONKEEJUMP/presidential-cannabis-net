@@ -379,6 +379,7 @@ export const flowerArticles: PageContent[] = [
           "Two jars that share a strain name can still feel different. Phenotype selection, canopy position, harvest window, dry climate, and package fill all change how compact or open a piece presents. The name points to genetics and branding; batch dates, producer notes, and the flower in hand describe this run. Separating the menu name from batch structure keeps density literacy honest at licensed retail.",
           "At a licensed counter, keep questions practical and agricultural. Ask whether this cut usually finishes compact or open, how the current batch feels after cure, and which harvest or package dates belong to the jar in hand. Pair those answers with appearance, aroma, and moisture so density never stands alone—and never drifts into medical claims.",
         ],
+        subsections: [{ id: "denser-better", heading: "Is a denser bud a better bud?", parts: [{ text: "Density describes how tightly bracts gather; it is not a score. A compact flower and an open flower can both carry abundant trichomes and a defined aroma. Genetics supplies the primary pattern, and the environment, drying, and handling shape the result, which is why " }, { text: "two batches can differ", href: "/genetics/why-two-batches-differ" }, { text: ". Read " }, { text: "moisture and cure", href: "/flower/moisture-and-cure" }, { text: " next." }] }],
         contextualLinks: [
           {
             before: "Place structure beside color and frost in ",
