@@ -87,7 +87,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
             "Pheno-hunting is growing out a seed population from one cross and comparing the siblings against those written criteria. Every plant carries an identifier, and cuttings are taken before flowering. After harvest, drying, and cure, the breeder evaluates the finished flower and returns to the matching cutting, which continues as a clone. A single female plant can produce dozens of phenotypes, so a hunt often runs more than one cycle.",
           ],
         },
-        { id: "two-plants-one-cross", heading: "Why can two plants from one cross look different?", paragraphs: [], parts: [{ text: "A cross reshuffles inheritance, so each seed carries a unique combination and siblings can differ in height, structure, or aroma. Breeders compare those siblings in a pheno-hunt and keep the plant that matches the written goal. " }, { text: "Phenotypes", href: "/genetics/phenotypes" }, { text: " explains the variation, and " }, { text: "Lineage", href: "/genetics/lineage" }, { text: " records the parentage." }] },
+        { id: "two-plants-one-cross", heading: "Why can two plants from one cross look different?", paragraphs: [], parts: [{ text: "A cross reshuffles inheritance, so each seed carries a unique combination and siblings can differ in height, structure, or aroma. Breeders compare those siblings in a pheno-hunt and keep the plant that matches the written goal. " }, { text: "Phenotypes" }, { text: " explains the variation, and " }, { text: "Lineage" }, { text: " records the parentage." }] },
       ],
     },
     {
@@ -353,7 +353,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
       paragraphs: [
         "Flower is commonly used in a pipe or bowl, a joint, or a vaporizer, and guides note that a bong adds water filtration. Prepared formats remove the rolling: pre-rolls in paper, and blunts in a tobacco-free hemp wrap on menus that list them separately. Each format still starts with the same flower, so the checks in this guide apply before any grinder, paper, or wrap.",
       ],
-      subsections: [{ id: "judge-flower-at-counter", heading: "How do you judge flower at the counter?", paragraphs: [], parts: [{ text: "Follow the sequence a practised buyer uses: observe color and structure, look for trichome coverage, notice trim and pistils, assess aroma, and read the cure through texture. " }, { text: "What Makes Good Flower", href: "/flower/what-makes-good-flower" }, { text: " gives the overview, while " }, { text: "Appearance", href: "/flower/appearance" }, { text: " and " }, { text: "Aroma", href: "/flower/aroma" }, { text: " cover sight and smell." }] }],
+      subsections: [{ id: "judge-flower-at-counter", heading: "How do you judge flower at the counter?", paragraphs: [], parts: [{ text: "Follow the sequence a practised buyer uses: observe color and structure, look for trichome coverage, notice trim and pistils, assess aroma, and read the cure through texture. " }, { text: "What Makes Good Flower", href: "/flower/what-makes-good-flower" }, { text: " gives the overview, while " }, { text: "Appearance" }, { text: " and " }, { text: "Aroma" }, { text: " cover sight and smell." }] }],
     },
   ],
 };
