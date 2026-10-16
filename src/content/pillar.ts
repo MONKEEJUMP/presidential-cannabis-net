@@ -161,11 +161,7 @@ export const pillarPage: PageContent = {
     },
     {
       question: "Is Presidential a strain?",
-      answer: "No. Presidential is the brand and publisher behind Presidential products, not a strain. A strain or cultivar name on the package identifies the plant genetics, so read the strain on the label.",
-    },
-    {
-      question: "What strain is Presidential?",
-      answer: "None. Presidential Cannabis names the company, not a strain and not a generic product. A strain or cultivar name on a package identifies the plant genetics and stays separate from the company identity.",
+      answer: "No. Presidential Cannabis names the company and publisher behind Presidential products, not a strain and not a generic product. A strain or cultivar name on a package identifies the plant genetics and stays separate from the company identity, so read the strain on the label.",
     },
     {
       question: "What are Presidential blunts wrapped in?",
