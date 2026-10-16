@@ -189,6 +189,12 @@ export const hubPages: PageContent[] = [
         ],
         contextualLinks: [
           {
+            before: "Name what you see with ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: " guide to bracts, pistils, and colas.",
+          },
+          {
             before: "Study ",
             href: "/flower/appearance",
             label: "appearance",
@@ -292,6 +298,12 @@ export const hubPages: PageContent[] = [
           "Cut versus seed keeps that reading honest at licensed retail. A preserved cut repeats one genotype across rooms, so differences mostly track garden climate, harvest window, and cure. A seed-line family sharing the same brand can still segregate into multiple phenotypes. Ask which story belongs to the jar—selected cut, seed selection, or named release—before treating the title as a fixed portrait.",
         ],
         contextualLinks: [
+          {
+            before: "Connect inheritance to ",
+            href: "/plant/the-flower-structure",
+            label: "the flower structure",
+            after: " that selection finally shapes.",
+          },
           {
             before: "Start with ",
             href: "/genetics/how-strains-are-made",

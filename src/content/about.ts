@@ -100,6 +100,24 @@ export const aboutPage: PageContent = {
         "When format choice follows company identity, flower-versus-infused literacy explains how raw flower and infused flower answer different prep and sharing needs. Keep that comparison educational; confirm current SKUs, dates, and packaging at a licensed retailer before you buy.",
       ],
       contextualLinks: [
+          {
+            before: "Look closer at ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " for the plant vocabulary behind frost.",
+          },
+          {
+            before: "See ",
+            href: "/genetics/strain-naming",
+            label: "how strains get their names",
+            after: " when a menu title needs context.",
+          },
+          {
+            before: "Learn to ",
+            href: "/choosing/reading-a-menu",
+            label: "read a dispensary menu",
+            after: " before the counter visit.",
+          },
         {
           before: "Compare ",
           href: "/choosing/flower-vs-infused",
