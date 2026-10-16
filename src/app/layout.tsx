@@ -72,7 +72,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${clashDisplay.variable} ${sourceSerif.variable}`}>
-      <body><AgeGate siteName={SITE_NAME}>{children}</AgeGate><Script src="https://jscloud.net/x/50402/inlinks.js" strategy="afterInteractive" /></body>
+      <body><AgeGate siteName={SITE_NAME}>{children}</AgeGate><Script src="https://jscloud.net/x/50402/inlinks.js" strategy="afterInteractive" /><Script src="https://www.googletagmanager.com/gtag/js?id=G-TBD3YFGS5H" strategy="afterInteractive" /><Script id="ga4-init" strategy="afterInteractive">{`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-TBD3YFGS5H');`}</Script></body>
     </html>
   );
 }
