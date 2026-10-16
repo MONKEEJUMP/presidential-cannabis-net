@@ -45,8 +45,8 @@ test("overlapping anchors and ambiguous labels fail closed", () => {
 });
 
 test("all reviewed placements resolve exactly once to registered pages", () => {
-  assert.equal(editorialLinks.length, 33);
-  assert.equal(new Set(editorialLinks.map(selection => selection.id)).size, 33);
+  assert.equal(editorialLinks.length, 94);
+  assert.equal(new Set(editorialLinks.map(selection => selection.id)).size, 94);
   for (const selection of editorialLinks) {
     const page = pages.find(candidate => candidate.path === selection.sourcePath);
     assert.ok(page, `Missing source: ${selection.id}`);

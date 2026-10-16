@@ -43,7 +43,7 @@ export const pillarPage: PageContent = {
         "Start with the annual plant itself before product language takes over. Roots, stems, fan leaves, flower sites, and resin glands each play a biological role; genetics sets a range, and garden conditions shape how that range appears in finished flower. Adults 21+ can treat that botanical map as literacy for reading menus and packages later—not as a medical claim.",
       ],
       contextualLinks: [
-        { before: "Start with the ", href: "/plant", label: "cannabis", after: " plant guide." },
+        { before: "Start with the ", href: "/plant", label: "cannabis plant", after: " guide." },
         { before: "Continue into ", href: "/plant", label: "The Cannabis Plant Guide", after: " when anatomy, trichomes, harvest timing, drying, and cure need a full map." },
       ],
       links: [{ href: "/plant", label: "Explore the Cannabis Plant guide" }],
@@ -56,7 +56,7 @@ export const pillarPage: PageContent = {
         "A practical flower read stacks those observations instead of relying on one cue. Color and trichome coverage, nose, feel after cure, and package dates together describe the jar in front of you. Batch values stay with that unit; they do not become universal brand promises.",
       ],
       contextualLinks: [
-        { before: "Compare raw ", href: "/choosing/flower-vs-infused", label: "flower", after: " with infused formats." },
+        { before: "Compare ", href: "/choosing/flower-vs-infused", label: "raw flower", after: " with infused formats." },
         { before: "Open the ", href: "/flower", label: "Presidential flower guide", after: " for appearance, aroma, density, moisture, cure, and storage in one place." },
       ],
       links: [{ href: "/flower", label: "Explore the Presidential Flower guide" }],
@@ -69,7 +69,7 @@ export const pillarPage: PageContent = {
         "Two jars that share a familiar name can still differ because selection, phenotype, garden method, harvest window, and post-harvest care all leave a mark. Genetics explains the inherited range; the package and your senses describe the present batch. Keep those layers distinct when you compare options at licensed retail.",
       ],
       contextualLinks: [
-        { before: "Follow inheritance, phenotypes, and naming through ", href: "/genetics", label: "Genetics", after: " when batch differences need a breeding frame." },
+        { before: "Follow inheritance, phenotypes, and naming through ", href: "/genetics", label: "Cannabis Genetics", after: " when batch differences need a breeding frame." },
         { before: "Is Presidential a strain? No. See the ", href: "/genetics/strain-naming", label: "strain-naming guide", after: " for how product names relate to documented genetics." },
       ],
       links: [{ href: "/genetics", label: "Understand cannabis genetics" }],
@@ -95,7 +95,7 @@ export const pillarPage: PageContent = {
             label: "matching format to occasion",
             after: ".",
           },
-        { before: "Use ", href: "/choosing", label: "Choosing", after: " when format comparison and licensed-counter questions need a full walkthrough." },
+        { before: "Use ", href: "/choosing", label: "Choosing Cannabis", after: " when format comparison and licensed-counter questions need a full walkthrough." },
       ],
       links: [{ href: "/choosing", label: "Use the choosing guide" }],
     },
@@ -139,10 +139,10 @@ export const pillarPage: PageContent = {
     },
   ],
   childLinks: [
-    { href: "/plant", label: "Plant", description: "Cannabis structure, cannabinoids, trichomes, harvest, and cure." },
+    { href: "/plant", label: "The Cannabis Plant", description: "Cannabis structure, cannabinoids, trichomes, harvest, and cure." },
     { href: "/flower", label: "Presidential Flower", description: "Appearance, aroma, structure, moisture, and storage." },
-    { href: "/genetics", label: "Genetics", description: "Breeding, phenotypes, lineage, names, and batch variation." },
-    { href: "/choosing", label: "Choosing", description: "Compare flower and infused formats at licensed retail." },
+    { href: "/genetics", label: "Cannabis Genetics", description: "Breeding, phenotypes, lineage, names, and batch variation." },
+    { href: "/choosing", label: "Choosing Cannabis", description: "Compare flower and infused formats at licensed retail." },
   ],
   relatedLinks: [
     { href: "/about", label: "About Presidential Cannabis" },

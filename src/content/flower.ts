@@ -28,7 +28,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Deepen the visual pass in ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " when color, frost, pistils, and trim need fuller language.",
           },
           {
@@ -40,7 +40,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Study resin surfaces in ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " when frost and gland heads need a closer botanical frame.",
           },
         ],
@@ -58,7 +58,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Expand aromatic families in ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the aroma guide",
             after: " when headspace clarity and depth need a dedicated pass.",
           },
           {
@@ -179,7 +179,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Study the resin surface in ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " when frost and gland heads need a closer botanical frame.",
           },
           {
@@ -191,7 +191,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Continue the sensory pass with ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the aroma guide",
             after: " once color and frost have been read.",
           },
           {
@@ -244,7 +244,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Place the nose beside color and frost in ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " so sight and smell stay in one assessment.",
           },
           {
@@ -274,7 +274,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Study the resin surface in ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " when gland heads and frost need a closer botanical frame.",
           },
         ],
@@ -364,7 +364,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Understand cut selection through ",
             href: "/genetics/phenotypes",
-            label: "phenotypes",
+            label: "the phenotypes guide",
             after: " when one family yields compact and open expressions.",
           },
         ],
@@ -384,13 +384,13 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Place structure beside color and frost in ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " so silhouette and surface stay aligned.",
           },
           {
             before: "Open the aromatic side in ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the aroma guide",
             after: " after reading open versus compact form.",
           },
           {
@@ -461,7 +461,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Place texture beside color and frost in ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " so sight and touch stay in one assessment.",
           },
         ],
@@ -486,7 +486,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Use the nose as a paired check through ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the aroma guide",
             after: " when crisp or soft texture changes how scent opens.",
           },
           {
@@ -545,7 +545,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Watch color and frost through clear glass with ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " when visual checks join temperature and seal habits.",
           },
         ],
@@ -564,7 +564,7 @@ export const flowerArticles: PageContent[] = [
           {
             before: "Use the nose as a preservation check through ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the aroma guide",
             after: " when headspace softens or stays defined after sealing.",
           },
           {

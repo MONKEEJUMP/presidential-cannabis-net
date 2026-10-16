@@ -31,7 +31,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Map parentage vocabulary in ",
             href: "/genetics/lineage",
-            label: "lineage",
+            label: "the lineage guide",
             after: " when a cross needs the family tree beside the project notes.",
           },
           {
@@ -62,7 +62,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Compare observable siblings through ",
             href: "/genetics/phenotypes",
-            label: "phenotypes",
+            label: "the phenotypes guide",
             after: " when one cross produces more than one keeper candidate.",
           },
           {
@@ -93,13 +93,13 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Return to ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " for the wider map from breeding and lineage through naming and batch variation.",
           },
           {
             before: "Revisit parent notation in ",
             href: "/genetics/lineage",
-            label: "lineage",
+            label: "the lineage guide",
             after: " when a stabilized release still needs its family tree beside the menu name.",
           },
         ],
@@ -136,7 +136,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Map parent notation in ",
             href: "/genetics/lineage",
-            label: "lineage",
+            label: "the lineage guide",
             after: " when a cross needs the family tree beside sibling variation.",
           },
           {
@@ -172,15 +172,15 @@ export const geneticsArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
-            before: "A selected phenotype shapes the ",
+            before: "A selected phenotype shapes ",
             href: "/choosing/flower-vs-infused",
-            label: "flower",
+            label: "the flower",
             after: " that ultimately appears in both raw and infused product categories.",
           },
           {
-            before: "The Presidential Cannabis ",
+            before: "The ",
             href: "/",
-            label: "guide",
+            label: "Presidential Cannabis guide",
             after: " places phenotype selection inside the wider path from plant genetics to licensed retail.",
           },
           {
@@ -198,7 +198,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Return to ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " for the wider map from breeding and phenotypes through naming and batch variation.",
           },
         ],
@@ -266,7 +266,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Compare observable siblings through ",
             href: "/genetics/phenotypes",
-            label: "phenotypes",
+            label: "the phenotypes guide",
             after: " when a seed-line family covers more than one expression.",
           },
           {
@@ -284,7 +284,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Return to ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " for the wider map from breeding and lineage through naming and batch variation.",
           },
         ],
@@ -334,13 +334,13 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Map parentage vocabulary in ",
             href: "/genetics/lineage",
-            label: "lineage",
+            label: "the lineage guide",
             after: " when a menu title needs the family tree beside it.",
           },
           {
             before: "Separate observable expression from the public handle via ",
             href: "/genetics/phenotypes",
-            label: "phenotypes",
+            label: "the phenotypes guide",
             after: " when siblings under one family name still look and smell different.",
           },
         ],
@@ -361,20 +361,20 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Inspect the resin heads through ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " so the jar in hand speaks for itself.",
           },
           {
             before: "Smell the current batch with ",
             href: "/flower/aroma",
-            label: "aroma",
-            after: " notes before trusting the title alone.",
+            label: "aroma notes",
+            after: " before trusting the title alone.",
           },
           {
             before: "Remember that ",
             href: "/",
-            label: "Presidential",
-            after: " is a brand and publisher, not a strain name.",
+            label: "Presidential is a brand and publisher",
+            after: ", not a strain name.",
           },
           {
             before: "See why shared titles still diverge in ",
@@ -385,7 +385,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Compare observable siblings through ",
             href: "/genetics/phenotypes",
-            label: "phenotypes",
+            label: "the phenotypes guide",
             after: " when a seed-line name covers more than one expression.",
           },
           {
@@ -403,7 +403,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Return to ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " for the wider map from breeding and lineage through naming and batch variation.",
           },
         ],
@@ -439,7 +439,7 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Return to ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " for the map from lineage and phenotypes through breeding, naming, and batch variation.",
           },
           {
@@ -526,13 +526,13 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Map inherited range through ",
             href: "/genetics/phenotypes",
-            label: "phenotypes",
+            label: "the phenotypes guide",
             after: " when cut consistency and seed variation need clearer terms.",
           },
           {
             before: "Trace parentage context in ",
             href: "/genetics/lineage",
-            label: "lineage",
+            label: "the lineage guide",
             after: " so the family tree stays separate from one finished batch.",
           },
           {
@@ -554,10 +554,10 @@ export const geneticsArticles: PageContent[] = [
             after: " when older foundations and later selection shape how wide a name can run.",
           },
           {
-            before: "Return to the ",
+            before: "Return to ",
             href: "/genetics",
-            label: "genetics",
-            after: " hub for the full map of inheritance, naming, and batch literacy.",
+            label: "the genetics hub",
+            after: " for the full map of inheritance, naming, and batch literacy.",
           },
         ],
       },
@@ -589,19 +589,19 @@ export const geneticsArticles: PageContent[] = [
           {
             before: "Read glandular detail on ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " when frost, head condition, and harvest timing explain batch-to-batch resin differences.",
           },
           {
             before: "Compare visual batch cues in ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " when color, frost, and trim differ jar to jar.",
           },
           {
             before: "Continue the sensory pass with ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the aroma guide",
             after: " once the current batch's aromatic balance is clear.",
           },
           {
