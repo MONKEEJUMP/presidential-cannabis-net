@@ -306,5 +306,554 @@ export const editorialLinks: EditorialLink[] = [
     "match": " a whole seed family. An indica, sativa, or hybrid tag ",
     "label": "indica, sativa, or hybrid",
     "href": "/plant/indica-sativa-hybrid"
+  },
+  {
+    "id": "IL-002",
+    "sourcePath": "/choosing/first-time",
+    "sectionId": "arrival-to-counter",
+    "paragraphIndex": 1,
+    "match": "which flower arrived recently",
+    "label": "which flower arrived recently",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-011",
+    "sourcePath": "/choosing",
+    "sectionId": "have-the-conversation",
+    "paragraphIndex": 0,
+    "match": "the flower behind the package",
+    "label": "the flower behind the package",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-016",
+    "sourcePath": "/genetics/landrace-and-modern",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "current gardens and flower goals",
+    "label": "current gardens and flower goals",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-019",
+    "sourcePath": "/genetics/strain-naming",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "the flower sold under that identity",
+    "label": "the flower sold under that identity",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-051",
+    "sourcePath": "/plant/indica-sativa-hybrid",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "the flower in front of you",
+    "label": "the flower in front of you",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-062",
+    "sourcePath": "/choosing/what-to-ask",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "counter-questions guide",
+    "label": "counter-questions guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-063",
+    "sourcePath": "/choosing/what-to-ask",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "cannabis products",
+    "label": "cannabis products",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-064",
+    "sourcePath": "/genetics/why-two-batches-differ",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "same cannabis strain",
+    "label": "same cannabis strain",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-065",
+    "sourcePath": "/genetics/why-two-batches-differ",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "the finished flower",
+    "label": "the finished flower",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-066",
+    "sourcePath": "/genetics/why-two-batches-differ",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "batch-variation guide",
+    "label": "batch-variation guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-067",
+    "sourcePath": "/genetics/strain-naming",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "Cannabis strains",
+    "label": "Cannabis strains",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-068",
+    "sourcePath": "/genetics/lineage",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "lineage guide",
+    "label": "lineage guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-069",
+    "sourcePath": "/genetics/how-strains-are-made",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "how weed strains are made",
+    "label": "how weed strains are made",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-070",
+    "sourcePath": "/genetics/how-strains-are-made",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "flower timing",
+    "label": "flower timing",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-071",
+    "sourcePath": "/flower/storing-flower",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "how flower changes after purchase",
+    "label": "how flower changes after purchase",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-072",
+    "sourcePath": "/flower/storing-flower",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "storage guide",
+    "label": "storage guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-073",
+    "sourcePath": "/flower/storing-flower",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "raw cannabis flower",
+    "label": "raw cannabis flower",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-074",
+    "sourcePath": "/flower/density-and-structure",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "Compact and open flowers",
+    "label": "Compact and open flowers",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-075",
+    "sourcePath": "/flower/density-and-structure",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "density-and-structure guide",
+    "label": "density-and-structure guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-076",
+    "sourcePath": "/flower/density-and-structure",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "Cannabis flower density",
+    "label": "Cannabis flower density",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-077",
+    "sourcePath": "/flower/aroma",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "preserved in a flower",
+    "label": "preserved in a flower",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-078",
+    "sourcePath": "/flower/aroma",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "aroma guide",
+    "label": "aroma guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-079",
+    "sourcePath": "/flower/aroma",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "Cannabis aroma",
+    "label": "Cannabis aroma",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-080",
+    "sourcePath": "/flower/what-makes-good-flower",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "The strongest flower",
+    "label": "The strongest flower",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-081",
+    "sourcePath": "/plant/trichomes",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "trichomes guide",
+    "label": "trichomes guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-082",
+    "sourcePath": "/plant/indica-sativa-hybrid",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "publishes this guide",
+    "label": "publishes this guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-083",
+    "sourcePath": "/plant/indica-sativa-hybrid",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "traditional cannabis descriptors",
+    "label": "traditional cannabis descriptors",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-086",
+    "sourcePath": "/",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "explains the brand",
+    "label": "explains the brand",
+    "href": "/about"
+  },
+  {
+    "id": "IL-088",
+    "sourcePath": "/genetics",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "how strains are made",
+    "label": "how strains are made",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-089",
+    "sourcePath": "/flower/moisture-and-cure",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "the flower moves from package to preparation",
+    "label": "the flower moves from package to preparation",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-090",
+    "sourcePath": "/flower/appearance",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "the flower's natural form",
+    "label": "the flower's natural form",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-091",
+    "sourcePath": "/plant/drying-and-curing",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "flower size",
+    "label": "flower size",
+    "href": "/flower"
+  },
+  {
+    "id": "IL-092",
+    "sourcePath": "/plant/drying-and-curing",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "harvested cannabis",
+    "label": "harvested cannabis",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-093",
+    "sourcePath": "/about",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "a named strain",
+    "label": "a named strain",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-094",
+    "sourcePath": "/genetics/landrace-and-modern",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-095",
+    "sourcePath": "/plant/cannabinoids-in-the-plant",
+    "sectionId": "genetics-environment-maturity",
+    "paragraphIndex": 5,
+    "match": "Strain name points to inheritance",
+    "label": "Strain name points to inheritance",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-096",
+    "sourcePath": "/plant/cannabinoids-in-the-plant",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-097",
+    "sourcePath": "/choosing",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-098",
+    "sourcePath": "/flower",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-099",
+    "sourcePath": "/flower",
+    "sectionId": "keeping-character",
+    "paragraphIndex": 1,
+    "match": "The six guides",
+    "label": "The six guides",
+    "href": "/"
+  },
+  {
+    "id": "IL-100",
+    "sourcePath": "/plant",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-101",
+    "sourcePath": "/plant",
+    "sectionId": "plant-and-types",
+    "paragraphIndex": 0,
+    "match": "these guides",
+    "label": "these guides",
+    "href": "/"
+  },
+  {
+    "id": "IL-102",
+    "sourcePath": "/",
+    "sectionId": "the-plant",
+    "paragraphIndex": 0,
+    "match": "The Plant guide covers cannabinoids",
+    "label": "The Plant guide covers cannabinoids",
+    "href": "/plant/cannabinoids-in-the-plant"
+  },
+  {
+    "id": "IL-103",
+    "sourcePath": "/",
+    "sectionId": "genetics",
+    "paragraphIndex": 0,
+    "match": "Breeding, phenotypes, lineage",
+    "label": "Breeding, phenotypes, lineage",
+    "href": "/genetics/how-strains-are-made"
+  },
+  {
+    "id": "IL-106",
+    "sourcePath": "/flower",
+    "sectionId": "structure-and-cure",
+    "paragraphIndex": 2,
+    "match": "breeding context",
+    "label": "breeding context",
+    "href": "/genetics/how-strains-are-made"
+  },
+  {
+    "id": "IL-107",
+    "sourcePath": "/flower",
+    "sectionId": "keeping-character",
+    "paragraphIndex": 2,
+    "match": "inheritance and naming context",
+    "label": "inheritance and naming context",
+    "href": "/genetics/strain-naming"
+  },
+  {
+    "id": "IL-108",
+    "sourcePath": "/flower",
+    "sectionId": "keeping-character",
+    "paragraphIndex": 2,
+    "match": "explains lineage and batch variation",
+    "label": "explains lineage and batch variation",
+    "href": "/genetics/lineage"
+  },
+  {
+    "id": "IL-110",
+    "sourcePath": "/plant",
+    "sectionId": "plant-and-types",
+    "paragraphIndex": 0,
+    "match": "lineage, growth pattern",
+    "label": "lineage, growth pattern",
+    "href": "/genetics/lineage"
+  },
+  {
+    "id": "IL-112",
+    "sourcePath": "/plant",
+    "sectionId": "plant-and-types",
+    "paragraphIndex": 3,
+    "match": "phenotypes, and naming",
+    "label": "phenotypes, and naming",
+    "href": "/genetics/strain-naming"
+  },
+  {
+    "id": "IL-114",
+    "sourcePath": "/",
+    "sectionId": "the-plant",
+    "paragraphIndex": 0,
+    "match": "trichomes, flower structure",
+    "label": "trichomes, flower structure",
+    "href": "/plant/trichomes"
+  },
+  {
+    "id": "IL-122",
+    "sourcePath": "/",
+    "sectionId": "official-reference",
+    "paragraphIndex": 0,
+    "match": "Choosing for depth",
+    "label": "Choosing for depth",
+    "href": "/choosing"
+  },
+  {
+    "id": "IL-123",
+    "sourcePath": "/",
+    "sectionId": "genetics",
+    "paragraphIndex": 1,
+    "match": "selection, phenotype",
+    "label": "selection, phenotype",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-125",
+    "sourcePath": "/plant/harvest-timing",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-126",
+    "sourcePath": "/plant/drying-and-curing",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-127",
+    "sourcePath": "/choosing/what-to-ask",
+    "sectionId": null,
+    "paragraphIndex": 2,
+    "match": "The brand name",
+    "label": "The brand name",
+    "href": "/about"
+  },
+  {
+    "id": "IL-R12-03",
+    "sourcePath": "/plant/the-flower-structure",
+    "sectionId": "fan-leaves-versus-flower",
+    "paragraphIndex": 0,
+    "match": "indica-type plants",
+    "label": "indica-type plants",
+    "href": "/plant/indica-sativa-hybrid"
+  },
+  {
+    "id": "IL-R12B-01",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": "is-a-pre-roll-indica-or-sativa",
+    "paragraphIndex": 0,
+    "match": "an infused pre-roll",
+    "label": "an infused pre-roll",
+    "href": "/choosing/flower-vs-infused"
+  },
+  {
+    "id": "IL-R12B-02",
+    "sourcePath": "/choosing/flower-vs-infused",
+    "sectionId": "cannabis-concentrate-on-the-label",
+    "paragraphIndex": 0,
+    "match": "the storage plan",
+    "label": "the storage plan",
+    "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R12B-03",
+    "sourcePath": "/flower/aroma",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "packaging, and storage",
+    "label": "packaging, and storage",
+    "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R12B-04",
+    "sourcePath": "/",
+    "sectionId": "sort-the-name",
+    "paragraphIndex": 1,
+    "match": "storage, and trichome condition",
+    "label": "storage, and trichome condition",
+    "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R12B-05",
+    "sourcePath": "/about",
+    "sectionId": "publisher-and-purpose",
+    "paragraphIndex": 0,
+    "match": "storage, and freshness",
+    "label": "storage, and freshness",
+    "href": "/flower/storing-flower"
   }
   ];

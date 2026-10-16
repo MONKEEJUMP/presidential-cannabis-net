@@ -34,7 +34,7 @@ export const hubPages: PageContent[] = [
           "Publisher plant literacy starts there. The annual cycle sets the timeline; inherited form sets a range; the garden supplies the conditions that make that range visible. Adults reading this hub before a licensed retail visit gain a vocabulary for structure and maturity that menus rarely spell out. Traditional indica, sativa, and hybrid labels remain useful as historical shorthand when they sit beside lineage and batch detail rather than replacing them.",
           "Genetics continues the inheritance story when you need parentage, phenotypes, and naming beside this botanical map. The living-plant guides keep the focus on what the plant builds and how it matures; the genetics silo explains how breeders select and preserve the individuals that enter commercial gardens. Read both layers together so a shelf category never erases the annual plant underneath the jar.",
         ],
-        subsections: [{ id: "first-time-reader-start", heading: "Where should a first-time reader start?", parts: [{ text: "Start with " }, { text: "What Cannabis Is", href: "/plant/what-cannabis-is" }, { text: " for the flowering cycle, then " }, { text: "The Anatomy of a Cannabis Flower", href: "/plant/the-flower-structure" }, { text: " for bracts, calyxes, and pistils. " }, { text: "Trichomes" }, { text: " explains the resin glands, and " }, { text: "Indica, Sativa, Hybrid", href: "/plant/indica-sativa-hybrid" }, { text: " places familiar labels in their historical context." }] }],
+        subsections: [{ id: "first-time-reader-start", heading: "Where should a first-time reader start?", parts: [{ text: "Start with " }, { text: "What Cannabis Is", href: "/plant/what-cannabis-is" }, { text: " for the flowering cycle, then " }, { text: "The Anatomy of a Cannabis Flower", href: "/plant/the-flower-structure" }, { text: " for bracts, calyxes, and pistils. " }, { text: "The trichomes guide", href: "/plant/trichomes" }, { text: " explains the resin glands, and " }, { text: "Indica, Sativa, Hybrid", href: "/plant/indica-sativa-hybrid" }, { text: " places familiar labels in their historical context." }] }],
         contextualLinks: [
           {
             before: "Heading to a counter for the first time? See ",
@@ -57,7 +57,7 @@ export const hubPages: PageContent[] = [
           {
             before: "Continue inheritance through ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " when parentage, phenotypes, and naming sit beside this botanical map.",
           },
         ],
@@ -75,7 +75,7 @@ export const hubPages: PageContent[] = [
           {
             before: "Read ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " for gland shapes, head-size ranges, and maturity color changes across the canopy.",
           },
           {
@@ -111,7 +111,7 @@ export const hubPages: PageContent[] = [
           {
             before: "Revisit the gland field in ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " when clear-to-cloudy-to-amber cues need the living-surface map behind the cut.",
           },
         ],
@@ -146,7 +146,7 @@ export const hubPages: PageContent[] = [
           {
             before: "For retail sequence beside this silo, open ",
             href: "/choosing",
-            label: "Choosing",
+            label: "Choosing Cannabis",
             after: " when menu reading and counter questions follow the botanical map.",
           },
         ],
@@ -222,13 +222,13 @@ export const hubPages: PageContent[] = [
           {
             before: "Study ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " for color, frost, pistils, and trim cues you can read under retail lighting.",
           },
           {
             before: "Then use ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the aroma guide",
             after: " to practice a careful nose check and place common aromatic families in context.",
           },
         ],
@@ -277,13 +277,13 @@ export const hubPages: PageContent[] = [
           {
             before: "For inheritance and naming beside this silo, open ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " when lineage and batch variation explain why two jars can diverge.",
           },
           {
             before: "For retail sequence after the quality map, open ",
             href: "/choosing",
-            label: "Choosing",
+            label: "Choosing Cannabis",
             after: " when menu reading and counter questions follow the flower assessment.",
           },
         ],
@@ -339,7 +339,7 @@ export const hubPages: PageContent[] = [
           {
             before: "Then read ",
             href: "/genetics/phenotypes",
-            label: "phenotypes",
+            label: "the phenotypes guide",
             after: " to see why one seed family produces different plants and how clones preserve a chosen individual.",
           },
         ],
@@ -353,7 +353,7 @@ export const hubPages: PageContent[] = [
           "Lineage literacy also protects against common mix-ups. Shared words in cultivar names do not always mean shared parents, and a famous family can still produce selections that diverge in timing, structure, or aroma. Names help conversation at a licensed counter; lineage helps expectation; neither replaces checking the batch you are actually buying. Presidential Cannabis keeps that distinction clear so plant education stays separate from product catalog pages.",
           "Treat the menu title as an index, not a complete genetic dossier. Parent notation, cut notes, and producer context explain what the public handle is supposed to point to. When parallel breeders reuse a popular image or a retailer shortens a release for the board, ask which form matches the documented parents rather than guessing from sound-alike syllables alone.",
         ],
-        subsections: [{ id: "strain-name-same-flower", heading: "Does a strain name guarantee the same flower?", parts: [{ text: "No. Lineage records parentage, and a name is an identity, but each cultivation run supplies a fresh environment. Light, temperature, harvest timing, drying, and cure all influence how the same genetics appear, as explained in " }, { text: "Why Two Batches Differ", href: "/genetics/why-two-batches-differ" }, { text: ". Variation inside a seed population is covered in " }, { text: "Phenotypes" }, { text: "." }] }],
+        subsections: [{ id: "strain-name-same-flower", heading: "Does a strain name guarantee the same flower?", parts: [{ text: "No. Lineage records parentage, and a name is an identity, but each cultivation run supplies a fresh environment. Light, temperature, harvest timing, drying, and cure all influence how the same genetics appear, as explained in " }, { text: "Why Two Batches Differ", href: "/genetics/why-two-batches-differ" }, { text: ". Variation inside a seed population is covered in " }, { text: "the phenotypes guide", href: "/genetics/phenotypes" }, { text: "." }] }],
         contextualLinks: [
           {
             before: "If names are new to you, start with ",
@@ -364,7 +364,7 @@ export const hubPages: PageContent[] = [
           {
             before: "Use ",
             href: "/genetics/lineage",
-            label: "lineage",
+            label: "the lineage guide",
             after: " when you want parent maps and what family history can and cannot predict.",
           },
           {
@@ -436,7 +436,7 @@ export const hubPages: PageContent[] = [
           {
             before: "Publisher and brand definition live on ",
             href: "/about",
-            label: "About",
+            label: "the About page",
             after: " when you need company context rather than cultivar inheritance.",
           },
         ],
@@ -555,7 +555,7 @@ export const hubPages: PageContent[] = [
           {
             before: "For inheritance language beside the purchase plan, open ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " when lineage and phenotype context follow the occasion match.",
           },
         ],

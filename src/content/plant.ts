@@ -40,16 +40,16 @@ export const plantArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
-            before: "The Presidential Cannabis ",
+            before: "The ",
             href: "/",
-            label: "guide",
+            label: "Presidential Cannabis guide",
             after: " carries this botanical starting point into flower quality, genetics, and practical choosing.",
           },
           {
             before: "The wider ",
             href: "/plant",
-            label: "cannabis",
-            after: " hub follows the plant through anatomy, trichomes, harvest timing, drying, and cure.",
+            label: "cannabis hub",
+            after: " follows the plant through anatomy, trichomes, harvest timing, drying, and cure.",
           },
           {
             before: "Place traditional labels beside the plant with ",
@@ -60,7 +60,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "Follow inheritance and selection through ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " when breeding records explain the range the living plant can express.",
           },
         ],
@@ -109,7 +109,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "Study the glandular surface in ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " when stalked heads, coverage, and clear-to-cloudy-to-amber cues need a closer plant map.",
           },
           {
@@ -175,7 +175,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "Follow family records through ",
             href: "/genetics/lineage",
-            label: "lineage",
+            label: "the lineage guide",
             after: " when parent names need to sit beside the broad I/S/H tag.",
           },
         ],
@@ -374,7 +374,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "Study the living gland itself in ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: ", where bulbous, sessile, and stalked forms, head size, and color progression are mapped on the flower surface.",
           },
           {
@@ -430,7 +430,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "For inheritance beside this silo, open ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " when parentage, selection, and batch variation explain why resin expression differs across cultivars.",
           },
         ],
@@ -465,9 +465,9 @@ export const plantArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
-            before: "Read the jar’s ",
+            before: "Read ",
             href: "/flower/aroma",
-            label: "aroma",
+            label: "the jar’s aroma",
             after: " alongside the structure you can see.",
           },
           {
@@ -479,25 +479,25 @@ export const plantArticles: PageContent[] = [
           {
             before: "Compare plants of one name through ",
             href: "/genetics/phenotypes",
-            label: "phenotype",
+            label: "the phenotypes guide",
             after: " when bract shape and structure vary.",
           },
           {
             before: "The full ",
             href: "/plant/what-cannabis-is",
-            label: "flowering",
-            after: " cycle shows how bracts, pistils, sugar leaves, and resin glands develop into the structure seen at harvest.",
+            label: "flowering cycle",
+            after: " shows how bracts, pistils, sugar leaves, and resin glands develop into the structure seen at harvest.",
           },
           {
-            before: "The Presidential Cannabis ",
+            before: "The ",
             href: "/",
-            label: "guide",
+            label: "Presidential Cannabis guide",
             after: " connects this anatomy to flower quality, genetics, choosing, and the licensed-retail path.",
           },
           {
             before: "See where resin concentrates in ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: ", the glandular heads that frost bract and sugar-leaf surfaces.",
           },
           {
@@ -528,7 +528,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "Read visible contour and frost through ",
             href: "/flower/appearance",
-            label: "appearance",
+            label: "the appearance guide",
             after: " when bract shape, pistils, and trim meet the eye on the shelf.",
           },
           {
@@ -663,7 +663,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "Protect the glandular surface by revisiting ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " when coverage, head condition, and careful handling explain what the dry room must not erase.",
           },
           {
@@ -725,7 +725,7 @@ export const plantArticles: PageContent[] = [
           {
             before: "For inheritance context beside this silo, open ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " when parentage and selection explain why cultivars need different hang and jar timelines.",
           },
         ],

@@ -182,7 +182,7 @@ export const choosingArticles: PageContent[] = [
           {
             before: "For parentage and batch variation beside this silo, open ",
             href: "/genetics",
-            label: "Genetics",
+            label: "Cannabis Genetics",
             after: " when lineage and phenotype help explain why two deliveries of a familiar name can still smell and feel different.",
           },
           {
@@ -333,9 +333,9 @@ export const choosingArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
-            before: "The Presidential Cannabis ",
+            before: "The ",
             href: "/",
-            label: "guide",
+            label: "Presidential Cannabis guide",
             after: " connects this category decision to the plant, flower quality, genetics, and licensed-retail context.",
           },
           {

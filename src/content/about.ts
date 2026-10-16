@@ -78,13 +78,13 @@ export const aboutPage: PageContent = {
         {
           before: "Open ",
           href: "/genetics",
-          label: "Genetics",
+          label: "Cannabis Genetics",
           after: " to understand lineage, phenotypes, naming, and why batches from the same family can still differ on a licensed shelf.",
         },
         {
           before: "Finish with ",
           href: "/choosing",
-          label: "Choosing",
+          label: "Choosing Cannabis",
           after: " when menu reading and licensed-counter questions follow the plant, flower, and genetics map.",
         },
       ],
@@ -115,7 +115,7 @@ export const aboutPage: PageContent = {
           {
             before: "Look closer at ",
             href: "/plant/trichomes",
-            label: "trichomes",
+            label: "the trichomes guide",
             after: " for the plant vocabulary behind frost.",
           },
           {
@@ -133,13 +133,13 @@ export const aboutPage: PageContent = {
         {
           before: "Compare ",
           href: "/choosing/flower-vs-infused",
-          label: "flower",
-          after: " versus infused formats when the next decision is preparation style rather than brand identity.",
+          label: "flower versus infused formats",
+          after: " when the next decision is preparation style rather than brand identity.",
         },
         {
-          before: "Return to this ",
+          before: "Return to ",
           href: "/",
-          label: "guide",
+          label: "this cannabis guide",
           after: " anytime you need the full map of Presidential Cannabis plant education from one starting point.",
         },
       ],
@@ -163,12 +163,12 @@ export const aboutPage: PageContent = {
     },
     {
       href: "/genetics",
-      label: "Genetics",
+      label: "Cannabis Genetics",
       description: "Learn how lineage, selection, and batches differ.",
     },
     {
       href: "/choosing",
-      label: "Choosing",
+      label: "Choosing Cannabis",
       description: "Bring plant knowledge to a licensed retail counter.",
     },
   ],
