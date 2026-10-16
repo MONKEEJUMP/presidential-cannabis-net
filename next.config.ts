@@ -25,6 +25,9 @@ const nextConfig: NextConfig = {
         headers: [
           { key: "X-Frame-Options", value: "SAMEORIGIN" },
           { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+          // Report-Only first (Sitebulb 1016): GA4 + InLinks hosts; Next inline scripts need 'unsafe-inline' without a nonce proxy.
+          { key: "Content-Security-Policy-Report-Only", value: "default-src 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline' https://jscloud.net https://www.googletagmanager.com https://*.google-analytics.com; style-src 'self' 'unsafe-inline' https://jscloud.net; connect-src 'self' https://jscloud.net https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; font-src 'self'; img-src 'self' data: https://jscloud.net https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; object-src 'none'; frame-ancestors 'self'; form-action 'self'" },
         ],
       },
       { source: "/fonts/:path*", headers: immutableAssetHeaders },
