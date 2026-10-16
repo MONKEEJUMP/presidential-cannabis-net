@@ -47,6 +47,7 @@ export type LeadSubsection = {
   id: string;
   heading: string;
   paragraphs: string[];
+  parts?: { text: string; href?: string }[];
   contextualLinks?: ContextualLink[];
 };
 
