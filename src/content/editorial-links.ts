@@ -855,5 +855,14 @@ export const editorialLinks: EditorialLink[] = [
     "match": "storage, and freshness",
     "label": "storage, and freshness",
     "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-121",
+    "sourcePath": "/",
+    "sectionId": "official-reference",
+    "paragraphIndex": 0,
+    "match": "cannabis genetics",
+    "label": "cannabis genetics",
+    "href": "/genetics"
   }
   ];

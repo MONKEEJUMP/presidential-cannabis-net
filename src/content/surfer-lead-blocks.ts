@@ -170,6 +170,12 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
             "The base flower under any coating is still cannabis flower. If the description hides the base flower, ask what is inside before comparing percentages. Base flower quality — moisture, trim, and cure — changes how a coating sits and how the unit smells. Whole flower that was cured with care is the part you can still ask about: cultivar name, package date, and whether the producer ground it.",
           ],
         },
+        {
+          id: "how-should-you-store-infused-flower-compared-wit",
+          heading: "How should you store infused flower compared with regular flower?",
+          paragraphs: [],
+          parts: [{ text: "A cannabis concentrate changes handling. Infused flower is generally stickier than standard cannabis flower, so the original package is the storage plan until the label says otherwise. A coating also sits differently depending on the base flower's moisture, trim, and cure. Regular flower is the whole flower without an added concentrate, and its physical qualities can often be checked through the package or sample jar. Keep the two categories separate when you compare them, and compare coated units only with other coated units. Keep reading with " }, { text: "how to store cannabis flower", href: "/flower/storing-flower" }, { text: ", " }, { text: "questions to ask at the counter", href: "/choosing/what-to-ask" }, { text: ", or " }, { text: "reading a dispensary menu", href: "/choosing/reading-a-menu" }, { text: "." }],
+        },
       ],
     },
     {
