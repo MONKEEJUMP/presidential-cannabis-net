@@ -93,6 +93,7 @@ function LeadBlocks({ page }: { page: PageContent }) {
           {subsection.paragraphs.map((paragraph, index) => (
             <EditorialParagraph key={`${subsection.id}-paragraph-${index}`} text={paragraph} pagePath={page.path} sectionId={subsection.id} paragraphIndex={index} />
           ))}
+          {subsection.parts?.length ? <p>{subsection.parts.map((part, index) => part.href ? <Link href={part.href} key={`${subsection.id}-part-${index}`}>{part.text}</Link> : <span key={`${subsection.id}-part-${index}`}>{part.text}</span>)}</p> : null}
           {subsection.contextualLinks?.map((link, index) => (
             <p key={`${subsection.id}-contextual-link-${index}`}>
               {link.before}<Link href={link.href}>{link.label}</Link>{link.after}
