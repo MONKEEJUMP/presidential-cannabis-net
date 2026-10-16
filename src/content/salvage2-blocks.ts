@@ -40,6 +40,7 @@ export const salvage2Blocks: Record<string, LeadBlock[]> = {
         "Landrace strains are regional populations: seed saved and replanted for generations in places such as the Hindu Kush mountains, Thailand, Mexico, and coastal South Africa until the plants fit the local climate. Breeders carried that material into crosses, and many modern commercial cultivars now show extensive admixture from repeated hybridization.",
         "That history is why indica and sativa work better as growth-form words than as a full description of a modern hybrid. Landrace genetics survive through preservation: seed populations kept in their native environment, collected seed lots, and selected plants carried as cuttings, each with records of where it came from. A terpene profile on a menu still describes the batch in the jar, not the landrace behind it.",
       ],
+      subsections: [{ id: "landrace-name-proof", heading: "Does a landrace name on a menu prove the lineage?", paragraphs: [], parts: [{ text: "Not by itself. A regional name on a menu can describe an adapted population or a later selection, while landrace material survives through seed populations, collected seed lots, and cuttings kept with records of origin. See " }, { text: "how strains are made", href: "/genetics/how-strains-are-made" }, { text: " and " }, { text: "how strain names work", href: "/genetics/strain-naming" }, { text: "." }] }],
     },
   ],
   "/plant/what-cannabis-is": [
