@@ -794,4 +794,85 @@ export const editorialLinks: EditorialLink[] = [
     "label": "brand",
     "href": "/about"
   },
+  {
+    "id": "IL-R12-01",
+    "sourcePath": "/choosing/flower-vs-infused",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "Flower quality rema",
+    "label": "Flower quality",
+    "href": "/flower/what-makes-good-flower"
+  },
+  {
+    "id": "IL-R12-02",
+    "sourcePath": "/choosing",
+    "sectionId": "have-the-conversation",
+    "paragraphIndex": 2,
+    "match": ". When you want finished-flower quality lang",
+    "label": "flower quality",
+    "href": "/flower/what-makes-good-flower"
+  },
+  {
+    "id": "IL-R12-03",
+    "sourcePath": "/plant/the-flower-structure",
+    "sectionId": "fan-leaves-versus-flower",
+    "paragraphIndex": 0,
+    "match": "rrying more leaflets and indica-type",
+    "label": "indica",
+    "href": "/plant/indica-sativa-hybrid"
+  },
+  {
+    "id": "IL-R12-04",
+    "sourcePath": "/choosing",
+    "sectionId": "strain-labels-and-terpene-profile",
+    "paragraphIndex": 0,
+    "match": " a whole seed family. An indica, sativa, or hybrid tag ",
+    "label": "indica, sativa, or hybrid",
+    "href": "/plant/indica-sativa-hybrid"
+  },
+  {
+    "id": "IL-R12B-01",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": "is-a-pre-roll-indica-or-sativa",
+    "paragraphIndex": 0,
+    "match": " inside the roll. For an infused pre-",
+    "label": "infused",
+    "href": "/choosing/flower-vs-infused"
+  },
+  {
+    "id": "IL-R12B-02",
+    "sourcePath": "/choosing/flower-vs-infused",
+    "sectionId": "cannabis-concentrate-on-the-label",
+    "paragraphIndex": 0,
+    "match": " original package is the storage plan",
+    "label": "storage",
+    "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R12B-03",
+    "sourcePath": "/flower/aroma",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": ", curing, packaging, and storage shap",
+    "label": "storage",
+    "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R12B-04",
+    "sourcePath": "/",
+    "sectionId": "sort-the-name",
+    "paragraphIndex": 1,
+    "match": "ructure, moisture, cure, storage, and",
+    "label": "storage",
+    "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R12B-05",
+    "sourcePath": "/about",
+    "sectionId": "publisher-and-purpose",
+    "paragraphIndex": 0,
+    "match": "ma, structure, moisture, storage, and",
+    "label": "storage",
+    "href": "/flower/storing-flower"
+  }
 ];

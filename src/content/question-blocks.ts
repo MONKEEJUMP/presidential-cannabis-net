@@ -87,6 +87,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
             "Pheno-hunting is growing out a seed population from one cross and comparing the siblings against those written criteria. Every plant carries an identifier, and cuttings are taken before flowering. After harvest, drying, and cure, the breeder evaluates the finished flower and returns to the matching cutting, which continues as a clone. A single female plant can produce dozens of phenotypes, so a hunt often runs more than one cycle.",
           ],
         },
+        { id: "two-plants-one-cross", heading: "Why can two plants from one cross look different?", paragraphs: [], parts: [{ text: "A cross reshuffles inheritance, so each seed carries a unique combination and siblings can differ in height, structure, or aroma. Breeders compare those siblings in a pheno-hunt and keep the plant that matches the written goal. " }, { text: "Phenotypes", href: "/genetics/phenotypes" }, { text: " explains the variation, and " }, { text: "Lineage", href: "/genetics/lineage" }, { text: " records the parentage." }] },
       ],
     },
     {
@@ -229,6 +230,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
         "Cloning preserves the genotype of the selected plant: a cutting is a new plant with the same genetic identity. The expression is not frozen. A clone still responds to light, root space, nutrition, harvest window, and cure, so clones of one cut can finish with different density, frost, or aromatic balance in two rooms.",
       ],
       subsections: [
+        { id: "clone-same-flower", heading: "Does a clone guarantee the same flower?", paragraphs: [], parts: [{ text: "No. A clone preserves the genotype, but the expression still responds to light, root space, nutrition, harvest window, and cure. That is why " }, { text: "two batches of the same strain can differ", href: "/genetics/why-two-batches-differ" }, { text: ", and why a " }, { text: "strain name", href: "/genetics/strain-naming" }, { text: " is an identity rather than a promise." }] },
         {
           id: "same-strain-different-growers",
           heading: "Why does the same strain look different from different growers?",
