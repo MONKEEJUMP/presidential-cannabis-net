@@ -18,7 +18,7 @@ export const salvage2Blocks: Record<string, LeadBlock[]> = {
       heading: "Where do pre-rolls and flavor names sit in the Presidential catalog?",
       paragraphs: [
         "Alongside the flagship Moon Rocks, the catalog includes infused pre-rolls rolled in paper, tobacco-free blunts, and minis. Those rolls are organized across the Silver Flavor Series, Gold Strain Series, Rose Gold Connoisseur Series, and signature Presidential lines, and each package carries its collection and product name.",
-        "Flavor and cultivar names travel across formats. Package artwork shows names such as Grape, Peach Mango, Strawberry, and Watermelon on infused pre-rolls and mini pre-rolls as well as on Moon Rocks. Live SKUs, artwork, and inventory change by market, so the current package and catalog decide which pre-roll or flavor is actually available.",
+        "Flavor and cultivar names travel across formats. Package artwork shows names such as Grape, Peach Mango, Strawberry, and Watermelon on infused pre-rolls and mini pre-rolls as well as on Moon Rocks. Live SKUs, artwork, and inventory change by market, so the current package and catalog decide which pre-roll or flavor is actually available. Those flavors are identified on the current catalog and package.",
       ],
     },
   ],

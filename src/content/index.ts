@@ -9,6 +9,7 @@ import { contentExpansions } from "./expansions";
 import { finalCoverageExpansions } from "./expansions-final";
 import { questionBlocks } from "./question-blocks";
 import { salvage2Blocks } from "./salvage2-blocks";
+import { round2Subsections } from "./round2-subsections";
 
 import type { PageContent, PageLink, Silo } from "./types";
 
@@ -37,9 +38,19 @@ const rawPages: PageContent[] = basePages.map((basePage) => {
     ...(questionBlocks[basePage.path] ?? []),
     ...(salvage2Blocks[basePage.path] ?? []),
   ];
-  const page: PageContent = addedBlocks.length
+  const mergedPage: PageContent = addedBlocks.length
     ? { ...basePage, leadBlocks: [...(basePage.leadBlocks ?? []), ...addedBlocks] }
     : basePage;
+  const round2 = round2Subsections[basePage.path];
+  const mergedBlocks = mergedPage.leadBlocks ?? [];
+  const page: PageContent = round2?.length && mergedBlocks.length
+    ? {
+        ...mergedPage,
+        leadBlocks: mergedBlocks.map((block, index) => index === mergedBlocks.length - 1
+          ? { ...block, subsections: [...(block.subsections ?? []), ...round2] }
+          : block),
+      }
+    : mergedPage;
   const pageExpansions = page.path === "/"
     ? []
     : [
