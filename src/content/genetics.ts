@@ -359,6 +359,24 @@ export const geneticsArticles: PageContent[] = [
         ],
         contextualLinks: [
           {
+            before: "Inspect the resin heads through ",
+            href: "/plant/trichomes",
+            label: "trichomes",
+            after: " so the jar in hand speaks for itself.",
+          },
+          {
+            before: "Smell the current batch with ",
+            href: "/flower/aroma",
+            label: "aroma",
+            after: " notes before trusting the title alone.",
+          },
+          {
+            before: "Remember that ",
+            href: "/",
+            label: "Presidential",
+            after: " is a brand and publisher, not a strain name.",
+          },
+          {
             before: "See why shared titles still diverge in ",
             href: "/genetics/why-two-batches-differ",
             label: "why two batches differ",
@@ -499,6 +517,12 @@ export const geneticsArticles: PageContent[] = [
           "Inherited breadth also matters. Landrace foundations and modern selections can widen or narrow the range a garden has to express, while repeated breeding toward a favorite cut tightens what repeats across cycles. That history explains why some names feel steadier run to run and others invite wider phenotype talk—without treating either pattern as a ranking of quality.",
         ],
         contextualLinks: [
+          {
+            before: "At the counter, ",
+            href: "/choosing/reading-a-menu",
+            label: "read the menu and label",
+            after: " as separate records before comparing two jars.",
+          },
           {
             before: "Map inherited range through ",
             href: "/genetics/phenotypes",
