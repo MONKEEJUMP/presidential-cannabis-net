@@ -117,6 +117,7 @@ function ArticleSection({ section, image, pagePath }: { section: ContentSection;
               {link.before}<Link href={link.href}>{link.label}</Link>{link.after}
             </p>
           ))}
+          {section.subsections?.map((sub) => (<div className="article-subsection" key={sub.id}><h3 id={sub.id}>{sub.heading}</h3><p>{sub.parts.map((part, index) => part.href ? <Link href={part.href} key={`${sub.id}-${index}`}>{part.text}</Link> : <span key={`${sub.id}-${index}`}>{part.text}</span>)}</p></div>))}
           {section.bullets?.length ? <ul>{section.bullets.map((bullet, index) => <li key={`${section.id}-bullet-${index}`}>{bullet}</li>)}</ul> : null}
           <DataTable section={section} />
           {sectionLinks.length ? (
