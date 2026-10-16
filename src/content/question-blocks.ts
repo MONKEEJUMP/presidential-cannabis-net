@@ -339,6 +339,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
       paragraphs: [
         "Cannabis flower is the dried and cured bud of the female plant, the flowering top of Cannabis sativa, the same species grown as industrial hemp for fiber and seed. A bud is a cluster of resin-coated bracts with pistils and small sugar leaves; the large fan leaves are trimmed away. The resin glands hold THC and the other cannabinoids along with the terpenes behind aroma and taste, and the strain name, including any indica, sativa, or hybrid tag, identifies the genetics rather than the condition of this batch.",
       ],
+      subsections: [{ id: "cannabinoids-strain-names-and-the-jar-in-hand", heading: "Cannabinoids, strain names and the jar in hand", paragraphs: [], parts: [{ text: "THC, cannabidiol and the other cannabinoids sit in the resin glands of the bud. " }, { text: "Cannabinoids in the plant", href: "/plant/cannabinoids-in-the-plant" }, { text: " explains where they form. A strain name points to lineage, and " }, { text: "how strains are made", href: "/genetics/how-strains-are-made" }, { text: " covers that side. The jar's package dates and label describe that one batch, and the " }, { text: "aroma guide", href: "/flower/aroma" }, { text: " shows how to read it by smell." }] }],
     },
     {
       id: "curing-storage-and-taste",
