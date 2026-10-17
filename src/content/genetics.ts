@@ -635,6 +635,7 @@ export const geneticsArticles: PageContent[] = [
             after: " when date, name, and producer columns must stay distinct from one percentage.",
           },
         ],
+        subsections: [{ id: "what-to-note-to-compare-two-batches", heading: "What should you note to compare two batches later?", parts: [{ text: "Write down the lot line, not just the strain name: the batch identifier, the harvest date, and the package date. Then add what you noticed yourself, such as aroma, appearance, and how dry or springy the flower felt. Where a certificate of analysis or terpene panel is available, keep in mind that it describes the sample tested from that lot. With those notes, a later jar can be compared lot to lot instead of slogan to slogan. Keep reading with " }, { text: "judging flower aroma", href: "/flower/aroma" }, { text: ", " }, { text: "moisture and cure in flower", href: "/flower/moisture-and-cure" }, { text: ", or " }, { text: "how to read a dispensary menu", href: "/choosing/reading-a-menu" }, { text: "." }] }],
       },
     ],
   },
