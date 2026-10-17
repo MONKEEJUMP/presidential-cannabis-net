@@ -35,6 +35,7 @@ export const aboutPage: PageContent = {
         "Formats in the catalog answer a different question than this page does. Infused flower, pre-rolls, blunts, and minis carry live SKUs, artwork, and inventory that change by market. This guide keeps the company definition and plant vocabulary stable so adults can read those lanes without confusing a brand name for a cultivar or treating educational copy as a current menu.",
         "Company literacy also means knowing where depth lives next. Catalog art, SKUs, and retailer doors stay on Presidential Moon Rocks; infusion chemistry on Presidential THC; blunt format detail on Presidential Blunts. This page stays with identity, wholesale path, and publisher scope so format lanes need not redefine the brand when packaging updates.",
       ],
+      subsections: [{ id: "learning-the-plant-before-the-counter", heading: "Learning the plant before the counter", parts: [{ text: "The company story starts with the plant. Read about " }, { text: "cannabis trichomes", href: "/plant/trichomes" }, { text: " and " }, { text: "cannabis phenotypes", href: "/genetics/phenotypes" }, { text: ", then weigh " }, { text: "flower against infused products", href: "/choosing/flower-vs-infused" }, { text: " before you shop." }] }],
     },
     {
       id: "la-wholesale-legacy",
