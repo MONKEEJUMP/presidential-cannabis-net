@@ -53,6 +53,7 @@ export const aboutPage: PageContent = {
           after: " when you want the brand definition and the map of plant, flower, and genetics hubs in one place.",
         },
       ],
+      subsections: [{ id: "how-do-you-know-a-presidential-product-is-authentic", heading: "How do you know a Presidential product is authentic?", parts: [{ text: "Authenticity begins with the licensed-retail path. Presidential sells wholesale to licensed partners and does not sell cannabis online, so a genuine product comes from a licensed dispensary. Then check the package identity, which is consistent across every format: the Presidential name and crest, the exact product name, and the format. Keep reading with " }, { text: "questions to ask at the counter", href: "/choosing/what-to-ask" }, { text: ", " }, { text: "reading a dispensary menu", href: "/choosing/reading-a-menu" }, { text: ", or " }, { text: "the Presidential guide home", href: "/" }, { text: "." }] }],
     },
     {
       id: "publisher-and-purpose",

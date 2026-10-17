@@ -549,6 +549,7 @@ export const plantArticles: PageContent[] = [
             after: " for the map from annual biology and resin glands through harvest into post-harvest care.",
           },
         ],
+        subsections: [{ id: "how-does-flower-structure-show-in-the-jar", heading: "How does flower structure show in the jar?", parts: [{ text: "Density describes how tightly bracts and floral sites gather, and structure describes the whole arrangement and shape. Genetics supplies the primary pattern: internodal spacing, branch architecture, and flowering behavior. Environment, maturity, drying, trimming, and handling shape the result. A compact flower and an open flower can both carry abundant trichomes and a defined aroma. Keep reading with " }, { text: "flower density and structure", href: "/flower/density-and-structure" }, { text: ", " }, { text: "what flower appearance tells you", href: "/flower/appearance" }, { text: ", or " }, { text: "drying and curing cannabis", href: "/plant/drying-and-curing" }, { text: "." }] }],
       },
     ],
   },
