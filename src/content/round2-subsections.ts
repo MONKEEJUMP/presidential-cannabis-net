@@ -38,6 +38,18 @@ export const round2Subsections: Record<string, LeadSubsection[]> = {
       ],
     },
     {
+      id: "two-strains-same-occasion",
+      heading: "What if two strains fit the same occasion?",
+      paragraphs: [
+        "Settle the format first, then compare the two strains on the label rather than by tag alone. Picking strains based on an indica or sativa line is shorthand, because many modern cultivars show extensive admixture. Put the two rows side by side and read the terpene profile, the dates, the aroma, and the package size. Then ask the budtender which notes apply to the current batch. When the format already fits, the remaining choice is about aroma and batch details, not a promise of a particular feeling.",
+      ],
+      contextualLinks: [
+        { before: "Read ", href: "/plant/indica-sativa-hybrid", label: "indica, sativa, and hybrid explained", after: " before leaning on the tag." },
+        { before: "Use ", href: "/choosing/reading-a-menu", label: "how to read a dispensary menu", after: " to line up the two rows." },
+        { before: "Bring ", href: "/choosing/what-to-ask", label: "what to ask at a dispensary", after: " to the counter for the batch questions." },
+      ],
+    },
+    {
       id: "thc-percentage-and-format",
       heading: "Should THC percentage pick the format?",
       paragraphs: [
