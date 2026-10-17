@@ -91,6 +91,7 @@ export const hubPages: PageContent[] = [
             after: " from bract and calyx through stigmas, sugar leaf, and cola.",
           },
         ],
+        subsections: [{ id: "from-plant-structure-to-choosing-flower", heading: "From plant structure to choosing flower", parts: [{ text: "Knowing " }, { text: "the flower structure", href: "/plant/the-flower-structure" }, { text: " and " }, { text: "how cannabis trichomes form", href: "/plant/trichomes" }, { text: " makes a jar easier to read. Next, see " }, { text: "how to choose cannabis", href: "/choosing" }, { text: " or the " }, { text: "cannabis flower guide", href: "/flower" }, { text: "." }] }],
       },
       {
         id: "harvest-window",
