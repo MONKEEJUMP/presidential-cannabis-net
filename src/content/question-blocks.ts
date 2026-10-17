@@ -213,6 +213,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
       paragraphs: [
         "Read it on the package label or the menu row, beside the package date and batch identifier. The gap between harvest and package dates gives context for drying and curing, and the current date shows how long the flower has been packaged. If the jar shows no harvest date, ask the dispensary staff which dates belong to the batch in hand.",
       ],
+      subsections: [{ id: "how-much-should-the-thc-number-decide", heading: "How much should the THC number decide?", paragraphs: [], parts: [{ text: "Less than most first menus suggest. A THC figure describes the tested sample from one batch, so read it as one column among several, not as a quality grade. Start with the format you want, then read the harvest and package dates beside the batch identifier, the terpene notes, and the aroma. Ask the budtender which notes apply to today's batch, and ask to see the certificate of analysis if you want the full record. Two rows with similar numbers can still smell and smoke differently, so compare the jars themselves. Keep reading with " }, { text: "how to read a dispensary menu", href: "/choosing/reading-a-menu" }, { text: ", " }, { text: "what to ask at the counter", href: "/choosing/what-to-ask" }, { text: ", or " }, { text: "matching format to occasion", href: "/choosing/matching-format-to-occasion" }, { text: "." }] }],
     },
     {
       id: "flower-versus-pre-rolls",

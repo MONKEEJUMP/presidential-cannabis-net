@@ -481,7 +481,7 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       id: "consumption-methods",
       heading: "Consumption Methods",
       paragraphs: [
-        "Consumption methods change onset and duration, which these guides separate from the family label. Smoking is one format they name. A bong, in those guides, provides water filtration during smoking and is said to change the experience. This page does not explain setup or inhalation. Vapes are described as fast and potent, and those guides aim them at experienced consumers, with no device steps here. A small first amount is how they say to judge tolerance with a new product. No weight and no milligram is set. A mild experience is the preference they give new cannabis users. Cannabis use in this literacy is adult and optional. Cannabis use is not a treatment plan.",
+        "Consumption methods change onset and duration, which these guides separate from the family label. Smoking is one format they name. A bong, in those guides, provides water filtration during smoking and is said to change the experience. This page does not explain setup or inhalation. Vapes are described as fast, and those guides aim them at experienced consumers, with no device steps here. A small first amount is how they say to judge tolerance with a new product. No weight and no milligram is set. A mild experience is the preference they give new cannabis users. Cannabis use in this literacy is adult and optional. Cannabis use is not a treatment plan.",
       ],
     },
     {
