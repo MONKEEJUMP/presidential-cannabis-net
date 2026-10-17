@@ -203,6 +203,7 @@ export const hubPages: PageContent[] = [
             after: " when anatomy, harvest timing, drying, and cure sit beside this quality map.",
           },
         ],
+        subsections: [{ id: "reading-the-strain-name-alongside-the-jar", heading: "Reading the strain name alongside the jar", parts: [{ text: "A strain name tells you which genetics the flower came from, and the jar shows how that batch turned out. Read " }, { text: "how strains are named", href: "/genetics/strain-naming" }, { text: " and " }, { text: "cannabis lineage explained", href: "/genetics/lineage" }, { text: ", then judge the flower in front of you with " }, { text: "what makes good flower", href: "/flower/what-makes-good-flower" }, { text: "." }] }],
       },
       {
         id: "sight-and-scent",
