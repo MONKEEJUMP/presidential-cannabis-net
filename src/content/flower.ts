@@ -386,7 +386,7 @@ export const flowerArticles: PageContent[] = [
           "Two jars that share a strain name can still feel different. Phenotype selection, canopy position, harvest window, dry climate, and package fill all change how compact or open a piece presents. The name points to genetics and branding; batch dates, producer notes, and the flower in hand describe this run.",
           "At a licensed counter, keep questions practical and agricultural. Ask whether this cut usually finishes compact or open, how the current batch feels after cure, and which harvest or package dates belong to the jar in hand. Pair those answers with appearance, aroma, and moisture so density never stands alone—and never drifts into medical claims.",
         ],
-        subsections: [{ id: "denser-better", heading: "Is a denser bud a better bud?", parts: [{ text: "Density describes how tightly bracts gather; it is not a score. A compact flower and an open flower can both carry abundant trichomes and a defined aroma. Genetics supplies the primary pattern, and the environment, drying, and handling shape the result, which is why " }, { text: "two batches can differ", href: "/genetics/why-two-batches-differ" }, { text: ". Read " }, { text: "moisture and cure", href: "/flower/moisture-and-cure" }, { text: " next." }] }, { id: "where-density-fits-in-judging-flower", heading: "Where density fits in judging flower", parts: [{ text: "Density is one signal, not the whole picture. A tight bud and a looser one can both be well grown; structure follows genetics, light, and how the plant matured. What matters more is how density lines up with aroma, trichome coverage, moisture, and the cure. A dense bud that smells flat tells you less than a looser one with a clear, fresh aroma. The " }, { text: "checklist for what separates good flower", href: "/flower/what-makes-good-flower" }, { text: " puts those signals in order. When shopping, density rarely shows on a menu, so the " }, { text: "step-by-step menu reading guide", href: "/choosing/reading-a-menu" }, { text: " helps you find the batch details that do show up." }] }],
+        subsections: [{ id: "denser-better", heading: "Is a denser bud a better bud?", parts: [{ text: "Density describes how tightly bracts gather; it is not a score. A compact flower and an open flower can both carry abundant trichomes and a defined aroma. Genetics supplies the primary pattern, and the environment, drying, and handling shape the result, which is why " }, { text: "two batches can differ", href: "/genetics/why-two-batches-differ" }, { text: ". Read " }, { text: "moisture and cure", href: "/flower/moisture-and-cure" }, { text: " next." }] }],
         contextualLinks: [
           {
             before: "Place structure beside color and frost in ",
@@ -424,6 +424,13 @@ export const flowerArticles: PageContent[] = [
             label: "The Flower",
             after: " hub anytime you need the full density-to-storage map.",
           },
+        ],
+      },
+      {
+        id: "where-density-fits-in-judging-flower",
+        heading: "Where density fits in judging flower",
+        paragraphs: [
+          "Density is one signal, not the whole picture. A tight bud and a looser one can both be well grown; structure follows genetics, light, and how the plant matured. What matters more is how density lines up with aroma, trichome coverage, moisture, and the cure. A dense bud that smells flat tells you less than a looser one with a clear, fresh aroma. The checklist for what separates good flower puts those signals in order. When shopping, density rarely shows on a menu, so the step-by-step menu reading guide helps you find the batch details that do show up.",
         ],
       },
     ],

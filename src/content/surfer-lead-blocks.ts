@@ -391,7 +391,7 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       id: "cannabis-buds",
       heading: "Cannabis Buds",
       paragraphs: [
-        "Buds that those guides call high quality show vibrant color and a dense structure, feel slightly sticky but not wet, and come free of seeds and excess stems. Trichomes produce the visible resin on cannabis buds, and the same guides treat trichome density as a clue to higher potency. That clue is not a lab number. Color, density, stickiness, and smell are the identifiable characteristics to use. Consistent quality means the package matches the batch you discussed.",
+        "Buds that those guides call high quality show vibrant color and a dense bud structure, feel slightly sticky but not wet, and come free of seeds and excess stems. Trichomes produce the visible resin on cannabis buds, and the same guides treat trichome density as a clue to higher potency. That clue is not a lab number. Color, density, stickiness, and smell are the identifiable characteristics to use. Consistent quality means the package matches the batch you discussed.",
       ],
     },
     {

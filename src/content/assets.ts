@@ -375,6 +375,12 @@ export const pageImages: Record<string, ContentImage[]> = {
       "width": 1200,
       "height": 1200,
       "alt": "Presidential Pink Cookie Moon Rocks package artwork"
+    },
+    {
+      "src": "/images/presidential-xj-13-blunt-packaging.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Presidential XJ-13 blunt package artwork"
     }
   ],
   "/flower/moisture-and-cure": [
