@@ -7,10 +7,10 @@ export const round2Subsections: Record<string, LeadSubsection[]> = {
       id: "what-is-a-presidential-joint",
       heading: "What is a Presidential joint?",
       paragraphs: [
-        "A Presidential joint is the brand's infused pre-roll, rolled in paper. Presidential blunts use a tobacco-free hemp wrap instead, and both sit beside Moon Rocks and minis in the four-format catalog.",
+        "A Presidential joint is the brand's infused pre-roll, rolled in paper. Presidential blunts use a tobacco-free hemp wrap instead, and both sit beside Moon Rocks and minis in the wider catalog.",
       ],
       contextualLinks: [
-        { before: "See ", href: "#the-catalog", label: "The Presidential Product Line", after: " for how the four formats are organized." },
+        { before: "See ", href: "#the-catalog", label: "The Presidential Product Line", after: " for how the formats are organized." },
       ],
     },
   ],
