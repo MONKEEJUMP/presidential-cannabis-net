@@ -353,24 +353,6 @@ export const editorialLinks: EditorialLink[] = [
     "href": "/flower"
   },
   {
-    "id": "IL-062",
-    "sourcePath": "/choosing/what-to-ask",
-    "sectionId": null,
-    "paragraphIndex": 2,
-    "match": "counter-questions guide",
-    "label": "counter-questions guide",
-    "href": "/"
-  },
-  {
-    "id": "IL-063",
-    "sourcePath": "/choosing/what-to-ask",
-    "sectionId": null,
-    "paragraphIndex": 2,
-    "match": "cannabis products",
-    "label": "cannabis products",
-    "href": "/plant"
-  },
-  {
     "id": "IL-064",
     "sourcePath": "/genetics/why-two-batches-differ",
     "sectionId": null,
@@ -560,15 +542,6 @@ export const editorialLinks: EditorialLink[] = [
     "href": "/about"
   },
   {
-    "id": "IL-088",
-    "sourcePath": "/genetics",
-    "sectionId": null,
-    "paragraphIndex": 1,
-    "match": "how strains are made",
-    "label": "how strains are made",
-    "href": "/genetics/phenotypes"
-  },
-  {
     "id": "IL-089",
     "sourcePath": "/flower/moisture-and-cure",
     "sectionId": null,
@@ -708,8 +681,8 @@ export const editorialLinks: EditorialLink[] = [
     "sourcePath": "/flower",
     "sectionId": "structure-and-cure",
     "paragraphIndex": 2,
-    "match": "breeding context",
-    "label": "breeding context",
+    "match": "the inheritance story behind the batch",
+    "label": "the inheritance story behind the batch",
     "href": "/genetics/how-strains-are-made"
   },
   {
@@ -891,5 +864,32 @@ export const editorialLinks: EditorialLink[] = [
     "match": "as a Presidential OG strain name on a menu shows",
     "label": "a Presidential OG strain name on a menu",
     "href": "/"
+  },
+  {
+    "id": "IL-R29S-01",
+    "sourcePath": "/genetics/how-strains-are-made",
+    "sectionId": "cannabis-breeding-on-cannabis-plants",
+    "paragraphIndex": 0,
+    "match": "how cannabis plants grow, flower and mature",
+    "label": "how cannabis plants grow, flower and mature",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-R29S-02",
+    "sourcePath": "/genetics/phenotypes",
+    "sectionId": "understanding-cannabis-phenotypes-on-the-cannabis-plant",
+    "paragraphIndex": 0,
+    "match": "the Presidential guide to the cannabis plant",
+    "label": "the Presidential guide to the cannabis plant",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-R29S-03",
+    "sourcePath": "/genetics/landrace-and-modern",
+    "sectionId": "how-landrace-cannabis-strains-took-shape",
+    "paragraphIndex": 0,
+    "match": "The cannabis plant guide",
+    "label": "The cannabis plant guide",
+    "href": "/plant"
   }
-  ];
+];

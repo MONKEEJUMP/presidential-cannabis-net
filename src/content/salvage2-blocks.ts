@@ -159,7 +159,7 @@ export const salvage2Blocks: Record<string, LeadBlock[]> = {
       heading: "What conditions does a drying room hold?",
       paragraphs: [
         "Drying cannabis is commonly done by hanging it for about 5 to 14 days in a dark, cool drying room, with temperature, humidity, darkness, and air movement guiding moisture loss from the plant. Dry trimming waits until the hang is finished, and some growers leave fan leaves on so the outer layers dry more slowly.",
-        "Curing cannabis follows in jars. Guides say buds should be jarred at 55 to 62 percent humidity, and that ideal relative humidity during curing is 58 to 62 percent. Where mold shows up, relative humidity and a crowded canopy are the practical questions, and humidity control is about preventing mold rather than chasing a calendar.",
+        "Curing cannabis follows in jars. Where mold shows up, relative humidity and a crowded canopy are the practical questions, and humidity control is about preventing mold rather than chasing a calendar.",
       ],
     },
   ],

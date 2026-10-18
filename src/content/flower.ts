@@ -12,7 +12,6 @@ export const flowerArticles: PageContent[] = [
     intro: [
       "Good cannabis flower combines healthy appearance, defined aroma, cultivar-appropriate structure, intact trichomes, and a balanced cure. A practised buyer reads those qualities together. The strongest flower looks carefully grown, smells vivid and specific, feels settled yet resilient, and carries batch information that supports its freshness and handling.",
       "No single visual style owns quality. Some cultivars form compact pieces and others form open, elongated flowers. Colors range across greens, purples, and warm accents. The useful standard is coherence: structure fits the genetics, trichomes remain present across the surface, pistils and bracts show complete development, trim respects the flower, and moisture supports an even texture.",
-      "Presidential Cannabis publishes this good-flower checklist as adult 21+ flower literacy: appearance, aroma, density, moisture, and cure read together; how this hub ties to those child pages plus why two batches differ and what to ask; and the habit of reading batch notes separately from strain name—never medical claims.",
     ],
     sections: [
       {

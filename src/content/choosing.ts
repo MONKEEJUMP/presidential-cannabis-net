@@ -13,7 +13,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Read a dispensary menu by starting with format and package size, then adding cultivar, batch date, aromatic information, potency, and price. Each column answers a different question. The best choice comes from the full row rather than the largest number, because freshness, aroma, structure, and the planned occasion give measurements their practical context.",
       "Menus range from concise printed lists to detailed digital catalogs. Some include harvest and package dates, terpene panels, lineage, cultivation source, or staff notes. The reading method stays consistent across formats: decide what kind of product fits the moment, identify the current batch, and use the available measurements to compare like with like.",
-      "Presidential Cannabis publishes this menu-reading guide as adult 21+ retail literacy: how to read format, package size, cultivar name, THC and other percentage columns, batch dates, and price without treating any single field as a quality grade—and without medical claims. The habit ties to what-to-ask, first-time visits, matching format to occasion, strain naming, and why two batches differ at a licensed counter.",
+      "The habit ties to what-to-ask, first-time visits, matching format to occasion, strain naming, and why two batches differ at a licensed counter.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/reading-a-menu"],
     sections: [
@@ -121,7 +121,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Ask a dispensary budtender about the current cannabis batch on this dispensary visit: when it was harvested, how the cure feels, which aromas stand out, how the flower is structured, and which option best fits your occasion. These questions invite specific, observable answers. A good conversation connects the printed menu to the actual inventory on the shelf that day.",
       "Begin with one clear preference and one practical need. You might describe citrus or earthy aroma, a personal or shared session, raw flower or an infused format, a package size, or a freshness priority. Concrete preferences give the budtender a useful frame and make the comparison easier to follow.",
-      "Presidential Cannabis publishes this counter-questions guide as adult 21+ retail literacy: what to ask about cannabis products, flower freshness, harvest and package dates, cure, storage, format, potency, product types, and factual label details at a licensed dispensary. The brand name here is the company and publisher. This page stays with practical questions, observable answers, and licensed-counter decisions.",
+      "The brand name here is the company and publisher. This page stays with practical questions, observable answers, and licensed-counter decisions.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/what-to-ask"],
     sections: [
@@ -164,7 +164,7 @@ export const choosingArticles: PageContent[] = [
           "Share an aroma preference rather than asking for a promised experience. Earth, citrus, pepper, pine, floral, and fruit are useful starting families. Ask which current flower expresses that character most clearly and which has the freshest defined nose. This keeps the answer grounded in the product's observable qualities.",
           "Close with storage and use-by planning. Ask how the package seals, whether the flower benefits from transfer to a glass container, and what size matches your timeline. The complete counter conversation then covers current batch, sensory quality, occasion, and care—exactly the information that turns a menu selection into a confident purchase.",
           "Format questions sit beside freshness without replacing it. Ask whether raw flower, a prepared format, or a smaller unit better matches the occasion you already named, then confirm which current packages carry the harvest or package dates you prefer. The useful answer names both the form and a batch detail you can verify on the label. That pairing keeps convenience and agricultural evidence in one decision instead of treating them as competing goals.",
-          "After checkout, the same checklist closes the loop. Confirm the seal, store according to label guidance, and jot one line about the date, aroma description, and format that matched the plan. Inheritance and phenotype context can sit beside this silo when you later want to understand why two runs of a named cultivar differ. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+          "After checkout, the same checklist closes the loop. Confirm the seal, store according to label guidance, and jot one line about the date, aroma description, and format that matched the plan. Cannabis Genetics explains why two runs of a named cultivar can differ. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
         ],
         contextualLinks: [
           {
@@ -180,7 +180,7 @@ export const choosingArticles: PageContent[] = [
             after: " if entry, pacing, and a simple purchase plan still need a clear sequence before the counter questions begin.",
           },
           {
-            before: "For parentage and batch variation beside this silo, open ",
+            before: "For parentage and batch variation, open ",
             href: "/genetics",
             label: "Cannabis Genetics",
             after: " when lineage and phenotype help explain why two deliveries of a familiar name can still smell and feel different.",
@@ -206,7 +206,6 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "For a first dispensary visit, bring valid government-issued identification, know the store's accepted payment methods, and arrive with one simple idea of the occasion or format you want. Staff will verify entry, offer a menu, answer questions at the counter, complete the purchase, and provide the sealed product. The process is structured, calm, and designed to support informed adult customers.",
       "Checking the licensed retailer's website before the visit makes the experience even smoother. Confirm hours, identification requirements, payment options, parking or pickup details, and the current menu. Inventory moves, so treat the online list as a preview and let the in-store menu supply the final choices.",
-      "Presidential Cannabis publishes this first-visit guide as adult 21+ retail literacy: identification check, menu reading, asking for help, a paced purchase, and the habit of reading labels and batch notes. No medical claims appear here. The job is a calm sequence first-time adults can follow without rushing the counter.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/first-time"],
     sections: [
@@ -286,7 +285,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Choose raw flower when you want the cured plant material itself to define the purchase, and choose an infused format when you want flower with concentrate and kief added. The two categories differ in product composition, potency range, presentation, price, and session planning. A clear occasion and careful label reading make the choice straightforward.",
       "Flower quality remains the foundation in both categories. Raw flower gives aroma, structure, trichomes, moisture, and cure direct visibility. An infused product combines flower with added cannabis components in a prepared format. In either case, freshness, batch information, licensed production, sound packaging, and appropriate storage support the purchase.",
-      "Presidential Cannabis publishes this flower-versus-infused comparison as adult 21+ retail literacy: when raw flower and infused formats fit occasion and pace, how the choice ties to matching format to occasion, reading a menu, what to ask, and The Flower hub, and the habit of reading labels on both categories—never medical claims. The brand name here is the company and publisher.",
+      "The brand name here is the company and publisher.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/flower-vs-infused"],
     sections: [
@@ -365,7 +364,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Match cannabis format to the occasion by considering session length, sharing, preparation, portability, and package size before comparing cultivars or percentages. A short personal moment, a planned shared session, and a portable outing each create different practical needs. Choosing the fit first turns a broad menu into a focused list.",
       "Format is the physical form in which the product reaches you. Raw flower offers flexibility and keeps the cured flower at the center. Prepared formats organize a specific amount and composition for convenience. Minis create another package and session scale. The useful choice is the one that aligns with the people, place, time, and storage plan.",
-      "Presidential Cannabis publishes this matching-format guide as adult 21+ retail literacy: how session length, sharing, preparation, portability, and package size turn a broad menu into a focused list. The brand name here is the company and publisher. This page stays with occasion planning, format fit, and licensed-counter decisions.",
+      "The brand name here is the company and publisher. This page stays with occasion planning, format fit, and licensed-counter decisions.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/matching-format-to-occasion"],
     sections: [
@@ -408,7 +407,7 @@ export const choosingArticles: PageContent[] = [
           "Portability favors secure, clearly labeled packaging and a size suited to the outing. Keep every product sealed and stored according to local rules during travel. At the destination, protect it from heat and direct light. These practical details preserve aroma, moisture, and package condition.",
           "Finally, plan for what remains. Raw flower holds best in a clean, sealed container in a cool, dark place. Prepared products stay in their original protective packaging according to label guidance. Choose an amount that matches the near-term occasion and storage timeline. The complete method is concise: people, time, preparation, portability, package, and care.",
           "Composition belongs in the same frame as convenience. Raw flower keeps selection and preparation flexible; an infused prepared format organizes amount and composition for a ready session. Neither is a universal default. When the occasion asks for personal preparation and direct observation of the flower, raw flower usually fits. When the occasion asks for clear portions, compact packaging, and less setup, a prepared format usually fits. Package size then aligns either choice with the near-term timeline and storage plan.",
-          "After the purchase, the same practical checklist closes the loop. Confirm the seal, store according to label guidance, and note whether preparation, size, and portability matched the plan. Plant anatomy and genetics sit beside this silo when you want living-plant or inheritance context after the retail decision. Company and publisher context lives on About Presidential Cannabis when you need brand definition rather than an occasion checklist. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
+          "After the purchase, the same practical checklist closes the loop. Confirm the seal, store according to label guidance, and note whether preparation, size, and portability matched the plan. After the retail decision, The Plant and Cannabis Genetics cover the living plant and its inheritance. Company and publisher context lives on About Presidential Cannabis when you need brand definition rather than an occasion checklist. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
         ],
         contextualLinks: [
           {
@@ -424,7 +423,7 @@ export const choosingArticles: PageContent[] = [
             after: " so the budtender can match freshness and package details to the plan you already named.",
           },
           {
-            before: "For publisher and brand definition beside this silo, open ",
+            before: "For publisher and brand definition, open ",
             href: "/about",
             label: "About Presidential Cannabis",
             after: ".",
