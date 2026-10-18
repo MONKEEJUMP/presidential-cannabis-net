@@ -102,7 +102,7 @@ export const geneticsArticles: PageContent[] = [
             label: "the lineage guide",
             after: " when a stabilized release still needs its family tree beside the menu name.",
           },
-        ], subsections: [{ id: "where-breeding-meets-the-harvest-calendar", heading: "Where breeding meets the harvest calendar", parts: [{ text: "Breeding decisions do not end when a cross is made. Growers still have to decide when each plant is ready, and that choice shapes how the finished flower looks and smells. Two plants from the same cross can ripen at different times, which is one reason breeders watch closely before choosing which plant to keep. The guide on " }, { text: "when growers decide to harvest", href: "/plant/harvest-timing" }, { text: " explains the signs they look for. For the type labels a new strain often receives, read " }, { text: "where indica and sativa labels came from", href: "/plant/indica-sativa-hybrid" }, { text: "." }] }],
+        ],
       },
     ],
   },
