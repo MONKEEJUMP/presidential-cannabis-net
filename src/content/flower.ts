@@ -109,7 +109,7 @@ export const flowerArticles: PageContent[] = [
             label: "The Flower",
             after: " hub anytime you need the full appearance-to-storage map.",
           },
-        ],
+        ], subsections: [{ id: "matching-the-menu-line-to-the-jar", heading: "Matching the menu line to the jar", parts: [{ text: "Good flower is judged in the jar, but the menu line comes first. A strain name tells you which genetics to expect, not how this batch turned out. The guide to " }, { text: "how strain names are assigned", href: "/genetics/strain-naming" }, { text: " explains what a name can and can't promise. Before you look closely, read the menu carefully. The " }, { text: "menu-reading walkthrough", href: "/choosing/reading-a-menu" }, { text: " covers which fields matter and which are marketing. Then return to the flower itself: structure, color, trichome coverage, and a clean, settled aroma tell you more than any label term. If two notes disagree, trust what you can see and smell." }] }],
       },
     ],
   },
