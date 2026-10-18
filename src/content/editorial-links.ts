@@ -783,5 +783,23 @@ export const editorialLinks: EditorialLink[] = [
     "match": "How to judge cannabis flower quality",
     "label": "How to judge cannabis flower quality",
     "href": "/flower"
+  },
+  {
+    "id": "IL-R31S-01",
+    "sourcePath": "/genetics/strain-naming",
+    "sectionId": "cannabis-strains-without-a-registrar",
+    "paragraphIndex": 0,
+    "match": "Why Presidential is a company, not a cultivar",
+    "label": "Why Presidential is a company, not a cultivar",
+    "href": "/about"
+  },
+  {
+    "id": "IL-R31S-02",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "the maker behind the name",
+    "label": "the maker behind the name",
+    "href": "/about"
   }
 ];
