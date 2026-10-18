@@ -11,7 +11,7 @@ export const choosingArticles: PageContent[] = [
     description: "How to read dispensary menu fields including format, package size, cultivar, potency, terpene panel, harvest date, and price.",
     wordTarget: [1100, 1250],
     intro: [
-      "Read a dispensary menu by starting with format and package size, then adding cultivar, batch date, aromatic information, potency, and price. Each column answers a different question. The best choice comes from the full row rather than the largest number, because freshness, aroma, structure, and the planned occasion give measurements their practical context.",
+      "Read a dispensary menu by starting with format and package size, then adding cultivar, batch date, aromatic information, potency, and price. Each column answers a different question. When a line starts with Presidential, the maker behind the name explains how to read it. The best choice comes from the full row rather than the largest number, because freshness, aroma, structure, and the planned occasion give measurements their practical context.",
       "Menus range from concise printed lists to detailed digital catalogs. Some include harvest and package dates, terpene panels, lineage, cultivation source, or staff notes. The reading method stays consistent across formats: decide what kind of product fits the moment, identify the current batch, and use the available measurements to compare like with like.",
       "The habit ties to what-to-ask, first-time visits, matching format to occasion, strain naming, and why two batches differ at a licensed counter.",
     ],

@@ -505,7 +505,7 @@ export const surferLeadBlocks: Record<string, LeadBlock[]> = {
       id: "cannabis-strains-without-a-registrar",
       heading: "Cannabis strains without a registrar",
       paragraphs: [
-        "Cannabis has no central authority regulating strain names, allowing for creative naming. The term strain lacks a precise scientific definition. Cannabis naming history includes thousands of named varieties. Extensive hybridization complicates traditional cannabis strain classifications. Two plants can share spelling and still differ in genes.",
+        "Cannabis has no central authority regulating strain names, allowing for creative naming. Why Presidential is a company, not a cultivar separates the brand from Presidential-named strains. The term strain lacks a precise scientific definition. Cannabis naming history includes thousands of named varieties. Extensive hybridization complicates traditional cannabis strain classifications. Two plants can share spelling and still differ in genes.",
         "Cannabis strain names can mislead about the actual chemical and therapeutic qualities of the product. Terpenes are the aromatic compounds in cannabis that influence smell and taste. An aroma word can describe the jar and still say nothing about a cannabinoid printout. That gap is a huge part of why a title feels bigger than the flower.",
       ],
     },
