@@ -427,6 +427,12 @@ export const pageImages: Record<string, ContentImage[]> = {
       "width": 1200,
       "height": 1200,
       "alt": "Presidential Watermelon mini blunt package artwork"
+    },
+    {
+      "src": "/images/presidential-xj-13-blunt-packaging.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Presidential XJ-13 blunt package artwork"
     }
   ],
   "/genetics": [
