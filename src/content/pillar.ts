@@ -107,7 +107,7 @@ export const pillarPage: PageContent = {
       heading: "The Presidential Product Line",
       paragraphs: [
         "Presidential Moon Rocks combine flower, concentrate, and kief in the layered format. Infused pre-rolls use paper; menus distinguish rolls by paper or tobacco-free hemp wrap, with pre rolls beside Presidential Blunts and minis. The four formats are Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis.",
-        "The official catalog and package identify the exact product, collection, format, and visible composition language. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize distinct collections, with flavors identified on the current catalog and package. Potency and other test values are batch-specific rather than fixed across an entire series.",
+        "The package identifies the exact product, collection, format, and visible composition language. The Silver Flavor Series, Gold Strain Series, and Rose Gold Connoisseur Series organize distinct collections, with flavors identified on the current package. Potency and other test values are batch-specific rather than fixed across an entire series.",
         "Series names organize browsing; they do not freeze every SKU. When a package or menu line updates, treat the current catalog and the unit in hand as the source of truth so format lanes can change without rewriting company identity.",
       ],
     },
@@ -124,7 +124,7 @@ export const pillarPage: PageContent = {
       heading: "Knowing It Is Authentic",
       paragraphs: [
         "Authenticity begins with the licensed-retail path and consistent package identity across every format, including pre rolls. Check the Presidential name and crest, product and format label, required package information, and batch details.",
-        "Buy through licensed retailers, then match the unit in hand to the official catalog language for that format. Packaging, required disclosures, and batch identifiers are the practical checks; informal marketplace listings and look-alike names are not substitutes for the licensed path.",
+        "Buy through licensed retailers, then check the unit in hand against its package label. Packaging, required disclosures, and batch identifiers are the practical checks; informal marketplace listings and look-alike names are not substitutes for the licensed path.",
         "Check the crest, the exact product name and the licensed retailer's label on the package.",
       ],
       contextualLinks: [
