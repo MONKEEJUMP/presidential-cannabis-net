@@ -13,7 +13,7 @@ export const geneticsArticles: PageContent[] = [
     intro: [
       "People asking how weed strains are made are describing cannabis breeding: selected parent plants are crossed, the resulting seeds are grown, and offspring that express a breeder's goals are chosen. Breeders evaluate structure, aroma, resin, flower timing, color, vigor, yield, and consistency across complete cycles. A chosen plant can be preserved through cuttings, carried into further crosses, or developed through repeated generations toward a more predictable line.",
       "The process blends planning with discovery. Parentage sets the range, and every seed reshuffles inherited material into a new individual. The breeder begins with an intention, then lets a living population reveal the combinations actually present. Strong records connect each seed, plant, branch, harvest, and evaluation to the decision that follows.",
-      "Presidential Cannabis publishes this how-strains-are-made guide as adult 21+ genetics literacy: how breeders select parents, cross them, grow seed populations, choose phenotypes, and stabilize lines; how that work ties to lineage, naming, landrace foundations, and batch variation; and which licensed-counter questions keep breeder notes distinct from shelf titles. No medical claims appear here.",
+      "This guide covers how breeders select parents, cross them, grow seed populations, choose phenotypes, and stabilize lines; how that work ties to lineage, naming, landrace foundations, and batch variation; and which licensed-counter questions keep breeder notes distinct from shelf titles.",
     ],
     leadBlocks: surferLeadBlocks["/genetics/how-strains-are-made"],
     sections: [
@@ -117,7 +117,7 @@ export const geneticsArticles: PageContent[] = [
     intro: [
       "A phenotype is the observable expression of a plant's genetics in its environment. Seeds from the same cannabis cross can produce different heights, branching patterns, flowering times, aromas, colors, resin levels, and flower structures because each seed receives a different genetic combination. Breeders grow those siblings, compare them, and preserve a selected individual through cuttings.",
       "Phenotype links inherited possibility with lived conditions. Genotype is the genetic makeup; phenotype is what becomes visible and measurable as that makeup develops under particular light, temperature, nutrition, root space, water, and cultivation. The same genetic individual can shift within a range across environments, while distinct seed siblings carry genetic differences from the beginning.",
-      "Presidential Cannabis publishes this phenotypes guide as adult 21+ genetics literacy: what phenotype means beside genotype and strain name; why two plants from the same cross can differ; how selection and cloning preserve one expression; and how that literacy ties to lineage, how strains are made, why two batches differ, strain naming, and landrace foundations. No medical claims appear here.",
+      "This guide covers what phenotype means beside genotype and strain name; why two plants from the same cross can differ; how selection and cloning preserve one expression; and how it ties to lineage, how strains are made, why two batches differ, strain naming, and landrace foundations.",
     ],
     leadBlocks: surferLeadBlocks["/genetics/phenotypes"],
     sections: [
@@ -215,8 +215,8 @@ export const geneticsArticles: PageContent[] = [
     wordTarget: [1100, 1250],
     intro: [
       "Cannabis lineage is the recorded parentage behind a cultivar. A simple lineage names two parents, while a deeper family tree follows those parents through earlier crosses and regional foundations. Lineage can suggest aromatic families, growth patterns, flower structure, timing, and breeding intent, and the current phenotype and batch show how those possibilities were expressed.",
-      "Reading lineage is like reading a map rather than a finished portrait. The map shows routes and relationships. The selected plant gives that family a particular identity, and cultivation creates the flower available today. When all three are visible—parentage, phenotype, and batch—the cultivar name carries useful context instead of standing alone.",
-      "Presidential Cannabis publishes this lineage guide as adult 21+ genetics literacy: how to read parent and cross language on licensed menus, how lineage relates to—but does not replace—marketing names, phenotypes, breeding steps, and batch evidence, and which counter questions keep the reading agricultural—never medical claims.",
+      "Reading lineage is like reading a map rather than a finished portrait. The map shows routes and relationships. The selected plant gives that family a particular identity, and cultivation creates the flower available today. How to judge cannabis flower quality picks up from there. When all three are visible—parentage, phenotype, and batch—the cultivar name carries useful context instead of standing alone.",
+      "This guide covers how to read parent and cross language on licensed menus, how lineage relates to—but does not replace—marketing names, phenotypes, breeding steps, and batch evidence, and which counter questions keep the reading agricultural.",
     ],
     leadBlocks: surferLeadBlocks["/genetics/lineage"],
     sections: [
@@ -258,7 +258,7 @@ export const geneticsArticles: PageContent[] = [
           "Parentage can suggest a range of likely traits. Families may share a recognizable aromatic direction, compact or open growth, a flowering schedule, color potential, or a style of resin coverage. Breeders often choose parents precisely because their observed strengths complement each other, so the family tree communicates part of the design.",
           "The selected phenotype determines which combination became the named cultivar. Seed siblings can emphasize different sides of the family, and a clone preserves one of those individuals. Environment then shapes that clone's expression through light, climate, nutrition, harvest timing, and post-harvest care.",
           "Use lineage to form better questions. Ask which parent contributes the current aroma, how the flower structure compares with its family, and whether the product comes from a preserved cut or a seed population. Then inspect the current flower and dates. Lineage sets an informed expectation, while the batch supplies the evidence in hand.",
-          "Phenotype literacy keeps that expectation honest. Two siblings from one cross can diverge in structure, aroma, or density even when they share the same parents on paper. A producer who keeps a chosen cut preserves one expression. Asking whether the jar is a named cut or a broader seed-line family keeps lineage from implying uniformity the garden never promised.",
+          "Two siblings from one cross can diverge in structure, aroma, or density even when they share the same parents on paper. A producer who keeps a chosen cut preserves one expression. Asking whether the jar is a named cut or a broader seed-line family keeps lineage from implying uniformity the garden never promised.",
           "Two jars that share a strain name can still diverge because garden climate, harvest window, cure, and packaging rewrite expression on the same genetic material. Parents point to inherited potential; dates, batch identifiers, and the flower in hand describe this run. Separating lineage from batch evidence keeps family-tree literacy agricultural at licensed retail.",
           "At a licensed counter, keep questions practical and agricultural. Ask which parents or cut are documented for this lot, whether staff know if the material is seed or clone origin, and which harvest or package dates belong to the jar in hand. Pair those answers with aroma, structure, and moisture so lineage never stands alone—and never drifts into medical claims.",
         ],
@@ -302,7 +302,7 @@ export const geneticsArticles: PageContent[] = [
     intro: [
       "Cannabis strains get their names from parentage, aroma, appearance, place, breeder identity, cultural references, and creative themes. A name gives a selected plant a memorable identity and helps its lineage travel through gardens, menus, and conversations. Its value grows when the name stays connected to the breeder, parentage, phenotype, and current batch.",
       "Naming sits at the meeting point of recordkeeping and storytelling. A technical code can track a plant during selection, while a released name makes the cultivar easier to recognize. The strongest naming practice preserves a clear chain from the chosen individual to the flower sold under that identity.",
-      "Presidential Cannabis publishes this strain-naming guide as adult 21+ genetics literacy: how marketing titles relate to—but do not replace—documented parents, selected cuts, and batch evidence; why two jars with similar names can still differ; and how to read the label as an index rather than a complete genetic dossier. No medical claims appear here. The educational job is narrower: give readers vocabulary that keeps identity, lineage, and present flower in separate, checkable layers.",
+      "This guide covers how marketing titles relate to—but do not replace—documented parents, selected cuts, and batch evidence; why two jars with similar names can still differ; and how to read the label as an index rather than a complete genetic dossier.",
     ],
     leadBlocks: surferLeadBlocks["/genetics/strain-naming"],
     sections: [
@@ -421,7 +421,7 @@ export const geneticsArticles: PageContent[] = [
     intro: [
       "A cannabis landrace is a locally adapted population shaped through generations of reproduction in a particular region. Climate, season, elevation, soil, human selection, and exchange within the area helped establish recognizable traits. Modern cultivars build on this diversity through crossing and selection, combining regional foundations into plants suited to current gardens and flower goals.",
       "Landrace describes a population rather than one perfectly uniform plant. Variation gives the population resilience and provides breeders with multiple expressions to study. The concept is valuable because it connects genetics to place and time, showing how inherited traits emerge through long relationships between plants, environments, and people.",
-      "Presidential Cannabis publishes this landrace-and-modern guide as adult 21+ genetics literacy: how regional populations formed through local adaptation, how that diversity entered modern breeding, and how cultivar names relate to—but do not replace—documented parentage and present batch evidence. The brand name here is the company and publisher. This page stays with origins, adaptation, selection, and naming clarity.",
+      "This guide covers how regional populations formed through local adaptation, how that diversity entered modern breeding, and how cultivar names relate to—but do not replace—documented parentage and present batch evidence.",
     ],
     leadBlocks: surferLeadBlocks["/genetics/landrace-and-modern"],
     sections: [
@@ -500,7 +500,7 @@ export const geneticsArticles: PageContent[] = [
     intro: [
       "Two batches of the same cannabis strain differ because genetics provide a range and each cultivation cycle gives that range a fresh environment. Light, temperature, humidity, nutrition, root space, plant care, harvest timing, drying, cure, packaging, and storage shape the finished flower. Even batches grown from the same clone can vary in aroma, structure, color, moisture, and trichome maturity.",
       "The cultivar name identifies a genetic family or selected individual. The batch identifies one completed run of that material. Reading both levels is the practical approach: lineage explains inherited potential, while the batch describes how that potential appeared and how well it was preserved this time.",
-      "Presidential Cannabis publishes this batch-variation guide as adult 21+ genetics literacy: why two jars that share a strain name can still differ through environment, harvest window, cure, and cut-versus-seed origin; how to read batch, COA, and harvest notes separately from the menu title; and how appearance, aroma, and density sit beside that comparison—never medical claims.",
+      "This guide covers why two jars that share a strain name can still differ through environment, harvest window, cure, and cut-versus-seed origin; how to read batch, COA, and harvest notes separately from the menu title; and how appearance, aroma, and density sit beside that comparison.",
     ],
     leadBlocks: surferLeadBlocks["/genetics/why-two-batches-differ"],
     sections: [

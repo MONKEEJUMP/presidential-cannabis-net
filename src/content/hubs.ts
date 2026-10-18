@@ -12,7 +12,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1100, 1250],
     intro: [
       "Cannabis is an annual flowering plant, and its harvested flower carries the visible record of genetics, growth, maturity, and handling. Understanding the living plant makes every later quality signal easier to read. This section follows the biological structure from the whole plant to the resin gland, then through harvest, drying, and cure.",
-      "Presidential Cannabis publishes this plant hub as adult 21+ botanical literacy for the living cannabis plant: annual cycle, resin glands, flower anatomy, harvest timing, drying, and cure. The brand name here is the company and publisher. This page stays with structure, maturity, and post-harvest care that shape finished flower.",
+      "This guide covers the living cannabis plant: annual cycle, resin glands, flower anatomy, harvest timing, drying, and cure.",
     ],
     leadBlocks: [
       {
@@ -164,7 +164,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1250, 1350],
     intro: [
       "The Presidential flower guide brings appearance, aroma, structure, moisture, cure, and trichome condition into one coherent view of cannabis flower. Each quality can be observed on its own, and the complete assessment comes from reading them together. This section builds that assessment from the first look and first aroma through storage at home.",
-      "Presidential Cannabis publishes this flower hub as adult 21+ quality literacy for finished cannabis flower: how to read sight, aroma, density, cure, and storage without turning any single cue into a medical claim. The brand name here is the company and publisher. This page stays with observation, handling, and batch context at licensed retail.",
+      "This guide covers how to read finished cannabis flower: sight, aroma, density, cure and storage.",
       "The guides below go deeper on each sense; keep every observation tied to the jar in hand and its package dates.",
     ],
     sections: [
@@ -191,27 +191,19 @@ export const hubPages: PageContent[] = [
             after: ".",
           },
           {
-            before: "Begin with ",
-            href: "/flower/what-makes-good-flower",
-            label: "what makes good flower",
-            after: " for the counter-ready overview of appearance, trichomes, trim, aroma, and cure in one pass.",
-          },
-          {
             before: "For living-plant context behind finished flower, open ",
             href: "/plant",
             label: "The Plant",
             after: " when anatomy, harvest timing, drying, and cure sit beside this quality map.",
           },
         ],
-        subsections: [{ id: "reading-the-strain-name-alongside-the-jar", heading: "Reading the strain name alongside the jar", parts: [{ text: "A strain name tells you which genetics the flower came from, and the jar shows how that batch turned out. Read " }, { text: "how strains are named", href: "/genetics/strain-naming" }, { text: " and " }, { text: "cannabis lineage explained", href: "/genetics/lineage" }, { text: ", then judge the flower in front of you with " }, { text: "what makes good flower", href: "/flower/what-makes-good-flower" }, { text: "." }] }],
+        subsections: [{ id: "reading-the-strain-name-alongside-the-jar", heading: "Reading the strain name alongside the jar", parts: [{ text: "A strain name tells you which genetics the flower came from, and the jar shows how that batch turned out. Read " }, { text: "how strains are named", href: "/genetics/strain-naming" }, { text: " and " }, { text: "cannabis lineage explained", href: "/genetics/lineage" }, { text: ", then judge the flower in front of you." }] }],
       },
       {
         id: "sight-and-scent",
         heading: "Sight and Aroma",
         paragraphs: [
-          "Appearance examines color, trichome frost, pistils, trim, and the visual signs of well-developed flower. Aroma explains how to smell flower at a counter and what a vivid nose reveals about freshness, cure, and handling. It introduces common aromatic characters-earthy myrcene, citrus limonene, peppery caryophyllene, pine-like pinene, floral linalool, and fruity terpinolene-as members of a larger blend.",
-          "These senses answer different questions. Sight maps structure and surface condition. Aroma reveals the volatile profile that remains in the batch. Together they provide a fast, information-rich starting point before percentages or cultivar names enter the conversation.",
-          "Sight literacy also includes what packaging and light allow you to see. Clear views of trichome coverage, intact bracts, and tidy trim support a calmer comparison between jars. Aroma literacy stays practical: a short, clean inhale from the container after it has been opened briefly, then a return to the seal so the batch does not dry out on the counter. Neither sense alone finishes the assessment, but both set the pace for density, cure, and storage decisions that follow.",
+          "These senses answer different questions. Sight maps structure and surface condition. Aroma reveals the volatile profile that remains in the batch. Together they provide a fast, information-rich starting point before percentages or cultivar names enter the conversation. Neither sense alone finishes the assessment, but both set the pace for density, cure, and storage decisions that follow.",
           "Treat percentage panels as orientation, not a substitute for the nose and surface in front of you. Two batches sharing a name can still diverge in frost, trim, and aromatic definition after different harvest windows or post-harvest care. Sight and scent keep that difference readable before you decide what to take home.",
         ],
         contextualLinks: [
@@ -227,21 +219,16 @@ export const hubPages: PageContent[] = [
             label: "the appearance guide",
             after: " for color, frost, pistils, and trim cues you can read under retail lighting.",
           },
-          {
-            before: "Then use ",
-            href: "/flower/aroma",
-            label: "the aroma guide",
-            after: " to practice a careful nose check and place common aromatic families in context.",
-          },
         ],
+        subsections: [{ id: "what-color-and-trichome-frost-tell-you", heading: "What color and trichome frost tell you", parts: [{ text: "The appearance guide examines color, trichome frost, pistils, trim, and the visual signs of well-developed flower. Packaging and light decide how much of that you can see: clear views of trichome coverage, intact bracts, and tidy trim support a calmer comparison between jars." }] }, { id: "how-to-smell-flower-at-the-counter", heading: "How to smell flower at the counter", parts: [{ text: "A vivid nose says a lot about freshness, cure, and handling. Common aromatic characters (earthy myrcene, citrus limonene, peppery caryophyllene, pine-like pinene, floral linalool and fruity terpinolene) are members of a larger blend. Keep the check practical: a short, clean inhale from the container after it has been opened briefly, then a return to the seal so the batch does not dry out on the counter." }] }],
       },
       {
         id: "structure-and-cure",
         heading: "Structure, Moisture, and Cure",
         paragraphs: [
-          "Density and Structure shows how compact and open flowers can each express sound cultivation. It separates structural information from a complete quality judgment and explains how bracts, spacing, and trimming shape the piece in hand. Moisture and Cure adds touch: a balanced flower feels settled outside and resilient within, with a texture that supports easy handling.",
+          "Density and Structure shows how compact and open flowers can each express sound cultivation. It separates structural information from a complete quality judgment and explains how bracts, spacing, and trimming shape the piece in hand.",
           "The cure joins visible and aromatic observation. Remaining moisture moves toward balance while the flower's nose and texture continue changing. This is why structure and cure belong beside each other: one begins with genetics and growth, while the other stabilizes moisture and carries a changing agricultural product toward retail.",
-          "Density literacy keeps genetics and handling in the same frame. A tight flower can still be well grown, and an open flower can still be carefully finished; structure describes form more than a ranking. Cure literacy is the touch and time layer: moisture that feels even, a surface that is not brittle or spongy, and an aromatic profile that remains defined after the container returns to its seal. The Plant and Cannabis Genetics cover the living plant and the inheritance story behind the batch.",
+          "Density literacy keeps genetics and handling in the same frame. A tight flower can still be well grown, and an open flower can still be carefully finished; structure describes form more than a ranking. The Plant and Cannabis Genetics cover the living plant and the inheritance story behind the batch.",
           "Ask how this batch feels after a gentle squeeze and whether the producer notes cure time beside the package date. Structure and moisture describe finish more than a ranking system, and they stay useful across cultivars when you refuse to treat density alone as quality.",
           "When structure and cure agree, the finish story holds. When they diverge, harvest window, dry-room pace, and package fill become the practical questions before the next jar of the same name.",
         ],
@@ -259,15 +246,15 @@ export const hubPages: PageContent[] = [
             after: " when texture, remaining moisture, and a settled nose need their own pass.",
           },
         ],
+        subsections: [{ id: "how-to-tell-if-flower-is-too-dry", heading: "How to tell if flower is too dry", parts: [{ text: "A balanced flower feels settled outside and resilient within, with a texture that supports easy handling. Moisture that feels even, a surface that is not brittle or spongy, and an aroma that stays defined after the container returns to its seal all point to a good cure; brittle edges and a fast-fading nose suggest the flower has dried too far." }] }],
       },
       {
         id: "keeping-character",
         heading: "Keeping Flower at Its Best",
         paragraphs: [
           "Storage focuses on raw flower in a well-sealed container, kept cool, dark, and stable. Heat, light, air exchange, and time shape aromatic preservation, so a simple storage routine protects the character established during cure. A clean glass container and a consistent environment give the flower a dependable home.",
-          "The six guides form a practical loop. Observe the flower, smell the batch, understand its structure, feel the cure, and store it with the same care. That sequence turns quality from a vague impression into a repeatable set of observations that works across cultivars and formats.",
+          "Together with the full plant and flower guide, the six guides form a practical loop. Observe the flower, smell the batch, understand its structure, feel the cure, and store it with the same care. That sequence turns quality from a vague impression into a repeatable set of observations that works across cultivars and formats.",
           "A small personal record can make this loop even more useful: note the package date, first aroma, structure, and texture, then compare the same flower after storage. The change teaches what the container and environment preserve. When you want inheritance and naming context, the Genetics hub explains lineage and batch variation. Cannabinoids in the living plant explain the resin that flower carries before cure. When you want company and publisher context, the About page defines Presidential Cannabis as brand and publisher. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
-          "Home habits continue the same literacy: reseal promptly, keep the jar cool and dark, and reopen only to select. Softening aroma after travel points to heat, light, or headspace—not a medical story.",
         ],
         contextualLinks: [
           {
@@ -289,6 +276,7 @@ export const hubPages: PageContent[] = [
             after: " when menu reading and counter questions follow the flower assessment.",
           },
         ],
+        subsections: [{ id: "how-to-store-cannabis-flower-at-home", heading: "How to store cannabis flower at home", parts: [{ text: "At home, reseal promptly, keep the jar cool and dark, and reopen only to select. Softening aroma after travel points to heat, light, or headspace." }] }],
       },
     ],
   },
@@ -539,7 +527,7 @@ export const hubPages: PageContent[] = [
           "The five guides finish with a compact method: name the occasion, choose the format, read the current batch, ask one or two specific questions, and confirm the practical details. This method works for a first visit and remains useful for an experienced buyer because it stays grounded in the actual inventory and moment.",
           "Format literacy keeps composition and occasion in the same frame. Raw flower and infused flower answer different preparation and sharing needs; neither is a universal default. Occasion literacy then asks how long the session lasts, who is sharing, how much preparation you want, and how portable the package must be. After the purchase plan is clear, Cannabis Genetics covers inheritance and About covers the publisher. Keep shopping decisions inside licensed retail channels where packaging and batch details can be verified in person.",
           "Menu reading and counter questions handle the visit mechanics; first-time pacing lowers friction; flower-versus-infused and occasion matching place the purchase inside a real plan. That loop stays useful for a newcomer and for an experienced buyer because it always returns to the inventory and moment in front of you.",
-          "Presidential Blunts covers wrap and ritual literacy for blunt formats; Presidential THC covers infusion chemistry and concentrate language. Keep those lanes for format and chemistry detail; keep this choosing hub for visit order, menu reading, and occasion matching at licensed retail.",
+          "Keep those lanes for format and chemistry detail; keep this choosing hub for visit order, menu reading, and occasion matching at licensed retail.",
         ],
         contextualLinks: [
           {
