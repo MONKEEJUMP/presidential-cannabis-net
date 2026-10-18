@@ -981,5 +981,32 @@ export const editorialLinks: EditorialLink[] = [
     "match": "what bud density can and cannot show",
     "label": "what bud density can and cannot show",
     "href": "/flower/density-and-structure"
+  },
+  {
+    "id": "IL-R40-01",
+    "sourcePath": "/flower/storing-flower",
+    "sectionId": "why-storage-starts-with-the-resin-heads",
+    "paragraphIndex": 0,
+    "match": "guide to how trichome heads form",
+    "label": "guide to how trichome heads form",
+    "href": "/plant/trichomes"
+  },
+  {
+    "id": "IL-R40-02",
+    "sourcePath": "/flower/storing-flower",
+    "sectionId": "why-storage-starts-with-the-resin-heads",
+    "paragraphIndex": 0,
+    "match": "batch-to-batch differences within one strain",
+    "label": "batch-to-batch differences within one strain",
+    "href": "/genetics/why-two-batches-differ"
+  },
+  {
+    "id": "IL-R40-03",
+    "sourcePath": "/plant/trichomes",
+    "sectionId": "maturity-and-color",
+    "paragraphIndex": 2,
+    "match": "keeping flower cool, dark, and sealed",
+    "label": "keeping flower cool, dark, and sealed",
+    "href": "/flower/storing-flower"
   }
 ];

@@ -322,7 +322,7 @@ export const plantArticles: PageContent[] = [
         paragraphs: [
           "Young gland heads often appear clear. As the flower matures, many heads become cloudy or milky, and some develop amber tones. Cultivators read the proportion and distribution of these stages across representative flower sites. Pistils, swelling bracts, aroma, plant health, and the intended finished profile add context to the color view.",
           "Maturity arrives as a window rather than a single instant. Upper and lower sites receive different light and can progress at different rates. Looking across the canopy gives the grower a more complete picture. The chosen harvest moment captures one balance of gland maturity and aromatic expression for the finished flower.",
-          "After harvest, gentle handling supports the surface the plant built. Temperature, light, time, and physical contact influence aromatic preservation and gland condition. A well-preserved flower lets a buyer see the living story clearly: location, gland form, resin, maturity, and careful passage into the cured harvest.",
+          "After harvest, gentle handling supports the surface the plant built. Temperature, light, time, and physical contact influence aromatic preservation and gland condition. At home, keeping flower cool, dark, and sealed protects that surface. A well-preserved flower lets a buyer see the living story clearly: location, gland form, resin, maturity, and careful passage into the cured harvest.",
           "Harvest timing and drying inherit the trichome story the plant built. Growers read clear-to-cloudy-to-amber patterns as one maturity cue among several, then hand the cut to controlled drying and curing so aromatic character and surface condition can settle without rough handling. A later package still shows the chosen window only if the dry room and cure jar protect what the glands already produced.",
         ],
         contextualLinks: [
@@ -622,6 +622,12 @@ export const plantArticles: PageContent[] = [
             href: "/flower",
             label: "The Flower",
             after: " for appearance, aroma, moisture, and storage after the harvest decision is finished.",
+          },
+          {
+            before: "",
+            href: "/flower/storing-flower",
+            label: "Home storage for cured flower",
+            after: " covers the last step.",
           },
           {
             before: "Start from the ",
