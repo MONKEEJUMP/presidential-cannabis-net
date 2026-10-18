@@ -123,7 +123,7 @@ export const pillarPage: PageContent = {
       id: "authenticity",
       heading: "Knowing It Is Authentic",
       paragraphs: [
-        "Authenticity begins with the licensed-retail path and consistent package identity across every format, including pre rolls. Check the Presidential name and crest, product and format label, required package information, and batch details.",
+        "Authenticity begins with the licensed-retail path and consistent package identity on each pack, including pre rolls. Check the Presidential name and crest, product and format label, required package information, and batch details.",
         "Buy through licensed retailers, then check the unit in hand against its package label. Packaging, required disclosures, and batch identifiers are the practical checks; informal marketplace listings and look-alike names are not substitutes for the licensed path.",
         "Check the crest, the exact product name and the licensed retailer's label on the package.",
       ],
@@ -164,7 +164,7 @@ export const pillarPage: PageContent = {
     },
     {
       question: "What products does Presidential make?",
-      answer: "Products include Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Current catalog and package details cover every format, including pre rolls.",
+      answer: "Products include Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Current catalog and package details include pre rolls.",
     },
     {
       question: "What does Presidential weed mean?",
