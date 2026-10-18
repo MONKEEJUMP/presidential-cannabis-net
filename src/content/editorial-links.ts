@@ -891,5 +891,23 @@ export const editorialLinks: EditorialLink[] = [
     "match": "what flower looks like up close",
     "label": "what flower looks like up close",
     "href": "/flower/appearance"
+  },
+  {
+    "id": "IL-R36-01",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": "first-columns",
+    "paragraphIndex": 1,
+    "match": "The signs of good flower in the jar",
+    "label": "The signs of good flower in the jar",
+    "href": "/flower/what-makes-good-flower"
+  },
+  {
+    "id": "IL-R36-02",
+    "sourcePath": "/choosing/matching-format-to-occasion",
+    "sectionId": "preparation-portability-storage",
+    "paragraphIndex": 0,
+    "match": "flower quality judged in the jar",
+    "label": "flower quality judged in the jar",
+    "href": "/flower/what-makes-good-flower"
   }
 ];

@@ -116,7 +116,7 @@ export const pillarPage: PageContent = {
       heading: "Where Presidential Is Sold",
       paragraphs: [
         "Presidential operates through licensed cannabis retailers rather than direct online cannabis sales. Participating locations and product availability can change by location, retailer, and date.",
-        "Each licensed market reflects the product timing and local rules of the states in the current footprint. Across the multi-state market, the locator points to licensed retailers in active states, with availability confirmed within each local market. Presidential products reach adults 21+ through licensed retailers where legal.",
+        "Each licensed market follows its own product timing and local rules. Across the multi-state market, the locator points to licensed retailers in active states, with availability confirmed within each local market. Presidential products reach adults 21+ through licensed retailers where legal.",
       ],
     },
     {
