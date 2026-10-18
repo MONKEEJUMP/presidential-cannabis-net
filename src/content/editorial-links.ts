@@ -1026,5 +1026,14 @@ export const editorialLinks: EditorialLink[] = [
     "match": "dispensary menu rows",
     "label": "dispensary menu rows",
     "href": "/choosing/reading-a-menu"
+  },
+  {
+    "id": "IL-R44-01",
+    "sourcePath": "/genetics/phenotypes",
+    "sectionId": "hunting-and-cloning",
+    "paragraphIndex": 0,
+    "match": "how trichome coverage varies between plants",
+    "label": "how trichome coverage varies between plants",
+    "href": "/plant/trichomes"
   }
 ];
