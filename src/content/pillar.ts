@@ -60,6 +60,7 @@ export const pillarPage: PageContent = {
         { before: "Open the ", href: "/flower", label: "Presidential flower guide", after: " for appearance, aroma, density, moisture, cure, and storage in one place." },
       ],
       links: [{ href: "/flower", label: "Explore the Presidential Flower guide" }],
+      subsections: [{ id: "reading-moisture-and-cure-on-a-strain-named-jar", heading: "Reading moisture and cure on a strain-named jar", parts: [{ text: "A settled cure shows as a defined nose and a surface that springs back slightly. Read " }, { text: "moisture and cure signs", href: "/flower/moisture-and-cure" }, { text: " before you judge the name." }] }],
     },
     {
       id: "genetics",
@@ -99,6 +100,7 @@ export const pillarPage: PageContent = {
         { before: "Use ", href: "/choosing", label: "Choosing Cannabis", after: " when format comparison and licensed-counter questions need a full walkthrough." },
       ],
       links: [{ href: "/choosing", label: "Use the choosing guide" }],
+      subsections: [{ id: "what-to-ask-when-a-menu-lists-presidential-og", heading: "What to ask when a menu lists Presidential OG", parts: [{ text: "Ask for the batch or lot date, the strain type on the package, and whether the jar is flower or an infused format. Those three answers tell you more than the name alone. For more, see the " }, { text: "questions worth asking at the counter", href: "/choosing/what-to-ask" }, { text: "." }] }],
     },
     {
       id: "the-catalog",
@@ -123,6 +125,10 @@ export const pillarPage: PageContent = {
       paragraphs: [
         "Authenticity begins with the licensed-retail path and consistent package identity across every format, including pre rolls. Check the Presidential name and crest, product and format label, required package information, and batch details.",
         "Buy through licensed retailers, then match the unit in hand to the official catalog language for that format. Packaging, required disclosures, and batch identifiers are the practical checks; informal marketplace listings and look-alike names are not substitutes for the licensed path.",
+        "Check the crest, the exact product name and the licensed retailer's label on the package.",
+      ],
+      contextualLinks: [
+        { before: "Before the visit, learn ", href: "/choosing/reading-a-menu", label: "how to read a dispensary menu row", after: "." },
       ],
     },
     {
