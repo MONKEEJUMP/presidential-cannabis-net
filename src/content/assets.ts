@@ -385,6 +385,12 @@ export const pageImages: Record<string, ContentImage[]> = {
       "alt": "Presidential Strawberry mini blunt package artwork"
     },
     {
+      "src": "/images/presidential-waui-blunt-packaging.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Presidential Waui blunt package artwork"
+    },
+    {
       "src": "/images/presidential-xxx-single-mini-blunt-packaging.webp",
       "width": 1080,
       "height": 1350,

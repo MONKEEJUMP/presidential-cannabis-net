@@ -909,5 +909,41 @@ export const editorialLinks: EditorialLink[] = [
     "match": "flower quality judged in the jar",
     "label": "flower quality judged in the jar",
     "href": "/flower/what-makes-good-flower"
+  },
+  {
+    "id": "IL-R38-01",
+    "sourcePath": "/flower/moisture-and-cure",
+    "sectionId": "how-harvest-timing-sets-up-the-cure",
+    "paragraphIndex": 0,
+    "match": "guide to choosing harvest timing",
+    "label": "guide to choosing harvest timing",
+    "href": "/plant/harvest-timing"
+  },
+  {
+    "id": "IL-R38-02",
+    "sourcePath": "/flower/moisture-and-cure",
+    "sectionId": "how-harvest-timing-sets-up-the-cure",
+    "paragraphIndex": 0,
+    "match": "dispensary menu, column by column",
+    "label": "dispensary menu, column by column",
+    "href": "/choosing/reading-a-menu"
+  },
+  {
+    "id": "IL-R38-03",
+    "sourcePath": "/plant/harvest-timing",
+    "sectionId": "from-the-flowering-stage-to-dry-trimming",
+    "paragraphIndex": 4,
+    "match": "moisture content and the cure",
+    "label": "moisture content and the cure",
+    "href": "/flower/moisture-and-cure"
+  },
+  {
+    "id": "IL-R38-04",
+    "sourcePath": "/choosing/flower-vs-infused",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "how moisture and cure feel",
+    "label": "how moisture and cure feel",
+    "href": "/flower/moisture-and-cure"
   }
 ];

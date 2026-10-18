@@ -284,7 +284,7 @@ export const choosingArticles: PageContent[] = [
     wordTarget: [1100, 1250],
     intro: [
       "Choose raw flower when you want the cured plant material itself to define the purchase, and choose an infused format when you want flower with concentrate and kief added. The two categories differ in product composition, potency range, presentation, price, and session planning. A clear occasion and careful label reading make the choice straightforward.",
-      "Flower quality remains the foundation in both categories. Raw flower gives aroma, structure, trichomes, moisture, and cure direct visibility. An infused product combines flower with added cannabis components in a prepared format. In either case, freshness, batch information, licensed production, sound packaging, and appropriate storage support the purchase.",
+      "Flower quality remains the foundation in both categories. Raw flower gives aroma, structure, trichomes, and how moisture and cure feel direct visibility. An infused product combines flower with added cannabis components in a prepared format. In either case, freshness, batch information, licensed production, sound packaging, and appropriate storage support the purchase.",
       "The brand name here is the company and publisher.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/flower-vs-infused"],

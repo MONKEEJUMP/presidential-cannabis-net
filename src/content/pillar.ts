@@ -135,7 +135,7 @@ export const pillarPage: PageContent = {
       id: "official-reference",
       heading: "How this guide is organized",
       paragraphs: [
-        "This site covers the company, plant, flower, genetics, and choosing context. Use this hub to orient, then move into The Cannabis Plant, The Flower, cannabis genetics, or Choosing for depth.",
+        "Read about the company, the plant, flower, genetics, and how to choose. Use this hub to orient, then move into The Cannabis Plant, The Flower, cannabis genetics, or Choosing for depth.",
       ],
       contextualLinks: [
         { before: "Read ", href: "/about", label: "About Presidential Cannabis", after: " for company context beside this brand hub." },
