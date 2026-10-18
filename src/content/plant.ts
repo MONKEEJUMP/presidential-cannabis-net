@@ -344,7 +344,7 @@ export const plantArticles: PageContent[] = [
             label: "Presidential Cannabis plant guide home",
             after: " anytime you need the full map of brand education beside this trichomes chapter.",
           },
-        ],
+        ], subsections: [{ id: "why-trichomes-differ-from-plant-to-plant", heading: "Why trichomes differ from plant to plant", parts: [{ text: "Two plants of the same strain can show very different trichome coverage. Growing conditions, harvest timing, and the plant's own expression all play a part, so frost on one batch is not a promise for the next. That variation is one reason growers select particular plants to keep. The guide on " }, { text: "why one strain can grow differently", href: "/genetics/phenotypes" }, { text: " explains how a single strain produces distinct plants. To judge the finished flower once it is dried, read " }, { text: "judging dried flower by eye and nose", href: "/flower/what-makes-good-flower" }, { text: "." }] }],
       },
     ],
   },
