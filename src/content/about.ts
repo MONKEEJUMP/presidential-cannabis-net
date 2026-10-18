@@ -145,7 +145,7 @@ export const aboutPage: PageContent = {
           label: "this cannabis guide",
           after: " anytime you need the full map of Presidential Cannabis plant education from one starting point.",
         },
-      ],
+      ], subsections: [{ id: "harvest-and-cure-in-the-plant-guide", heading: "Harvest and cure in the plant guide", parts: [{ text: "Before the jar, the plant goes through " }, { text: "the harvest window", href: "/plant/harvest-timing" }, { text: " and " }, { text: "the dry-and-cure process", href: "/plant/drying-and-curing" }, { text: "." }] }],
     },
   ],
   relatedLinks: [
