@@ -1008,5 +1008,14 @@ export const editorialLinks: EditorialLink[] = [
     "match": "keeping flower cool, dark, and sealed",
     "label": "keeping flower cool, dark, and sealed",
     "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R41-01",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": "name-and-measurements",
+    "paragraphIndex": 2,
+    "match": "smelling the flower directly",
+    "label": "smelling the flower directly",
+    "href": "/flower/aroma"
   }
 ];
