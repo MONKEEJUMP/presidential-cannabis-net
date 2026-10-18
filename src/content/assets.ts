@@ -323,6 +323,12 @@ export const pageImages: Record<string, ContentImage[]> = {
       "width": 1200,
       "height": 1200,
       "alt": "Presidential Grape infused pre-roll package artwork"
+    },
+    {
+      "src": "/images/presidential-apricotti-blunt-packaging.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Presidential Apricotti blunt package artwork"
     }
   ],
   "/flower/aroma": [

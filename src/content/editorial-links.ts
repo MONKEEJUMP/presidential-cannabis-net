@@ -846,5 +846,50 @@ export const editorialLinks: EditorialLink[] = [
     "match": "landrace populations behind today's cultivars",
     "label": "landrace populations behind today's cultivars",
     "href": "/genetics/landrace-and-modern"
+  },
+  {
+    "id": "IL-R35-01",
+    "sourcePath": "/flower/appearance",
+    "sectionId": "why-looks-can-change-after-harvest",
+    "paragraphIndex": 0,
+    "match": "drying and curing walkthrough",
+    "label": "drying and curing walkthrough",
+    "href": "/plant/drying-and-curing"
+  },
+  {
+    "id": "IL-R35-02",
+    "sourcePath": "/flower/appearance",
+    "sectionId": "why-looks-can-change-after-harvest",
+    "paragraphIndex": 0,
+    "match": "keeping flower in good condition",
+    "label": "keeping flower in good condition",
+    "href": "/flower/storing-flower"
+  },
+  {
+    "id": "IL-R35-03",
+    "sourcePath": "/flower/appearance",
+    "sectionId": "why-looks-can-change-after-harvest",
+    "paragraphIndex": 0,
+    "match": "phenotype explainer",
+    "label": "phenotype explainer",
+    "href": "/genetics/phenotypes"
+  },
+  {
+    "id": "IL-R35-04",
+    "sourcePath": "/plant/drying-and-curing",
+    "sectionId": "the-dry",
+    "paragraphIndex": 5,
+    "match": "judging cured flower by sight",
+    "label": "judging cured flower by sight",
+    "href": "/flower/appearance"
+  },
+  {
+    "id": "IL-R35-05",
+    "sourcePath": "/genetics/phenotypes",
+    "sectionId": null,
+    "paragraphIndex": 0,
+    "match": "what flower looks like up close",
+    "label": "what flower looks like up close",
+    "href": "/flower/appearance"
   }
 ];

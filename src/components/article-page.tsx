@@ -145,8 +145,7 @@ function OfficialBrandEntityBlock({ page }: { page: PageContent }) {
         <p className="eyebrow">Official brand entity</p>
         <h2 id="official-entity-heading">The brand, the guide, and the licensed retail path</h2>
         <p>
-          Presidential is the Los Angeles company and publisher. This site holds its company definition and plant education;
-          current product and availability details stay with the package and the licensed retailer.
+          Presidential is the Los Angeles company and publisher. Current product and availability details are on the package and with the licensed retailer.
         </p>
       </div>
       <nav className="official-entity__links" aria-label="Official Presidential destinations">
