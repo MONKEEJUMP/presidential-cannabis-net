@@ -801,5 +801,32 @@ export const editorialLinks: EditorialLink[] = [
     "match": "the maker behind the name",
     "label": "the maker behind the name",
     "href": "/about"
+  },
+  {
+    "id": "IL-R33-01",
+    "sourcePath": "/flower/what-makes-good-flower",
+    "sectionId": "smell-and-touch",
+    "paragraphIndex": 1,
+    "match": "How a cannabis plant grows to harvest",
+    "label": "How a cannabis plant grows to harvest",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-R33-02",
+    "sourcePath": "/flower/appearance",
+    "sectionId": "color-structure-pistils",
+    "paragraphIndex": 0,
+    "match": "the living cannabis plant's anatomy",
+    "label": "the living cannabis plant's anatomy",
+    "href": "/plant"
+  },
+  {
+    "id": "IL-R33-03",
+    "sourcePath": "/genetics/why-two-batches-differ",
+    "sectionId": "garden-expression",
+    "paragraphIndex": 2,
+    "match": "The growing cycle of a cannabis plant",
+    "label": "The growing cycle of a cannabis plant",
+    "href": "/plant"
   }
 ];
