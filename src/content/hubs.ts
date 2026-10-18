@@ -197,7 +197,7 @@ export const hubPages: PageContent[] = [
             after: " for anatomy, harvest timing, drying, and cure.",
           },
         ],
-        subsections: [{ id: "reading-the-strain-name-alongside-the-jar", heading: "Reading the strain name alongside the jar", parts: [{ text: "A strain name tells you which genetics the flower came from, and the jar shows how that batch turned out. Read " }, { text: "how strains are named", href: "/genetics/strain-naming" }, { text: " and " }, { text: "cannabis lineage explained", href: "/genetics/lineage" }, { text: ", then judge the flower in front of you." }] }],
+        subsections: [{ id: "reading-the-strain-name-alongside-the-jar", heading: "Reading the strain name alongside the jar", parts: [{ text: "A strain name tells you which genetics the flower came from, and the jar shows how that batch turned out. Read " }, { text: "how strains are named", href: "/genetics/strain-naming" }, { text: " and " }, { text: "cannabis lineage explained", href: "/genetics/lineage" }, { text: ", then judge the flower in front of you." }] }, { id: "what-happens-before-flower-reaches-the-jar", heading: "What happens before flower reaches the jar", parts: [{ text: "Much of what you judge at the counter is set earlier. Read " }, { text: "when cannabis is harvested", href: "/plant/harvest-timing" }, { text: ", " }, { text: "how drying and curing work", href: "/plant/drying-and-curing" }, { text: " and " }, { text: "why two batches of one strain differ", href: "/genetics/why-two-batches-differ" }, { text: " to see where those differences start." }] }],
       },
       {
         id: "sight-and-scent",
