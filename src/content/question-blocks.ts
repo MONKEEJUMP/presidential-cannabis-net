@@ -184,7 +184,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
           id: "what-the-cannabis-plant-does",
           heading: "What does the cannabis plant do?",
           paragraphs: [
-            "As an annual flowering plant, it completes its life cycle within a season and directs that cycle toward reproduction: it germinates, builds roots, stems, and leaves, then flowers. Female flowers form bracts and pistils, and resin glands on the flowers and small leaves around them add a protective layer over those reproductive surfaces. The rounded gland heads hold aromatic terpenes and most of the plant's cannabinoids, which is why the resin-rich flower is the part harvested.",
+            "As an annual flowering plant, it completes its life cycle within a season and directs that cycle toward reproduction: it germinates, builds roots, stems, and leaves, then flowers. Plants adapted to one region over many seasons are the landrace populations behind today's cultivars. Female flowers form bracts and pistils, and resin glands on the flowers and small leaves around them add a protective layer over those reproductive surfaces. The rounded gland heads hold aromatic terpenes and most of the plant's cannabinoids, which is why the resin-rich flower is the part harvested.",
           ],
         },
         {

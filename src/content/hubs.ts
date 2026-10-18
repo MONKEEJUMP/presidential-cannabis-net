@@ -290,7 +290,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1100, 1250],
     intro: [
       "Cannabis genetics define a range of possible traits, while selection and cultivation shape the plant that expresses them. Breeding, phenotypes, lineage, names, and batch variation describe connected parts of that process. This section follows a cultivar from its parents through selection and into repeated commercial harvests.",
-      "The brand name here is the company and publisher, not a single cultivar nickname; Presidential strain names such as Presidential OG are sorted out on the brand guide home page. This page stays with inheritance, selection, and batch context.",
+      "The brand name here is the company and publisher, not a single cultivar nickname; Presidential strain names such as Presidential OG are sorted out on the brand guide home page.",
     ],
     leadBlocks: [
       {
@@ -443,7 +443,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1250, 1350],
     intro: [
       "This choosing hub is published by Presidential Cannabis for licensed dispensary visits. Choosing cannabis at a dispensary becomes straightforward when the decision follows a useful order: occasion, format, freshness, aromatic profile, cannabinoids and terpenes on the label, batch information, and conversation. A menu supplies one part of the picture, and a knowledgeable budtender — dispensary staff who know the current inventory — supplies the current store context. This section turns both into a calm, repeatable process.",
-      "The brand name here is the company and publisher. This page stays with decision order, batch context, and counter conversation.",
+      "The brand name here is the company and publisher.",
     ],
     leadBlocks: surferLeadBlocks["/choosing"],
     sections: [
