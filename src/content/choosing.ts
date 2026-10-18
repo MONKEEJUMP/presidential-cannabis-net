@@ -76,7 +76,7 @@ export const choosingArticles: PageContent[] = [
             label: "what to ask",
             after: " when freshness, aroma, and dates need shelf wording.",
           },
-        ],
+        ], subsections: [{ id: "what-the-strain-type-column-can-and-cant-tell-you", heading: "What the strain-type column can and can't tell you", parts: [{ text: "Most menus list indica, sativa, or hybrid beside each strain, and shoppers often treat that column as the main signal. It is a useful starting point, but it describes plant shape and growing tradition more than anything about a given batch. Aroma notes, batch date, and lab results usually say more about what is in the jar. The " }, { text: "guide to what indica, sativa, and hybrid labels mean", href: "/plant/indica-sativa-hybrid" }, { text: " explains where the terms come from. If a menu lists a strain's parents, the " }, { text: "guide to how breeders trace parent strains", href: "/genetics/lineage" }, { text: " helps you read that line too." }] }],
       },
       {
         id: "compare-rows",
