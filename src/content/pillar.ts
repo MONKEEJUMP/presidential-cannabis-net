@@ -74,6 +74,7 @@ export const pillarPage: PageContent = {
         { before: "Is Presidential a strain? No. See the ", href: "/genetics/strain-naming", label: "strain-naming guide", after: " for how product names relate to documented genetics." },
       ],
       links: [{ href: "/genetics", label: "Understand cannabis genetics" }],
+      subsections: [{ id: "presidential-og-and-other-presidential-strain-names", heading: "Presidential OG and other Presidential strain names", parts: [{ text: "Presidential OG is the house strain name in the Presidential Gold Strain Series, built on live resin and carried in formats such as blunts and minis. Like any cultivar name on a pack, it points to the genetics of that product, while the strain type, batch and test details are printed on the package. Presidential Kush is a separate cultivar name, and Presidential Cannabis is the company behind the catalog. To trace where a cultivar name comes from, " }, { text: "read a cultivar's family tree", href: "/genetics/lineage" }, { text: "." }] }],
     },
     {
       id: "choosing",

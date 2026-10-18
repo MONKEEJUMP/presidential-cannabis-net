@@ -336,7 +336,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
       id: "is-a-pre-roll-indica-or-sativa",
       heading: "How do you know if a pre-roll is indica or sativa?",
       paragraphs: [
-        "Check the strain-type tag and the cultivar name on the menu row and the package. The tag is commercial shorthand, and many modern cultivars are heavily mixed, so the cultivar name, its documented parents, and the batch dates say more about what is inside the roll. For an infused pre-roll, also read which concentrate was added.",
+        "Check the strain-type tag and the cultivar name on the menu row and the package. When a row reads Presidential OG, the Presidential strain-name guide separates the product name from the company. The tag is commercial shorthand, and many modern cultivars are heavily mixed, so the cultivar name, its documented parents, and the batch dates say more about what is inside the roll. For an infused pre-roll, also read which concentrate was added.",
       ],
     },
   ],
