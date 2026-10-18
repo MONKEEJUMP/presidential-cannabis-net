@@ -51,7 +51,7 @@ export const choosingArticles: PageContent[] = [
         id: "name-and-measurements",
         heading: "Add Cultivar and Measurements",
         paragraphs: [
-          "The cultivar name identifies the genetic selection or family claimed for the batch. Documented lineage names the parents and can suggest broad aromatic or structural tendencies. Traditional indica, sativa, and hybrid categories add commercial shorthand, while many modern cultivars show extensive admixture and the current batch carries the most immediate information.",
+          "The cultivar name identifies the genetic selection or family claimed for the batch. Documented lineage names the parents and can suggest broad aromatic or structural tendencies. Old regional names on a board are explained in how landrace lines fed modern hybrids. Traditional indica, sativa, and hybrid categories add commercial shorthand, while many modern cultivars show extensive admixture and the current batch carries the most immediate information.",
           "A potency percentage measures a defined portion of the tested sample. Read it as one batch characteristic rather than a quality grade. Flower with a moderate figure can present beautiful structure, vivid aroma, intact trichomes, and an excellent cure. A complete menu reading keeps cultivation and preservation beside the measurement.",
           "A terpene panel names aromatic compounds and often lists their proportions. Myrcene may contribute earth and musk, limonene bright citrus, caryophyllene pepper, pinene pine and rosemary, linalool flowers, and terpinolene fruit. The blend matters more than any isolated name, and direct aroma shows how the measured profile reaches the flower today.",
           "Strain names on a menu are commercial and genetic labels, not guarantees that every jar will smell or feel identical. Compare the printed name with batch identifiers and dates so you know which run is on the shelf. When two rows share a familiar title but show different harvest dates or producers, treat them as separate inventory—not interchangeable copies.",
@@ -121,7 +121,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Ask a dispensary budtender about the current cannabis batch on this dispensary visit: when it was harvested, how the cure feels, which aromas stand out, how the flower is structured, and which option best fits your occasion. These questions invite specific, observable answers. A good conversation connects the printed menu to the actual inventory on the shelf that day.",
       "Begin with one clear preference and one practical need. You might describe citrus or earthy aroma, a personal or shared session, raw flower or an infused format, a package size, or a freshness priority. Concrete preferences give the budtender a useful frame and make the comparison easier to follow.",
-      "The brand name here is the company and publisher. This page stays with practical questions, observable answers, and licensed-counter decisions.",
+      "The brand name here is the company and publisher.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/what-to-ask"],
     sections: [
@@ -364,7 +364,7 @@ export const choosingArticles: PageContent[] = [
     intro: [
       "Match cannabis format to the occasion by considering session length, sharing, preparation, portability, and package size before comparing cultivars or percentages. A short personal moment, a planned shared session, and a portable outing each create different practical needs. Choosing the fit first turns a broad menu into a focused list.",
       "Format is the physical form in which the product reaches you. Raw flower offers flexibility and keeps the cured flower at the center. Prepared formats organize a specific amount and composition for convenience. Minis create another package and session scale. The useful choice is the one that aligns with the people, place, time, and storage plan.",
-      "The brand name here is the company and publisher. This page stays with occasion planning, format fit, and licensed-counter decisions.",
+      "The brand name here is the company and publisher.",
     ],
     leadBlocks: surferLeadBlocks["/choosing/matching-format-to-occasion"],
     sections: [

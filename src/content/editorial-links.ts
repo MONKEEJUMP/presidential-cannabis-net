@@ -828,5 +828,23 @@ export const editorialLinks: EditorialLink[] = [
     "match": "The growing cycle of a cannabis plant",
     "label": "The growing cycle of a cannabis plant",
     "href": "/plant"
+  },
+  {
+    "id": "IL-R34-01",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": "name-and-measurements",
+    "paragraphIndex": 0,
+    "match": "how landrace lines fed modern hybrids",
+    "label": "how landrace lines fed modern hybrids",
+    "href": "/genetics/landrace-and-modern"
+  },
+  {
+    "id": "IL-R34-02",
+    "sourcePath": "/plant/what-cannabis-is",
+    "sectionId": "what-the-cannabis-plant-does",
+    "paragraphIndex": 0,
+    "match": "landrace populations behind today's cultivars",
+    "label": "landrace populations behind today's cultivars",
+    "href": "/genetics/landrace-and-modern"
   }
 ];
