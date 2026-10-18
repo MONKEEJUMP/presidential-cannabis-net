@@ -211,7 +211,14 @@ export const flowerArticles: PageContent[] = [
             label: "The Flower",
             after: " hub anytime you need the full appearance-to-storage map.",
           },
-        ], subsections: [{ id: "why-looks-can-change-after-harvest", heading: "Why looks can change after harvest", parts: [{ text: "Flower that looked right at harvest can look different by the time it reaches the jar. Drying and curing shape color, surface texture, and how intact the trichomes stay. The " }, { text: "drying and curing walkthrough", href: "/plant/drying-and-curing" }, { text: " explains each step. After purchase, light, heat, and air keep working on the surface, so " }, { text: "keeping flower in good condition", href: "/flower/storing-flower" }, { text: " preserves what you judged at the counter. And two plants of the same cultivar can look different from the start. The " }, { text: "phenotype explainer", href: "/genetics/phenotypes" }, { text: " covers why. When you judge flower by sight, read color, frost, and trim as evidence about one batch, then confirm the rest with aroma and the label." }] }],
+        ],
+      },
+      {
+        id: "why-looks-can-change-after-harvest",
+        heading: "Why looks can change after harvest",
+        paragraphs: [
+          "Flower that looked right at harvest can look different by the time it reaches the jar. Drying and curing shape color, surface texture, and how intact the trichomes stay. The drying and curing walkthrough explains each step. After purchase, light, heat, and air keep working on the surface, so keeping flower in good condition helps preserve what you judged at the counter. And two plants of the same cultivar can look different from the start. The phenotype explainer covers why. When you judge flower by sight, read color, frost, and trim as evidence about one batch, then confirm the rest with aroma and the label.",
+        ],
       },
     ],
   },
