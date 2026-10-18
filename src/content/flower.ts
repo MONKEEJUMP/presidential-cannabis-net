@@ -7,7 +7,7 @@ export const flowerArticles: PageContent[] = [
     silo: "flower",
     h1: "What Makes Cannabis Flower Good",
     title: "What Makes Cannabis Flower Good",
-    description: "A complete method for judging cannabis flower through appearance, aroma, structure, trichomes, moisture, cure, freshness, and handling.",
+    description: "A method for judging cannabis flower through appearance, aroma, structure, trichomes, moisture, cure, freshness, and handling.",
     wordTarget: [1100, 1250],
     intro: [
       "Good cannabis flower combines healthy appearance, defined aroma, cultivar-appropriate structure, intact trichomes, and a balanced cure. A practised buyer reads those qualities together. The strongest flower looks carefully grown, smells vivid and specific, feels settled yet resilient, and carries batch information that supports its freshness and handling.",

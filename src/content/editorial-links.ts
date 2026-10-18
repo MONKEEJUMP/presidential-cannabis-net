@@ -1017,5 +1017,14 @@ export const editorialLinks: EditorialLink[] = [
     "match": "smelling the flower directly",
     "label": "smelling the flower directly",
     "href": "/flower/aroma"
+  },
+  {
+    "id": "IL-R42-01",
+    "sourcePath": "/genetics/lineage",
+    "sectionId": "genetic-lineage",
+    "paragraphIndex": 3,
+    "match": "dispensary menu rows",
+    "label": "dispensary menu rows",
+    "href": "/choosing/reading-a-menu"
   }
 ];
