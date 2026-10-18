@@ -287,7 +287,7 @@ export const geneticsArticles: PageContent[] = [
             label: "Cannabis Genetics",
             after: " for the wider map from breeding and lineage through naming and batch variation.",
           },
-        ],
+        ], subsections: [{ id: "lineage-and-the-indica-sativa-label", heading: "Lineage and the indica-sativa label", parts: [{ text: "A lineage chart often sits next to an indica, sativa, or hybrid label on a menu, and the two can seem to disagree. A cultivar with mixed parents may still be sold under one label, because the term describes growth habit and tradition more than parentage. The " }, { text: "history of the indica and sativa labels", href: "/plant/indica-sativa-hybrid" }, { text: " explains where the terms came from. Lineage also interacts with growing choices, and the guide on " }, { text: "how harvest timing shapes a cultivar", href: "/plant/harvest-timing" }, { text: " shows how the same genetics can finish differently." }] }],
       },
     ],
   },
