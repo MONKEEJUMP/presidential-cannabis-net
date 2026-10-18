@@ -52,7 +52,7 @@ export const questionBlocks: Record<string, LeadBlock[]> = {
           id: "should-all-pistils-be-orange",
           heading: "Should all hairs be orange before harvest?",
           paragraphs: [
-            "No. Pistils moving from white toward orange, red, or brown are a companion cue, and they do not all have to darken. Guides often put the approach of the window at about 70 to 90 percent darkened pistils, and they read trichome color on the bracts, bract swell, aroma, and plant health beside that share.",
+            "No. Pistils moving from white toward orange, red, or brown are a companion cue, and they do not all have to darken. Guides read darkened pistils beside trichome color on the bracts, bract swell, aroma, and plant health.",
           ],
         },
         {

@@ -11,7 +11,6 @@ export const pillarPage: PageContent = {
   intro: [
     "Presidential Cannabis is the official company and plant guide behind Presidential Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. This publication explains the brand, cannabis flower, genetics, product formats, and how adults 21+ can find current availability through licensed retailers where legal.",
     "Flower quality is the foundation of the product conversation. The guides connect plant and flower fundamentals, genetics, and guidance for choosing pre rolls to the official product system without turning batch-specific facts into universal claims.",
-    "Presidential Cannabis publishes this homepage as adult 21+ brand and plant literacy: who the company is, how the plant and flower guides connect, how genetics and batch variation shape what reaches a jar, and how choosing at licensed retail stays observational. No medical or dosing claims. The job is a durable brand hub that points readers into the plant, flower, genetics, choosing, and about guides without replacing the package or the licensed counter.",
   ],
   leadBlocks: [
     {
@@ -40,7 +39,7 @@ export const pillarPage: PageContent = {
       id: "the-plant",
       heading: "The Cannabis Plant",
       paragraphs: [
-        "The Plant guide covers cannabinoids, trichomes, flower structure, harvest timing, drying, and curing. It provides botanical context without making medical or effects promises.",
+        "The Plant guide covers cannabinoids, trichomes, flower structure, harvest timing, drying, and curing.",
         "Start with the annual plant itself before product language takes over. Roots, stems, fan leaves, flower sites, and resin glands each play a biological role; genetics sets a range, and garden conditions shape how that range appears in finished flower. Adults 21+ can treat that botanical map as literacy for reading menus and packages later—not as a medical claim.",
       ],
       contextualLinks: [
@@ -81,7 +80,7 @@ export const pillarPage: PageContent = {
       heading: "Choosing at Licensed Retail",
       paragraphs: [
         "Choosing begins with format and current product information. Compare flower with infused formats—pre rolls, Moon Rocks, blunts, and minis—then read the menu and package for the specific product and batch available that day.",
-        "A clear choosing habit stays observational: name the format you want, ask what is in stock today, read the label for producer, dates, and batch identifiers, and compare aroma or appearance only where the retailer allows. That routine connects the plant and flower guides to a real counter without inventing effects or dosing advice.",
+        "A clear choosing habit: name the format you want, ask what is in stock today, read the label for producer, dates, and batch identifiers, and compare aroma or appearance where the retailer allows.",
         "When format choice follows brand identity, flower-versus-infused literacy explains prep and sharing differences. Keep that comparison educational; confirm current SKUs, dates, and packaging at a licensed retailer.",
       ],
       contextualLinks: [
