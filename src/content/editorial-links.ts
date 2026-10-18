@@ -945,5 +945,41 @@ export const editorialLinks: EditorialLink[] = [
     "match": "how moisture and cure feel",
     "label": "how moisture and cure feel",
     "href": "/flower/moisture-and-cure"
+  },
+  {
+    "id": "IL-R39-01",
+    "sourcePath": "/flower/density-and-structure",
+    "sectionId": "where-density-fits-in-judging-flower",
+    "paragraphIndex": 0,
+    "match": "checklist for what separates good flower",
+    "label": "checklist for what separates good flower",
+    "href": "/flower/what-makes-good-flower"
+  },
+  {
+    "id": "IL-R39-02",
+    "sourcePath": "/flower/density-and-structure",
+    "sectionId": "where-density-fits-in-judging-flower",
+    "paragraphIndex": 0,
+    "match": "step-by-step menu reading guide",
+    "label": "step-by-step menu reading guide",
+    "href": "/choosing/reading-a-menu"
+  },
+  {
+    "id": "IL-R39-03",
+    "sourcePath": "/choosing",
+    "sectionId": "cannabis-buds",
+    "paragraphIndex": 0,
+    "match": "a dense bud structure",
+    "label": "a dense bud structure",
+    "href": "/flower/density-and-structure"
+  },
+  {
+    "id": "IL-R39-04",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": "first-columns",
+    "paragraphIndex": 0,
+    "match": "what bud density can and cannot show",
+    "label": "what bud density can and cannot show",
+    "href": "/flower/density-and-structure"
   }
 ];
