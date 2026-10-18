@@ -471,7 +471,7 @@ export const flowerArticles: PageContent[] = [
             label: "the appearance guide",
             after: " so sight and touch stay in one assessment.",
           },
-        ],
+        ], subsections: [{ id: "how-harvest-timing-sets-up-the-cure", heading: "How harvest timing sets up the cure", parts: [{ text: "A good cure starts before drying begins. The stage of maturity at harvest decides how much moisture the flower holds, how dense the buds are, and how the resin heads look going into the drying room. Cultivators read trichome color, pistils, and bract development to pick that moment, and the " }, { text: "guide to choosing harvest timing", href: "/plant/harvest-timing" }, { text: " covers those signals. Once the flower reaches a store, moisture and cure details may show up as a pack date or a batch note. Knowing how to find them on a " }, { text: "dispensary menu, column by column", href: "/choosing/reading-a-menu" }, { text: ", helps you match what you read with how the flower feels in hand." }] }],
       },
       {
         id: "drier-and-moister-flower",
