@@ -569,7 +569,7 @@ export const flowerArticles: PageContent[] = [
             label: "the appearance guide",
             after: " when visual checks join temperature and seal habits.",
           },
-        ],
+        ], subsections: [{ id: "why-storage-starts-with-the-resin-heads", heading: "Why storage starts with the resin heads", parts: [{ text: "Most of what storage protects sits in the trichome heads on the flower's surface. Those small resin glands hold the aroma compounds, and they are fragile: heat, light, and rough handling can break or dry them. Keeping flower in an airtight container, away from light and warmth, and handling it as little as possible helps them stay intact. The " }, { text: "guide to how trichome heads form", href: "/plant/trichomes" }, { text: " explains their structure. Storage also explains part of why one jar can smell different from another of the same strain; " }, { text: "batch-to-batch differences within one strain", href: "/genetics/why-two-batches-differ" }, { text: " covers the other reasons." }] }],
       },
       {
         id: "routine-and-timeline",
