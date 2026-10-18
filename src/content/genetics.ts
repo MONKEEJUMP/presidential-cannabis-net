@@ -406,7 +406,7 @@ export const geneticsArticles: PageContent[] = [
             label: "Cannabis Genetics",
             after: " for the wider map from breeding and lineage through naming and batch variation.",
           },
-        ],
+        ], subsections: [{ id: "when-a-name-and-a-type-label-disagree", heading: "When a name and a type label disagree", parts: [{ text: "Strain names often hint at a type, but a name like \"Kush\" or \"Haze\" is not a reliable guide to how a plant was bred or grown. Breeders reuse popular words, and different growers can sell plants under the same name. That is why menus pair a name with an indica, sativa, or hybrid label, and why the two do not always agree. The " }, { text: "background on indica, sativa, and hybrid categories", href: "/plant/indica-sativa-hybrid" }, { text: " explains where those labels came from. To judge the flower itself, read the " }, { text: "signs of well-grown flower", href: "/flower/what-makes-good-flower" }, { text: " guide." }] }],
       },
     ],
   },
