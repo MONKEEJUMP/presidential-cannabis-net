@@ -302,7 +302,7 @@ export const hubPages: PageContent[] = [
     wordTarget: [1100, 1250],
     intro: [
       "Cannabis genetics define a range of possible traits, while selection and cultivation shape the plant that expresses them. Breeding, phenotypes, lineage, names, and batch variation describe connected parts of that process. This section follows a cultivar from its parents through selection and into repeated commercial harvests.",
-      "Presidential Cannabis publishes this genetics hub as publisher literacy for adults 21+: how strains are made, why siblings differ, how lineage and names relate, and why two batches of the same cultivar can still look and smell different. The brand name here is the company and publisher, not a single cultivar nickname. This page stays with inheritance, selection, and batch context.",
+      "Presidential Cannabis publishes this genetics hub as publisher literacy for adults 21+: how strains are made, why siblings differ, how lineage and names relate, and why two batches of the same cultivar can still look and smell different. The brand name here is the company and publisher, not a single cultivar nickname; Presidential strain names such as Presidential OG are sorted out on the brand guide home page. This page stays with inheritance, selection, and batch context.",
     ],
     leadBlocks: [
       {

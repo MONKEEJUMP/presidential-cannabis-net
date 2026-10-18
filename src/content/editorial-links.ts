@@ -864,5 +864,32 @@ export const editorialLinks: EditorialLink[] = [
     "match": "cannabis genetics",
     "label": "cannabis genetics",
     "href": "/genetics"
+  },
+  {
+    "id": "IL-128",
+    "sourcePath": "/genetics",
+    "sectionId": null,
+    "paragraphIndex": 1,
+    "match": "Presidential strain names such as Presidential OG",
+    "label": "Presidential strain names such as Presidential OG",
+    "href": "/"
+  },
+  {
+    "id": "IL-129",
+    "sourcePath": "/choosing/reading-a-menu",
+    "sectionId": "is-a-pre-roll-indica-or-sativa",
+    "paragraphIndex": 0,
+    "match": "the Presidential strain-name guide separates",
+    "label": "the Presidential strain-name guide",
+    "href": "/"
+  },
+  {
+    "id": "IL-130",
+    "sourcePath": "/genetics/how-strains-are-made",
+    "sectionId": "the-cross",
+    "paragraphIndex": 4,
+    "match": "as a Presidential OG strain name on a menu shows",
+    "label": "a Presidential OG strain name on a menu",
+    "href": "/"
   }
   ];
